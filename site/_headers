@@ -1,0 +1,7 @@
+# Content-hashed build assets never change under a given name — cache forever.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# SC2 catalog data keeps the same filenames across rebuilds — cache a day, revalidate.
+/@sc2data/*
+  Cache-Control: public, max-age=86400
