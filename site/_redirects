@@ -1,4 +1,0 @@
-# SPA fallback: serve index.html for any route that isn't a real static file.
-# Real files (/, /assets/*, /@sc2data/*, favicon, etc.) are served directly first;
-# unmatched client-side routes (/wiki, /income, /calculator/rank, …) fall back here.
-/*  /index.html  200
