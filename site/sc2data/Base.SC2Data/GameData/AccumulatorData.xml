@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAccumulatorConstant id="AOE05">
+        <Amount value="0.5"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="AOE15">
+        <Amount value="1.5"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="AOE25">
+        <Amount value="2.5"/>
+    </CAccumulatorConstant>
+    <CAccumulatorBehavior id="EvolutionStacks">
+        <Behavior value="EvolutionBuff"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="AttackSplashRadius">
+        <Parameters value="0.1">
+            <AccumulatorArray value="EvolutionStacks"/>
+        </Parameters>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="HollowsDamage">
+        <Parameters value="0">
+            <AccumulatorArray value="HollowsWave"/>
+        </Parameters>
+        <Parameters value="5"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="PotencyMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="PotencyAmount"/>
+        </Parameters>
+        <Parameters value="1"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorBehavior id="PotencyAmount">
+        <Behavior value="Inperiosus"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorUnitCustomValue id="MaxVitalsValue"/>
+    <CAccumulatorBehavior id="EliteUnitBuffAmount">
+        <Behavior value="EliteUnitBuff"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="EliteUnitMaxMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="EliteUnitMaxAmount"/>
+        </Parameters>
+        <Parameters value="2"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorBehavior id="EliteUnitMaxAmount">
+        <Behavior value="EliteUnitMax"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorAttributePoints id="IntelligenceAmount">
+        <Attribute value="Intelligence"/>
+    </CAccumulatorAttributePoints>
+    <CAccumulatorConstant id="Constant1">
+        <Amount value="1"/>
+    </CAccumulatorConstant>
+    <CAccumulatorArithmetic id="EliteUnitBuffMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="EliteUnitBuffAmount"/>
+        </Parameters>
+        <Parameters value="0.04"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorSwitch id="IntelligenceMultiplierCondition">
+        <CaseArray Validator="UnitHasSpellMultiplier" Accumulator="SpellDamageMultipliersSum"/>
+        <CaseDefault value="Constant1"/>
+    </CAccumulatorSwitch>
+    <CAccumulatorArithmetic id="HolyShellShieldBonus">
+        <Parameters value="0">
+            <AccumulatorArray value="CurrrentShieldValue"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="Constant025"/>
+        </Parameters>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorBehavior id="DivinityAmount">
+        <Behavior value="Invictus"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="DivinityMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="DivinityAmount"/>
+        </Parameters>
+        <Parameters value="2"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="SpellDamageMultiply">
+        <Parameters value="0">
+            <AccumulatorArray value="SpellDamageMultipliersSum"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="SpellDamageAdditivesSum"/>
+        </Parameters>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="SpellDamageFinal">
+        <Parameters value="0">
+            <AccumulatorArray value="SpellDamageMultiply"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="SpellDamageMultipliersSum"/>
+        </Parameters>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="SpellDamageMultipliersSum">
+        <Parameters value="0">
+            <AccumulatorArray value="IntelligenceMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="EliteUnitBuffMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="EliteUnitMaxMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="PotencyMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="DivinityMultiplier"/>
+        </Parameters>
+        <Parameters value="1"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="SpellDamageAdditivesSum">
+        <Parameters value="0">
+            <AccumulatorArray value="ValorMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="AmmoMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="WizardMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="AceMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="SpellboundMultiplier"/>
+        </Parameters>
+    </CAccumulatorArithmetic>
+    <CAccumulatorBehavior id="SpellboundAmount">
+        <Behavior value="Spellbound"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorBehavior id="WizardAmount">
+        <Behavior value="Wizard"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorBehavior id="ValorAmount">
+        <Behavior value="AncientValor"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorBehavior id="AceAmount">
+        <Behavior value="Ace"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="SpellboundMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="SpellboundAmount"/>
+        </Parameters>
+        <Parameters value="0.3"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorBehavior id="AmmoAmount">
+        <Behavior value="HardenedAmmunition"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="WizardMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="WizardAmount"/>
+        </Parameters>
+        <Parameters value="0.25"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorConstant id="BuffStackCount"/>
+    <CAccumulatorArithmetic id="SpellDamageMultipliers">
+        <Parameters value="0">
+            <AccumulatorArray value="IntelligenceMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="EliteUnitBuffMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="EliteUnitMaxMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="PotencyMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="DivinityMultiplier"/>
+        </Parameters>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorAttributePoints id="IntelligenceBuff">
+        <Attribute value="Intelligence"/>
+    </CAccumulatorAttributePoints>
+    <CAccumulatorBehavior id="EliteUnit">
+        <Behavior value="EliteUnitBuff"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="NukeDamage">
+        <Parameters value="0">
+            <AccumulatorArray value="TargetMaxLifeValue"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="NukeVital"/>
+        </Parameters>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorConstant id="NukeVital">
+        <Amount value="0.05"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant016">
+        <Amount value="0.16"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant025">
+        <Amount value="0.25"/>
+    </CAccumulatorConstant>
+    <CAccumulatorConstant id="Constant001">
+        <Amount value="0.01"/>
+    </CAccumulatorConstant>
+    <CAccumulatorArithmetic id="NukeBossDamage">
+        <Parameters value="0">
+            <AccumulatorArray value="TargetMaxLifeValue"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="Constant001"/>
+        </Parameters>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="ValorMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="ValorAmount"/>
+        </Parameters>
+        <Parameters value="0.2"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorVitals id="TargetMaxLifeValue">
+        <Ratio value="1"/>
+        <UnitSource Value="Target"/>
+        <ModificationType value="PerUnitMaxVital"/>
+    </CAccumulatorVitals>
+    <CAccumulatorEffectAmount id="PreserverShield2"/>
+    <CAccumulatorVitals id="CurrrentShieldValue">
+        <Ratio value="1"/>
+        <VitalType value="Shields"/>
+        <ModificationType value="PerUnit"/>
+    </CAccumulatorVitals>
+    <CAccumulatorArithmetic id="ShieldBurnBonus">
+        <Parameters value="0">
+            <AccumulatorArray value="CurrrentShieldValue"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="Constant025"/>
+        </Parameters>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorConstant id="Constant05">
+        <Amount value="0.5"/>
+    </CAccumulatorConstant>
+    <CAccumulatorArithmetic id="UnknownAccumulator">
+        <SourceEffect value="SellBuffsDummyAB"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="UnknownAccumulator3">
+        <Parameters value="0">
+            <AccumulatorArray value="PreserverShield"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="Constant016"/>
+        </Parameters>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorConstant id="HollowsWave"/>
+    <CAccumulatorArithmetic id="AmmoMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="AmmoAmount"/>
+        </Parameters>
+        <Parameters value="0.2"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="AceMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="AceAmount"/>
+        </Parameters>
+        <Parameters value="0.25"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="IntelligenceMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="IntelligenceAmount"/>
+        </Parameters>
+        <Parameters value="0.001"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+</Catalog>

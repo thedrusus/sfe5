@@ -1,0 +1,2655 @@
+{
+ "USCV": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 184841
+ },
+ "UMarine": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 124299
+ },
+ "UMarauder": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 164191
+ },
+ "UFirebat": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 379187
+ },
+ "UReaper": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 173551
+ },
+ "UMedic": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "UHERC": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 354202
+ },
+ "UGhost": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 224995
+ },
+ "USpectre": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 275747
+ },
+ "UGoliath": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 417187
+ },
+ "UHellion": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 160575,
+  "form": "UHellbat"
+ },
+ "UVulture": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 135605
+ },
+ "UWidowMine": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 307146,
+  "form": "UWidowMineBurrowed"
+ },
+ "UDiamondback": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 140245
+ },
+ "UPredator": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 453311
+ },
+ "USentryBot": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 93412
+ },
+ "Cyclone2": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 194854
+ },
+ "USiegeTank": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 148965,
+  "form": "USiegeTankSieged"
+ },
+ "UWarHound": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 251591
+ },
+ "UThor": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 379661
+ },
+ "UBlimp": {
+  "buffs": [
+   "OpticalLens",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "UVikingFighter": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 200157
+ },
+ "UWraith": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 192506
+ },
+ "UMedivac": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "UScienceVessel": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 828137
+ },
+ "UBanshee": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 133443
+ },
+ "URaven": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 325875
+ },
+ "ULiberator": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 155066
+ },
+ "UBattlecruiser": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 586528
+ },
+ "UProbe": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 184841
+ },
+ "UZealot": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 291191
+ },
+ "UStalker": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 133854
+ },
+ "USentry": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 96747
+ },
+ "UAdept": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 908486
+ },
+ "UHighTemplar": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 465576
+ },
+ "UDarkTemplar": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 447720
+ },
+ "UDragoon": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 105005
+ },
+ "CannonWalker": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 126055,
+  "form": "LazyCannon"
+ },
+ "Disruptor2": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 181570
+ },
+ "UImmortal": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 103675
+ },
+ "UReaver": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 165622
+ },
+ "UArchon": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 170196
+ },
+ "UColossus": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 259203
+ },
+ "UHybridDestroyer": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 463448
+ },
+ "UStoneZealot": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 153449
+ },
+ "UObserver": {
+  "buffs": [
+   "OpticalLens",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "UPhoenix": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 227731
+ },
+ "UScout": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 155541
+ },
+ "UWarpPrism": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "UOracle": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 175232
+ },
+ "UMothershipCore": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 146115
+ },
+ "UArbiter": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 165277
+ },
+ "UVoidRay": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 209723
+ },
+ "UTempest": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 142497
+ },
+ "Carrier2": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 424139
+ },
+ "UDrone": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 184841
+ },
+ "UZergling": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 319725
+ },
+ "UBaneling": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 445506
+ },
+ "USwarmQueen": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 125014
+ },
+ "URoach": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 455023
+ },
+ "UHydralisk": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 422964
+ },
+ "ULurker": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 295570,
+  "form": "ULurkerBurrow"
+ },
+ "Defiler3": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 824788
+ },
+ "URavager": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 370386
+ },
+ "UInfestor": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1739211
+ },
+ "USwarmHost": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 596338
+ },
+ "UAberration": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 141983
+ },
+ "UHybridReaver": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "MentalPower",
+   "TimeLord",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 396945
+ },
+ "Brutalisk4": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 383580
+ },
+ "UUltralisk": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 308099
+ },
+ "UOverseer": {
+  "buffs": [
+   "OpticalLens",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "UScourge": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 358745
+ },
+ "UMutalisk": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 142325
+ },
+ "UOverlord": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "UCorruptor": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 129286
+ },
+ "Guardian22": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 157812
+ },
+ "UViper": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 443032
+ },
+ "UBroodLord": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 769106
+ },
+ "Fenrir2": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 298551
+ },
+ "MarineWarfield2": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 431010
+ },
+ "Odin2": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 395128
+ },
+ "Coeus": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 434071
+ },
+ "Loki2": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 467785
+ },
+ "Hyperion2": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "TimeLord",
+   "Defiance",
+   "Spirited",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 314635
+ },
+ "SilentMary": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 549972
+ },
+ "Nullifier": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 645001
+ },
+ "SentinelHero": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 356649
+ },
+ "Vorazun": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 432445
+ },
+ "Jupiter": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 244133
+ },
+ "UPurifier": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 4702224
+ },
+ "Selendis2": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 454279
+ },
+ "Mohandar2": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 423379
+ },
+ "Urun2": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 232400
+ },
+ "Ophiotaurus": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 475002
+ },
+ "UZagara": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 319576
+ },
+ "Corpser2": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 648545
+ },
+ "Kerrigan2": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1270358
+ },
+ "Spotter": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 3248698
+ },
+ "Leviathan2": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 644595
+ },
+ "Apocalisk": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 413884
+ },
+ "PrometheusCompany": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 2016062
+ },
+ "UTaurenSpaceMarine": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 896041
+ },
+ "TychusFindlay": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 542425
+ },
+ "ARES": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Sharpshooter",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1621067
+ },
+ "T280SCV": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 80639
+ },
+ "ShockDivision": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 470859
+ },
+ "AegisGuard": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Spirited",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 477658
+ },
+ "Blackhammer": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 217858
+ },
+ "DeathHead": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1580283
+ },
+ "RorySwann": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1832713
+ },
+ "NovemberTerra": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1113205
+ },
+ "UGabrielTosh": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 781419
+ },
+ "EgonStetmann": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1341424
+ },
+ "JimRaynor": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1129656
+ },
+ "SonofKorhal": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 274269
+ },
+ "Cerberus": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 860202
+ },
+ "Annihilator": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 288656
+ },
+ "UArtanis": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 373729
+ },
+ "FenixChampion2": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 258557
+ },
+ "Revenant": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Spirited",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 342219
+ },
+ "Zyrkhan": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 288077
+ },
+ "EBorpProbe": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 271302
+ },
+ "Karax": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 2275063
+ },
+ "ULancer": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 489967
+ },
+ "UShadowWalker": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Spirited",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 2353204
+ },
+ "Alarak": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 752235
+ },
+ "Karass2": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 994324
+ },
+ "UTassadar": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 542596
+ },
+ "Zeratul2": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 897716
+ },
+ "UAlexeiStukov": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 936408
+ },
+ "HybridDecimator": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1201247
+ },
+ "Swarmling2": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 540475
+ },
+ "Torrasque": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 759182
+ },
+ "CockroachDrone": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Spirited",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 192440
+ },
+ "LurkerHero": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1771170,
+  "form": "LurkerHeroBurrow"
+ },
+ "Nyami": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 880379
+ },
+ "Deimos": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 2050199
+ },
+ "HybridDominator2": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "TimeLord",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1253202
+ },
+ "Minos": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 2551500
+ },
+ "PrimalKerrigan2": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1254591
+ },
+ "Demeter": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 390854
+ },
+ "UDehaka": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 446115
+ },
+ "AlexJones": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1145431
+ },
+ "BarackObama": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1807058
+ },
+ "JoeBiden": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 74790
+ },
+ "DrEvil": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 2066717
+ },
+ "DoomSlayer": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 841928
+ },
+ "DonaldTrump": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Spirited",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 18520816
+ },
+ "SBunker": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 176803
+ },
+ "MissileTurret2": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 178789
+ },
+ "AutoTurret2": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 124250
+ },
+ "LabTurret2": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 212549,
+  "form": "LabTurretUp2"
+ },
+ "TeslaTower": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 491965
+ },
+ "PerditionTurret2": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 166794
+ },
+ "ReinforcedWall": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "SiegeTurret": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 99529
+ },
+ "PsiDisruptor2": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "Armory2": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "MULESRUS": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "QuantumHammer": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 531295
+ },
+ "EinsteinRosenBridgeUnit": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "Pylon2": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "PhotonCannon2": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 122674
+ },
+ "WarpTower": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 143362
+ },
+ "ShieldBattery2": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "TeleporterPad2": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "TeleporterPad": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "UWarpFieldDynamo": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "StormCannon": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1981240
+ },
+ "UKhydarinMonolith": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 111143
+ },
+ "TowerofProvidence": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "ImpulseAssembly": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 527091
+ },
+ "PrismaticShrine": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 148452
+ },
+ "RecallStation": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "SpineCrawler2": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 116503
+ },
+ "SporeCrawler2": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 137523
+ },
+ "UVirophage": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 154542
+ },
+ "SporeCannon2": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 76725
+ },
+ "RegenerativeNest": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "UBlightingTumor": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 160125
+ },
+ "SteroidalMass": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "PrimalSunkenColony2": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 526684
+ },
+ "RemoteNydusNetwork": {
+  "buffs": [
+   "Exoskeleton",
+   "TransientMover",
+   "Evasion",
+   "QuantumField",
+   "Warrior",
+   "Defiance",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 0
+ },
+ "Chaindog": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 382532
+ },
+ "MurlocMarine2": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 515096
+ },
+ "MOMicrobeObliterator": {
+  "buffs": [
+   "Hyperactivity",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 594963
+ },
+ "DiabloLordofTerror": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 1018156
+ },
+ "NarudServantofAmon": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Wizard",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 798507
+ },
+ "AssemblertheFoundrysWarden2": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "TimeLord",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 615655
+ }
+}
