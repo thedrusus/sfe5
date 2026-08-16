@@ -490,7 +490,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 465576
+  "dps": 405404
  },
  "UDarkTemplar": {
   "buffs": [
@@ -841,7 +841,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 455023
+  "dps": 455019
  },
  "UHydralisk": {
   "buffs": [
@@ -1136,7 +1136,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 395128
+  "dps": 526837
  },
  "Coeus": {
   "buffs": [
@@ -1262,7 +1262,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 4702224
+  "dps": 4718461
  },
  "Selendis2": {
   "buffs": [
@@ -1290,7 +1290,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 423379
+  "dps": 409895
  },
  "Urun2": {
   "buffs": [
@@ -1374,7 +1374,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 3248698
+  "dps": 3212443
  },
  "Leviathan2": {
   "buffs": [
@@ -1416,7 +1416,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 2016062
+  "dps": 1599121
  },
  "UTaurenSpaceMarine": {
   "buffs": [
@@ -1458,7 +1458,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1621067
+  "dps": 1436914
  },
  "T280SCV": {
   "buffs": [
@@ -1504,17 +1504,17 @@
  },
  "Blackhammer": {
   "buffs": [
-   "Exoskeleton",
+   "Hyperactivity",
    "AncientValor",
    "HardenedAmmunition",
    "MentalPower",
    "Wizard",
    "Defiance",
-   "Spellbound",
+   "Spirited",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 217858
+  "dps": 599312
  },
  "DeathHead": {
   "buffs": [
@@ -1570,7 +1570,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 781419
+  "dps": 1258361
  },
  "EgonStetmann": {
   "buffs": [
@@ -1724,21 +1724,21 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 2275063
+  "dps": 2234251
  },
  "ULancer": {
   "buffs": [
-   "Exoskeleton",
+   "Hyperactivity",
    "AncientValor",
    "HardenedAmmunition",
-   "MentalPower",
-   "Wizard",
+   "QuantumField",
+   "Sharpshooter",
    "Defiance",
-   "Spellbound",
+   "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 489967
+  "dps": 348871
  },
  "UShadowWalker": {
   "buffs": [
@@ -1756,31 +1756,31 @@
  },
  "Alarak": {
   "buffs": [
-   "Exoskeleton",
-   "Impact",
-   "HardenedAmmunition",
-   "QuantumField",
-   "Sharpshooter",
-   "Defiance",
-   "Marksman",
-   "Ace",
-   "PowerOfDemiurge"
-  ],
-  "dps": 752235
- },
- "Karass2": {
-  "buffs": [
-   "Exoskeleton",
+   "Hyperactivity",
    "AncientValor",
    "HardenedAmmunition",
-   "MentalPower",
-   "Wizard",
+   "QuantumField",
+   "TimeLord",
    "Defiance",
    "Spellbound",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 994324
+  "dps": 1422849
+ },
+ "Karass2": {
+  "buffs": [
+   "Hyperactivity",
+   "AncientValor",
+   "HardenedAmmunition",
+   "MentalPower",
+   "TimeLord",
+   "Defiance",
+   "Spellbound",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 781984
  },
  "UTassadar": {
   "buffs": [
@@ -1854,7 +1854,7 @@
  },
  "Torrasque": {
   "buffs": [
-   "Exoskeleton",
+   "Hyperactivity",
    "Impact",
    "HardenedAmmunition",
    "QuantumField",
@@ -1864,7 +1864,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 759182
+  "dps": 777971
  },
  "CockroachDrone": {
   "buffs": [
@@ -1878,7 +1878,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 192440
+  "dps": 193785
  },
  "LurkerHero": {
   "buffs": [
@@ -1901,13 +1901,13 @@
    "AncientValor",
    "HardenedAmmunition",
    "QuantumField",
-   "TimeLord",
+   "Wizard",
    "Defiance",
-   "Marksman",
+   "Spellbound",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 880379
+  "dps": 322570
  },
  "Deimos": {
   "buffs": [
@@ -1921,7 +1921,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 2050199
+  "dps": 1706234
  },
  "HybridDominator2": {
   "buffs": [
@@ -1935,7 +1935,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1253202
+  "dps": 1290921
  },
  "Minos": {
   "buffs": [
@@ -1949,11 +1949,11 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 2551500
+  "dps": 1245038
  },
  "PrimalKerrigan2": {
   "buffs": [
-   "Hyperactivity",
+   "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
    "MentalPower",
@@ -1963,7 +1963,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1254591
+  "dps": 1036070
  },
  "Demeter": {
   "buffs": [
@@ -2061,21 +2061,21 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 841928
+  "dps": 1094188
  },
  "DonaldTrump": {
   "buffs": [
-   "Hyperactivity",
+   "Exoskeleton",
    "Impact",
    "HardenedAmmunition",
    "QuantumField",
-   "TimeLord",
+   "Sharpshooter",
    "Defiance",
-   "Spirited",
+   "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 18520816
+  "dps": 5905478
  },
  "SBunker": {
   "buffs": [
@@ -2622,7 +2622,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1018156
+  "dps": 794040
  },
  "NarudServantofAmon": {
   "buffs": [
@@ -2650,6 +2650,6 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 615655
+  "dps": 595848
  }
 }
