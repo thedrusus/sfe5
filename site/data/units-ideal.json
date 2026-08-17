@@ -1451,14 +1451,14 @@
    "Hyperactivity",
    "AncientValor",
    "HardenedAmmunition",
-   "MentalPower",
+   "QuantumField",
    "Sharpshooter",
    "Defiance",
    "Spellbound",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1436914
+  "dps": 1077819
  },
  "T280SCV": {
   "buffs": [
@@ -1738,7 +1738,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 348871
+  "dps": 264142
  },
  "UShadowWalker": {
   "buffs": [
@@ -2051,7 +2051,7 @@
  },
  "DoomSlayer": {
   "buffs": [
-   "Hyperactivity",
+   "Exoskeleton",
    "Impact",
    "HardenedAmmunition",
    "QuantumField",
@@ -2061,7 +2061,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1094188
+  "dps": 859353
  },
  "DonaldTrump": {
   "buffs": [
