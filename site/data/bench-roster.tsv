@@ -1,4 +1,4 @@
-# generated 2026-08-18T22:23:59.594Z
+# generated 2026-08-18T22:36:25.202Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -352,8 +352,10 @@ Sheet1	Terran	Terran Infantry	Unit	HERC	weapon	weapon	222958	222944	222944	22294
 Sheet1	Terran	Terran Infantry	Unit	HERC	ability	+ Grapple	240856	240830	240830	240830	weapon + ability (cumulative)	Add Grapple
 Sheet1	Terran	Terran Infantry	Unit	Ghost	headline	total (all sources on)	47567					
 Sheet1	Terran	Terran Infantry	Unit	Ghost	weapon	weapon	29127	29120	29120	29120		
-Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ Snipe	47567	46962	48722	46962-48722	weapon + ability (cumulative)	Add Snipe
-Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ EMP Round	41348	38726	38726	38726	weapon + EMP @2.0s recast (empirical pin) × kind-blind amp; sheet row fits the old 3.0s recast exactly — re-meter pending	Add EMP
+Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ Snipe	47567	44383	49268	44383-49268	weapon + ability (cumulative)	Snipe and weapon
+Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ Snipe	23391	23211	25790	23211-25790	ability alone (isolated gross)	Snipe only
+Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ EMP Round (only)	9370	8896	10675	8896-10675	EMP alone @1.9s sustained (solo cadence 4×2s + 1.5s) × its own ×1.15 amp	EMP only
+Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ EMP Round	41761	38726	38726	38726	weapon + EMP @1.9s sustained × kind-blind amp; bench value predates the cooldown change — re-meter pending	EMP and weapon
 Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ Snipe + EMP (equal energy split)	49954	45146	50763	45146-50763	weapon + both autocasts at regen/2 each (user cadence snapshot) × kind-blind EMP amp	Both abilities
 Sheet1	Terran	Terran Infantry	Unit	Spectre	headline	total (all sources on)	67105					
 Sheet1	Terran	Terran Infantry	Unit	Spectre	weapon	weapon	38870	38869	38869	38869		
