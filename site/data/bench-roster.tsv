@@ -1,4 +1,4 @@
-# generated 2026-08-18T19:00:36.206Z
+# generated 2026-08-18T20:06:41.581Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -192,12 +192,14 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	ability	+ Graviton Lock					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	self-buff	+ Cloakedin Shadow Apply (self-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	bench-only	Marked for Death (doesn't seem to work)		0	0	0	needs model	Marked for Death (doesn't seem to work)
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	headline	total (all sources on)	686479					
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	weapon	weapon	686479	450622	455790	450622-455790		Weapon + Infested Army summons
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon	+ Infested Tank	17551	494694	506018	494694-506018	per-summon; sustained 137670 (avg 7.84× living)	Rallying Cry + Weapon + Infested Army summons
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	weapon	weapon	624705					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon	+ Infested Tank	17551	450622	455790	450622-455790	per-summon; sustained 137670 (avg 7.84× living)	Weapon + Infested Army summons
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon	+ Infested Tank + Rallying Cry	19313	494694	506018	494694-506018	per-summon with Rallying Cry	Rallying Cry + Weapon + Infested Army summons
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	ability	+ Conscription	0				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	ability	+ Forceful Command	43048	43048	43048	43048	perCast (single hit)	Forceful Command, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon-buff	+ Rallying Cry (summon-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	bench-only	Infested Tank, single unit		17267	17721	17267-17721	needs model	Infested Tank, single unit
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	bench-only	Infested Solider, single unit		22965	22965	22965	needs model	Infested Solider, single unit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	headline	total (all sources on)	812786					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	weapon	582532					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Consume DNA	10596	10596	15894	10596-15894	sustained dps	Consume DNA
@@ -570,10 +572,10 @@ Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Plasma Sph
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Vortex	389909	79856	79856	79856	sustained dps	Vortex. While affected, unit is untargetable
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	self-buff	+ Powered Purifier On (self-buff)					todo	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	headline	total (all sources on)	292561					
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	weapon	weapon	292561	193792	193792	193792		
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	minion	+ Interceptor	35798				per-minion; sustained 286384 (8× magazine)	
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	weapon	weapon	193985	193792	193792	193792		
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	minion	+ Interceptor	24248				per-minion; sustained 193985 (8× magazine)	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	ability	+ Psionic Orb	6177	24706	24706	24706	sustained dps	Psionic Orb, active DPS
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	summon-buff	+ Ultimate Interceptors (summon-buff)		295936	295936	295936	todo	Add Ultimate Interceptors
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	summon-buff	+ Ultimate Interceptors (summon-buff)	286384	295936	295936	295936	auto-attack with summon-buff up (sustained uptime; peak reads ~+3%)	Add Ultimate Interceptors
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	headline	total (all sources on)	309492					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	weapon	weapon	210764	210752	210752	210752		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	ability	+ Laser Waser	21001	37605	37605	37605	perCast (single hit)	Laser Waser, single hit
@@ -669,11 +671,11 @@ Sheet1	Zerg	Zerg Air	Unit	Corruptor	bench-only	Add Retarding Slime		151125	15112
 Sheet1	Zerg	Zerg Air	Unit	Corruptor	bench-only	Add Corruption		181333	181333	181333	needs model	Add Corruption
 Sheet1	Zerg	Zerg Air	Unit	Guardian	headline	total (all sources on)	121848					
 Sheet1	Zerg	Zerg Air	Unit	Guardian	weapon	weapon	121848	121275	122608	121275-122608		
-Sheet1	Zerg	Zerg Air	Unit	Viper	headline	total (all sources on)	84679					
+Sheet1	Zerg	Zerg Air	Unit	Viper	headline	total (all sources on)	136035					
 Sheet1	Zerg	Zerg Air	Unit	Viper	weapon	weapon	55872	55861	55861	55861		
 Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Abduct					needs model	
-Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Parasitic Bomb	84679	134918	134918	134918	weapon + ability (cumulative)	Add Parasitic Bomb
-Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Parasitic Bomb	46501	82548	88968	82548-88968	ability alone (isolated gross)	Parasitic Bomb only
+Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Parasitic Bomb	136036	134918	134918	134918	weapon + ability (cumulative)	Add Parasitic Bomb
+Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Parasitic Bomb	83703	82548	88968	82548-88968	ability alone (isolated gross)	Parasitic Bomb only
 Sheet1	Zerg	Zerg Air	Unit	Brood Lord	headline	total (all sources on)	231672					
 Sheet1	Zerg	Zerg Air	Unit	Brood Lord	weapon	weapon	104639	104632	104632	104632		
 Sheet1	Zerg	Zerg Air	Unit	Brood Lord	summon	+ Broodling	12703				per-summon; sustained 127033 (avg 10× living)	
