@@ -1,4 +1,4 @@
-# generated 2026-08-18T20:56:32.433Z
+# generated 2026-08-18T21:18:37.487Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -487,7 +487,7 @@ Sheet1	Protoss	Protoss Infantry	Unit	Sentry	headline	total (all sources on)	7153
 Sheet1	Protoss	Protoss Infantry	Unit	Sentry	weapon	weapon	71535	71520	71520	71520		
 Sheet1	Protoss	Protoss Infantry	Unit	Adept	headline	total (all sources on)	400785					
 Sheet1	Protoss	Protoss Infantry	Unit	Adept	weapon	weapon	109645	109632	109632	109632		
-Sheet1	Protoss	Protoss Infantry	Unit	Adept	minion	+ Shade	51530	400455	409632	400455-409632	per-minion; sustained 291140 (5.65× magazine)	Adept Shade
+Sheet1	Protoss	Protoss Infantry	Unit	Adept	minion	+ Shade	400785	400455	409632	400455-409632	weapon + minions sustained (291140 @ 5.65×; 51530 per-minion)	Adept Shade
 Sheet1	Protoss	Protoss Infantry	Unit	High Templar	headline	total (all sources on)	122025					
 Sheet1	Protoss	Protoss Infantry	Unit	High Templar	weapon	weapon	21396	21353	21602	21353-21602		
 Sheet1	Protoss	Protoss Infantry	Unit	High Templar	ability	+ Psionic Storm	122024	119895	122210	119895-122210	weapon + ability (cumulative)	Add Psi Storm
@@ -639,9 +639,9 @@ Sheet1	Zerg	Zerg Heavy	Unit	Infestor	summon	+ Infested Marine	19135	19125	19125	
 Sheet1	Zerg	Zerg Heavy	Unit	Infestor	summon	+ Infested Marine + Aggressive Mutation	22374	22368	22368	22368	per-summon with Aggressive Mutation	Infested Marine buffed by Wild Mutation
 Sheet1	Zerg	Zerg Heavy	Unit	Infestor	ability	+ Fungal Growth	28181	28080	28329	28080-28329	weapon + ability (cumulative)	Add Fungal Growth
 Sheet1	Zerg	Zerg Heavy	Unit	Infestor	summon-buff	+ Fungal Growth + Aggressive Mutation	31723	31231	31885	31231-31885	weapon + ability with this summon-buff up	Add Fungal and Wild Mutation
-Sheet1	Zerg	Zerg Heavy	Unit	Swarm Host	headline	total (all sources on)	319800					
+Sheet1	Zerg	Zerg Heavy	Unit	Swarm Host	headline	total (all sources on)	213200					
 Sheet1	Zerg	Zerg Heavy	Unit	Swarm Host	weapon	weapon					no weapon (caster/support)	
-Sheet1	Zerg	Zerg Heavy	Unit	Swarm Host	summon	+ Locust	38055	25365	25365	25365	per-summon; sustained 319800 (avg 8.4× living)	Single Locust
+Sheet1	Zerg	Zerg Heavy	Unit	Swarm Host	summon	+ Locust	25370	25365	25365	25365	per-summon; sustained 213200 (avg 8.4× living)	Single Locust
 Sheet1	Zerg	Zerg Heavy	Unit	Swarm Host	bench-only	Single Locust with Locust Swarm		44160	44160	44160	needs model	Single Locust with Locust Swarm
 Sheet1	Zerg	Zerg Heavy	Unit	Aberration	headline	total (all sources on)	101523					
 Sheet1	Zerg	Zerg Heavy	Unit	Aberration	weapon	weapon	101523	101514	101514	101514		
@@ -671,7 +671,7 @@ Sheet1	Zerg	Zerg Air	Unit	Viper	headline	total (all sources on)	136035
 Sheet1	Zerg	Zerg Air	Unit	Viper	weapon	weapon	55872	55861	55861	55861		
 Sheet1	Zerg	Zerg Air	Unit	Viper	summon	+ Swarm Host	15				per-summon; sustained 0 (avg 0× living)	
 Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Abduct					needs model	
-Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Parasitic Bomb	136036	134918	134918	134918	weapon + ability (cumulative)	Add Parasitic Bomb
+Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Parasitic Bomb	136036	134099	142484	134099-142484	weapon + ability (cumulative)	Add Parasitic Bomb
 Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Parasitic Bomb	83703	82548	88968	82548-88968	ability alone (isolated gross)	Parasitic Bomb only
 Sheet1	Zerg	Zerg Air	Unit	Brood Lord	headline	total (all sources on)	231672					
 Sheet1	Zerg	Zerg Air	Unit	Brood Lord	weapon	weapon	104639	104632	104632	104632		
