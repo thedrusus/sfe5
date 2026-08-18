@@ -1,4 +1,4 @@
-# generated 2026-08-18T21:18:37.487Z
+# generated 2026-08-18T22:23:59.594Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -273,11 +273,11 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	bench-only	Swarmling (1)		23541	23
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	headline	total (all sources on)	301133				vs air 148050	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	weapon	weapon (ground)	227880					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	weapon	weapon (air)	133245					
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	summon	+ Dehaka Spawn	220774	370288	370288	370288	weapon + summons sustained (72724 @ avg 2.21×; 32978 per-summon)	Add Primal Evolution. Summons 1 Dehaka Mirror that is included
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	summon	+ Dehaka Spawn	32978				per-summon; sustained 72724 (avg 2.21× living)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Predator Pounce	2164				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Essence Grab	2677	285504	285504	285504	sustained dps	At 5 stacks of Essence Collector
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Devouring Frenzy	13589	23744	23744	23744	perCast (single hit)	Devouring Frenzy, single hit
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	self-buff	+ Primal Evolution (self-buff)					todo	
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	self-buff	+ Primal Evolution (self-buff)		370288	370288	370288	todo	Add Primal Evolution. Summons 1 Dehaka Mirror that is included
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	bench-only	Leap, single hit		38853	38853	38853	needs model	Leap, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	bench-only	Dehaka Mirror		84784	84784	84784	needs model	Dehaka Mirror
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	bench-only	Damage dealt while Essence Collector is overstacked		301712	301712	301712	needs model	Damage dealt while Essence Collector is overstacked
@@ -353,8 +353,8 @@ Sheet1	Terran	Terran Infantry	Unit	HERC	ability	+ Grapple	240856	240830	240830	2
 Sheet1	Terran	Terran Infantry	Unit	Ghost	headline	total (all sources on)	47567					
 Sheet1	Terran	Terran Infantry	Unit	Ghost	weapon	weapon	29127	29120	29120	29120		
 Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ Snipe	47567	46962	48722	46962-48722	weapon + ability (cumulative)	Add Snipe
-Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ EMP Round		38726	38726	38726	needs model	Add EMP
-Sheet1	Terran	Terran Infantry	Unit	Ghost	bench-only	Both abilities		45146	50763	45146-50763	needs model	Both abilities
+Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ EMP Round	41348	38726	38726	38726	weapon + EMP @2.0s recast (empirical pin) × kind-blind amp; sheet row fits the old 3.0s recast exactly — re-meter pending	Add EMP
+Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ Snipe + EMP (equal energy split)	49954	45146	50763	45146-50763	weapon + both autocasts at regen/2 each (user cadence snapshot) × kind-blind EMP amp	Both abilities
 Sheet1	Terran	Terran Infantry	Unit	Spectre	headline	total (all sources on)	67105					
 Sheet1	Terran	Terran Infantry	Unit	Spectre	weapon	weapon	38870	38869	38869	38869		
 Sheet1	Terran	Terran Infantry	Unit	Spectre	ability	+ Psionic Lash	67104	64276	67755	64276-67755	weapon + ability (cumulative)	Add Psionic Lash
@@ -362,9 +362,9 @@ Sheet1	Terran	Terran Vehicles	Unit	Goliath	headline	total (all sources on)	31461
 Sheet1	Terran	Terran Vehicles	Unit	Goliath	weapon	weapon	314612	314592	314592	314592		Two attacks simultaneous
 Sheet1	Terran	Terran Vehicles	Unit	Hellion	headline	total (all sources on)	83008					
 Sheet1	Terran	Terran Vehicles	Unit	Hellion	weapon	weapon	83008	82259	82974	82259-82974		
-Sheet1	Terran	Terran Vehicles	Unit	Vulture	headline	total (all sources on)	151559					
+Sheet1	Terran	Terran Vehicles	Unit	Vulture	headline	total (all sources on)	135729					
 Sheet1	Terran	Terran Vehicles	Unit	Vulture	weapon	weapon	102094	101542	102267	101542-102267		
-Sheet1	Terran	Terran Vehicles	Unit	Vulture	summon	+ Spider Mine	151558	131549	140683	131549-140683	weapon + summons sustained (49464 @ avg 0.59×; 84087 per-summon)	Add Spider Mines
+Sheet1	Terran	Terran Vehicles	Unit	Vulture	summon	+ Spider Mine	135729	131549	140683	131549-140683	weapon + summons sustained (33635 @ avg 0.4×; 84087 per-summon)	Add Spider Mines
 Sheet1	Terran	Terran Vehicles	Unit	Widow Mine	headline	total (all sources on)	241073					
 Sheet1	Terran	Terran Vehicles	Unit	Widow Mine	weapon	weapon	241073	240636	243434	240636-243434		
 Sheet1	Terran	Terran Vehicles	Unit	Diamondback	headline	total (all sources on)	97105					
@@ -414,9 +414,9 @@ Sheet1	Terran	Terran Air	Unit	Liberator	weapon	weapon (air)	119472	117600	122080
 Sheet1	Terran	Terran Air	Unit	Battlecruiser	headline	total (all sources on)	194134					
 Sheet1	Terran	Terran Air	Unit	Battlecruiser	weapon	weapon	136501	136496	136496	136496		
 Sheet1	Terran	Terran Air	Unit	Battlecruiser	ability	+ Yamato Cannon	194134	190655	194523	190655-194523	weapon + ability (cumulative)	Add Yamato Cannon
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	headline	total (all sources on)	170184					
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	headline	total (all sources on)	169288					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	weapon	weapon	137762	137760	137760	137760		
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	summon	+ Laser Mine	9302	171145	171145	171145	per-summon; sustained 11084 (avg 1.19× living)	Laser Mines, with weapon and All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	summon	+ Laser Mine	9302	171145	171145	171145	per-summon; sustained 9302 (avg 1× living)	Laser Mines, with weapon and All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	self-buff	+ All-Out Attack (self-buff)		159984	159984	159984	todo	Add All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	bench-only	Laser Beam, single hit. 0 Dex, 0 Int		45000	45000	45000	needs model	Laser Beam, single hit. 0 Dex, 0 Int
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	headline	total (all sources on)	258982					
@@ -547,7 +547,7 @@ Sheet1	Protoss	Protoss Air	Unit	Carrier	minion	+ Interceptor	49762				per-minion
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	headline	total (all sources on)	449223					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	weapon	weapon	417957					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	summon	+ Null Bot	353321	57611	58273	57611-58273	summons sustained alone (avg 9× @ 39258 per-summon)	Without Null Bots, weapon only
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	summon	+ Null Bot + Null Capacitors	41622	409787	412657	409787-412657	per-summon with Null Capacitors	With Null Bots
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	summon	+ Null Bot	39258	409787	412657	409787-412657	per-summon; sustained 353321 (avg 9× living)	With Null Bots
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	summon	+ Null Bot + Null Capacitors	41622	432066	442383	432066-442383	per-summon with Null Capacitors	With Null Bots, while Null Capacitors
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	ability	+ Null Implosion	6838				sustained dps (no bench)	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	summon-buff	+ Null Capacitors (summon-buff)					todo	
@@ -611,9 +611,9 @@ Sheet1	Zerg	Zerg Workers	Unit	Drone	weapon	weapon	130073	130064	130064	130064
 Sheet1	Zerg	Zerg Light	Unit	Zergling	headline	total (all sources on)	222032					
 Sheet1	Zerg	Zerg Light	Unit	Zergling	weapon	weapon	212085	212080	212080	212080		
 Sheet1	Zerg	Zerg Light	Unit	Zergling	ability	+ Toxic Blast	222031	222021	224009	222021-224009	weapon + ability (cumulative)	Add Toxic Blast
-Sheet1	Zerg	Zerg Light	Unit	Baneling	headline	total (all sources on)	339289					
+Sheet1	Zerg	Zerg Light	Unit	Baneling	headline	total (all sources on)	339066					
 Sheet1	Zerg	Zerg Light	Unit	Baneling	weapon	weapon	338978	334545	339005	334545-339005		Ace prevents suicide
-Sheet1	Zerg	Zerg Light	Unit	Baneling	summon	+ Baneling Spawn	33				per-summon; sustained 312 (avg 9.41× living)	
+Sheet1	Zerg	Zerg Light	Unit	Baneling	summon	+ Baneling Spawn	33				per-summon; sustained 88 (avg 2.67× living)	
 Sheet1	Zerg	Zerg Light	Unit	Swarm Queen	headline	total (all sources on)	88125				vs air 79473	
 Sheet1	Zerg	Zerg Light	Unit	Swarm Queen	weapon	weapon (ground)	88125	88117	88117	88117		
 Sheet1	Zerg	Zerg Light	Unit	Swarm Queen	weapon	weapon (air)	79473	79466	79466	79466		
@@ -641,8 +641,8 @@ Sheet1	Zerg	Zerg Heavy	Unit	Infestor	ability	+ Fungal Growth	28181	28080	28329	2
 Sheet1	Zerg	Zerg Heavy	Unit	Infestor	summon-buff	+ Fungal Growth + Aggressive Mutation	31723	31231	31885	31231-31885	weapon + ability with this summon-buff up	Add Fungal and Wild Mutation
 Sheet1	Zerg	Zerg Heavy	Unit	Swarm Host	headline	total (all sources on)	213200					
 Sheet1	Zerg	Zerg Heavy	Unit	Swarm Host	weapon	weapon					no weapon (caster/support)	
+Sheet1	Zerg	Zerg Heavy	Unit	Swarm Host	summon	+ Locust with Locust Swarm	44165	44160	44160	44160	per-summon with this buff on the child (additive km fold)	Single Locust with Locust Swarm
 Sheet1	Zerg	Zerg Heavy	Unit	Swarm Host	summon	+ Locust	25370	25365	25365	25365	per-summon; sustained 213200 (avg 8.4× living)	Single Locust
-Sheet1	Zerg	Zerg Heavy	Unit	Swarm Host	bench-only	Single Locust with Locust Swarm		44160	44160	44160	needs model	Single Locust with Locust Swarm
 Sheet1	Zerg	Zerg Heavy	Unit	Aberration	headline	total (all sources on)	101523					
 Sheet1	Zerg	Zerg Heavy	Unit	Aberration	weapon	weapon	101523	101514	101514	101514		
 Sheet1	Zerg	Zerg Heavy	Unit	Hybrid Reaver	headline	total (all sources on)	275868					
@@ -673,11 +673,10 @@ Sheet1	Zerg	Zerg Air	Unit	Viper	summon	+ Swarm Host	15				per-summon; sustained 
 Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Abduct					needs model	
 Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Parasitic Bomb	136036	134099	142484	134099-142484	weapon + ability (cumulative)	Add Parasitic Bomb
 Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Parasitic Bomb	83703	82548	88968	82548-88968	ability alone (isolated gross)	Parasitic Bomb only
-Sheet1	Zerg	Zerg Air	Unit	Brood Lord	headline	total (all sources on)	231672					
+Sheet1	Zerg	Zerg Air	Unit	Brood Lord	headline	total (all sources on)	379471					
 Sheet1	Zerg	Zerg Air	Unit	Brood Lord	weapon	weapon	104639	104632	104632	104632		
-Sheet1	Zerg	Zerg Air	Unit	Brood Lord	summon	+ Broodling	12703				per-summon; sustained 127033 (avg 10× living)	
-Sheet1	Zerg	Zerg Air	Unit	Brood Lord	bench-only	Add Broodlings		379405	379405	379405	needs model	Add Broodlings
-Sheet1	Zerg	Zerg Air	Unit	Brood Lord	bench-only	Brooding (1)		27477	27477	27477	needs model	Brooding (1)
+Sheet1	Zerg	Zerg Air	Unit	Brood Lord	summon	+ Broodling	379471	379405	379405	379405	weapon + summons sustained (274832 @ avg 10×; 27483 per-summon)	Add Broodlings
+Sheet1	Zerg	Zerg Air	Unit	Brood Lord	summon	+ Broodling	27483	27477	27477	27477	per-summon; sustained 274832 (avg 10× living)	Brooding (1)
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	headline	total (all sources on)	171369					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	weapon	weapon	171369					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon	+ Infested Terran	107	12420	12585	12420-12585	per-summon; sustained 0 (avg 0× living)	Infested Terran (1)
@@ -688,9 +687,9 @@ Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Marin
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	ability	+ Opho Fungal	22130	23465	23712	23465-23712	sustained dps	Fungal Growth
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon-buff	+ Opho Mutation (summon-buff)					todo	
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	bench-only	Weapon only		23927	24209	23927-24209	needs model	Weapon only
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	headline	total (all sources on)	213830					
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	headline	total (all sources on)	213244					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	weapon	weapon	70643	69933	70728	69933-70728		
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	summon	+ Explosive Shitter	2931	3985	7971	3985-7971	summons sustained alone (avg 1.18× @ 2491 per-summon)	Explosive Shitters only
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	summon	+ Explosive Shitter	2345	3985	7971	3985-7971	summons sustained alone (avg 0.94× @ 2491 per-summon)	Explosive Shitters only
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	summon	+ Zagara Minion	30908	30646	30646	30646	per-summon; sustained 140256 (avg 4.54× living)	Zagara Minion (1)
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Corpser	headline	total (all sources on)	381845					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Corpser	weapon	weapon	90624	90399	91392	90399-91392		
@@ -738,9 +737,9 @@ Sheet1	Secret	Special Units	Secret Unit	Random Cardboard Box	headline	total (all
 Sheet1	Secret	Special Units	Secret Unit	Random Cardboard Box	weapon	weapon					no weapon (caster/support)	
 Sheet1	Secret	Special Units	Secret Unit	Mike Tyson	headline	total (all sources on)	2697385					
 Sheet1	Secret	Special Units	Secret Unit	Mike Tyson	weapon	weapon	2697385					
-Sheet1	Secret	Special Units	Secret Unit	Chaindog	headline	total (all sources on)	224909					
+Sheet1	Secret	Special Units	Secret Unit	Chaindog	headline	total (all sources on)	222583					
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	weapon	weapon	176473	176448	176448	176448		weapon
-Sheet1	Secret	Special Units	Secret Unit	Chaindog	summon	+ Shit Pile	16942				per-summon; sustained 7973 (avg 0.47× living)	
+Sheet1	Secret	Special Units	Secret Unit	Chaindog	summon	+ Shit Pile	16942				per-summon; sustained 5647 (avg 0.33× living)	
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	ability	+ Deadly Bite		25183	33578	25183-33578	needs model	Deadly bite
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	self-buff	+ Maul Toddlers (self-buff)					todo	
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	bench-only	Deposit biomass		3388	5082	3388-5082	needs model	Deposit biomass
