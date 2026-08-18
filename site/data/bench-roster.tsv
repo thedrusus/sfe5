@@ -1,4 +1,4 @@
-# generated 2026-08-18T20:06:41.581Z
+# generated 2026-08-18T20:56:32.433Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -145,6 +145,7 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	bench-only	Power Pylon		478
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	headline	total (all sources on)	1703525					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	weapon	weapon	1331259					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon	+ Phase Cannon	65603	65055	73665	65055-73665	per-summon; sustained 1157821 (avg 17.65× living)	Phase Cannon summon, 1 spawn.
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	minion	+ Servitor	37140				per-minion; sustained 74280 (2× magazine)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Overload	29648	29645	29645	29645	perCast (single hit)	Overload, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Solar Lance	19766	19766	19766	19766	perCast (single hit)	Solar Lance, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon-buff	+ Inspiration (summon-buff)		112519	139440	112519-139440	todo	Add Inspiration
@@ -193,13 +194,13 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	self-buff	+ Cloakedin Shadow
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	bench-only	Marked for Death (doesn't seem to work)		0	0	0	needs model	Marked for Death (doesn't seem to work)
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	headline	total (all sources on)	686479					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	weapon	weapon	624705					
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon	+ Infested Tank	17551	450622	455790	450622-455790	per-summon; sustained 137670 (avg 7.84× living)	Weapon + Infested Army summons
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon	+ Infested Tank	17551	17267	17721	17267-17721	per-summon; sustained 137670 (avg 7.84× living)	Infested Tank, single unit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon	+ Infested Tank + Rallying Cry	19313	494694	506018	494694-506018	per-summon with Rallying Cry	Rallying Cry + Weapon + Infested Army summons
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	minion	+ Infested Soldier	22966	22965	22965	22965	per-minion; sustained 459314 (20× magazine)	Infested Solider, single unit
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	minion	+ Infested Soldier	480886	450622	455790	450622-455790	weapon + minions sustained (459314 @ 20×; 22966 per-minion)	Weapon + Infested Army summons
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	ability	+ Conscription	0				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	ability	+ Forceful Command	43048	43048	43048	43048	perCast (single hit)	Forceful Command, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon-buff	+ Rallying Cry (summon-buff)					todo	
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	bench-only	Infested Tank, single unit		17267	17721	17267-17721	needs model	Infested Tank, single unit
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	bench-only	Infested Solider, single unit		22965	22965	22965	needs model	Infested Solider, single unit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	headline	total (all sources on)	812786					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	weapon	582532					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Consume DNA	10596	10596	15894	10596-15894	sustained dps	Consume DNA
@@ -233,10 +234,10 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Weapon, 0 Dex		59208	592
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Weapon, 0 Dex, Spine Cycle alignment		74325	74325	74325	needs model	Weapon, 0 Dex, Spine Cycle alignment
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Starburst Impale + Spineblight		48177	48177	48177	needs model	Starburst Impale + Spineblight
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	AA weapon		95366	95366	95366	needs model	AA weapon
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	headline	total (all sources on)	130753					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	headline	total (all sources on)	150232					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	weapon	weapon	105473	105432	106167	105432-106167		Includes DoT
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike	6627	207607	217039	207607-217039	sustained dps	Poison Spike and farther away attacks
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Spine Volley	17281	11877	81077	11877-81077	sustained dps	Spine Volley
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Spine Volley	36760	11877	81077	11877-81077	sustained dps	Spine Volley
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Evolved Strain	1373	200369	201995	200369-201995	sustained dps	Evolved Strain and farther away attacks
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Pinpoint Reach (self-buff)		267889	269878	267889-269878	todo	Pinpoint Reach and farther away attacks
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	bench-only	Farther attacks add bonus damage from further attacks (Pursuit of the Weak)		173618	174988	173618-174988	needs model	Farther attacks add bonus damage from further attacks (Pursuit of the Weak)
@@ -303,13 +304,13 @@ Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Launder Money	7782	2
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	self-buff	+ Crack Cocaine (self-buff)		0	17831	0-17831	todo	Weapon per hit. All of joe biden's kit is damage ranges,and all abilities are disabled until the crack ability is enabled. Buffs like Impact that add flat damage bump the min value from 0
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	headline	total (all sources on)	914310					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	weapon	weapon	656216					
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon	+ Evil Laser	471000	16368	16368	16368	per-summon; sustained 471000 (avg 1× living)	Mini Me, without So Evil, 4k Dex
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon	+ Evil Laser	471000	261456	261456	261456	per-summon; sustained 471000 (avg 1× living)	Evil Laser 1x. Like swann's militarized transport, therefore gets elite unit
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	minion	+ Mini-Me	172482	221357	222810	221357-222810	weapon + minions sustained (109141 @ 5×; 21828 per-minion)	Weapon + Mini Me + 4k Dex
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	minion	+ Mini-Me	21828	16368	16368	16368	per-minion; sustained 109141 (5× magazine)	Mini Me, without So Evil, 4k Dex
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	ability	+ How About No	127339	35577	35577	35577	perCast (single hit)	How About No, per hit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	self-buff	+ Stimpack (self-buff)					todo	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon-buff	+ One Million Dollars (summon-buff)					todo	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	bench-only	4k Dex		56743	56807	56743-56807	needs model	4k Dex
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	bench-only	Weapon + Mini Me + 4k Dex		221357	222810	221357-222810	needs model	Weapon + Mini Me + 4k Dex
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	bench-only	Evil Laser 1x. Like swann's militarized transport, therefore gets elite unit		261456	261456	261456	needs model	Evil Laser 1x. Like swann's militarized transport, therefore gets elite unit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	headline	total (all sources on)	272143					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon	675517					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Meat Hook					needs model	
@@ -352,8 +353,7 @@ Sheet1	Terran	Terran Infantry	Unit	HERC	ability	+ Grapple	240856	240830	240830	2
 Sheet1	Terran	Terran Infantry	Unit	Ghost	headline	total (all sources on)	47567					
 Sheet1	Terran	Terran Infantry	Unit	Ghost	weapon	weapon	29127	29120	29120	29120		
 Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ Snipe	47567	46962	48722	46962-48722	weapon + ability (cumulative)	Add Snipe
-Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ EMP Round					needs model	
-Sheet1	Terran	Terran Infantry	Unit	Ghost	bench-only	Add EMP		38726	38726	38726	needs model	Add EMP
+Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ EMP Round		38726	38726	38726	needs model	Add EMP
 Sheet1	Terran	Terran Infantry	Unit	Ghost	bench-only	Both abilities		45146	50763	45146-50763	needs model	Both abilities
 Sheet1	Terran	Terran Infantry	Unit	Spectre	headline	total (all sources on)	67105					
 Sheet1	Terran	Terran Infantry	Unit	Spectre	weapon	weapon	38870	38869	38869	38869		
@@ -373,7 +373,7 @@ Sheet1	Terran	Terran Vehicles	Unit	Predator	headline	total (all sources on)	2580
 Sheet1	Terran	Terran Vehicles	Unit	Predator	weapon	weapon	258006	257968	257968	257968		
 Sheet1	Terran	Terran Vehicles	Unit	Sentry Bot	headline	total (all sources on)	68886					
 Sheet1	Terran	Terran Vehicles	Unit	Sentry Bot	weapon	weapon	68886	68880	68880	68880		
-Sheet1	Terran	Terran Vehicles	Unit	Sentry Bot	toggle	+ Repair Mode On (toggle DoT)		30135	30565	30135-30565	needs model	Add Repair Mode
+Sheet1	Terran	Terran Vehicles	Unit	Sentry Bot	toggle	+ Repair Mode On (toggle)	30405	30135	30565	30135-30565	weapon with toggle on (reduced state — suppression or slowdown)	Add Repair Mode
 Sheet1	Terran	Terran Vehicles	Unit	Cyclone	headline	total (all sources on)	148908					
 Sheet1	Terran	Terran Vehicles	Unit	Cyclone	weapon	weapon	148908	148896	148896	148896		
 Sheet1	Terran	Terran Vehicles	Unit	Siege Tank	headline	total (all sources on)	115961					
@@ -386,9 +386,8 @@ Sheet1	Terran	Terran Vehicles	Unit	Thor	headline	total (all sources on)	289209		
 Sheet1	Terran	Terran Vehicles	Unit	Thor	weapon	weapon (ground)	124517	124512	124512	124512		
 Sheet1	Terran	Terran Vehicles	Unit	Thor	weapon	weapon (air)	217471	214918	218825	214918-218825		
 Sheet1	Terran	Terran Vehicles	Unit	Thor	ability	+ Cancel	0				sustained dps (no bench)	
-Sheet1	Terran	Terran Vehicles	Unit	Thor	self-buff	+ All-Out Attack (self-buff)					todo	
-Sheet1	Terran	Terran Vehicles	Unit	Thor	bench-only	Add All-Out Attack		289184	289184	289184	needs model	Add All-Out Attack
-Sheet1	Terran	Terran Vehicles	Unit	Thor	bench-only	Add All-Out Attack		326105	331274	326105-331274	needs model	Add All-Out Attack
+Sheet1	Terran	Terran Vehicles	Unit	Thor	self-buff	+ All-Out Attack (self-buff)	289209	289184	289184	289184	weapon with this self-buff on	Add All-Out Attack
+Sheet1	Terran	Terran Vehicles	Unit	Thor	self-buff	+ All-Out Attack (self-buff)	327254	326105	331274	326105-331274	weapon with this self-buff on	Add All-Out Attack
 Sheet1	Terran	Terran Air	Unit	Blimp	headline	total (all sources on)	0					
 Sheet1	Terran	Terran Air	Unit	Blimp	weapon	weapon					no weapon (caster/support)	
 Sheet1	Terran	Terran Air	Unit	Viking	headline	total (all sources on)	151894					
@@ -407,8 +406,8 @@ Sheet1	Terran	Terran Air	Unit	Banshee	weapon	weapon (ground)	98768	98752	98752	9
 Sheet1	Terran	Terran Air	Unit	Banshee	weapon	weapon (air)	98753	98752	98752	98752		
 Sheet1	Terran	Terran Air	Unit	Raven	headline	total (all sources on)	59409					
 Sheet1	Terran	Terran Air	Unit	Raven	weapon	weapon	25159	23859	25350	23859-25350		
+Sheet1	Terran	Terran Air	Unit	Raven	summon	+ Turret	24865	24846	24846	24846	per-summon; sustained 0 (avg 0× living)	Minor Auto-Turret (1)
 Sheet1	Terran	Terran Air	Unit	Raven	ability	+ Seeker Missile	59409	57162	62132	57162-62132	weapon + ability (cumulative)	Add Seeker Missiles
-Sheet1	Terran	Terran Air	Unit	Raven	bench-only	Minor Auto-Turret (1)		24846	24846	24846	needs model	Minor Auto-Turret (1)
 Sheet1	Terran	Terran Air	Unit	Liberator	headline	total (all sources on)	119472					
 Sheet1	Terran	Terran Air	Unit	Liberator	weapon	weapon (ground)	112127	112117	112117	112117		
 Sheet1	Terran	Terran Air	Unit	Liberator	weapon	weapon (air)	119472	117600	122080	117600-122080		
@@ -418,8 +417,7 @@ Sheet1	Terran	Terran Air	Unit	Battlecruiser	ability	+ Yamato Cannon	194134	19065
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	headline	total (all sources on)	170184					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	weapon	weapon	137762	137760	137760	137760		
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	summon	+ Laser Mine	9302	171145	171145	171145	per-summon; sustained 11084 (avg 1.19× living)	Laser Mines, with weapon and All-Out Attack
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	self-buff	+ All-Out Attack (self-buff)					todo	
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	bench-only	Add All-Out Attack		159984	159984	159984	needs model	Add All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	self-buff	+ All-Out Attack (self-buff)		159984	159984	159984	todo	Add All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	bench-only	Laser Beam, single hit. 0 Dex, 0 Int		45000	45000	45000	needs model	Laser Beam, single hit. 0 Dex, 0 Int
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	headline	total (all sources on)	258982					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	weapon	weapon	127801	139776	139776	139776		
@@ -431,13 +429,11 @@ Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	weapon	weapon (ground)	264
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	weapon	weapon (air)	60335					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Barrage	0	79056	79056	79056	sustained dps	Barrage, total damage
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Nuclear Strike	0				sustained dps (no bench)	
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	self-buff	+ All-Out Attack (self-buff)					todo	
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	bench-only	Add All-Out Attack		205088	205088	205088	needs model	Add All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	self-buff	+ All-Out Attack (self-buff)		205088	205088	205088	todo	Add All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	headline	total (all sources on)	273327					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	weapon	weapon	51468	51223	51786	51223-51786		
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	ability	+ Titan Missiles	175312	265323	277604	265323-277604	sustained dps	Titan Missiles, with weapon and All-Out Attack
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	self-buff	+ All-Out Attack (self-buff)					todo	
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	bench-only	Add All-Out Attack		80181	80181	80181	needs model	Add All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	self-buff	+ All-Out Attack (self-buff)		80181	80181	80181	todo	Add All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	headline	total (all sources on)	351923					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	weapon	weapon (Armageddon Cannons)	121865	121856	121856	121856		Using Armageddon Cannons
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	weapon	weapon (Serpentis Laser Battery)	206640	206640	206640	206640		Using Serpentis Laser Battery
@@ -501,7 +497,7 @@ Sheet1	Protoss	Protoss Infantry	Unit	Dark Templar	headline	total (all sources on
 Sheet1	Protoss	Protoss Infantry	Unit	Dark Templar	weapon	weapon	270932	270880	270880	270880		Uses the Ace special attack, same mechanism as the Predator
 Sheet1	Protoss	Protoss Infantry	Unit	Dragoon	headline	total (all sources on)	81529					
 Sheet1	Protoss	Protoss Infantry	Unit	Dragoon	weapon	weapon	81529	81525	81525	81525		
-Sheet1	Protoss	Protoss Infantry	Unit	Dragoon	self-buff	+ Crawler Capacitors (self-buff)		71008	71008	71008	todo	Add Crawler Capacitors
+Sheet1	Protoss	Protoss Infantry	Unit	Dragoon	self-buff	+ Crawler Capacitors (self-buff)	71010	71008	71008	71008	weapon with this auto-on buff DISABLED (its second state)	Add Crawler Capacitors
 Sheet1	Protoss	Protoss Vehicles	Unit	Cannon Walker	headline	total (all sources on)	70988					
 Sheet1	Protoss	Protoss Vehicles	Unit	Cannon Walker	weapon	weapon	70988	70986	70986	70986		
 Sheet1	Protoss	Protoss Vehicles	Unit	Disruptor	headline	total (all sources on)	141161					
@@ -540,7 +536,7 @@ Sheet1	Protoss	Protoss Air	Unit	Mothership Core	weapon	weapon	110741	110736	1107
 Sheet1	Protoss	Protoss Air	Unit	Mothership Core	ability	+ Time Warp					needs model	
 Sheet1	Protoss	Protoss Air	Unit	Arbiter	headline	total (all sources on)	125425					
 Sheet1	Protoss	Protoss Air	Unit	Arbiter	weapon	weapon	116247	116240	116240	116240		
-Sheet1	Protoss	Protoss Air	Unit	Arbiter	self-buff	+ Enchantment (self-buff)		125424	125424	125424	todo	Add Enchantment
+Sheet1	Protoss	Protoss Air	Unit	Arbiter	self-buff	+ Enchantment (self-buff)	125425	125424	125424	125424	weapon with this self-buff on	Add Enchantment
 Sheet1	Protoss	Protoss Air	Unit	Void Ray	headline	total (all sources on)	144832					
 Sheet1	Protoss	Protoss Air	Unit	Void Ray	weapon	weapon	144832	144816	144816	144816		
 Sheet1	Protoss	Protoss Air	Unit	Tempest	headline	total (all sources on)	109672					
@@ -623,7 +619,7 @@ Sheet1	Zerg	Zerg Light	Unit	Swarm Queen	weapon	weapon (ground)	88125	88117	88117
 Sheet1	Zerg	Zerg Light	Unit	Swarm Queen	weapon	weapon (air)	79473	79466	79466	79466		
 Sheet1	Zerg	Zerg Light	Unit	Roach	headline	total (all sources on)	145879					
 Sheet1	Zerg	Zerg Light	Unit	Roach	weapon	weapon	145879	145999	147241	145999-147241		Attack with DoT
-Sheet1	Zerg	Zerg Light	Unit	Roach	bench-only	Add Regenerate Carapace		38150	38150	38150	needs model	Add Regenerate Carapace
+Sheet1	Zerg	Zerg Light	Unit	Roach	state	+ Regenerate Carapace (caster state)	38154	38150	38150	38150	weapon with this self-applied state on	Add Regenerate Carapace
 Sheet1	Zerg	Zerg Light	Unit	Hydralisk	headline	total (all sources on)	197392					
 Sheet1	Zerg	Zerg Light	Unit	Hydralisk	weapon	weapon	172739	164761	180655	164761-180655		
 Sheet1	Zerg	Zerg Light	Unit	Hydralisk	ability	+ Sonic Needle	40729	38273	41007	38273-41007	ability alone (isolated gross)	Sonic Needle only
@@ -632,8 +628,8 @@ Sheet1	Zerg	Zerg Light	Unit	Lurker	weapon	weapon (ground)	231921	231920	231920	2
 Sheet1	Zerg	Zerg Light	Unit	Lurker	weapon	weapon (air)	148989	148976	148976	148976		
 Sheet1	Zerg	Zerg Light	Unit	Defiler	headline	total (all sources on)	253173					
 Sheet1	Zerg	Zerg Light	Unit	Defiler	weapon	weapon	185436	185408	185408	185408		
+Sheet1	Zerg	Zerg Light	Unit	Defiler	state	+ Defiled (reactive, full uptime)	201349	201312	201312	201312	weapon + flat-per-hit reactive at 100% uptime	While Defiled
 Sheet1	Zerg	Zerg Light	Unit	Defiler	ability	+ Plague	241733	240599	243670	240599-243670	weapon + ability (cumulative)	Add Plague
-Sheet1	Zerg	Zerg Light	Unit	Defiler	bench-only	While Defiled		201312	201312	201312	needs model	While Defiled
 Sheet1	Zerg	Zerg Heavy	Unit	Ravager	headline	total (all sources on)	109920					
 Sheet1	Zerg	Zerg Heavy	Unit	Ravager	weapon	weapon	79300	79296	79296	79296		
 Sheet1	Zerg	Zerg Heavy	Unit	Ravager	ability	+ Corrosive Bile	109920	106960	114774	106960-114774	weapon + ability (cumulative)	Add Corrosive Bile
@@ -665,14 +661,15 @@ Sheet1	Zerg	Zerg Air	Unit	Mutalisk	headline	total (all sources on)	108417
 Sheet1	Zerg	Zerg Air	Unit	Mutalisk	weapon	weapon	108417	108270	109072	108270-109072		
 Sheet1	Zerg	Zerg Air	Unit	Overlord	headline	total (all sources on)	0					
 Sheet1	Zerg	Zerg Air	Unit	Overlord	weapon	weapon					no weapon (caster/support)	
-Sheet1	Zerg	Zerg Air	Unit	Corruptor	headline	total (all sources on)	97064					
-Sheet1	Zerg	Zerg Air	Unit	Corruptor	weapon	weapon	75565					
-Sheet1	Zerg	Zerg Air	Unit	Corruptor	bench-only	Add Retarding Slime		151125	151125	151125	needs model	Add Retarding Slime
-Sheet1	Zerg	Zerg Air	Unit	Corruptor	bench-only	Add Corruption		181333	181333	181333	needs model	Add Corruption
+Sheet1	Zerg	Zerg Air	Unit	Corruptor	headline	total (all sources on)	194129					
+Sheet1	Zerg	Zerg Air	Unit	Corruptor	weapon	weapon	151130					
+Sheet1	Zerg	Zerg Air	Unit	Corruptor	state	+ +20% all (amp, full uptime)	151130	151125	151125	151125	weapon (intrinsic on-hit amp already folded)	Add Retarding Slime
+Sheet1	Zerg	Zerg Air	Unit	Corruptor	state	+ +20% all (amp, full uptime)	181349	181333	181333	181333	weapon × damage-taken amp at 100% uptime	Add Corruption
 Sheet1	Zerg	Zerg Air	Unit	Guardian	headline	total (all sources on)	121848					
 Sheet1	Zerg	Zerg Air	Unit	Guardian	weapon	weapon	121848	121275	122608	121275-122608		
 Sheet1	Zerg	Zerg Air	Unit	Viper	headline	total (all sources on)	136035					
 Sheet1	Zerg	Zerg Air	Unit	Viper	weapon	weapon	55872	55861	55861	55861		
+Sheet1	Zerg	Zerg Air	Unit	Viper	summon	+ Swarm Host	15				per-summon; sustained 0 (avg 0× living)	
 Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Abduct					needs model	
 Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Parasitic Bomb	136036	134918	134918	134918	weapon + ability (cumulative)	Add Parasitic Bomb
 Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Parasitic Bomb	83703	82548	88968	82548-88968	ability alone (isolated gross)	Parasitic Bomb only
@@ -683,12 +680,14 @@ Sheet1	Zerg	Zerg Air	Unit	Brood Lord	bench-only	Add Broodlings		379405	379405	37
 Sheet1	Zerg	Zerg Air	Unit	Brood Lord	bench-only	Brooding (1)		27477	27477	27477	needs model	Brooding (1)
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	headline	total (all sources on)	171369					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	weapon	weapon	171369					
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Civilian	12667	12420	12585	12420-12585	per-minion; sustained 63336 (5× magazine)	Infested Terran (1)
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Marine	12376	12192	12371	12192-12371	per-minion; sustained 61879 (5× magazine)	Infested Marine (1)
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon	+ Infested Terran	107	12420	12585	12420-12585	per-summon; sustained 0 (avg 0× living)	Infested Terran (1)
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon	+ Infested Terran + Opho Mutation	107	12420	12585	12420-12585	per-summon with Opho Mutation	Infested Terran (1)  + Wild Mutation
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon	+ Infested Terran + Opho Mutation	107	48144	48144	48144	per-summon with Opho Mutation	Infested Marine (1) + Wild Mutation
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Civilian	12667	12192	12371	12192-12371	per-minion; sustained 63336 (5× magazine)	Infested Marine (1)
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Marine	12376				per-minion; sustained 61879 (5× magazine)	
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	ability	+ Opho Fungal	22130	23465	23712	23465-23712	sustained dps	Fungal Growth
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon-buff	+ Opho Mutation (summon-buff)		12420	12585	12420-12585	todo	Infested Terran (1)  + Wild Mutation
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon-buff	+ Opho Mutation (summon-buff)					todo	
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	bench-only	Weapon only		23927	24209	23927-24209	needs model	Weapon only
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	bench-only	Infested Marine (1) + Wild Mutation		48144	48144	48144	needs model	Infested Marine (1) + Wild Mutation
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	headline	total (all sources on)	213830					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	weapon	weapon	70643	69933	70728	69933-70728		
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	summon	+ Explosive Shitter	2931	3985	7971	3985-7971	summons sustained alone (avg 1.18× @ 2491 per-summon)	Explosive Shitters only
@@ -704,9 +703,9 @@ Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Kerrigan	ability	+ Kerrigan Tunnel	
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	headline	total (all sources on)	738426					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	weapon	weapon	49666	49172	50083	49172-50083		Main weapon
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	summon	+ Swarm Host	9				per-summon; sustained 18 (avg 2.02× living)	
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	minion	+ Spotter Beacon	68025	228315	230203	228315-230203	per-minion; sustained 680248 (10× magazine)	Weapon with all Spotter Beacons attacking
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	ability	+ Overloaded System	5294	6176	6793	6176-6793	ability alone (isolated gross)	Overloaded System only
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	self-buff	+ Spotter Frenzy (self-buff)		228315	230203	228315-230203	todo	Weapon with all Spotter Beacons attacking
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	bench-only	Weapon with Spotter Frenzy		55065	57739	55065-57739	needs model	Weapon with Spotter Frenzy
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	self-buff	+ Spotter Frenzy (self-buff)		55065	57739	55065-57739	todo	Weapon with Spotter Frenzy
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	headline	total (all sources on)	497410				vs air 120742	
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground)	497410					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (air)	120742					
