@@ -1,4 +1,4 @@
-# generated 2026-08-19T08:19:23.759Z
+# generated 2026-08-19T08:33:23.823Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -755,11 +755,11 @@ Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Dust
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	headline	total (all sources on)	382387					
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	weapon	weapon	129390	118963	134231	118963-134231		Weapon + Burn
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	minion	+ Hellspawn	25521	25514	25514	25514	per-minion; sustained 153127 (6× magazine)	Hellspawn 1x
-Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Wave (burn applier)	26636	22863	27770	22863-27770	weapon-burn held at cap + expiry detonation @ 6s ÷ 2.353 (user-observed cadence)	Hell wave
+Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Wave (burn applier)	26636	22863	27770	22863-27770	weapon-burn held at cap + expiry detonation @ 6s ÷ 2.353 (user-observed cadence)	Hell wave, 1k dex
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	aura	+ Hell Aura (aura)	25071	25056	25056	25056	aura alone (periodic through caster km)	Hell Aura
-Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Rift	66594	66555	66555	66555	sustained dps	Hell rift
+Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Rift	66594	66163	66946	66163-66946	sustained dps	Hell rift, 1k dex
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Wave					needs model	
-Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Fury	8205	11101	16212	11101-16212	sustained dps	Hell fury
+Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Fury	8205	10659	14423	10659-14423	sustained dps	Hell fury, 1k dex
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	headline	total (all sources on)	322955					
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	weapon	weapon	151638	151632	151632	151632		Weapon only
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	aura	+ Xel'Naga Vortex (aura)	62677	50448	50448	50448	aura alone (periodic through caster km)	Xelnaga Vortex, active
