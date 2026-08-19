@@ -1,4 +1,4 @@
-# generated 2026-08-19T01:57:27.069Z
+# generated 2026-08-19T03:25:44.653Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -480,8 +480,8 @@ Sheet1	Terran	Terran Structures	Structure	Einstein-Rosen Bridge Unit	headline	to
 Sheet1	Terran	Terran Structures	Structure	Einstein-Rosen Bridge Unit	weapon	weapon					no weapon (caster/support)	
 Sheet1	Protoss	Protoss Workers	Unit	Probe	headline	total (all sources on)	130073					
 Sheet1	Protoss	Protoss Workers	Unit	Probe	weapon	weapon	130073	130064	130064	130064		
-Sheet1	Protoss	Protoss Infantry	Unit	Zealot	headline	total (all sources on)	99131					
-Sheet1	Protoss	Protoss Infantry	Unit	Zealot	weapon	weapon	99131	198059	198059	198059		
+Sheet1	Protoss	Protoss Infantry	Unit	Zealot	headline	total (all sources on)	198263					
+Sheet1	Protoss	Protoss Infantry	Unit	Zealot	weapon	weapon	198263	198059	198059	198059		
 Sheet1	Protoss	Protoss Infantry	Unit	Stalker	headline	total (all sources on)	99023					
 Sheet1	Protoss	Protoss Infantry	Unit	Stalker	weapon	weapon	99023	99008	99008	99008		
 Sheet1	Protoss	Protoss Infantry	Unit	Sentry	headline	total (all sources on)	71535					
@@ -754,9 +754,10 @@ Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Dust
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	headline	total (all sources on)	382387					
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	weapon	weapon	129390	118963	134231	118963-134231		Weapon + Burn
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	minion	+ Hellspawn	25521	25514	25514	25514	per-minion; sustained 153127 (6× magazine)	Hellspawn 1x
+Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Wave (burn applier)	30737	29356	30336	29356-30336	weapon-burn at cap + 15 applier init-ticks/cast + expiry detonation @ raw 6s cd	Hell wave
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	aura	+ Hell Aura (aura)	25071	25056	25056	25056	aura alone (periodic through caster km)	Hell Aura
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Rift	66594	66555	66555	66555	sustained dps	Hell rift
-Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Wave		29356	30336	29356-30336	needs model	Hell wave
+Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Wave					needs model	
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Fury	8205	11101	16212	11101-16212	sustained dps	Hell fury
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	headline	total (all sources on)	322955					
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	weapon	weapon	151638	151632	151632	151632		Weapon only
