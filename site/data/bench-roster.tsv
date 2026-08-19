@@ -1,4 +1,4 @@
-# generated 2026-08-19T01:41:29.089Z
+# generated 2026-08-19T01:57:27.069Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -480,8 +480,8 @@ Sheet1	Terran	Terran Structures	Structure	Einstein-Rosen Bridge Unit	headline	to
 Sheet1	Terran	Terran Structures	Structure	Einstein-Rosen Bridge Unit	weapon	weapon					no weapon (caster/support)	
 Sheet1	Protoss	Protoss Workers	Unit	Probe	headline	total (all sources on)	130073					
 Sheet1	Protoss	Protoss Workers	Unit	Probe	weapon	weapon	130073	130064	130064	130064		
-Sheet1	Protoss	Protoss Infantry	Unit	Zealot	headline	total (all sources on)	198263					
-Sheet1	Protoss	Protoss Infantry	Unit	Zealot	weapon	weapon	198263	198059	198059	198059		
+Sheet1	Protoss	Protoss Infantry	Unit	Zealot	headline	total (all sources on)	99131					
+Sheet1	Protoss	Protoss Infantry	Unit	Zealot	weapon	weapon	99131	198059	198059	198059		
 Sheet1	Protoss	Protoss Infantry	Unit	Stalker	headline	total (all sources on)	99023					
 Sheet1	Protoss	Protoss Infantry	Unit	Stalker	weapon	weapon	99023	99008	99008	99008		
 Sheet1	Protoss	Protoss Infantry	Unit	Sentry	headline	total (all sources on)	71535					
@@ -740,7 +740,7 @@ Sheet1	Secret	Special Units	Secret Unit	Mike Tyson	weapon	weapon	2697385
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	headline	total (all sources on)	222583					
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	weapon	weapon	176473	176448	176448	176448		weapon
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	summon	+ Shit Pile	5647	3388	5082	3388-5082	summons sustained alone (avg 0.33× @ 16942 per-summon)	Deposit biomass
-Sheet1	Secret	Special Units	Secret Unit	Chaindog	ability	+ Deadly Bite	33941	25183	33578	25183-33578	per-cast (closest basis; amp-root ability, valued from full stats)	Deadly bite
+Sheet1	Secret	Special Units	Secret Unit	Chaindog	ability	+ Deadly Bite	5177	4922	6562	4922-6562	sustained (closest basis; amp-root ability, valued from full stats)	Deadly bite only
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	self-buff	+ Maul Toddlers (self-buff)					todo	
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	headline	total (all sources on)	314736					
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	weapon	weapon	119209	119200	119200	119200		Weapon only
