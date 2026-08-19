@@ -1,4 +1,4 @@
-# generated 2026-08-18T23:26:13.760Z
+# generated 2026-08-19T01:41:29.089Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -740,7 +740,7 @@ Sheet1	Secret	Special Units	Secret Unit	Mike Tyson	weapon	weapon	2697385
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	headline	total (all sources on)	222583					
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	weapon	weapon	176473	176448	176448	176448		weapon
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	summon	+ Shit Pile	5647	3388	5082	3388-5082	summons sustained alone (avg 0.33× @ 16942 per-summon)	Deposit biomass
-Sheet1	Secret	Special Units	Secret Unit	Chaindog	ability	+ Deadly Bite		25183	33578	25183-33578	needs model	Deadly bite
+Sheet1	Secret	Special Units	Secret Unit	Chaindog	ability	+ Deadly Bite	33941	25183	33578	25183-33578	per-cast (closest basis; amp-root ability, valued from full stats)	Deadly bite
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	self-buff	+ Maul Toddlers (self-buff)					todo	
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	headline	total (all sources on)	314736					
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	weapon	weapon	119209	119200	119200	119200		Weapon only
@@ -750,14 +750,14 @@ Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	ability	+ Cluster Chuck	30
 Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	headline	total (all sources on)	331732					
 Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	weapon	weapon	162224	183840	183840	183840		Weapon
 Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Vacuum	114907	161811	171747	161811-171747	sustained dps	Vacuum
-Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Dust Bin		90048	90048	90048	needs model	Dust bin, per hit damage. Only gains a charge when vacuum ability finishes (check ability requirement)
+Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Dust Bin	26115	90048	90048	90048	per-cast (closest basis; amp-root ability, valued from full stats)	Dust bin, per hit damage. Only gains a charge when vacuum ability finishes (check ability requirement)
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	headline	total (all sources on)	382387					
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	weapon	weapon	129390	118963	134231	118963-134231		Weapon + Burn
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	minion	+ Hellspawn	25521	25514	25514	25514	per-minion; sustained 153127 (6× magazine)	Hellspawn 1x
+Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	aura	+ Hell Aura (aura)	25071	25056	25056	25056	aura alone (periodic through caster km)	Hell Aura
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Rift	66594	66555	66555	66555	sustained dps	Hell rift
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Wave		29356	30336	29356-30336	needs model	Hell wave
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Fury	8205	11101	16212	11101-16212	sustained dps	Hell fury
-Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	bench-only	Hell Aura		25056	25056	25056	needs model	Hell Aura
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	headline	total (all sources on)	322955					
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	weapon	weapon	151638	151632	151632	151632		Weapon only
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	aura	+ Xel'Naga Vortex (aura)	62677	50448	50448	50448	aura alone (periodic through caster km)	Xelnaga Vortex, active
