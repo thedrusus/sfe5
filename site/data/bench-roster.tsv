@@ -1,4 +1,4 @@
-# generated 2026-08-20T05:24:21.921Z
+# generated 2026-08-20T22:42:12.258Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -187,9 +187,9 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	ability	+ Energy Nova	8895	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	summon-buff	+ Rift Shield (summon-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	summon-buff	+ Transcendence (summon-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	bench-only	Attacks cause a debuff		55125	55125	55125	needs model	Attacks cause a debuff
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	headline	total (all sources on)	547131					
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	weapon	weapon	547131	1506848	1506848	1506848		
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	ability	+ Shadow Strike	39531	152853	159499	152853-159499	ability alone (isolated gross)	Shadow Strike only
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	headline	total (all sources on)	1639771					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	weapon	weapon	1506855	1506848	1506848	1506848		
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	ability	+ Shadow Strike	132916	152853	159499	152853-159499	ability alone (isolated gross)	Shadow Strike only
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	ability	+ Graviton Lock					needs model	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	self-buff	+ Cloakedin Shadow Apply (self-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	bench-only	Marked for Death (doesn't seem to work)		0	0	0	needs model	Marked for Death (doesn't seem to work)
@@ -366,7 +366,7 @@ Sheet1	Terran	Terran Vehicles	Unit	Hellion	headline	total (all sources on)	83008
 Sheet1	Terran	Terran Vehicles	Unit	Hellion	weapon	weapon	83008	82259	82974	82259-82974		
 Sheet1	Terran	Terran Vehicles	Unit	Vulture	headline	total (all sources on)	135729					
 Sheet1	Terran	Terran Vehicles	Unit	Vulture	weapon	weapon	102094	101542	102267	101542-102267		
-Sheet1	Terran	Terran Vehicles	Unit	Vulture	summon	+ Spider Mine	135729	131549	140683	131549-140683	weapon + summons sustained (33635 @ avg 0.4×; 84087 per-summon)	Add Spider Mines
+Sheet1	Terran	Terran Vehicles	Unit	Vulture	summon	+ Spider Mine	135729	131549	140683	131549-140683	weapon + summons sustained (33635; 84087 per-summon)	Add Spider Mines
 Sheet1	Terran	Terran Vehicles	Unit	Widow Mine	headline	total (all sources on)	241073					
 Sheet1	Terran	Terran Vehicles	Unit	Widow Mine	weapon	weapon	241073	240636	243434	240636-243434		
 Sheet1	Terran	Terran Vehicles	Unit	Diamondback	headline	total (all sources on)	97105					
@@ -562,12 +562,12 @@ Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Vorazun	bench-only	Shadow Fur
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	headline	total (all sources on)	176517					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	weapon	weapon	171575	171528	171528	171528		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	ability	+ Resonating Plasma Ball	176516	173030	179434	173030-179434	weapon + ability (cumulative)	Add Resonating Plasma Ball
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	headline	total (all sources on)	950898					
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	weapon	weapon	345834	244376	250336	244376-250336		
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	headline	total (all sources on)	819070					
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	weapon	weapon	245614	244376	250336	244376-250336		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	summon	+ Zergling	145				per-summon; sustained 146 (avg 1.01× living)	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Planet Cracker	165	59976	59976	59976	sustained dps	Planet Cracker
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Plasma Spheres	2574				sustained dps (no bench)	
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Vortex	389909	79856	79856	79856	sustained dps	Vortex. While affected, unit is untargetable
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Plasma Spheres	3618				sustained dps (no bench)	
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Vortex	391475	79856	79856	79856	sustained dps	Vortex. While affected, unit is untargetable
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	self-buff	+ Powered Purifier On (self-buff)					todo	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	headline	total (all sources on)	292561					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	weapon	weapon	193985	193792	193792	193792		
@@ -677,7 +677,7 @@ Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Parasitic Bomb	136036	134099	142484	13
 Sheet1	Zerg	Zerg Air	Unit	Viper	ability	+ Parasitic Bomb	83703	82548	88968	82548-88968	ability alone (isolated gross)	Parasitic Bomb only
 Sheet1	Zerg	Zerg Air	Unit	Brood Lord	headline	total (all sources on)	379471					
 Sheet1	Zerg	Zerg Air	Unit	Brood Lord	weapon	weapon	104639	104632	104632	104632		
-Sheet1	Zerg	Zerg Air	Unit	Brood Lord	summon	+ Broodling	379471	379405	379405	379405	weapon + summons sustained (274832 @ avg 10×; 27483 per-summon)	Add Broodlings
+Sheet1	Zerg	Zerg Air	Unit	Brood Lord	summon	+ Broodling	379471	379405	379405	379405	weapon + summons sustained (274832; 27483 per-summon)	Add Broodlings
 Sheet1	Zerg	Zerg Air	Unit	Brood Lord	summon	+ Broodling	27483	27477	27477	27477	per-summon; sustained 274832 (avg 10× living)	Brooding (1)
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	headline	total (all sources on)	171369					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	weapon	weapon	24023	23927	24209	23927-24209		Weapon only
@@ -740,13 +740,14 @@ Sheet1	Secret	Special Units	Secret Unit	Mike Tyson	headline	total (all sources o
 Sheet1	Secret	Special Units	Secret Unit	Mike Tyson	weapon	weapon	2697385					
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	headline	total (all sources on)	222583					
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	weapon	weapon	176473	176448	176448	176448		weapon
-Sheet1	Secret	Special Units	Secret Unit	Chaindog	summon	+ Shit Pile	5647	3388	5082	3388-5082	summons sustained alone (avg 0.33× @ 16942 per-summon)	Deposit biomass
+Sheet1	Secret	Special Units	Secret Unit	Chaindog	summon	+ Shit Pile	3388	3388	5082	3388-5082	sustained stream on the raw charge clock (16942 burst ÷ 5s regen; range hi = stockpile dump)	Deposit biomass
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	ability	+ Deadly Bite	5177	4922	6562	4922-6562	sustained (closest basis; amp-root ability, valued from full stats)	Deadly bite only
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	self-buff	+ Maul Toddlers (self-buff)					todo	
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	headline	total (all sources on)	314736					
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	weapon	weapon	119209	119200	119200	119200		Weapon only
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	minion	+ Murloc Mini	31890	31882	31882	31882	per-minion; sustained 127561 (4× magazine)	Murloc Mini
-Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	ability	+ Rattle Spray	37749	28311	33030	28311-33030	sustained dps	Rattle Spray
+Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	ability	+ Rattle Spray	31458	28311	33030	28311-33030	one hit/cast @ cd 2.5 ÷ cdr → 0.5-lattice 1.5s	Rattle Spray
+Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	ability	+ Rattle Spray	37749				sustained dps (no bench)	
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	ability	+ Cluster Chuck	30216	31447	31447	31447	sustained dps	Cluster Chuck
 Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	headline	total (all sources on)	387695					
 Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	weapon	weapon	183854	183840	183840	183840		Weapon
@@ -755,9 +756,9 @@ Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Dust
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	headline	total (all sources on)	382607					
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	weapon	weapon	129390	118963	134231	118963-134231		Weapon + Burn
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	minion	+ Hellspawn	25521	25514	25514	25514	per-minion; sustained 153127 (6× magazine)	Hellspawn 1x
-Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Wave (burn applier)	26636	22863	27770	22863-27770	weapon-burn held at cap + expiry detonation @ 6s ÷ 2.353 (user-observed cadence)	Hell wave, 1k dex
-Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Fury (direct)	9559	7308	10963	7308-10963	one deduped Spell hit/cast @ cd 9 ÷ 2.353 (walk zeroes it — weapon-marker rule needs link-awareness)	Hell fury (no burn)
-Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Breath (direct)	12290	9530	14296	9530-14296	one Spell hit/cast @ cd 8 ÷ 2.353 (Diablo full cast-cdr)	Hell breath (no burn)
+Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Wave (burn applier)	26344	22863	27770	22863-27770	weapon-burn held at cap + expiry detonation @ 6s ÷ 2.353 (user-observed cadence)	Hell wave, 1k dex
+Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Fury (direct)	9140	7308	10963	7308-10963	one deduped Spell hit/cast @ cd 9 ÷ 2.353 → 0.5-lattice 4.0s (walk zeroes it — weapon-marker rule needs link-awareness)	Hell fury (no burn)
+Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Breath (direct)	11939	9530	14296	9530-14296	one Spell hit/cast @ cd 8 ÷ 2.353 → 0.5-lattice 3.5s	Hell breath (no burn)
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	aura	+ Hell Aura (aura)	25071	25056	25056	25056	aura alone (periodic through caster km)	Hell Aura
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Rift	66594	66163	66946	66163-66946	sustained dps	Hell rift, 1k dex
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Wave					needs model	
