@@ -1,4 +1,4 @@
-# generated 2026-08-21T00:20:07.569Z
+# generated 2026-08-21T00:52:22.859Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -203,7 +203,7 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	ability	+ Conscription	0				
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	ability	+ Forceful Command	43048	43048	43048	43048	perCast (single hit)	Forceful Command, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon-buff	+ Rallying Cry (summon-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	headline	total (all sources on)	812786					
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	weapon	582532					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	weapon	296564					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Consume DNA	10596	10596	15894	10596-15894	sustained dps	Consume DNA
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Stolen Essence is added, causes additional damage		285952	285952	285952	needs model	Stolen Essence is added, causes additional damage
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Add Perfected Form		1036352	1036352	1036352	needs model	Add Perfected Form
@@ -769,12 +769,13 @@ Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Fu
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Breath	8424				sustained dps (no bench)	
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	headline	total (all sources on)	322955					
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	weapon	weapon	151638	151632	151632	151632		Weapon only
+Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	ability	+ Phase Wave + Xel'Naga Field (composite)	49619	49594	49594	49594	field aura (exact solo) + wave at 3 pulses/cast (walk books 2 — band-coverage wave rule pending)	Phase wave, Xel'naga Field
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	aura	+ Xel'Naga Vortex (aura)	62677	50448	50448	50448	aura alone (periodic through caster km)	Xelnaga Vortex, active
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	aura	+ Void Tendril Unstable Energy Search22 (aura)	41785	33632	33632	33632	aura alone (periodic through caster km)	Void Energy, active
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	aura	+ weapon + Xel Naga Field	177753	177735	177735	177735	weapon + this aura (both sustained)	Weapon and Xel'naga Field
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	aura	+ Xel Naga Field (aura)	26115	26103	26103	26103	aura alone (periodic through caster km)	Xel'Naga Field only
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	ability	+ Celestial Slam	14625	14617	14617	14617	sustained dps	Celestial slam
-Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	ability	+ Phase Wave	15669	49594	49594	49594	sustained dps	Phase wave, Xel'naga Field
+Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	ability	+ Phase Wave	15669				sustained dps (no bench)	
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	ability	+ Void Energy	5223				sustained dps (no bench)	
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	ability	+ Xel'Naga Vortex	5223				sustained dps (no bench)	
 Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	headline	total (all sources on)	263928					
