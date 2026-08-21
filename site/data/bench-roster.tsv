@@ -1,4 +1,4 @@
-# generated 2026-08-21T00:13:04.740Z
+# generated 2026-08-21T00:20:07.569Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -752,8 +752,10 @@ Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	ability	+ Rattle Spray	377
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	ability	+ Cluster Chuck	30216				sustained dps (no bench)	
 Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	headline	total (all sources on)	387695					
 Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	weapon	weapon	183854	183840	183840	183840		Weapon
-Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Vacuum	141945	161811	171747	161811-171747	sustained dps	Vacuum
-Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Dust Bin	26115	90048	90048	90048	per-cast (closest basis; amp-root ability, valued from full stats)	Dust bin, per hit damage. Only gains a charge when vacuum ability finishes (check ability requirement)
+Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Vacuum (gross)	163223	161811	171747	161811-171747	amped per-cast (2.3 avg overlapping stacks) @ cd 10 ÷ 2 = 5.0s (full ×2.353 cdr overshoots — M-O runs ×2)	Vacuum
+Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Dust Bin (per hit, gated branch)	90097	90048	90048	90048	requirement-gated switch branch (walk books the ungated one) × own +15% amp — per-hit basis	Dust bin, per hit damage. Only gains a charge when vacuum ability finishes (check ability requirement)
+Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Vacuum	141945				sustained dps (no bench)	
+Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Dust Bin					needs model	
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	headline	total (all sources on)	382607					
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	weapon	weapon	129390	118963	134231	118963-134231		Weapon + Burn
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	minion	+ Hellspawn	25521	25514	25514	25514	per-minion; sustained 153127 (6× magazine)	Hellspawn 1x
