@@ -1,4 +1,4 @@
-# generated 2026-08-20T22:42:12.258Z
+# generated 2026-08-21T00:13:04.740Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -747,8 +747,9 @@ Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	headline	total (all source
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	weapon	weapon	119209	119200	119200	119200		Weapon only
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	minion	+ Murloc Mini	31890	31882	31882	31882	per-minion; sustained 127561 (4× magazine)	Murloc Mini
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	ability	+ Rattle Spray	31458	28311	33030	28311-33030	one hit/cast @ cd 2.5 ÷ cdr → 0.5-lattice 1.5s	Rattle Spray
+Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	ability	+ Cluster Chuck (splash-kind)	31448	31447	31447	31447	point-impact area hit = SPLASH kind → ace-passive +0.2 splash frac applies; @ cd 4 ÷ cdr → 2.0s	Cluster Chuck
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	ability	+ Rattle Spray	37749				sustained dps (no bench)	
-Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	ability	+ Cluster Chuck	30216	31447	31447	31447	sustained dps	Cluster Chuck
+Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	ability	+ Cluster Chuck	30216				sustained dps (no bench)	
 Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	headline	total (all sources on)	387695					
 Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	weapon	weapon	183854	183840	183840	183840		Weapon
 Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Vacuum	141945	161811	171747	161811-171747	sustained dps	Vacuum
