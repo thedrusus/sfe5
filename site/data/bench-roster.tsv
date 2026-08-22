@@ -1,4 +1,4 @@
-# generated 2026-08-22T19:28:21.206Z
+# generated 2026-08-22T19:31:54.370Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -153,11 +153,11 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	bench-only	Rods From God, sing
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	headline	total (all sources on)	389916					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground)	277663					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (air)		116179	118184	116179-118184	AA weapon not modeled (no anti-air weapon resolved)	AA weapon
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground, AG)	323159	209472	213896	209472-213896	pure ground weapon alone (excludes folded minions/summons)	AG + Burn
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	summon	+ Thermal Assault	66757	55070	57573	55070-57573	per-summon; sustained 66757 (avg 1× living)	Thermal Assault (1)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	ability	+ Thermal Assault	1118				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Amplification Mode (self-buff)		268623	269414	268623-269414	todo	Add Amplification Mode
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Extermination Mode (self-buff)		369771	370166	369771-370166	todo	Add Extermination Mode (Active)
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	bench-only	AG + Burn		209472	213896	209472-213896	needs model	AG + Burn
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	bench-only	Add Extermination Mode (Autocast)		270704	370166	270704-370166	needs model	Add Extermination Mode (Autocast)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	headline	total (all sources on)	748809					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	weapon	weapon	83966	83779	84853	83779-84853		
@@ -718,9 +718,9 @@ Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	self-buff	+ Spotter Frenzy 
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	headline	total (all sources on)	497410				vs air 120742	
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground)	497410					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (air)	120742	119208	122108	119208-122108		AA attack
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground, AG)	100843	99992	100654	99992-100654	pure ground weapon alone (excludes folded minions/summons)	AG attack
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	minion	+ Levi Minion	90036	106308	108079	106308-108079	per-minion; sustained 360143 (4× magazine)	Levi Minion (1)
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	ability	+ Bio-Plasmid Discharge	36425	43299	43299	43299	sustained dps	Bio Plasmid Discharge, 0 Int
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	bench-only	AG attack		99992	100654	99992-100654	needs model	AG attack
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	headline	total (all sources on)	317250					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	weapon	weapon	317250	317241	317241	317241		Weapon damage only
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	ability	+ Cleave	21598	21598	21598	21598	per-hit (perCast ÷ hits)	Cleave, single hit, 0 Dex
