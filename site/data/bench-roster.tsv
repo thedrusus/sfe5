@@ -1,4 +1,4 @@
-# generated 2026-08-22T19:36:01.864Z
+# generated 2026-08-22T21:08:37.624Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -438,9 +438,9 @@ Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Barrage	0				sus
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Nuclear Strike	0				sustained dps (no bench)	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	self-buff	+ All-Out Attack (self-buff)					todo	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	headline	total (all sources on)	273327					
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	ability	+ Titan Missiles + weapon + All-Out Attack	273327	265323	277604	265323-277604	full auto-attack total (weapon + missiles + AOA @ 100%)	Titan Missiles, with weapon and All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	weapon	weapon	51468	51223	51786	51223-51786		
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	self-buff	+ All-Out Attack (self-buff)	80193	80181	80181	80181	generic AOA weapon state × the asm 1.15 the period-snap denies (in-game the 0.09375 period takes the full speed)	Add All-Out Attack
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	ability	+ Titan Missiles + weapon + All-Out Attack	255505	265323	277604	265323-277604	AOA weapon state + augment stream (user-isolated 2026-08-22, AOA cycling included); bench row ~10% hotter than fresh missiles — likely STALE, re-bench asked	Titan Missiles, with weapon and All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	ability	+ Titan Missiles	175312				sustained dps (no bench)	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	self-buff	+ All-Out Attack (self-buff)					todo	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	headline	total (all sources on)	351923					
@@ -461,7 +461,7 @@ Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Hyperion	ability	+ Hyperion Ion
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Silent Mary	headline	total (all sources on)	408008					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Silent Mary	weapon	weapon	317891	317888	317888	317888		
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Silent Mary	ability	+ Light The Gunpowder	165234	55371	55371	55371	per-hit (perCast ÷ hits)	Light the Gunpowder, per hit
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Silent Mary	self-buff	+ Last Bastion (self-buff)		511552	511552	511552	todo	During Last Bastion cast
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Silent Mary	self-buff	+ Last Bastion (during, 100% uptime)	511571	511552	511552	511552	weapon during this self-buff (blend-inverted to 100% uptime)	During Last Bastion cast
 Sheet1	Terran	Terran Structures	Structure	Bunker	headline	total (all sources on)	135114					
 Sheet1	Terran	Terran Structures	Structure	Bunker	weapon	weapon	135114	135104	135104	135104		
 Sheet1	Terran	Terran Structures	Structure	Missile Turret	headline	total (all sources on)	136420					
@@ -556,10 +556,11 @@ Sheet1	Protoss	Protoss Air	Unit	Carrier	headline	total (all sources on)	298570
 Sheet1	Protoss	Protoss Air	Unit	Carrier	weapon	weapon	298570	298560	298560	298560		
 Sheet1	Protoss	Protoss Air	Unit	Carrier	minion	+ Interceptor	49762				per-minion; sustained 298570 (6× magazine)	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	headline	total (all sources on)	449223					
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	weapon	weapon (no Null Bots / Capacitors)	57798	57611	58273	57611-58273	weapon alone, capacitors off	Without Null Bots, weapon only
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	summon	weapon + Null Bots (Capacitors on)	442001	432066	442383	432066-442383	weapon + bot spawn, capacitors on	With Null Bots, while Null Capacitors
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	summon	weapon + Null Bots	411119	409787	412657	409787-412657	weapon + bot spawn, capacitors off	With Null Bots
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	weapon	weapon	417957					
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	summon	+ Null Bot	353321	57611	58273	57611-58273	summons sustained alone (avg 9× @ 39258 per-summon)	Without Null Bots, weapon only
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	summon	+ Null Bot	39258	409787	412657	409787-412657	per-summon; sustained 353321 (avg 9× living)	With Null Bots
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	summon	+ Null Bot + Null Capacitors	41622	432066	442383	432066-442383	per-summon with Null Capacitors	With Null Bots, while Null Capacitors
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	summon	+ Null Bot	39258				per-summon; sustained 353321 (avg 9× living)	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	ability	+ Null Implosion	6838				sustained dps (no bench)	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	summon-buff	+ Null Capacitors (summon-buff)					todo	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Sentinel	headline	total (all sources on)	244561					
@@ -582,11 +583,11 @@ Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	headline	total (all 
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	weapon	weapon	193985	193792	193792	193792		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	minion	+ Interceptor	24248				per-minion; sustained 193985 (8× magazine)	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	ability	+ Psionic Orb	6177	24706	24706	24706	sustained dps	Psionic Orb, active DPS
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	summon-buff	+ Ultimate Interceptors (summon-buff)	286384	295936	295936	295936	auto-attack with summon-buff up (sustained uptime; peak reads ~+3%)	Add Ultimate Interceptors
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	summon-buff	+ Ultimate Interceptors (summon-buff)	296034	295936	295936	295936	auto-attack with summon-buff at PEAK (100% uptime, blend-inverted)	Add Ultimate Interceptors
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	headline	total (all sources on)	309492					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	weapon	weapon	210764	210752	210752	210752		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	ability	+ Laser Waser	21001	37605	37605	37605	per-hit (perCast ÷ hits)	Laser Waser, single hit
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	self-buff	+ Devastation Ray (self-buff)		365072	365072	365072	todo	During Devastation Ray
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	self-buff	+ Devastation Ray (during, 100% uptime)	365072	365072	365072	365072	weapon during this self-buff (blend-inverted to 100% uptime)	During Devastation Ray
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	headline	total (all sources on)	203572					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	weapon	weapon	203572					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	weapon	weapon (stationary)	197825	195835	198060	195835-198060	stationary stance	Stationary
