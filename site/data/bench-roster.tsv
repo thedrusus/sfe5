@@ -1,4 +1,4 @@
-# generated 2026-08-22T17:27:00.528Z
+# generated 2026-08-22T19:09:29.017Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -424,8 +424,8 @@ Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	summon	+ Laser Mine	9302
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	ability	+ Laser Beam (per hit @ 0 attrs)	45000	45000	45000	45000	manual-cast per-hit anchor: Melee-kind upgraded amount × buff totalSum only (0-attr row config)	Laser Beam, single hit. 0 Dex, 0 Int
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	self-buff	+ All-Out Attack (self-buff)	159987	159984	159984	159984	weapon with this self-buff on	Add All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	headline	total (all sources on)	271357					
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	weapon	weapon	140175	139776	139776	139776		
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	minion	+ Big Bad Bully	17017	16871	16871	16871	per-minion; sustained 119118 (7× magazine)	Big Bad Bully (1)
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	weapon	weapon	140175	139776	141107	139776-141107		
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	minion	+ Big Bad Bully	17017	16871	17056	16871-17056	per-minion; sustained 119118 (7× magazine)	Big Bad Bully (1)
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	ability	+ Grenade	152238	146888	154001	146888-154001	weapon + ability (cumulative)	Grenade, add weapon
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	self-buff	+ Stimpack (self-buff)					todo	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	headline	total (all sources on)	307645				vs air 90839	
