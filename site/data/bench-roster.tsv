@@ -1,4 +1,4 @@
-# generated 2026-08-22T16:05:18.463Z
+# generated 2026-08-22T16:37:09.602Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -386,11 +386,11 @@ Sheet1	Terran	Terran Vehicles	Unit	Warhound	ability	+ Haywire Missiles	128168	12
 Sheet1	Terran	Terran Vehicles	Unit	Thor	headline	total (all sources on)	289209				vs air 327254	
 Sheet1	Terran	Terran Vehicles	Unit	Thor	weapon	weapon (ground)	124517	124512	124512	124512		
 Sheet1	Terran	Terran Vehicles	Unit	Thor	weapon	weapon (air)	217471	214918	218825	214918-218825		
+Sheet1	Terran	Terran Vehicles	Unit	Thor	weapon	weapon (AA AP)	145700	145696	145696	145696		
+Sheet1	Terran	Terran Vehicles	Unit	Thor	self-buff	+ All-Out Attack (AA AP)	169205	169200	169200	169200	AP anti-air weapon with All-Out Attack on	Add All-Out Attack
 Sheet1	Terran	Terran Vehicles	Unit	Thor	ability	+ Cancel	0				sustained dps (no bench)	
 Sheet1	Terran	Terran Vehicles	Unit	Thor	self-buff	+ All-Out Attack (self-buff)	289209	289184	289184	289184	weapon with this self-buff on	Add All-Out Attack
 Sheet1	Terran	Terran Vehicles	Unit	Thor	self-buff	+ All-Out Attack (self-buff)	327254	326105	331274	326105-331274	weapon with this self-buff on	Add All-Out Attack
-Sheet1	Terran	Terran Vehicles	Unit	Thor	bench-only	Thor AA AP	145700	145696	145696	145696	extra	
-Sheet1	Terran	Terran Vehicles	Unit	Thor	bench-only	Add All-Out Attack		169200	169200	169200	needs model	Add All-Out Attack
 Sheet1	Terran	Terran Air	Unit	Blimp	headline	total (all sources on)	0					
 Sheet1	Terran	Terran Air	Unit	Blimp	weapon	weapon					no weapon (caster/support)	
 Sheet1	Terran	Terran Air	Unit	Viking	headline	total (all sources on)	151894					
@@ -749,8 +749,7 @@ Sheet1	Secret	Special Units	Secret Unit	Mike Tyson	weapon	weapon	2697385
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	headline	total (all sources on)	222583					
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	weapon	weapon	176473	176448	176448	176448		weapon
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	summon	+ Shit Pile	3388	3388	5082	3388-5082	sustained stream on the raw charge clock (16942 burst ÷ 5s regen; range hi = stockpile dump)	Deposit biomass
-Sheet1	Secret	Special Units	Secret Unit	Chaindog	state	+ +20% all (amp, full uptime)	211759	4922	6562	4922-6562	weapon × damage-taken amp at 100% uptime	Deadly bite only
-Sheet1	Secret	Special Units	Secret Unit	Chaindog	ability	+ Deadly Bite					needs model	
+Sheet1	Secret	Special Units	Secret Unit	Chaindog	ability	+ Deadly Bite	5177	4922	6562	4922-6562	sustained (closest basis; amp-root ability, valued from full stats)	Deadly bite only
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	self-buff	+ Maul Toddlers (self-buff)					todo	
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	headline	total (all sources on)	314736					
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	weapon	weapon	119209	119200	119200	119200		Weapon only
