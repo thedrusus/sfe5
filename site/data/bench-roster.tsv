@@ -1,4 +1,4 @@
-# generated 2026-08-22T00:40:51.494Z
+# generated 2026-08-22T02:46:05.418Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -781,9 +781,10 @@ Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	ability	+ Xel'Nag
 Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	headline	total (all sources on)	263928					
 Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	weapon	weapon	162224	162218	162218	162218		Weapon
 Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	ability	+ Seismic Arc (gross)	55713	50116	58469	50116-58469	gross per-cast (validated 83,528 in-game) @ cd 3 ÷ 2 = 1.5s; bench range = 6-vs-7 casts in the 10s meter window	Siesmic arc
+Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	ability	+ Slag Field (3-stack field)	15669	15660	15660	15660	burn DoT at its 3-stack-per-caster cap (fields overlap but do not stack past it); storm stream units-only, blocked on the dummy	Slag field
 Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	ability	+ Scorch Pulse	21589	21578	21578	21578	sustained dps	Scorch pulse
 Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	ability	+ Seismic Arc	36715				sustained dps (no bench)	
-Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	ability	+ Slag Field	43400	36411	36411	36411	sustained dps	Slag field
+Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	ability	+ Slag Field	43400				sustained dps (no bench)	
 Sheet1		Enemy Structures	Structure	Infested Colony Ship	headline	total (all sources on)	0					
 Sheet1		Enemy Structures	Structure	Infested Colony Ship	weapon	weapon					no weapon (caster/support)	
 Sheet1		Enemy Structures	Structure	Creep Tumor	headline	total (all sources on)	0					
