@@ -1,4 +1,4 @@
-# generated 2026-08-22T02:46:05.418Z
+# generated 2026-08-22T07:52:12.202Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -174,8 +174,8 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	ability	+ Deadly Charge	26305
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	ability	+ Destruction Wave	24089	24088	24088	24088	ability alone (isolated gross)	Destruction Wave only
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	bench-only	Scatter the Unworthy isn't recorded in this value, just the weapon		177664	177664	177664	needs model	Scatter the Unworthy isn't recorded in this value, just the weapon
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	bench-only	Lightning Jump only		5929	7906	5929-7906	needs model	Lightning Jump only
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	headline	total (all sources on)	123413					
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	weapon	weapon	123413	115387	116870	115387-116870		Attacks cannot be separated from Concentrated Storm
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	headline	total (all sources on)	116880					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	weapon	weapon	116880	115387	116870	115387-116870		Attacks cannot be separated from Concentrated Storm
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Psionic Storm	21006	36933	38069	36933-38069	sustained dps	Psionic Storm
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Lightning Strike	24707	24707	24707	24707	ability alone (isolated gross)	Lightning Strike (autocast only, can cast faster manual) 27177-29648 with stop spam
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Charged Blast	0	111501	111501	111501	sustained dps	Charged Blast, total damage. 8750 while stationary. 17294 while moving. This is probably a bug from the charged blast summon damage not referencing the caster unit
@@ -202,7 +202,7 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	minion	+ Infested Soldier	48
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	ability	+ Conscription	0				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	ability	+ Forceful Command	43048	43048	43048	43048	perCast (single hit)	Forceful Command, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon-buff	+ Rallying Cry (summon-buff)					todo	
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	headline	total (all sources on)	812786					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	headline	total (all sources on)	582532					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	weapon	296564					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Consume DNA	10596	10596	15894	10596-15894	sustained dps	Consume DNA
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Stolen Essence is added, causes additional damage		285952	285952	285952	needs model	Stolen Essence is added, causes additional damage
@@ -312,13 +312,13 @@ Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	self-buff	+ Stimpack (self-buff
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon-buff	+ One Million Dollars (summon-buff)					todo	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	bench-only	4k Dex		56743	56807	56743-56807	needs model	4k Dex
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	headline	total (all sources on)	272143					
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon	675517					
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Plasma Gun + Microwave Beam)	272143	272136	272136	272136		Plasma Gun + Microwave Beam
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Plasma Gun)	192101	192096	192096	192096		Plasma Gun
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Shotgun)	122516	122061	124062	122061-124062		Shotgun
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Rocket Launcher)	97999	94647	96848	94647-96848		Rocket Launcher
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Meat Hook					needs model	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Lock On Burst		53361	53361	53361	needs model	Lock On Burst, per hit
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Microwave Beam	198682	272136	272136	272136	sustained dps	Plasma Gun + Microwave Beam
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	bench-only	Shotgun		122061	124062	122061-124062	needs model	Shotgun
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	bench-only	Rocket Launcher		94647	96848	94647-96848	needs model	Rocket Launcher
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	bench-only	Plasma Gun		192096	192096	192096	needs model	Plasma Gun
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Microwave Beam	198682				sustained dps (no bench)	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	bench-only	BFG 9000, overflow. Vs non-boss is instant kill		0	0	0	needs model	BFG 9000, overflow. Vs non-boss is instant kill
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Donald Trump	headline	total (all sources on)	1927535					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Donald Trump	weapon	weapon	2751872					
@@ -663,10 +663,10 @@ Sheet1	Zerg	Zerg Air	Unit	Mutalisk	headline	total (all sources on)	108417
 Sheet1	Zerg	Zerg Air	Unit	Mutalisk	weapon	weapon	108417	108270	109072	108270-109072		
 Sheet1	Zerg	Zerg Air	Unit	Overlord	headline	total (all sources on)	0					
 Sheet1	Zerg	Zerg Air	Unit	Overlord	weapon	weapon					no weapon (caster/support)	
-Sheet1	Zerg	Zerg Air	Unit	Corruptor	headline	total (all sources on)	194129					
+Sheet1	Zerg	Zerg Air	Unit	Corruptor	headline	total (all sources on)	171285					
 Sheet1	Zerg	Zerg Air	Unit	Corruptor	weapon	weapon	151130					
 Sheet1	Zerg	Zerg Air	Unit	Corruptor	state	+ +20% all (amp, full uptime)	151130	151125	151125	151125	weapon (intrinsic on-hit amp already folded)	Add Retarding Slime
-Sheet1	Zerg	Zerg Air	Unit	Corruptor	state	+ +20% all (amp, full uptime)	181349	181333	181333	181333	weapon × damage-taken amp at 100% uptime	Add Corruption
+Sheet1	Zerg	Zerg Air	Unit	Corruptor	bench-only	Add Corruption		181333	181333	181333	needs model	Add Corruption
 Sheet1	Zerg	Zerg Air	Unit	Guardian	headline	total (all sources on)	121848					
 Sheet1	Zerg	Zerg Air	Unit	Guardian	weapon	weapon	121848	121275	122608	121275-122608		
 Sheet1	Zerg	Zerg Air	Unit	Viper	headline	total (all sources on)	136035					
@@ -770,8 +770,8 @@ Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	ability	+ Hell Br
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	headline	total (all sources on)	322955					
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	weapon	weapon	151638	151632	151632	151632		Weapon only
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	ability	+ Phase Wave + Xel'Naga Field (composite)	49619	49594	49594	49594	field aura (exact solo) + wave at 3 pulses/cast (walk books 2 — band-coverage wave rule pending)	Phase wave, Xel'naga Field
-Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	aura	+ Xel'Naga Vortex (aura)	62677	50448	50448	50448	aura alone (periodic through caster km)	Xelnaga Vortex, active
-Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	aura	+ Void Tendril Unstable Energy Search22 (aura)	41785	33632	33632	33632	aura alone (periodic through caster km)	Void Energy, active
+Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	aura	+ Xel'Naga Vortex (deployed)	50443	50448	50448	50448	deployed-unit stream: source-modifier km keeps buffs/elite/ace-passive (+0.2 Spell frac), drops caster Int attr frac	Xelnaga Vortex, active
+Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	aura	+ Void Tendril (deployed)	33629	33632	33632	33632	deployed-unit stream: source-modifier km keeps buffs/elite/ace-passive (+0.2 Spell frac), drops caster Int attr frac	Void Energy, active
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	aura	+ weapon + Xel Naga Field	177753	177735	177735	177735	weapon + this aura (both sustained)	Weapon and Xel'naga Field
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	aura	+ Xel Naga Field (aura)	26115	26103	26103	26103	aura alone (periodic through caster km)	Xel'Naga Field only
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	ability	+ Celestial Slam	14625	14617	14617	14617	sustained dps	Celestial slam
