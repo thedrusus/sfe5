@@ -1,4 +1,4 @@
-# generated 2026-08-22T21:08:37.624Z
+# generated 2026-08-22T21:24:36.706Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -580,9 +580,10 @@ Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Plasma Sph
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Vortex	391475	79856	79856	79856	sustained dps	Vortex. While affected, unit is untargetable
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	self-buff	+ Powered Purifier On (self-buff)					todo	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	headline	total (all sources on)	292561					
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	ability	+ Psionic Orb (active DPS)	24708	24706	24706	24706	orb damage/sec while active = perHit ÷ 0.5s tick	Psionic Orb, active DPS
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	weapon	weapon	193985	193792	193792	193792		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	minion	+ Interceptor	24248				per-minion; sustained 193985 (8× magazine)	
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	ability	+ Psionic Orb	6177	24706	24706	24706	sustained dps	Psionic Orb, active DPS
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	ability	+ Psionic Orb	6177				sustained dps (no bench)	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	summon-buff	+ Ultimate Interceptors (summon-buff)	296034	295936	295936	295936	auto-attack with summon-buff at PEAK (100% uptime, blend-inverted)	Add Ultimate Interceptors
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	headline	total (all sources on)	309492					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	weapon	weapon	210764	210752	210752	210752		
