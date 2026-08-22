@@ -1,4 +1,4 @@
-# generated 2026-08-22T08:32:51.346Z
+# generated 2026-08-22T08:38:17.849Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -438,7 +438,7 @@ Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	self-buff	+ All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	headline	total (all sources on)	273327					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	weapon	weapon	51468	51223	51786	51223-51786		
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	self-buff	+ All-Out Attack (self-buff)	80193	80181	80181	80181	generic AOA weapon state × the asm 1.15 the period-snap denies (in-game the 0.09375 period takes the full speed)	Add All-Out Attack
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	ability	+ Titan Missiles + weapon + All-Out Attack	290388	265323	277604	265323-277604	AOA weapon state + augment stream × the +0.401 Spell frac only (augment rate stays cd-capped under AOA); missiles-only base validated in-game 2026-08-22	Titan Missiles, with weapon and All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	ability	+ Titan Missiles + weapon + All-Out Attack	255505	265323	277604	265323-277604	AOA weapon state + augment stream (user-isolated 2026-08-22, AOA cycling included); bench row ~10% hotter than fresh missiles — likely STALE, re-bench asked	Titan Missiles, with weapon and All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	ability	+ Titan Missiles	175312				sustained dps (no bench)	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	self-buff	+ All-Out Attack (self-buff)					todo	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	headline	total (all sources on)	351923					
