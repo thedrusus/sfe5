@@ -1,4 +1,4 @@
-# generated 2026-08-22T07:52:12.202Z
+# generated 2026-08-22T08:13:03.546Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -37,7 +37,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	self-buff	+ System Over
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	bench-only	Add UAV Reconnaissance		109578	109578	109578	needs model	Add UAV Reconnaissance
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	bench-only	Shock Siege	115337	113735	116320	113735-116320	extra	
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	bench-only	Add UAV Reconnaissance		125122	127966	125122-127966	needs model	Add UAV Reconnaissance
-Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	headline	total (all sources on)	206492					
+Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	headline	total (all sources on)	407032					
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	weapon	weapon	71005	70200	71604	70200-71604		With Stimpack
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Barrage	79473	79472	79472	79472	ability alone (isolated gross)	Concussive Barrage only
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Barrage	158945	36425	36425	36425	perCast (single hit)	Single hit of Concussive Grenade
@@ -89,7 +89,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	ability	+ Leeching Serum
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	ability	+ Nanobot Wave	50431	28411	29647	28411-29647	ability alone (isolated gross)	Nanobot Wave only
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	bench-only	Attack applies a debuff that increases damage taken		110083	116559	110083-116559	needs model	Attack applies a debuff that increases damage taken
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	bench-only	Add Support Drone		113832	120528	113832-120528	needs model	Add Support Drone
-Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	headline	total (all sources on)	132484					
+Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	headline	total (all sources on)	140855					
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	weapon	weapon	41368	54740	54740	54740		Main weapon with Stimpack and Impetous Stride
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	ability	+ Single Out	21218	41257	46939	41257-46939	sustained dps	Single Out
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	ability	+ Plasma Rifle	32688	56824	56824	56824	sustained dps	Plasma Rifle
@@ -320,7 +320,7 @@ Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Meat Hook					need
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Lock On Burst		53361	53361	53361	needs model	Lock On Burst, per hit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Microwave Beam	198682				sustained dps (no bench)	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	bench-only	BFG 9000, overflow. Vs non-boss is instant kill		0	0	0	needs model	BFG 9000, overflow. Vs non-boss is instant kill
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Donald Trump	headline	total (all sources on)	1927535					
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Donald Trump	headline	total (all sources on)	1935113					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Donald Trump	weapon	weapon	2751872					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Donald Trump	summon	+ Border Cannon	53579	53576	53576	53576	per-summon; sustained 2678936 (avg 50× living)	Border Cannon (1), 4k dex
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Donald Trump	summon	+ Border Cannon + Make America Great Again	125088	125072	125072	125072	per-summon with Make America Great Again	Border Cannon, Make America Great Again, 4k dex
@@ -350,7 +350,7 @@ Sheet1	Terran	Terran Infantry	Unit	Medic	weapon	weapon					no weapon (caster/sup
 Sheet1	Terran	Terran Infantry	Unit	HERC	headline	total (all sources on)	240856					
 Sheet1	Terran	Terran Infantry	Unit	HERC	weapon	weapon	222958	222944	222944	222944		
 Sheet1	Terran	Terran Infantry	Unit	HERC	ability	+ Grapple	240856	240830	240830	240830	weapon + ability (cumulative)	Add Grapple
-Sheet1	Terran	Terran Infantry	Unit	Ghost	headline	total (all sources on)	47567					
+Sheet1	Terran	Terran Infantry	Unit	Ghost	headline	total (all sources on)	54698					
 Sheet1	Terran	Terran Infantry	Unit	Ghost	weapon	weapon	29127	29120	29120	29120		
 Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ Snipe	47567	44383	49268	44383-49268	weapon + ability (cumulative)	Snipe and weapon
 Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ Snipe	23391	23211	25790	23211-25790	ability alone (isolated gross)	Snipe only
@@ -419,7 +419,7 @@ Sheet1	Terran	Terran Air	Unit	Battlecruiser	ability	+ Yamato Cannon	194134	19065
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	headline	total (all sources on)	169288					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	weapon	weapon	137762	137760	137760	137760		
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	summon	+ Laser Mine	9302	171145	171145	171145	per-summon; sustained 9302 (avg 1× living)	Laser Mines, with weapon and All-Out Attack
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	self-buff	+ All-Out Attack (self-buff)		159984	159984	159984	todo	Add All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	self-buff	+ All-Out Attack (self-buff)	159987	159984	159984	159984	weapon with this self-buff on	Add All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	bench-only	Laser Beam, single hit. 0 Dex, 0 Int		45000	45000	45000	needs model	Laser Beam, single hit. 0 Dex, 0 Int
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	headline	total (all sources on)	271357					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	weapon	weapon	140175	139776	139776	139776		
@@ -431,11 +431,11 @@ Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	weapon	weapon (ground)	176
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	weapon	weapon (air)	60335					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Barrage	0	79056	79056	79056	sustained dps	Barrage, total damage
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Nuclear Strike	0				sustained dps (no bench)	
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	self-buff	+ All-Out Attack (self-buff)		205088	205088	205088	todo	Add All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	self-buff	+ All-Out Attack (self-buff)	307645	205088	205088	205088	weapon with this self-buff on	Add All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	headline	total (all sources on)	273327					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	weapon	weapon	51468	51223	51786	51223-51786		
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	ability	+ Titan Missiles	175312	265323	277604	265323-277604	sustained dps	Titan Missiles, with weapon and All-Out Attack
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	self-buff	+ All-Out Attack (self-buff)		80181	80181	80181	todo	Add All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	self-buff	+ All-Out Attack (self-buff)	69733	80181	80181	80181	weapon with this self-buff on	Add All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	headline	total (all sources on)	351923					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	weapon	weapon (Armageddon Cannons)	121865	121856	121856	121856		Using Armageddon Cannons
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	weapon	weapon (Serpentis Laser Battery)	206640	206640	206640	206640		Using Serpentis Laser Battery
@@ -579,8 +579,9 @@ Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	weapon	weapon	210764
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	ability	+ Laser Waser	21001	37605	37605	37605	perCast (single hit)	Laser Waser, single hit
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	self-buff	+ Devastation Ray (self-buff)		365072	365072	365072	todo	During Devastation Ray
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	headline	total (all sources on)	203572					
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	weapon	weapon	197825	152556	156024	152556-156024		Moving
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	weapon	weapon	203572					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	ability	+ Plasma Spheres	203572	198293	205203	198293-205203	weapon + ability (cumulative)	Add Plasma Spheres and stationary
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	bench-only	Moving		152556	156024	152556-156024	needs model	Moving
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	bench-only	Stationary		195835	198060	195835-198060	needs model	Stationary
 Sheet1	Protoss	Protoss Structures	Structure	Pylon	headline	total (all sources on)	0					
 Sheet1	Protoss	Protoss Structures	Structure	Pylon	weapon	weapon					no weapon (caster/support)	
@@ -628,7 +629,7 @@ Sheet1	Zerg	Zerg Light	Unit	Hydralisk	ability	+ Sonic Needle	40729	38273	41007	3
 Sheet1	Zerg	Zerg Light	Unit	Lurker	headline	total (all sources on)	231921				vs air 148989	
 Sheet1	Zerg	Zerg Light	Unit	Lurker	weapon	weapon (ground)	231921	231920	231920	231920		
 Sheet1	Zerg	Zerg Light	Unit	Lurker	weapon	weapon (air)	148989	148976	148976	148976		
-Sheet1	Zerg	Zerg Light	Unit	Defiler	headline	total (all sources on)	253173					
+Sheet1	Zerg	Zerg Light	Unit	Defiler	headline	total (all sources on)	277959					
 Sheet1	Zerg	Zerg Light	Unit	Defiler	weapon	weapon	185436	185408	185408	185408		
 Sheet1	Zerg	Zerg Light	Unit	Defiler	state	+ Defiled (reactive, full uptime)	201349	201312	201312	201312	weapon + flat-per-hit reactive at 100% uptime	While Defiled
 Sheet1	Zerg	Zerg Light	Unit	Defiler	ability	+ Plague	241733	240599	243670	240599-243670	weapon + ability (cumulative)	Add Plague
@@ -663,10 +664,10 @@ Sheet1	Zerg	Zerg Air	Unit	Mutalisk	headline	total (all sources on)	108417
 Sheet1	Zerg	Zerg Air	Unit	Mutalisk	weapon	weapon	108417	108270	109072	108270-109072		
 Sheet1	Zerg	Zerg Air	Unit	Overlord	headline	total (all sources on)	0					
 Sheet1	Zerg	Zerg Air	Unit	Overlord	weapon	weapon					no weapon (caster/support)	
-Sheet1	Zerg	Zerg Air	Unit	Corruptor	headline	total (all sources on)	171285					
+Sheet1	Zerg	Zerg Air	Unit	Corruptor	headline	total (all sources on)	181348					
 Sheet1	Zerg	Zerg Air	Unit	Corruptor	weapon	weapon	151130					
 Sheet1	Zerg	Zerg Air	Unit	Corruptor	state	+ +20% all (amp, full uptime)	151130	151125	151125	151125	weapon (intrinsic on-hit amp already folded)	Add Retarding Slime
-Sheet1	Zerg	Zerg Air	Unit	Corruptor	bench-only	Add Corruption		181333	181333	181333	needs model	Add Corruption
+Sheet1	Zerg	Zerg Air	Unit	Corruptor	state	+ +20% all (amp, full uptime)	181349	181333	181333	181333	weapon × damage-taken amp at 100% uptime	Add Corruption
 Sheet1	Zerg	Zerg Air	Unit	Guardian	headline	total (all sources on)	121848					
 Sheet1	Zerg	Zerg Air	Unit	Guardian	weapon	weapon	121848	121275	122608	121275-122608		
 Sheet1	Zerg	Zerg Air	Unit	Viper	headline	total (all sources on)	136035					
@@ -741,7 +742,8 @@ Sheet1	Secret	Special Units	Secret Unit	Mike Tyson	weapon	weapon	2697385
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	headline	total (all sources on)	222583					
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	weapon	weapon	176473	176448	176448	176448		weapon
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	summon	+ Shit Pile	3388	3388	5082	3388-5082	sustained stream on the raw charge clock (16942 burst ÷ 5s regen; range hi = stockpile dump)	Deposit biomass
-Sheet1	Secret	Special Units	Secret Unit	Chaindog	ability	+ Deadly Bite	5177	4922	6562	4922-6562	sustained (closest basis; amp-root ability, valued from full stats)	Deadly bite only
+Sheet1	Secret	Special Units	Secret Unit	Chaindog	state	+ +20% all (amp, full uptime)	211759	4922	6562	4922-6562	weapon × damage-taken amp at 100% uptime	Deadly bite only
+Sheet1	Secret	Special Units	Secret Unit	Chaindog	ability	+ Deadly Bite					needs model	
 Sheet1	Secret	Special Units	Secret Unit	Chaindog	self-buff	+ Maul Toddlers (self-buff)					todo	
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	headline	total (all sources on)	314736					
 Sheet1	Secret	Special Units	Secret Unit	Murloc Marine	weapon	weapon	119209	119200	119200	119200		Weapon only
