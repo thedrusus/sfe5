@@ -1,4 +1,4 @@
-# generated 2026-08-22T08:13:03.546Z
+# generated 2026-08-22T08:17:23.347Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -214,14 +214,14 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Scythe Swipe, 
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	headline	total (all sources on)	374852					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	weapon	weapon	228440	228432	228432	228432		
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	ability	+ Venomous Bite		336672	336672	336672	needs model	Add Venoumous Bite
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	ability	+ Defiant Screech	4941	232879	234361	232879-234361	sustained dps	Defiant Screech, add weapon
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	ability	+ Defiant Screech	233381	232879	234361	232879-234361	weapon + ability (cumulative)	Defiant Screech, add weapon
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	ability	+ Crazed Leap	19766	19766	19766	19766	perCast (single hit)	Crazed Leap, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	self-buff	+ Feral Dash (self-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Torrasque	headline	total (all sources on)	552036					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Torrasque	weapon	weapon	327320	322973	327770	322973-327770		
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Torrasque	ability	+ Burrow Charge	34590	17295	17295	17295	perCast (single hit)	Battle Charge, single hit. This ability interrupts the main attack due to being a motion ability
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Torrasque	ability	+ Ground Stomp	19766	19766	19766	19766	perCast (single hit)	Ground Stomp, single hit. This ability interrupts the main attack due to being a motion ability
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Torrasque	ability	+ Unleash Wrath	14824	687336	687336	687336	sustained dps	Unleash Wrath, add weapon
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Torrasque	ability	+ Unleash Wrath	342144	687336	687336	687336	weapon + ability (cumulative)	Unleash Wrath, add weapon
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	headline	total (all sources on)	109437					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	weapon	weapon	109171	229120	229120	229120		Miniature Broot, melee
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	summon	+ Miniature Broot	61289	65128	65128	65128	per-summon; sustained 108125 (avg 1.76× living)	Miniature Broot, ranged
@@ -263,9 +263,9 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	headline	total (all source
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	weapon	weapon	206697	206688	206688	206688		
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Leaping Strike	34590	52107	52107	52107	perCast (single hit)	Leaping Strike, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip		29776	29776	29776	needs model	Crushing Grip, per hit
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip		59295	59295	59295	needs model	Crushing Grip, total damage
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Kinetic Blast	14404	5730	11461	5730-11461	sustained dps	Kinetic Blast, 0 dex
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	self-buff	+ Blessing Of Zerus (self-buff)		227440	227440	227440	todo	Add Blessing of Zerus
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	bench-only	Crushing Grip, total damage		59295	59295	59295	needs model	Crushing Grip, total damage
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	headline	total (all sources on)	234722					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	weapon	weapon	101735	101728	101728	101728		
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	summon	+ Larva	28259	28256	28256	28256	per-summon; sustained 132988 (avg 4.71× living)	Larva (1)
@@ -418,20 +418,22 @@ Sheet1	Terran	Terran Air	Unit	Battlecruiser	weapon	weapon	136501	136496	136496	1
 Sheet1	Terran	Terran Air	Unit	Battlecruiser	ability	+ Yamato Cannon	194134	190655	194523	190655-194523	weapon + ability (cumulative)	Add Yamato Cannon
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	headline	total (all sources on)	169288					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	weapon	weapon	137762	137760	137760	137760		
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	summon	+ Laser Mine	9302	171145	171145	171145	per-summon; sustained 9302 (avg 1× living)	Laser Mines, with weapon and All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	minion	+ Laser Mines + weapon + All-Out Attack	169289	171145	171145	171145	AOA-state weapon + mine stream (mine potency ±20% open — energy-paced 75e deploy)	Laser Mines, with weapon and All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	summon	+ Laser Mine	9302				per-summon; sustained 9302 (avg 1× living)	
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	ability	+ Laser Beam (per hit @ 0 attrs)	45000	45000	45000	45000	manual-cast per-hit anchor: Melee-kind upgraded amount × buff totalSum only (0-attr row config)	Laser Beam, single hit. 0 Dex, 0 Int
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	self-buff	+ All-Out Attack (self-buff)	159987	159984	159984	159984	weapon with this self-buff on	Add All-Out Attack
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	bench-only	Laser Beam, single hit. 0 Dex, 0 Int		45000	45000	45000	needs model	Laser Beam, single hit. 0 Dex, 0 Int
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	headline	total (all sources on)	271357					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	weapon	weapon	140175	139776	139776	139776		
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	minion	+ Big Bad Bully	17017	16871	16871	16871	per-minion; sustained 119118 (7× magazine)	Big Bad Bully (1)
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	ability	+ Grenade	12063	146888	154001	146888-154001	sustained dps	Grenade, add weapon
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	ability	+ Grenade	152238	146888	154001	146888-154001	weapon + ability (cumulative)	Grenade, add weapon
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	self-buff	+ Stimpack (self-buff)					todo	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	headline	total (all sources on)	307645				vs air 90839	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	weapon	weapon (ground)	176606	176597	176597	176597		
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	weapon	weapon (air)	60335					
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Barrage	0	79056	79056	79056	sustained dps	Barrage, total damage
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	self-buff	+ All-Out Attack (self-buff)	205098	205088	205088	205088	plain ground weapon × the shared AlloutAttack sustained fold (Fenrir-validated 1.16133); generic state read carries an unexplained extra ×1.5	Add All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Barrage	4941	79056	79056	79056	perCast (single hit)	Barrage, total damage
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Nuclear Strike	0				sustained dps (no bench)	
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	self-buff	+ All-Out Attack (self-buff)	307645	205088	205088	205088	weapon with this self-buff on	Add All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	self-buff	+ All-Out Attack (self-buff)					todo	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	headline	total (all sources on)	273327					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	weapon	weapon	51468	51223	51786	51223-51786		
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	ability	+ Titan Missiles	175312	265323	277604	265323-277604	sustained dps	Titan Missiles, with weapon and All-Out Attack
@@ -440,8 +442,9 @@ Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	headline	total (all source
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	weapon	weapon (Armageddon Cannons)	121865	121856	121856	121856		Using Armageddon Cannons
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	weapon	weapon (Serpentis Laser Battery)	206640	206640	206640	206640		Using Serpentis Laser Battery
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	weapon	weapon (both fire)	328505	328496	328496	328496		Using both weapons
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	ability	+ Missile Pods	15762	99340	99340	99340	sustained dps	Missile Pods, total damage
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	ability	+ Yamato Cannon	336162	214052	221464	214052-221464	weapon + ability (cumulative)	Add Yamato Cannon
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	ability	+ Yamato Cannon (Serpentis state)	217229	214052	221464	214052-221464	Serpentis-only weapon state (per the user's weapon-toggle bench protocol) + yamato gross per-cast @ 7.0s	Add Yamato Cannon
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	ability	+ Missile Pods	99341	99340	99340	99340	perCast (single hit)	Missile Pods, total damage
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	ability	+ Yamato Cannon	7656				sustained dps (no bench)	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Hyperion	headline	total (all sources on)	159040					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Hyperion	weapon	weapon	159040					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Hyperion	summon	+ Tactical Fighter	163				per-summon; sustained 163 (avg 1× living)	
