@@ -1,4 +1,4 @@
-# generated 2026-08-22T19:31:54.370Z
+# generated 2026-08-22T19:36:01.864Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -16,7 +16,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Tauren Space Marine	bench-only	Festeri
 Sheet2	Terran	Terran Heroes	Starting Hero	Tauren Space Marine	bench-only	Explosive Finish, single hit		49414	49414	49414	needs model	Explosive Finish, single hit
 Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	headline	total (all sources on)	481632					
 Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	weapon	weapon	481632	57216	57216	57216		Adds stacks of Minigun
-Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	toggle	+ Equip Experimental Rocket Launcher (toggle DoT)		481632	481632	481632	needs model	Swap to Rocket Launcher weapon (benched without energy limit)
+Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	weapon	weapon (Rocket Launcher, no energy cap)	481632	481632	481632	481632	armed rocket-launcher mode = the max headline	Swap to Rocket Launcher weapon (benched without energy limit)
 Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	self-buff	+ Stimpack (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	bench-only	Power Lunge, single hit		66094	66094	66094	needs model	Power Lunge, single hit
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	headline	total (all sources on)	452774					
@@ -124,7 +124,8 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	bench-only	Lightning Dash, 0
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	bench-only	Blink Strike, 0 Dex, single tick		18000	18000	18000	needs model	Blink Strike, 0 Dex, single tick
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	headline	total (all sources on)	63077					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	weapon	weapon	41782	41959	46861	41959-46861		
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	self-buff	+ Overcharge (self-buff)		62848	79015	62848-79015	todo	Add Overcharge
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	self-buff	+ Overcharge	63077	62848	79015	62848-79015	weapon + Overcharge (max headline)	Add Overcharge
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	self-buff	+ Overcharge (self-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	bench-only	Whirlwind only		86755	88980	86755-88980	needs model	Whirlwind only
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Revenant	headline	total (all sources on)	143082					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Revenant	weapon	weapon	67630	67416	68191	67416-68191		
@@ -154,11 +155,11 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	headline	total (all sources o
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground)	277663					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (air)		116179	118184	116179-118184	AA weapon not modeled (no anti-air weapon resolved)	AA weapon
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground, AG)	323159	209472	213896	209472-213896	pure ground weapon alone (excludes folded minions/summons)	AG + Burn
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (Extermination, autocast)	323159	270704	370166	270704-370166	weapon in extermination mode (autocast)	Add Extermination Mode (Autocast)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	summon	+ Thermal Assault	66757	55070	57573	55070-57573	per-summon; sustained 66757 (avg 1× living)	Thermal Assault (1)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	ability	+ Thermal Assault	1118				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Amplification Mode (self-buff)		268623	269414	268623-269414	todo	Add Amplification Mode
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Extermination Mode (self-buff)		369771	370166	369771-370166	todo	Add Extermination Mode (Active)
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	bench-only	Add Extermination Mode (Autocast)		270704	370166	270704-370166	needs model	Add Extermination Mode (Autocast)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	headline	total (all sources on)	748809					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	weapon	weapon	83966	83779	84853	83779-84853		
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast		122432	126228	122432-126228	needs model	Add Shadow Blink to above
