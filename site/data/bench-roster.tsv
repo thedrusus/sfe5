@@ -1,4 +1,4 @@
-# generated 2026-08-22T19:09:29.017Z
+# generated 2026-08-22T19:28:21.206Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -56,10 +56,10 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	bench-only	Weapon, all sta
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	bench-only	Nuke, single hit read on dummy. Dummy also says it took 58405 damage from 1 hit, not sure which is the correct number		86082	86082	86082	needs model	Nuke, single hit read on dummy. Dummy also says it took 58405 damage from 1 hit, not sure which is the correct number
 Sheet2	Terran	Terran Heroes	Starting Hero	Death Head	headline	total (all sources on)	277431					
 Sheet2	Terran	Terran Heroes	Starting Hero	Death Head	weapon	weapon	222719					
+Sheet2	Terran	Terran Heroes	Starting Hero	Death Head	weapon	weapon (Pistol)	128818	128816	128816	128816	default pistol weapon alone	Pistol only
 Sheet2	Terran	Terran Heroes	Starting Hero	Death Head	ability	+ D-8 Cluster Bomb	148242	111620	111620	111620	ability alone (isolated gross)	D8 Cluster Bomb only
 Sheet2	Terran	Terran Heroes	Starting Hero	Death Head	ability	+ Death Bomb	371	33135	36510	33135-36510	ability alone (isolated gross)	Death Bomb only
 Sheet2	Terran	Terran Heroes	Starting Hero	Death Head	self-buff	+ Spiked Coca-Cola (self-buff)		311185	314320	311185-314320	todo	D9 Charge attack with Spiked Cola
-Sheet2	Terran	Terran Heroes	Starting Hero	Death Head	bench-only	Pistol only		128816	128816	128816	needs model	Pistol only
 Sheet2	Terran	Terran Heroes	Starting Hero	Death Head	bench-only	D9 Charge attack		168755	171726	168755-171726	needs model	D9 Charge attack
 Sheet2	Terran	Terran Heroes	Starting Hero	Rory Swann	headline	total (all sources on)	1538396					
 Sheet2	Terran	Terran Heroes	Starting Hero	Rory Swann	weapon	weapon	1538396					
@@ -76,11 +76,11 @@ Sheet2	Terran	Terran Heroes	Starting Hero	November Terra	self-buff	+ Stabilizing
 Sheet2	Terran	Terran Heroes	Starting Hero	November Terra	bench-only	Penetrating Round only		68057	68057	68057	needs model	Penetrating Round only
 Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	headline	total (all sources on)	156223					
 Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	weapon	weapon	97847	97845	97845	97845		
+Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	weapon	weapon (no self-buffs)	97847	97845	97845	97845	weapon with all self-buffs off (bare-weapon measure)	Main weapon without Chaotic Cloak
 Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	toggle	+ Psionic Burn (toggle DoT)	175936	196037	198338	196037-198338	weapon + self-buffs + toggle DoT (max)	Psionic Burn with weapon
 Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	ability	+ Mindblast	4941	4941	7412	4941-7412	ability alone (isolated gross)	Mindblast only
 Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	ability	+ Psionic Lash	138928	40765	43483	40765-43483	weapon + ability (cumulative)	Add Pisonic Lash
 Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	bench-only	Chaotic Cloak		17294	17294	17294	needs model	Chaotic Cloak
-Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	bench-only	Main weapon without Chaotic Cloak		97845	97845	97845	needs model	Main weapon without Chaotic Cloak
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	headline	total (all sources on)	329435					
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	weapon	weapon	329435					
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	ability	+ Neuro Inhibitor Grenade	30258	14824	14824	14824	per-hit (perCast ÷ hits)	Neuro Inhibitor Grenade, single hit
@@ -90,11 +90,11 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	bench-only	Attack applie
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	bench-only	Add Support Drone		113832	120528	113832-120528	needs model	Add Support Drone
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	headline	total (all sources on)	132484					
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	weapon	weapon	41368	54740	54740	54740		Main weapon with Stimpack and Impetous Stride
+Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	weapon	weapon (no self-buffs)	23319	34976	34976	34976	weapon with all self-buffs off (bare-weapon measure)	Only main weapon
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	ability	+ Single Out	21218	41257	46939	41257-46939	sustained dps	Single Out
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	ability	+ Plasma Rifle	32688	56824	56824	56824	sustained dps	Plasma Rifle
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	self-buff	+ Stimpack (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	bench-only	Rebel Yell		27016	27867	27016-27867	needs model	Rebel Yell
-Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	bench-only	Only main weapon		34976	34976	34976	needs model	Only main weapon
 Sheet2	Terran	Terran Heroes	Starting Hero	Son of Korhal	headline	total (all sources on)	201669					
 Sheet2	Terran	Terran Heroes	Starting Hero	Son of Korhal	weapon	weapon	85515	85504	85504	85504		
 Sheet2	Terran	Terran Heroes	Starting Hero	Son of Korhal	minion	+ Tactical Soldier	116154	113832	115840	113832-115840	minions sustained (8× @ 14519 per-minion)	Tactical Soldier (8)
@@ -151,14 +151,14 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon-buff	+ Inspiration (sum
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	bench-only	Weapon + Servitors		95170	107981	95170-107981	needs model	Weapon + Servitors
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	bench-only	Rods From God, single hit		9883	9883	9883	needs model	Rods From God, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	headline	total (all sources on)	389916					
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon	277663					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground)	277663					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (air)		116179	118184	116179-118184	AA weapon not modeled (no anti-air weapon resolved)	AA weapon
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	summon	+ Thermal Assault	66757	55070	57573	55070-57573	per-summon; sustained 66757 (avg 1× living)	Thermal Assault (1)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	ability	+ Thermal Assault	1118				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Amplification Mode (self-buff)		268623	269414	268623-269414	todo	Add Amplification Mode
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Extermination Mode (self-buff)		369771	370166	369771-370166	todo	Add Extermination Mode (Active)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	bench-only	AG + Burn		209472	213896	209472-213896	needs model	AG + Burn
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	bench-only	Add Extermination Mode (Autocast)		270704	370166	270704-370166	needs model	Add Extermination Mode (Autocast)
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	bench-only	AA weapon		116179	118184	116179-118184	needs model	AA weapon
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	headline	total (all sources on)	748809					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	weapon	weapon	83966	83779	84853	83779-84853		
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast		122432	126228	122432-126228	needs model	Add Shadow Blink to above
@@ -227,13 +227,13 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	summon	+ Miniature Broot	61289	6
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	ability	+ Shocked Metabolism	1046				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	self-buff	+ Mind Control (self-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	headline	total (all sources on)	137041					
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	weapon	weapon	132428					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	weapon	weapon (ground)	132428					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	weapon	weapon (air)		95366	95366	95366	AA weapon not modeled (no anti-air weapon resolved)	AA weapon
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	ability	+ Deep Tunnel	0				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	ability	+ Starburst Impale	37061	37059	37059	37059	sustained dps	Starburst Impale
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Weapon, 0 Dex		59208	59208	59208	needs model	Weapon, 0 Dex
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Weapon, 0 Dex, Spine Cycle alignment		74325	74325	74325	needs model	Weapon, 0 Dex, Spine Cycle alignment
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Starburst Impale + Spineblight		48177	48177	48177	needs model	Starburst Impale + Spineblight
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	AA weapon		95366	95366	95366	needs model	AA weapon
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	headline	total (all sources on)	150232					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	weapon	weapon	105473	105432	106167	105432-106167		Includes DoT
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike	6627	207607	217039	207607-217039	sustained dps	Poison Spike and farther away attacks
@@ -588,9 +588,9 @@ Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	ability	+ Laser Wase
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	self-buff	+ Devastation Ray (self-buff)		365072	365072	365072	todo	During Devastation Ray
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	headline	total (all sources on)	203572					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	weapon	weapon	203572					
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	weapon	weapon (stationary)	197825	195835	198060	195835-198060	stationary stance	Stationary
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	weapon	weapon (moving)	158956	152556	156024	152556-156024	moving stance (stationaryConditional beam stripped; ~1.9% residual = moving attack-uptime)	Moving
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	ability	+ Plasma Spheres	203572	198293	205203	198293-205203	weapon + ability (cumulative)	Add Plasma Spheres and stationary
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	bench-only	Moving		152556	156024	152556-156024	needs model	Moving
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	bench-only	Stationary		195835	198060	195835-198060	needs model	Stationary
 Sheet1	Protoss	Protoss Structures	Structure	Pylon	headline	total (all sources on)	0					
 Sheet1	Protoss	Protoss Structures	Structure	Pylon	weapon	weapon					no weapon (caster/support)	
 Sheet1	Protoss	Protoss Structures	Structure	Photon Cannon	headline	total (all sources on)	93748					
@@ -717,10 +717,9 @@ Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	ability	+ Overloaded System
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	self-buff	+ Spotter Frenzy (self-buff)		55065	57739	55065-57739	todo	Weapon with Spotter Frenzy
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	headline	total (all sources on)	497410				vs air 120742	
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground)	497410					
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (air)	120742					
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (air)	120742	119208	122108	119208-122108		AA attack
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	minion	+ Levi Minion	90036	106308	108079	106308-108079	per-minion; sustained 360143 (4× magazine)	Levi Minion (1)
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	ability	+ Bio-Plasmid Discharge	36425	43299	43299	43299	sustained dps	Bio Plasmid Discharge, 0 Int
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	bench-only	AA attack		119208	122108	119208-122108	needs model	AA attack
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	bench-only	AG attack		99992	100654	99992-100654	needs model	AG attack
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	headline	total (all sources on)	317250					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	weapon	weapon	317250	317241	317241	317241		Weapon damage only
