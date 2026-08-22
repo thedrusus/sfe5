@@ -1,4 +1,4 @@
-# generated 2026-08-22T08:17:23.347Z
+# generated 2026-08-22T08:32:51.346Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -37,7 +37,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	self-buff	+ System Over
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	bench-only	Add UAV Reconnaissance		109578	109578	109578	needs model	Add UAV Reconnaissance
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	bench-only	Shock Siege	115337	113735	116320	113735-116320	extra	
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	bench-only	Add UAV Reconnaissance		125122	127966	125122-127966	needs model	Add UAV Reconnaissance
-Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	headline	total (all sources on)	407032					
+Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	headline	total (all sources on)	253234					
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	weapon	weapon	71005	70200	71604	70200-71604		With Stimpack
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Barrage	79473	79472	79472	79472	ability alone (isolated gross)	Concussive Barrage only
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Barrage	158945	36425	36425	36425	perCast (single hit)	Single hit of Concussive Grenade
@@ -89,7 +89,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	ability	+ Leeching Serum
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	ability	+ Nanobot Wave	50431	28411	29647	28411-29647	ability alone (isolated gross)	Nanobot Wave only
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	bench-only	Attack applies a debuff that increases damage taken		110083	116559	110083-116559	needs model	Attack applies a debuff that increases damage taken
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	bench-only	Add Support Drone		113832	120528	113832-120528	needs model	Add Support Drone
-Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	headline	total (all sources on)	140855					
+Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	headline	total (all sources on)	132484					
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	weapon	weapon	41368	54740	54740	54740		Main weapon with Stimpack and Impetous Stride
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	ability	+ Single Out	21218	41257	46939	41257-46939	sustained dps	Single Out
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	ability	+ Plasma Rifle	32688	56824	56824	56824	sustained dps	Plasma Rifle
@@ -320,7 +320,7 @@ Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Meat Hook					need
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Lock On Burst		53361	53361	53361	needs model	Lock On Burst, per hit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Microwave Beam	198682				sustained dps (no bench)	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	bench-only	BFG 9000, overflow. Vs non-boss is instant kill		0	0	0	needs model	BFG 9000, overflow. Vs non-boss is instant kill
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Donald Trump	headline	total (all sources on)	1935113					
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Donald Trump	headline	total (all sources on)	1927535					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Donald Trump	weapon	weapon	2751872					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Donald Trump	summon	+ Border Cannon	53579	53576	53576	53576	per-summon; sustained 2678936 (avg 50× living)	Border Cannon (1), 4k dex
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Donald Trump	summon	+ Border Cannon + Make America Great Again	125088	125072	125072	125072	per-summon with Make America Great Again	Border Cannon, Make America Great Again, 4k dex
@@ -350,7 +350,7 @@ Sheet1	Terran	Terran Infantry	Unit	Medic	weapon	weapon					no weapon (caster/sup
 Sheet1	Terran	Terran Infantry	Unit	HERC	headline	total (all sources on)	240856					
 Sheet1	Terran	Terran Infantry	Unit	HERC	weapon	weapon	222958	222944	222944	222944		
 Sheet1	Terran	Terran Infantry	Unit	HERC	ability	+ Grapple	240856	240830	240830	240830	weapon + ability (cumulative)	Add Grapple
-Sheet1	Terran	Terran Infantry	Unit	Ghost	headline	total (all sources on)	54698					
+Sheet1	Terran	Terran Infantry	Unit	Ghost	headline	total (all sources on)	47567					
 Sheet1	Terran	Terran Infantry	Unit	Ghost	weapon	weapon	29127	29120	29120	29120		
 Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ Snipe	47567	44383	49268	44383-49268	weapon + ability (cumulative)	Snipe and weapon
 Sheet1	Terran	Terran Infantry	Unit	Ghost	ability	+ Snipe	23391	23211	25790	23211-25790	ability alone (isolated gross)	Snipe only
@@ -418,7 +418,7 @@ Sheet1	Terran	Terran Air	Unit	Battlecruiser	weapon	weapon	136501	136496	136496	1
 Sheet1	Terran	Terran Air	Unit	Battlecruiser	ability	+ Yamato Cannon	194134	190655	194523	190655-194523	weapon + ability (cumulative)	Add Yamato Cannon
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	headline	total (all sources on)	169288					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	weapon	weapon	137762	137760	137760	137760		
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	minion	+ Laser Mines + weapon + All-Out Attack	169289	171145	171145	171145	AOA-state weapon + mine stream (mine potency ±20% open — energy-paced 75e deploy)	Laser Mines, with weapon and All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	minion	+ Laser Mines + weapon + All-Out Attack	169289	171145	171145	171145	AOA-state weapon + mine stream (per-hit 9,302 user-VALIDATED exact 2026-08-22; residual = deploy rate: model ~1.0/s vs metered 1.1–1.2/s — 11-vs-12 hits per 10s window; 75e cost evidently not throttling)	Laser Mines, with weapon and All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	summon	+ Laser Mine	9302				per-summon; sustained 9302 (avg 1× living)	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	ability	+ Laser Beam (per hit @ 0 attrs)	45000	45000	45000	45000	manual-cast per-hit anchor: Melee-kind upgraded amount × buff totalSum only (0-attr row config)	Laser Beam, single hit. 0 Dex, 0 Int
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	self-buff	+ All-Out Attack (self-buff)	159987	159984	159984	159984	weapon with this self-buff on	Add All-Out Attack
@@ -431,13 +431,16 @@ Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	headline	total (all source
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	weapon	weapon (ground)	176606	176597	176597	176597		
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	weapon	weapon (air)	60335					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	self-buff	+ All-Out Attack (self-buff)	205098	205088	205088	205088	plain ground weapon × the shared AlloutAttack sustained fold (Fenrir-validated 1.16133); generic state read carries an unexplained extra ×1.5	Add All-Out Attack
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Barrage	4941	79056	79056	79056	perCast (single hit)	Barrage, total damage
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Barrage (per cast)	79056	79056	79056	79056	channeled 16-shell barrage @0.12s tick (one loop under the 0.125 discrete-tick walk gate — walk books 1 shell; × PeriodCount)	Barrage, total damage
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Barrage	0				sustained dps (no bench)	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Nuclear Strike	0				sustained dps (no bench)	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	self-buff	+ All-Out Attack (self-buff)					todo	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	headline	total (all sources on)	273327					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	weapon	weapon	51468	51223	51786	51223-51786		
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	ability	+ Titan Missiles	175312	265323	277604	265323-277604	sustained dps	Titan Missiles, with weapon and All-Out Attack
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	self-buff	+ All-Out Attack (self-buff)	69733	80181	80181	80181	weapon with this self-buff on	Add All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	self-buff	+ All-Out Attack (self-buff)	80193	80181	80181	80181	generic AOA weapon state × the asm 1.15 the period-snap denies (in-game the 0.09375 period takes the full speed)	Add All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	ability	+ Titan Missiles + weapon + All-Out Attack	290388	265323	277604	265323-277604	AOA weapon state + augment stream × the +0.401 Spell frac only (augment rate stays cd-capped under AOA); missiles-only base validated in-game 2026-08-22	Titan Missiles, with weapon and All-Out Attack
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	ability	+ Titan Missiles	175312				sustained dps (no bench)	
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Coeus	self-buff	+ All-Out Attack (self-buff)					todo	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	headline	total (all sources on)	351923					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	weapon	weapon (Armageddon Cannons)	121865	121856	121856	121856		Using Armageddon Cannons
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	weapon	weapon (Serpentis Laser Battery)	206640	206640	206640	206640		Using Serpentis Laser Battery
@@ -632,9 +635,9 @@ Sheet1	Zerg	Zerg Light	Unit	Hydralisk	ability	+ Sonic Needle	40729	38273	41007	3
 Sheet1	Zerg	Zerg Light	Unit	Lurker	headline	total (all sources on)	231921				vs air 148989	
 Sheet1	Zerg	Zerg Light	Unit	Lurker	weapon	weapon (ground)	231921	231920	231920	231920		
 Sheet1	Zerg	Zerg Light	Unit	Lurker	weapon	weapon (air)	148989	148976	148976	148976		
-Sheet1	Zerg	Zerg Light	Unit	Defiler	headline	total (all sources on)	277959					
+Sheet1	Zerg	Zerg Light	Unit	Defiler	headline	total (all sources on)	264612					
 Sheet1	Zerg	Zerg Light	Unit	Defiler	weapon	weapon	185436	185408	185408	185408		
-Sheet1	Zerg	Zerg Light	Unit	Defiler	state	+ Defiled (reactive, full uptime)	201349	201312	201312	201312	weapon + flat-per-hit reactive at 100% uptime	While Defiled
+Sheet1	Zerg	Zerg Light	Unit	Defiler	state	+ Defiled (reactive, full uptime)	201350	201312	201312	201312	weapon + flat-per-hit reactive at 100% uptime	While Defiled
 Sheet1	Zerg	Zerg Light	Unit	Defiler	ability	+ Plague	241733	240599	243670	240599-243670	weapon + ability (cumulative)	Add Plague
 Sheet1	Zerg	Zerg Heavy	Unit	Ravager	headline	total (all sources on)	109920					
 Sheet1	Zerg	Zerg Heavy	Unit	Ravager	weapon	weapon	79300	79296	79296	79296		
