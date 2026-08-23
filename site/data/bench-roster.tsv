@@ -1,4 +1,4 @@
-# generated 2026-08-23T07:57:18.162Z
+# generated 2026-08-23T08:22:51.919Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -20,12 +20,12 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	weapon	weapon (Rocket L
 Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	self-buff	+ Stimpack (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	bench-only	Power Lunge, single hit		66094	66094	66094	needs model	Power Lunge, single hit
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	headline	total (all sources on)	452774					
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon	246447	246442	246442	246442		
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon	246447	285184	285184	285184		
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon (Napalm [E], 3-cell)	133558	133512	133512	133512	3 cone cells × 8 hits/s × per-event 5,563.81 (user tooltip); 4th cell angle-dependent → 178,016 = ×4/3	Sometimes 178016, angle dependent due to overlap of search areas?
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (add weapon [Q])	380471	371325	380834	371325-380834	[Q] weapon + 3-hit volley (user gauge 79,312.5) × the energy-exact rate regen/60e = 1.689/s (user logs 0.5625/0.625 = this pace tick-dithered; cd floor 0.425 not binding)	Add Shreddin' Lead ability
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Napalm (storm alone)	247070	246012	247988	246012-247988	Karass-storm clone alone: 20 apps/s × 5 ticks × 2,471 (user weapon-off isolation 246,506–247,247 = this row); init validator-blocked on the dummy	Napalm autocast
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Precision Strike	452774	446863	458567	446863-458567	weapon + ability (cumulative)	Add Precision Strike ability
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	bench-only	ARES [W]	441656	435735	447449	435735-447449	extra	
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (add weapon [Q])	380471	408008	418486	408008-418486	[Q] weapon + 3-hit volley (user gauge 79,312.5) × the energy-exact rate regen/60e = 1.689/s (user logs 0.5625/0.625 = this pace tick-dithered; cd floor 0.425 not binding)	Add Shreddin' Lead ability
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Napalm (storm alone)	247070	558034	558775	558034-558775	Karass-storm clone alone: 20 apps/s × 5 ticks × 2,471 (user weapon-off isolation 246,506–247,247 = this row); init validator-blocked on the dummy	Napalm autocast, with napalm weapon, burning fuel trail
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Precision Strike	452774	436645	456766	436645-456766	weapon + ability (cumulative)	Add Precision Strike ability
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	bench-only	ARES [W]	441656	436645	446548	436645-446548	extra	
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	bench-only	Burning Fuel (trail)		354	354	354	needs model	Burning Fuel (trail)
 Sheet2	Terran	Terran Heroes	Starting Hero	T-280 SCV	headline	total (all sources on)	148974					
 Sheet2	Terran	Terran Heroes	Starting Hero	T-280 SCV	weapon	weapon					no weapon (caster/support)	
@@ -98,9 +98,9 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	ability	+ Single Out	21530	
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	ability	+ Plasma Rifle	37061	56824	56824	56824	isolated gross (skill-only; no weapon displaced)	Plasma Rifle
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	self-buff	+ Stimpack (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	bench-only	Rebel Yell		27016	27867	27016-27867	needs model	Rebel Yell
-Sheet2	Terran	Terran Heroes	Starting Hero	Son of Korhal	headline	total (all sources on)	201669					
+Sheet2	Terran	Terran Heroes	Starting Hero	Son of Korhal	headline	total (all sources on)	200732					
 Sheet2	Terran	Terran Heroes	Starting Hero	Son of Korhal	weapon	weapon	85515	85504	85504	85504		
-Sheet2	Terran	Terran Heroes	Starting Hero	Son of Korhal	minion	+ Tactical Soldier	116154	113832	115840	113832-115840	minions sustained (8× @ 14519 per-minion)	Tactical Soldier (8)
+Sheet2	Terran	Terran Heroes	Starting Hero	Son of Korhal	minion	+ Tactical Soldier	115217	113832	115840	113832-115840	minions sustained (8× @ 14402 per-minion)	Tactical Soldier (8)
 Sheet2	Terran	Terran Heroes	Starting Hero	Son of Korhal	toggle	+ Chaotic Imbalance (toggle DoT)		180592	180592	180592	needs model	Add Chaotic Imbalance (no minion)
 Sheet2	Terran	Terran Heroes	Starting Hero	Son of Korhal	self-buff	+ Stimpack (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Son of Korhal	self-buff	+ Iron Will Apply (self-buff)					todo	
@@ -145,10 +145,10 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	headline	total (all sources
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	weapon	weapon	211927	211925	211925	211925		Divine Weapon
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	summon-buff	+ Divine Boost (summon-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	bench-only	Power Pylon		47883	50059	47883-50059	needs model	Power Pylon
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	headline	total (all sources on)	1703525					
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	weapon	weapon	1331259					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	headline	total (all sources on)	1702986					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	weapon	weapon	1330811					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon	+ Phase Cannon	65603	65055	73665	65055-73665	per-summon; sustained 1157821 (avg 17.65× living)	Phase Cannon summon, 1 spawn.
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	minion	+ Servitor	37140				per-minion; sustained 74280 (2× magazine)	
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	minion	+ Servitor	36916				per-minion; sustained 73832 (2× magazine)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Overload	29648	29645	29645	29645	per-hit (perCast ÷ hits)	Overload, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Solar Lance	19766	19766	19766	19766	per-hit (perCast ÷ hits)	Solar Lance, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon-buff	+ Inspiration (summon-buff)		112519	139440	112519-139440	todo	Add Inspiration
@@ -427,9 +427,9 @@ Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	minion	+ Laser Mines onl
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	summon	+ Laser Mine	9302				per-summon; sustained 9302 (avg 1× living)	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	ability	+ Laser Beam (per hit @ 0 attrs)	45000	45000	45000	45000	manual-cast per-hit anchor: Melee-kind upgraded amount × buff totalSum only (0-attr row config)	Laser Beam, single hit. 0 Dex, 0 Int
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	self-buff	+ All-Out Attack (self-buff)	159987	159984	159984	159984	weapon with this self-buff on	Add All-Out Attack
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	headline	total (all sources on)	271357					
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	headline	total (all sources on)	270667					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	weapon	weapon	140175	139776	141107	139776-141107		
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	minion	+ Big Bad Bully	17017	16871	17056	16871-17056	per-minion; sustained 119118 (7× magazine)	Big Bad Bully (1)
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	minion	+ Big Bad Bully	16918	16871	17056	16871-17056	per-minion; sustained 118429 (7× magazine)	Big Bad Bully (1)
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	ability	+ Grenade	152238	146888	154001	146888-154001	weapon + ability (cumulative)	Grenade, add weapon
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	self-buff	+ Stimpack (self-buff)					todo	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	headline	total (all sources on)	307645				vs air 90839	
@@ -591,7 +591,7 @@ Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	ability	+ Psionic Or
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	summon-buff	+ Ultimate Interceptors (summon-buff)	296034	295936	295936	295936	auto-attack with summon-buff at PEAK (100% uptime, blend-inverted)	Add Ultimate Interceptors
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	headline	total (all sources on)	309492					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	weapon	weapon	210764	210752	210752	210752		
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	ability	+ Laser Waser	21001	37605	37605	37605	per-hit (perCast ÷ hits)	Laser Waser, single hit
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	ability	+ Laser Waser	21001	21001	21001	21001	per-hit (perCast ÷ hits)	Laser Waser, single hit
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	self-buff	+ Devastation Ray (during, 100% uptime)	365072	365072	365072	365072	weapon during this self-buff (blend-inverted to 100% uptime)	During Devastation Ray
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	headline	total (all sources on)	203572					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	weapon	weapon	203572					
@@ -695,13 +695,13 @@ Sheet1	Zerg	Zerg Air	Unit	Brood Lord	headline	total (all sources on)	379471
 Sheet1	Zerg	Zerg Air	Unit	Brood Lord	weapon	weapon	104639	104632	104632	104632		
 Sheet1	Zerg	Zerg Air	Unit	Brood Lord	summon	+ Broodling	379471	379405	379405	379405	weapon + summons sustained (274832; 27483 per-summon)	Add Broodlings
 Sheet1	Zerg	Zerg Air	Unit	Brood Lord	summon	+ Broodling	27483	27477	27477	27477	per-summon; sustained 274832 (avg 10× living)	Brooding (1)
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	headline	total (all sources on)	171369					
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	headline	total (all sources on)	170535					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	weapon	weapon	24023	23927	24209	23927-24209		Weapon only
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon	+ Infested Terran	107				per-summon; sustained 0 (avg 0× living)	
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Civilian + Opho Mutation	12667	12420	12585	12420-12585	per-minion with Opho Mutation (full uptime)	Infested Terran (1)  + Wild Mutation
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Civilian	12667	12420	12585	12420-12585	per-minion; sustained 63336 (5× magazine)	Infested Terran (1)
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Civilian + Opho Mutation	12589	12420	12585	12420-12585	per-minion with Opho Mutation (full uptime)	Infested Terran (1)  + Wild Mutation
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Civilian	12589	12420	12585	12420-12585	per-minion; sustained 62946 (5× magazine)	Infested Terran (1)
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Marine + Opho Mutation	48150	48144	48144	48144	per-minion with Opho Mutation (full uptime)	Infested Marine (1) + Wild Mutation
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Marine	12376	12192	12371	12192-12371	per-minion; sustained 61879 (5× magazine)	Infested Marine (1)
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Marine	12287	12192	12371	12192-12371	per-minion; sustained 61435 (5× magazine)	Infested Marine (1)
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	ability	+ Opho Fungal	23562	23465	23712	23465-23712	isolated gross (skill-only; no weapon displaced)	Fungal Growth
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon-buff	+ Opho Mutation (summon-buff)					todo	
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	headline	total (all sources on)	213244					
@@ -717,17 +717,17 @@ Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Kerrigan	headline	total (all source
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Kerrigan	weapon	weapon	68425	67554	68679	67554-68679		
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Kerrigan	ability	+ Razor Swarm	191960	191079	192204	191079-192204	weapon + ability (cumulative)	Add Razor Swarm
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Kerrigan	ability	+ Kerrigan Tunnel	0				sustained dps (no bench)	
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	headline	total (all sources on)	738426					
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	headline	total (all sources on)	734470					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	weapon	weapon	49666	49172	50083	49172-50083		Main weapon
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	summon	+ Swarm Host	9				per-summon; sustained 18 (avg 2.02× living)	
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	minion	+ Spotter Beacon	68025	228315	230203	228315-230203	per-minion; sustained 680248 (10× magazine)	Weapon with all Spotter Beacons attacking
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	minion	+ Spotter Beacon	67629	228315	230203	228315-230203	per-minion; sustained 676292 (10× magazine)	Weapon with all Spotter Beacons attacking
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	ability	+ Overloaded System	5294	6176	6793	6176-6793	ability alone (isolated gross)	Overloaded System only
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	self-buff	+ Spotter Frenzy (self-buff)		55065	57739	55065-57739	todo	Weapon with Spotter Frenzy
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	headline	total (all sources on)	570815				vs air 120742	
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground)	570815					
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	headline	total (all sources on)	567986				vs air 120742	
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground)	567986					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (air)	120742	119208	122108	119208-122108		AA attack
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground, AG)	100843	99992	100654	99992-100654	pure ground weapon alone (excludes folded minions/summons)	AG attack
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	minion	+ Levi Minion	108387	106308	108079	106308-108079	per-minion; sustained 433548 (4× magazine)	Levi Minion (1)
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	minion	+ Levi Minion	107680	106308	108079	106308-108079	per-minion; sustained 430718 (4× magazine)	Levi Minion (1)
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	ability	+ Bio-Plasmid Discharge	36425	43299	43299	43299	sustained dps	Bio Plasmid Discharge, 0 Int
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	headline	total (all sources on)	317250					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	weapon	weapon	317250	317241	317241	317241		Weapon damage only
@@ -805,12 +805,12 @@ Sheet1		Enemy Structures	Structure	Infested Colony Ship	headline	total (all sour
 Sheet1		Enemy Structures	Structure	Infested Colony Ship	weapon	weapon					no weapon (caster/support)	
 Sheet1		Enemy Structures	Structure	Creep Tumor	headline	total (all sources on)	0					
 Sheet1		Enemy Structures	Structure	Creep Tumor	weapon	weapon					no weapon (caster/support)	
-Sheet1		Enemy Structures	Structure	Hatchery	headline	total (all sources on)	22312					
+Sheet1		Enemy Structures	Structure	Hatchery	headline	total (all sources on)	22158					
 Sheet1		Enemy Structures	Structure	Hatchery	weapon	weapon					no weapon (caster/support)	
-Sheet1		Enemy Structures	Structure	Hatchery	minion	+ Drone	22312				per-minion; sustained 22312 (1× magazine)	
-Sheet1		Enemy Structures	Structure	Lair	headline	total (all sources on)	22312					
+Sheet1		Enemy Structures	Structure	Hatchery	minion	+ Drone	22158				per-minion; sustained 22158 (1× magazine)	
+Sheet1		Enemy Structures	Structure	Lair	headline	total (all sources on)	22158					
 Sheet1		Enemy Structures	Structure	Lair	weapon	weapon					no weapon (caster/support)	
-Sheet1		Enemy Structures	Structure	Lair	minion	+ Drone	22312				per-minion; sustained 22312 (1× magazine)	
+Sheet1		Enemy Structures	Structure	Lair	minion	+ Drone	22158				per-minion; sustained 22158 (1× magazine)	
 Sheet1		Enemy Structures	Structure	Demonic Spire	headline	total (all sources on)	0					
 Sheet1		Enemy Structures	Structure	Demonic Spire	weapon	weapon					no weapon (caster/support)	
 Sheet1		Enemy Structures	Structure	Spine Crawler	headline	total (all sources on)	5828					
