@@ -1,4 +1,4 @@
-# generated 2026-08-23T23:01:41.035Z
+# generated 2026-08-23T23:28:46.216Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -717,11 +717,11 @@ Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Kerrigan	headline	total (all source
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Kerrigan	weapon	weapon	68425	67554	68679	67554-68679		
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Kerrigan	ability	+ Razor Swarm	191960	191079	192204	191079-192204	weapon + ability (cumulative)	Add Razor Swarm
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Kerrigan	ability	+ Kerrigan Tunnel	0				sustained dps (no bench)	
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	headline	total (all sources on)	249294					
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	headline	total (all sources on)	244835					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	ability	+ Overloaded System (per hit)	6177	6176	6793	6176-6793	per-hit Spell damage (PsionicLift tick), isolated (no Frenzy)	Overloaded System only
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	weapon	weapon	49666	49172	50083	49172-50083		Main weapon
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	summon	+ Swarm Host	9				per-summon; sustained 18 (avg 2.02× living)	
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	minion	+ Spotter Beacon	234381	228315	230203	228315-230203	weapon + minions sustained (184715 @ 10×; 67629 per-minion)	Weapon with all Spotter Beacons attacking
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	minion	+ Spotter Beacon	229921	228315	230203	228315-230203	weapon + minions sustained (180255 @ 10×; 76777 per-minion)	Weapon with all Spotter Beacons attacking
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	ability	+ Overloaded System	5294				sustained dps (no bench)	
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	self-buff	+ Spotter Frenzy (self-buff)	57258	55065	57739	55065-57739	weapon with this self-buff on	Weapon with Spotter Frenzy
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	headline	total (all sources on)	545150				vs air 120742	
