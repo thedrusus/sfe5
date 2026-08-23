@@ -1,4 +1,4 @@
-# generated 2026-08-23T19:13:47.026Z
+# generated 2026-08-23T19:28:47.100Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -34,7 +34,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	T-280 SCV	summon	+ Prototype Siege Tur
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	headline	total (all sources on)	269465					
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	weapon	weapon	99612	99605	99605	99605		
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	state	+ UAV Reconnaissance (tank)	109573	109578	109578	109578	base weapon × the UAV target amp (DamageResponse ×1.1)	Add UAV Reconnaissance
-Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	state	+ System Overdrive (tank)	210357	208656	208656	208656	SystemOverdriveMobile folded on the base weapon (additive frac + ×2 asm period re-snap; 10s dur = 10s cd → full uptime)	Add System Overdrive
+Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	state	+ System Overdrive (tank)	210357	210352	210352	210352	SystemOverdriveMobile folded on the base weapon (additive frac + ×2 asm period re-snap; 10s dur = 10s cd → full uptime)	Add System Overdrive
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	state	+ UAV Reconnaissance (siege)	126871	125122	127966	125122-127966	base weapon × the UAV target amp (DamageResponse ×1.1)	Add UAV Reconnaissance
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	state	+ System Overdrive (siege)	151492	148578	152984	148578-152984	SystemOverdriveStatic folded on the base weapon (additive frac; 10s dur = 10s cd → full uptime)	Add System Overdrive
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	self-buff	+ System Overdrive Static (self-buff)					todo	
@@ -80,11 +80,11 @@ Sheet2	Terran	Terran Heroes	Starting Hero	November Terra	self-buff	+ Stabilizing
 Sheet2	Terran	Terran Heroes	Starting Hero	November Terra	bench-only	Penetrating Round only		68057	68057	68057	needs model	Penetrating Round only
 Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	headline	total (all sources on)	156223					
 Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	weapon	weapon	97847	97845	97845	97845		
+Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	aura	+ Chaotic Cloak (damage aura)	17295	17294	17294	17294	standalone damage aura — does NOT buff the weapon (the sheet's with/without-cloak weapon rows are identical)	Chaotic Cloak
+Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	ability	+ Psionic Lash (ability alone)	41081	40765	43483	40765-43483	the bench is the ISOLATED autocast stream, not the "Add" cumulative the note implies (weapon + lash would read ~138,928)	Add Pisonic Lash
+Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	toggle	+ Psionic Burn (with weapon + cloak)	197183	196037	198338	196037-198338	weapon+DoT 175936 + Chaotic Cloak aura 17295 + the DoT's Initial & Expire hooks (2/s turnover × 2 hooks × 988) — the model books only the PeriodicEffect	Psionic Burn with weapon
 Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	weapon	weapon (no self-buffs)	97847	97845	97845	97845	weapon with all self-buffs off (bare-weapon measure)	Main weapon without Chaotic Cloak
-Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	toggle	+ Psionic Burn (toggle DoT)	175936	196037	198338	196037-198338	weapon + self-buffs + toggle DoT (max)	Psionic Burn with weapon
 Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	ability	+ Mindblast	4941	4941	7412	4941-7412	ability alone (isolated gross)	Mindblast only
-Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	ability	+ Psionic Lash	138928	40765	43483	40765-43483	weapon + ability (cumulative)	Add Pisonic Lash
-Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	bench-only	Chaotic Cloak		17294	17294	17294	needs model	Chaotic Cloak
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	headline	total (all sources on)	329435					
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	weapon	weapon	329435					
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	ability	+ Neuro Inhibitor Grenade	30258	14824	14824	14824	per-hit (perCast ÷ hits)	Neuro Inhibitor Grenade, single hit
@@ -146,15 +146,15 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	headline	total (all sources
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	weapon	weapon	211927	211925	211925	211925		Divine Weapon
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	summon-buff	+ Divine Boost (summon-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	bench-only	Power Pylon		47883	50059	47883-50059	needs model	Power Pylon
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	headline	total (all sources on)	1702986					
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	weapon	weapon	1330811					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	headline	total (all sources on)	1704400					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	weapon	weapon	1331900					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon	+ Phase Cannon	65603	65055	73665	65055-73665	per-summon; sustained 1157821 (avg 17.65× living)	Phase Cannon summon, 1 spawn.
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	minion	+ Servitor	36916				per-minion; sustained 73832 (2× magazine)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Overload	29648	29645	29645	29645	per-hit (perCast ÷ hits)	Overload, single hit
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Rods From God	82	9883	9883	9883	per-hit (perCast ÷ hits)	Rods From God, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Solar Lance	19766	19766	19766	19766	per-hit (perCast ÷ hits)	Solar Lance, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon-buff	+ Inspiration (summon-buff)		112519	139440	112519-139440	todo	Add Inspiration
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	bench-only	Weapon + Servitors		95170	107981	95170-107981	needs model	Weapon + Servitors
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	bench-only	Rods From God, single hit		9883	9883	9883	needs model	Rods From God, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	headline	total (all sources on)	389916					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground)	277663					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (air)		116179	118184	116179-118184	AA weapon not modeled (no anti-air weapon resolved)	AA weapon
@@ -438,6 +438,7 @@ Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	weapon	weapon (ground)	176
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	weapon	weapon (air)	60335					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	self-buff	+ All-Out Attack (self-buff)	205098	205088	205088	205088	plain ground weapon × the shared AlloutAttack sustained fold (Fenrir-validated 1.16133); generic state read carries an unexplained extra ×1.5	Add All-Out Attack
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Barrage (per cast)	79056	79056	79056	79056	channeled 16-shell barrage @0.12s tick (one loop under the 0.125 discrete-tick walk gate — walk books 1 shell; × PeriodCount)	Barrage, total damage
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Odin Dash Attack	0				sustained dps (no bench)	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Barrage	0				sustained dps (no bench)	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	ability	+ Nuclear Strike	0				sustained dps (no bench)	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	self-buff	+ All-Out Attack (self-buff)					todo	
@@ -570,9 +571,9 @@ Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	summon-buff	+ Null 
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Sentinel	headline	total (all sources on)	244561					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Sentinel	weapon	weapon	236902	236896	236896	236896		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Sentinel	ability	+ Reinar Pulse (add weapon)	245913	244937	246086	244937-246086	weapon + pulse @ cd 1.5 ÷ 1.1765 = 1.275 (user cadence log: period-5 tick dither 1.25/1.3125, mean exactly 1.275; rides-weapon → tick grid, no 0.5-lattice)	Add Reinar Pulse
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Vorazun	headline	total (all sources on)	332357					
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Vorazun	headline	total (all sources on)	357720					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Vorazun	weapon	weapon	332357	330794	334429	330794-334429		
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Vorazun	bench-only	Shadow Fury, per hit. 10 total hits		17295	17295	17295	needs model	Shadow Fury, per hit. 10 total hits
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Vorazun	ability	+ Shadow Fury	17295	17295	17295	17295	per-hit (perCast ÷ hits)	Shadow Fury, per hit. 10 total hits
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	headline	total (all sources on)	176517					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	weapon	weapon	171575	171528	171528	171528		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	ability	+ Resonating Plasma Ball	176516	173030	179434	173030-179434	weapon + ability (cumulative)	Add Resonating Plasma Ball
