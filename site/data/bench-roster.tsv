@@ -1,4 +1,4 @@
-# generated 2026-08-23T07:17:48.431Z
+# generated 2026-08-23T07:34:34.473Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -22,7 +22,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	bench-only	Power Lunge,
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	headline	total (all sources on)	452774					
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon	246447	246442	246442	246442		
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon (Napalm [E], 3-cell)	133558	133512	133512	133512	3 cone cells × 8 hits/s × per-event 5,563.81 (user tooltip); 4th cell angle-dependent → 178,016 = ×4/3	Sometimes 178016, angle dependent due to overlap of search areas?
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (add weapon [Q])	380940	371325	380834	371325-380834	[Q] weapon + 3-hit volley (user gauge 79,312.5) / passive-state cadence 0.58984 (user logs: same 0.5625/0.625 dither armed AND idle — order-churn states tick at cd÷cdr instead); lands the 17-cast window endpoint (+0.03%)	Add Shreddin' Lead ability
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (add weapon [Q])	380940	371325	380834	371325-380834	[Q] weapon + 3-hit volley (user gauge 79,312.5) / bench-config ENERGY-paced cadence 0.58984 (user logs 0.5625/0.625 armed AND idle = 60e energy floor; cd floor is 0.425 = cd÷1.1765 when energy-free); 17-cast window endpoint (+0.03%)	Add Shreddin' Lead ability
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Napalm (storm alone)	247070	246012	247988	246012-247988	Karass-storm clone alone: 20 apps/s × 5 ticks × 2,471 (user weapon-off isolation 246,506–247,247 = this row); init validator-blocked on the dummy	Napalm autocast
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Precision Strike	452774	446863	458567	446863-458567	weapon + ability (cumulative)	Add Precision Strike ability
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	bench-only	ARES [W]	441656	435735	447449	435735-447449	extra	
@@ -651,12 +651,12 @@ Sheet1	Zerg	Zerg Light	Unit	Defiler	ability	+ Plague	241733	240599	243670	240599
 Sheet1	Zerg	Zerg Heavy	Unit	Ravager	headline	total (all sources on)	109920					
 Sheet1	Zerg	Zerg Heavy	Unit	Ravager	weapon	weapon	79300	79296	79296	79296		
 Sheet1	Zerg	Zerg Heavy	Unit	Ravager	ability	+ Corrosive Bile	109920	106960	114774	106960-114774	weapon + ability (cumulative)	Add Corrosive Bile
-Sheet1	Zerg	Zerg Heavy	Unit	Infestor	headline	total (all sources on)	814824					
+Sheet1	Zerg	Zerg Heavy	Unit	Infestor	headline	total (all sources on)	697892					
 Sheet1	Zerg	Zerg Heavy	Unit	Infestor	weapon	weapon					no weapon (caster/support)	
 Sheet1	Zerg	Zerg Heavy	Unit	Infestor	summon	+ Infested Marine	19135	19125	19125	19125	per-summon; sustained 669711 (avg 35× living)	Infested Marine (1)
-Sheet1	Zerg	Zerg Heavy	Unit	Infestor	summon	+ Infested Marine + Aggressive Mutation	22374	22368	22368	22368	per-summon with Aggressive Mutation	Infested Marine buffed by Wild Mutation
+Sheet1	Zerg	Zerg Heavy	Unit	Infestor	summon	+ Infested Marine + Aggressive Mutation	19135	22368	22368	22368	per-summon with Aggressive Mutation	Infested Marine buffed by Wild Mutation
 Sheet1	Zerg	Zerg Heavy	Unit	Infestor	ability	+ Fungal Growth	28181	28080	28329	28080-28329	weapon + ability (cumulative)	Add Fungal Growth
-Sheet1	Zerg	Zerg Heavy	Unit	Infestor	summon-buff	+ Fungal Growth + Aggressive Mutation	31723	31231	31885	31231-31885	weapon + ability with this summon-buff up	Add Fungal and Wild Mutation
+Sheet1	Zerg	Zerg Heavy	Unit	Infestor	summon-buff	+ Fungal Growth + Aggressive Mutation	28181	31231	31885	31231-31885	weapon + ability with this summon-buff up	Add Fungal and Wild Mutation
 Sheet1	Zerg	Zerg Heavy	Unit	Swarm Host	headline	total (all sources on)	213200					
 Sheet1	Zerg	Zerg Heavy	Unit	Swarm Host	weapon	weapon					no weapon (caster/support)	
 Sheet1	Zerg	Zerg Heavy	Unit	Swarm Host	summon	+ Locust with Locust Swarm	44165	44160	44160	44160	per-summon with this buff on the child (additive km fold)	Single Locust with Locust Swarm
@@ -698,11 +698,12 @@ Sheet1	Zerg	Zerg Air	Unit	Brood Lord	summon	+ Broodling	27483	27477	27477	27477	
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	headline	total (all sources on)	171369					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	weapon	weapon	24023	23927	24209	23927-24209		Weapon only
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon	+ Infested Terran	107				per-summon; sustained 0 (avg 0× living)	
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Civilian + Opho Mutation	12667	12420	12585	12420-12585	per-minion with Opho Mutation (full uptime)	Infested Terran (1)  + Wild Mutation
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Civilian	12667	12420	12585	12420-12585	per-minion; sustained 63336 (5× magazine)	Infested Terran (1)
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Marine + Opho Mutation	48150	48144	48144	48144	per-minion with Opho Mutation (full uptime)	Infested Marine (1) + Wild Mutation
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Marine	12376	12192	12371	12192-12371	per-minion; sustained 61879 (5× magazine)	Infested Marine (1)
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	ability	+ Opho Fungal	23562	23465	23712	23465-23712	isolated gross (skill-only; no weapon displaced)	Fungal Growth
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon-buff	+ Opho Mutation (summon-buff)		12420	12585	12420-12585	todo	Infested Terran (1)  + Wild Mutation
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	bench-only	Infested Marine (1) + Wild Mutation		48144	48144	48144	needs model	Infested Marine (1) + Wild Mutation
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon-buff	+ Opho Mutation (summon-buff)					todo	
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	headline	total (all sources on)	213244					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	weapon	weapon	70643	69933	70728	69933-70728		
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	summon	+ Explosive Shitter	2345	3985	7971	3985-7971	summons sustained alone (avg 0.94× @ 2491 per-summon)	Explosive Shitters only
