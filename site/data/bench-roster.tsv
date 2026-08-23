@@ -1,4 +1,4 @@
-# generated 2026-08-23T04:15:01.069Z
+# generated 2026-08-23T04:24:17.518Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -576,9 +576,10 @@ Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	headline	total (all s
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	weapon	weapon	171575	171528	171528	171528		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	ability	+ Resonating Plasma Ball	176516	173030	179434	173030-179434	weapon + ability (cumulative)	Add Resonating Plasma Ball
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	headline	total (all sources on)	476494					
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Planet Cracker (active DPS, 200 stacks)	59978	59976	59976	59976	active dps at peak Purifying Destruction: per-hit × 4/s (0.25s tick)	Planet Cracker
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	weapon	weapon	245614	244376	250336	244376-250336		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	summon	+ Zergling	145				per-summon; sustained 146 (avg 1.01× living)	
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Planet Cracker	19966	59976	59976	59976	sustained dps	Planet Cracker
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Planet Cracker	19966				sustained dps (no bench)	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Plasma Spheres	3681				sustained dps (no bench)	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Vortex	79863	79856	79856	79856	sustained dps	Vortex. While affected, unit is untargetable
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	self-buff	+ Powered Purifier On (self-buff)					todo	
