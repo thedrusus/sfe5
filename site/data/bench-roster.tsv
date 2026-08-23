@@ -1,4 +1,4 @@
-# generated 2026-08-23T16:55:23.001Z
+# generated 2026-08-23T17:06:47.607Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -22,7 +22,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	bench-only	Power Lunge,
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	headline	total (all sources on)	452774					
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon ([Q] 120mm cannon)	285190	285184	285184	285184	twin shells (persistent Initial + Final), each = direct Ranged 9,736 + embedded-search Spell splash 3,632 → 26,736/attack ÷ 3/32	
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon (Napalm [E], 3-cell)	133558	133512	133512	133512	3 cone cells × 8 hits/s × per-event 5,563.81 (user tooltip); 4th cell angle-dependent → 178,016 = ×4/3	Sometimes 178016, angle dependent due to overlap of search areas?
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (add weapon [Q])	419185	408008	418486	408008-418486	[Q] weapon (twin-shell splash) + one 79,312.5 Melee hit × energy-exact regen/60e = 1.689/s; +0.17% over the range top — rate needs the user cadence	Add Shreddin' Lead ability
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (add weapon [Q])	419185	408008	418486	408008-418486	[Q] weapon (twin-shell splash) + one 79,312.5 Melee hit × energy-exact regen/60e = 1.689/s — BOTH factors confirmed by weapon-disarmed isolations whose endpoints are exact integer cast counts (16/17 at bench energy, 23/24 at the 0.425 cd floor); the +0.17% over this row is 0.09 of one cast event, inside the meter quantum	Add Shreddin' Lead ability
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Napalm (storm, with napalm weapon + trail)	380607	558034	558775	558034-558775	napalm weapon 3-cell + storm 247076 (17 searches ÷ 1.70s cd = 10 apps/s × 10 ticks × 2471 — user isolation 246,259–247,741 ✓ +0.03%) — SHORT ~177k because the composite's weapon lands 7 flame cells at point-blank (storm needs radius 3) vs the 3 the standalone [E] row measures at range; re-bench the napalm weapon at the same stand-off	Napalm autocast, with napalm weapon, burning fuel trail
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Precision Strike	452774	436645	456766	436645-456766	weapon + ability (cumulative)	Add Precision Strike ability
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	bench-only	ARES [W]	441656	436645	446548	436645-446548	extra	
