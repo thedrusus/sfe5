@@ -1,4 +1,4 @@
-# generated 2026-08-23T22:53:52.640Z
+# generated 2026-08-23T23:01:41.035Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -52,7 +52,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	self-buff	+ Stimpack (self
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	headline	total (all sources on)	138977				vs air 38556	
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	weapon	weapon (ground)	83592	83589	83589	83589		Weapon, all stacks of Pummeling Force
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	weapon	weapon (air)	38556					
-Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ Nuke (per cast, 0 Pummeling Force stacks)	53787	86082	86082	86082	flat 17294 (7000 raw Spell) + %-max-life 36493 (NukeVital 0.147705 × the target's 100000 max life) — each lands ONCE. Scales with PF stacks (605/4096 each) and with the TARGET's max life, so the bench row must pin the stack count; this is the 0-stack basis	Nuke, single hit read on dummy. Dummy also says it took 58405 damage from 1 hit, not sure which is the correct number
+Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ Nuke (per cast, 0 Pummeling Force stacks)	53787	53787	53787	53787	flat 17294 (7000 raw Spell) + %-max-life 36493 (NukeVital 0.147705 × the target's 100000 max life) — each lands ONCE. Scales with PF stacks (605/4096 each) and with the TARGET's max life, so the bench row must pin the stack count; this is the 0-stack basis	Nuke with 0 stacks of Pummeling Force
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ 300mm Strike Cannons	49858	49858	49858	49858	per-hit (perCast ÷ hits)	300mm Strike Cannons, per hit
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ Explosive Wave	29084	29084	29084	29084	per-hit (perCast ÷ hits)	Explosive Wave, single hit damage
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ R-36 Missile Bombardment	9972	9972	9972	9972	per-hit (perCast ÷ hits)	R-36, per hit
