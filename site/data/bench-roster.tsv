@@ -1,4 +1,4 @@
-# generated 2026-08-23T20:45:52.692Z
+# generated 2026-08-23T22:53:52.640Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -52,7 +52,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	self-buff	+ Stimpack (self
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	headline	total (all sources on)	138977				vs air 38556	
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	weapon	weapon (ground)	83592	83589	83589	83589		Weapon, all stacks of Pummeling Force
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	weapon	weapon (air)	38556					
-Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ Nuke (per cast, flat source only)	58168	86082	86082	86082	2 × 29084 (direct + the r=4 no-exclude re-find, Pummeling Force folded). MISSING the nuke's two %-MAX-LIFE sources: Damage4 = 5% of target max life (5,000 raw here) and DamageBoss = 1% (Heroic-gated, so likely absent on the dummy). Needs one isolated nuke read to pin whether accumulator damage takes the damage-formula folds	Nuke, single hit read on dummy. Dummy also says it took 58405 damage from 1 hit, not sure which is the correct number
+Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ Nuke (per cast, 0 Pummeling Force stacks)	53787	86082	86082	86082	flat 17294 (7000 raw Spell) + %-max-life 36493 (NukeVital 0.147705 × the target's 100000 max life) — each lands ONCE. Scales with PF stacks (605/4096 each) and with the TARGET's max life, so the bench row must pin the stack count; this is the 0-stack basis	Nuke, single hit read on dummy. Dummy also says it took 58405 damage from 1 hit, not sure which is the correct number
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ 300mm Strike Cannons	49858	49858	49858	49858	per-hit (perCast ÷ hits)	300mm Strike Cannons, per hit
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ Explosive Wave	29084	29084	29084	29084	per-hit (perCast ÷ hits)	Explosive Wave, single hit damage
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ R-36 Missile Bombardment	9972	9972	9972	9972	per-hit (perCast ÷ hits)	R-36, per hit
@@ -704,9 +704,9 @@ Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Marin
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Marine	12287	12192	12371	12192-12371	per-minion; sustained 61435 (5× magazine)	Infested Marine (1)
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	ability	+ Opho Fungal	23562	23465	23712	23465-23712	isolated gross (skill-only; no weapon displaced)	Fungal Growth
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon-buff	+ Opho Mutation (summon-buff)					todo	
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	headline	total (all sources on)	213244					
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	headline	total (all sources on)	215589					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	weapon	weapon	70643	69933	70728	69933-70728		
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	summon	+ Explosive Shitter	2345	3985	7971	3985-7971	summons sustained alone (avg 0.94× @ 2491 per-summon)	Explosive Shitters only
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	summon	+ Explosive Shitter	4690	3985	7971	3985-7971	summons sustained alone (avg 0.94× @ 4983 per-summon)	Explosive Shitters only
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	summon	+ Zagara Minion	30908	30646	30646	30646	per-summon; sustained 140256 (avg 4.54× living)	Zagara Minion (1)
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Corpser	headline	total (all sources on)	381845					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Corpser	weapon	weapon	90624	90399	91392	90399-91392		
@@ -717,12 +717,13 @@ Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Kerrigan	headline	total (all source
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Kerrigan	weapon	weapon	68425	67554	68679	67554-68679		
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Kerrigan	ability	+ Razor Swarm	191960	191079	192204	191079-192204	weapon + ability (cumulative)	Add Razor Swarm
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Kerrigan	ability	+ Kerrigan Tunnel	0				sustained dps (no bench)	
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	headline	total (all sources on)	734470					
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	headline	total (all sources on)	249294					
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	ability	+ Overloaded System (per hit)	6177	6176	6793	6176-6793	per-hit Spell damage (PsionicLift tick), isolated (no Frenzy)	Overloaded System only
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	weapon	weapon	49666	49172	50083	49172-50083		Main weapon
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	summon	+ Swarm Host	9				per-summon; sustained 18 (avg 2.02× living)	
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	minion	+ Spotter Beacon	67629	228315	230203	228315-230203	per-minion; sustained 676292 (10× magazine)	Weapon with all Spotter Beacons attacking
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	ability	+ Overloaded System	5294	6176	6793	6176-6793	ability alone (isolated gross)	Overloaded System only
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	self-buff	+ Spotter Frenzy (self-buff)		55065	57739	55065-57739	todo	Weapon with Spotter Frenzy
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	minion	+ Spotter Beacon	234381	228315	230203	228315-230203	weapon + minions sustained (184715 @ 10×; 67629 per-minion)	Weapon with all Spotter Beacons attacking
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	ability	+ Overloaded System	5294				sustained dps (no bench)	
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	self-buff	+ Spotter Frenzy (self-buff)	57258	55065	57739	55065-57739	weapon with this self-buff on	Weapon with Spotter Frenzy
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	headline	total (all sources on)	545150				vs air 120742	
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground)	545150					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (air)	120742	119208	122108	119208-122108		AA attack
