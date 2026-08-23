@@ -1,9 +1,9 @@
-# generated 2026-08-23T01:03:58.557Z
+# generated 2026-08-23T02:27:36.006Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	ability	+ Flame Arc	11530	10376	12105	10376-12105	weapon-off isolation: 2 × 17,295 per 3.0s (bench endpoints = exactly 6/7 hits per 10s window); no VP in the arc chain	Flame Arc, autocast
-Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	ability	+ Flame Pulse	88462	86203	90155	86203-90155	weapon-off isolation: init + 5 FireBlast stacks × 26 ticks + 20 full VP stacks per 5s (×5 stack count empirical — audit open)	Flame Pulse, autocast
+Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	ability	+ Flame Pulse	88462	86203	90155	86203-90155	weapon-off isolation: bench-pinned ~442k/cast; known chain (init + 1-stack FireBlast 26 ticks + 20 full VP stacks) ≈ 190k — ~250k/cast stream UNIDENTIFIED, decomposition open	Flame Pulse, autocast
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	ability	+ Fahrenheit 451 (during uptime)	77834	77612	77908	77612-77908	weapon-off, during the 16s buff: 5 direct ticks/s + 2 VP apps/tick booking full 24-tick stacks	Fahrenheit 451 (during uptime)
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	self-buff	+ Vigor Boost (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	self-buff	+ Stimpack (self-buff)					todo	
