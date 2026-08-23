@@ -1,4 +1,4 @@
-# generated 2026-08-23T19:31:57.653Z
+# generated 2026-08-23T20:45:52.692Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -52,7 +52,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	self-buff	+ Stimpack (self
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	headline	total (all sources on)	138977				vs air 38556	
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	weapon	weapon (ground)	83592	83589	83589	83589		Weapon, all stacks of Pummeling Force
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	weapon	weapon (air)	38556					
-Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ Nuke (per cast)	58168	86082	86082	86082	direct + the r=4 no-exclude search re-find = 2 × 29084 (Pummeling Force already folded). Matches the user's OWN alternative dummy read 58,405 (−0.41%); the 86,082 row value looks contaminated — needs the user to confirm which reading is right	Nuke, single hit read on dummy. Dummy also says it took 58405 damage from 1 hit, not sure which is the correct number
+Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ Nuke (per cast, flat source only)	58168	86082	86082	86082	2 × 29084 (direct + the r=4 no-exclude re-find, Pummeling Force folded). MISSING the nuke's two %-MAX-LIFE sources: Damage4 = 5% of target max life (5,000 raw here) and DamageBoss = 1% (Heroic-gated, so likely absent on the dummy). Needs one isolated nuke read to pin whether accumulator damage takes the damage-formula folds	Nuke, single hit read on dummy. Dummy also says it took 58405 damage from 1 hit, not sure which is the correct number
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ 300mm Strike Cannons	49858	49858	49858	49858	per-hit (perCast ÷ hits)	300mm Strike Cannons, per hit
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ Explosive Wave	29084	29084	29084	29084	per-hit (perCast ÷ hits)	Explosive Wave, single hit damage
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ R-36 Missile Bombardment	9972	9972	9972	9972	per-hit (perCast ÷ hits)	R-36, per hit
