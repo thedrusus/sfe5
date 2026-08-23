@@ -1,4 +1,4 @@
-# generated 2026-08-23T19:28:47.100Z
+# generated 2026-08-23T19:31:57.653Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -50,14 +50,12 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Grena
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Mortar Strike	13236				sustained dps (no bench)	
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	self-buff	+ Stimpack (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	headline	total (all sources on)	138977				vs air 38556	
-Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	weapon	weapon (ground)	138977					
+Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	weapon	weapon (ground)	83592	83589	83589	83589		Weapon, all stacks of Pummeling Force
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	weapon	weapon (air)	38556					
+Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ Nuke (per cast)	58168	86082	86082	86082	direct + the r=4 no-exclude search re-find = 2 × 29084 (Pummeling Force already folded). Matches the user's OWN alternative dummy read 58,405 (−0.41%); the 86,082 row value looks contaminated — needs the user to confirm which reading is right	Nuke, single hit read on dummy. Dummy also says it took 58405 damage from 1 hit, not sure which is the correct number
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ 300mm Strike Cannons	49858	49858	49858	49858	per-hit (perCast ÷ hits)	300mm Strike Cannons, per hit
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ Explosive Wave	29084	29084	29084	29084	per-hit (perCast ÷ hits)	Explosive Wave, single hit damage
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ R-36 Missile Bombardment	9972	9972	9972	9972	per-hit (perCast ÷ hits)	R-36, per hit
-Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	ability	+ Tactical Ballistic Missile	33572				sustained dps (no bench)	
-Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	bench-only	Weapon, all stacks of Pummeling Force		83589	83589	83589	needs model	Weapon, all stacks of Pummeling Force
-Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	bench-only	Nuke, single hit read on dummy. Dummy also says it took 58405 damage from 1 hit, not sure which is the correct number		86082	86082	86082	needs model	Nuke, single hit read on dummy. Dummy also says it took 58405 damage from 1 hit, not sure which is the correct number
 Sheet2	Terran	Terran Heroes	Starting Hero	Death Head	headline	total (all sources on)	277431					
 Sheet2	Terran	Terran Heroes	Starting Hero	Death Head	weapon	weapon	222719					
 Sheet2	Terran	Terran Heroes	Starting Hero	Death Head	weapon	weapon (Pistol)	128818	128816	128816	128816	default pistol weapon alone	Pistol only
@@ -598,7 +596,7 @@ Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Mohandar	self-buff	+ Devastat
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	headline	total (all sources on)	203572					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	weapon	weapon	203572					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	weapon	weapon (stationary)	197825	195835	198060	195835-198060	stationary stance	Stationary
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	weapon	weapon (moving)	158956	152556	156024	152556-156024	moving stance (stationaryConditional beam stripped; ~1.9% residual = moving attack-uptime)	Moving
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	weapon	weapon (moving)	154099	152556	156024	152556-156024	moving stance (StationaryEnergyBeam stripped + MobileShielding −15% Ranged/Splash folded)	Moving
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Urun	ability	+ Plasma Spheres	203572	198293	205203	198293-205203	weapon + ability (cumulative)	Add Plasma Spheres and stationary
 Sheet1	Protoss	Protoss Structures	Structure	Pylon	headline	total (all sources on)	0					
 Sheet1	Protoss	Protoss Structures	Structure	Pylon	weapon	weapon					no weapon (caster/support)	
