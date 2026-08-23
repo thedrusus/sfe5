@@ -1,4 +1,4 @@
-# generated 2026-08-23T02:56:35.710Z
+# generated 2026-08-23T03:17:17.785Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -32,19 +32,22 @@ Sheet2	Terran	Terran Heroes	Starting Hero	T-280 SCV	weapon	weapon					no weapon 
 Sheet2	Terran	Terran Heroes	Starting Hero	T-280 SCV	summon	+ Prototype Siege Turret	40859	40853	40853	40853	per-summon; sustained 148974 (avg 3.65× living)	Prototype Siege Turret (1 spawn)
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	headline	total (all sources on)	269465					
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	weapon	weapon	99612	99605	99605	99605		
-Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	self-buff	+ System Overdrive Static (self-buff)		208656	208656	208656	todo	Add System Overdrive
-Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	self-buff	+ System Overdrive Mobile (self-buff)		148578	152984	148578-152984	todo	Add System Overdrive
-Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	bench-only	Add UAV Reconnaissance		109578	109578	109578	needs model	Add UAV Reconnaissance
+Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	state	+ UAV Reconnaissance (tank)	109573	109578	109578	109578	base weapon × the UAV target amp (DamageResponse ×1.1)	Add UAV Reconnaissance
+Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	state	+ System Overdrive (tank)	210357	208656	208656	208656	SystemOverdriveMobile folded on the base weapon (additive frac + ×2 asm period re-snap; 10s dur = 10s cd → full uptime)	Add System Overdrive
+Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	state	+ UAV Reconnaissance (siege)	126871	125122	127966	125122-127966	base weapon × the UAV target amp (DamageResponse ×1.1)	Add UAV Reconnaissance
+Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	state	+ System Overdrive (siege)	151492	148578	152984	148578-152984	SystemOverdriveStatic folded on the base weapon (additive frac; 10s dur = 10s cd → full uptime)	Add System Overdrive
+Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	self-buff	+ System Overdrive Static (self-buff)					todo	
+Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	self-buff	+ System Overdrive Mobile (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	bench-only	Shock Siege	115337	113735	116320	113735-116320	extra	
-Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	bench-only	Add UAV Reconnaissance		125122	127966	125122-127966	needs model	Add UAV Reconnaissance
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	headline	total (all sources on)	253234					
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	weapon	weapon	71005	70200	71604	70200-71604		With Stimpack
+Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Grenade (single hit)	36425	36425	36425	36425	per-hit of the GRENADE (generic matcher mis-paired this bench onto Barrage)	Single hit of Concussive Grenade
+Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Mortar Strike (single hit)	30884	30886	30886	30886	3 missiles per cast (walk total = exactly 3× the bench hit; its hit-split books 4 — audit open)	Single hit of Mortar Strike (there are multiple missiles in the ability)
+Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Impaler Charge (only)	79473	75498	83445	75498-83445	no-cd Transient autocast: one 0.0625s-expiry Ranged hit per 0.5s scan slot (endpoints = exactly 19/21 hits per 10s)	Impaler Charge only
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Barrage	79473	79472	79472	79472	ability alone (isolated gross)	Concussive Barrage only
-Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Barrage	19868	36425	36425	36425	per-hit (perCast ÷ hits)	Single hit of Concussive Grenade
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Grenade	18212				sustained dps (no bench)	
-Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Mortar Strike	23163	30886	30886	30886	per-hit (perCast ÷ hits)	Single hit of Mortar Strike (there are multiple missiles in the ability)
+Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Mortar Strike	13236				sustained dps (no bench)	
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	self-buff	+ Stimpack (self-buff)					todo	
-Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	bench-only	Impaler Charge only		75498	83445	75498-83445	needs model	Impaler Charge only
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	headline	total (all sources on)	138977				vs air 38556	
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	weapon	weapon (ground)	138977					
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	weapon	weapon (air)	38556					
