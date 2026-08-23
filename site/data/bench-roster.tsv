@@ -1,7 +1,7 @@
-# generated 2026-08-23T00:36:42.580Z
+# generated 2026-08-23T00:41:37.746Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
-Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
+Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	ability	+ Flame Arc	924	10376	12105	10376-12105	sustained dps	Flame Arc, autocast
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	ability	+ Flame Pulse	12848	86203	90155	86203-90155	sustained dps	Flame Pulse, autocast
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	ability	+ Fahrenheit 451	9883	77612	77908	77612-77908	sustained dps	Fahrenheit 451 (during uptime)
