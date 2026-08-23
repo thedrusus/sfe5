@@ -1,4 +1,4 @@
-# generated 2026-08-23T05:12:08.179Z
+# generated 2026-08-23T05:33:27.957Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -456,7 +456,7 @@ Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Loki	ability	+ Yamato Cannon	76
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Hyperion	headline	total (all sources on)	159040					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Hyperion	weapon	weapon	45413	45199	45696	45199-45696		Weapon
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Hyperion	summon	+ Tactical Fighter	163				per-summon; sustained 163 (avg 1× living)	
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Hyperion	ability	+ Yamato Cannon (weapon + Ion Beam)	128191	115788	115788	115788	weapon + Ion Beam + this ability (composite)	Yamato Cannon, with weapon and Ion Beam
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Hyperion	ability	+ Yamato Cannon (weapon + Ion Beam)	116269	115788	115788	115788	weapon + Ion Beam + Yamato @ 1.5s (user cadence log; energy-ready 1.22 → 0.5-lattice) − cast displacement	Yamato Cannon, with weapon and Ion Beam
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Hyperion	ability	+ Electric Field (weapon + Ion Beam)	95865	84787	105111	84787-105111	weapon + Ion Beam + this ability (composite)	Electric Field, with weapon and Ion Beam
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Hyperion	ability	+ Electric Field	30686				sustained dps (no bench)	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Hyperion	ability	+ Hyperion Yamato Cannon	63012				sustained dps (no bench)	
