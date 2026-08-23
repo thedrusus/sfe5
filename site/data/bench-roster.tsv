@@ -1,4 +1,4 @@
-# generated 2026-08-22T22:47:16.161Z
+# generated 2026-08-23T00:36:42.580Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	232368	228640	231234	228640-231234		Main attack + DoT that cannot be separated
@@ -572,12 +572,12 @@ Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Vorazun	bench-only	Shadow Fur
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	headline	total (all sources on)	176517					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	weapon	weapon	171575	171528	171528	171528		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	ability	+ Resonating Plasma Ball	176516	173030	179434	173030-179434	weapon + ability (cumulative)	Add Resonating Plasma Ball
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	headline	total (all sources on)	469877					
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	headline	total (all sources on)	475430					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	weapon	weapon	245614	244376	250336	244376-250336		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	summon	+ Zergling	145				per-summon; sustained 146 (avg 1.01× living)	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Planet Cracker	19766	59976	59976	59976	sustained dps	Planet Cracker
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Plasma Spheres	3618				sustained dps (no bench)	
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Vortex	75225	79856	79856	79856	sustained dps	Vortex. While affected, unit is untargetable
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Vortex	79063	79856	79856	79856	sustained dps	Vortex. While affected, unit is untargetable
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	self-buff	+ Powered Purifier On (self-buff)					todo	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	headline	total (all sources on)	292561					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	ability	+ Psionic Orb (active DPS)	24708	24706	24706	24706	orb damage/sec while active = perHit ÷ 0.5s tick	Psionic Orb, active DPS
