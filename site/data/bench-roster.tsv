@@ -1,4 +1,4 @@
-# generated 2026-08-23T17:06:47.607Z
+# generated 2026-08-23T17:24:37.667Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -20,10 +20,11 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	weapon	weapon (Rocket L
 Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	self-buff	+ Stimpack (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	bench-only	Power Lunge, single hit		66094	66094	66094	needs model	Power Lunge, single hit
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	headline	total (all sources on)	452774					
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon ([Q] 120mm cannon)	285190	285184	285184	285184	twin shells (persistent Initial + Final), each = direct Ranged 9,736 + embedded-search Spell splash 3,632 → 26,736/attack ÷ 3/32	
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon ([Q] 120mm cannon)	285184	285184	285184	285184	twin shells (persistent Initial + Final), each = direct Ranged 9,736 + embedded-search Spell splash 3,632 → 26,736/attack ÷ 3/32	
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon (Napalm [E], 3-cell)	133558	133512	133512	133512	3 cone cells × 8 hits/s × per-event 5,563.81 (user tooltip); 4th cell angle-dependent → 178,016 = ×4/3	Sometimes 178016, angle dependent due to overlap of search areas?
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (add weapon [Q])	419185	408008	418486	408008-418486	[Q] weapon (twin-shell splash) + one 79,312.5 Melee hit × energy-exact regen/60e = 1.689/s — BOTH factors confirmed by weapon-disarmed isolations whose endpoints are exact integer cast counts (16/17 at bench energy, 23/24 at the 0.425 cd floor); the +0.17% over this row is 0.09 of one cast event, inside the meter quantum	Add Shreddin' Lead ability
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Napalm (storm, with napalm weapon + trail)	380607	558034	558775	558034-558775	napalm weapon 3-cell + storm 247076 (17 searches ÷ 1.70s cd = 10 apps/s × 10 ticks × 2471 — user isolation 246,259–247,741 ✓ +0.03%) — SHORT ~177k because the composite's weapon lands 7 flame cells at point-blank (storm needs radius 3) vs the 3 the standalone [E] row measures at range; re-bench the napalm weapon at the same stand-off	Napalm autocast, with napalm weapon, burning fuel trail
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (only, weapon disarmed)	133994	126899	134830	126899-134830	79312/cast × energy-exact regen/60e = 1.6895/s → 16.89 casts per 10s window; the bench endpoints are EXACTLY 16 and 17 casts × 79312	Shreddin' Lead only
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (add weapon [Q])	419178	408008	418486	408008-418486	[Q] weapon (twin-shell splash) + the isolated Shreddin’ stream — both terms benched apart and exact	Add Shreddin' Lead ability
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Napalm (storm only)	247006	246753	247000	246753-247000	17 searches ÷ 1.70s cd = 10.0 apps/s × 10 ticks (dur 6.0029296875 ÷ 0.571) × 2470 = a flat 100 ticks/s; bench endpoints are EXACTLY 999 and 1000 ticks per 10s window	Napalm only
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Precision Strike	452774	436645	456766	436645-456766	weapon + ability (cumulative)	Add Precision Strike ability
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	bench-only	ARES [W]	441656	436645	446548	436645-446548	extra	
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	bench-only	Burning Fuel (trail)		354	354	354	needs model	Burning Fuel (trail)
@@ -39,13 +40,13 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	state	+ System Overdriv
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	self-buff	+ System Overdrive Static (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	self-buff	+ System Overdrive Mobile (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	bench-only	Shock Siege	115337	113735	116320	113735-116320	extra	
-Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	headline	total (all sources on)	253234					
+Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	headline	total (all sources on)	262376					
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	weapon	weapon	71005	70200	71604	70200-71604		With Stimpack
-Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Grenade (single hit)	36425	36425	36425	36425	per-hit of the GRENADE (generic matcher mis-paired this bench onto Barrage)	Single hit of Concussive Grenade
+Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Grenade (single hit)	25007	36425	36425	36425	per-hit of the GRENADE (generic matcher mis-paired this bench onto Barrage)	Single hit of Concussive Grenade
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Mortar Strike (single hit)	30884	30886	30886	30886	3 missiles per cast (walk total = exactly 3× the bench hit; its hit-split books 4 — audit open)	Single hit of Mortar Strike (there are multiple missiles in the ability)
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Impaler Charge (only)	79473	75498	83445	75498-83445	no-cd Transient autocast: one 0.0625s-expiry Ranged hit per 0.5s scan slot (endpoints = exactly 19/21 hits per 10s)	Impaler Charge only
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Barrage	79473	79472	79472	79472	ability alone (isolated gross)	Concussive Barrage only
-Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Grenade	18212				sustained dps (no bench)	
+Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Grenade	25007				sustained dps (no bench)	
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Mortar Strike	13236				sustained dps (no bench)	
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	self-buff	+ Stimpack (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Blackhammer	headline	total (all sources on)	138977				vs air 38556	
@@ -262,12 +263,12 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	weapon	weapon	196479	196641	198790	1
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Bile Glob	4941	138321	138321	138321	sustained dps	Bile Glob
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Acid Bath	54093	222012	227131	222012-227131	isolated gross (skill-only; no weapon displaced)	Acid Bath
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Vile Slime	21150	56716	56716	56716	sustained dps	Vile Slime. 872629 total damage
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	headline	total (all sources on)	261424					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	headline	total (all sources on)	267600					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	weapon	weapon	206697	206688	206688	206688		
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Leaping Strike	34590	52107	52107	52107	per-hit (perCast ÷ hits)	Leaping Strike, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip		29776	29776	29776	needs model	Crushing Grip, per hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip		59295	59295	59295	needs model	Crushing Grip, total damage
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Kinetic Blast	3375	5730	11461	5730-11461	isolated gross (skill-only; no weapon displaced)	Kinetic Blast, 0 dex
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Kinetic Blast	9222	5730	11461	5730-11461	sustained dps	Kinetic Blast, 0 dex
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	self-buff	+ Blessing Of Zerus (self-buff)		227440	227440	227440	todo	Add Blessing of Zerus
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	headline	total (all sources on)	234722					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	weapon	weapon	101735	101728	101728	101728		
@@ -427,10 +428,10 @@ Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	minion	+ Laser Mines onl
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	summon	+ Laser Mine	9302				per-summon; sustained 9302 (avg 1× living)	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	ability	+ Laser Beam (per hit @ 0 attrs)	45000	45000	45000	45000	manual-cast per-hit anchor: Melee-kind upgraded amount × buff totalSum only (0-attr row config)	Laser Beam, single hit. 0 Dex, 0 Int
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	self-buff	+ All-Out Attack (self-buff)	159987	159984	159984	159984	weapon with this self-buff on	Add All-Out Attack
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	headline	total (all sources on)	270667					
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	headline	total (all sources on)	275167					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	weapon	weapon	140175	139776	141107	139776-141107		
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	minion	+ Big Bad Bully	16918	16871	17056	16871-17056	per-minion; sustained 118429 (7× magazine)	Big Bad Bully (1)
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	ability	+ Grenade	152238	146888	154001	146888-154001	weapon + ability (cumulative)	Grenade, add weapon
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	ability	+ Grenade	156738	146888	154001	146888-154001	weapon + ability (cumulative)	Grenade, add weapon
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	General Warfield	self-buff	+ Stimpack (self-buff)					todo	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	headline	total (all sources on)	307645				vs air 90839	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Odin	weapon	weapon (ground)	176606	176597	176597	176597		
@@ -723,12 +724,12 @@ Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	summon	+ Swarm Host	9				pe
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	minion	+ Spotter Beacon	67629	228315	230203	228315-230203	per-minion; sustained 676292 (10× magazine)	Weapon with all Spotter Beacons attacking
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	ability	+ Overloaded System	5294	6176	6793	6176-6793	ability alone (isolated gross)	Overloaded System only
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	self-buff	+ Spotter Frenzy (self-buff)		55065	57739	55065-57739	todo	Weapon with Spotter Frenzy
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	headline	total (all sources on)	567986				vs air 120742	
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground)	567986					
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	headline	total (all sources on)	545150				vs air 120742	
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground)	545150					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (air)	120742	119208	122108	119208-122108		AA attack
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground, AG)	100843	99992	100654	99992-100654	pure ground weapon alone (excludes folded minions/summons)	AG attack
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	minion	+ Levi Minion	107680	106308	108079	106308-108079	per-minion; sustained 430718 (4× magazine)	Levi Minion (1)
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	ability	+ Bio-Plasmid Discharge	36425	43299	43299	43299	sustained dps	Bio Plasmid Discharge, 0 Int
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	ability	+ Bio-Plasmid Discharge	13589	43299	43299	43299	sustained dps	Bio Plasmid Discharge, 0 Int
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	headline	total (all sources on)	317250					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	weapon	weapon	317250	317241	317241	317241		Weapon damage only
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	ability	+ Cleave	21598	21598	21598	21598	per-hit (perCast ÷ hits)	Cleave, single hit, 0 Dex
