@@ -1,4 +1,4 @@
-# generated 2026-08-23T17:24:37.667Z
+# generated 2026-08-23T17:27:28.045Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -21,7 +21,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	self-buff	+ Stimpack (s
 Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	bench-only	Power Lunge, single hit		66094	66094	66094	needs model	Power Lunge, single hit
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	headline	total (all sources on)	452774					
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon ([Q] 120mm cannon)	285184	285184	285184	285184	twin shells (persistent Initial + Final), each = direct Ranged 9,736 + embedded-search Spell splash 3,632 → 26,736/attack ÷ 3/32	
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon (Napalm [E], 3-cell)	133558	133512	133512	133512	3 cone cells × 8 hits/s × per-event 5,563.81 (user tooltip); 4th cell angle-dependent → 178,016 = ×4/3	Sometimes 178016, angle dependent due to overlap of search areas?
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon (Napalm [E], 3-cell)	133512	133512	133512	133512	3 flame-line cells × 8 shots/s × per-event 5563 (user tooltip 5,563.81, meter-truncated); 4th cell angle-dependent → 178,016 = ×4/3	Sometimes 178016, angle dependent due to overlap of search areas?
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (only, weapon disarmed)	133994	126899	134830	126899-134830	79312/cast × energy-exact regen/60e = 1.6895/s → 16.89 casts per 10s window; the bench endpoints are EXACTLY 16 and 17 casts × 79312	Shreddin' Lead only
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (add weapon [Q])	419178	408008	418486	408008-418486	[Q] weapon (twin-shell splash) + the isolated Shreddin’ stream — both terms benched apart and exact	Add Shreddin' Lead ability
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Napalm (storm only)	247006	246753	247000	246753-247000	17 searches ÷ 1.70s cd = 10.0 apps/s × 10 ticks (dur 6.0029296875 ÷ 0.571) × 2470 = a flat 100 ticks/s; bench endpoints are EXACTLY 999 and 1000 ticks per 10s window	Napalm only
@@ -729,7 +729,7 @@ Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground)	54
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (air)	120742	119208	122108	119208-122108		AA attack
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground, AG)	100843	99992	100654	99992-100654	pure ground weapon alone (excludes folded minions/summons)	AG attack
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	minion	+ Levi Minion	107680	106308	108079	106308-108079	per-minion; sustained 430718 (4× magazine)	Levi Minion (1)
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	ability	+ Bio-Plasmid Discharge	13589	43299	43299	43299	sustained dps	Bio Plasmid Discharge, 0 Int
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	ability	+ Bio-Plasmid Discharge	13589	13588	13588	13588	ability alone (isolated gross)	Bio Plasmid Discharge only
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	headline	total (all sources on)	317250					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	weapon	weapon	317250	317241	317241	317241		Weapon damage only
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	ability	+ Cleave	21598	21598	21598	21598	per-hit (perCast ÷ hits)	Cleave, single hit, 0 Dex
