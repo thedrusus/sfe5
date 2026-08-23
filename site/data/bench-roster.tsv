@@ -1,19 +1,19 @@
-# generated 2026-08-23T02:27:36.006Z
+# generated 2026-08-23T02:41:55.736Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	ability	+ Flame Arc	11530	10376	12105	10376-12105	weapon-off isolation: 2 × 17,295 per 3.0s (bench endpoints = exactly 6/7 hits per 10s window); no VP in the arc chain	Flame Arc, autocast
-Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	ability	+ Flame Pulse	88462	86203	90155	86203-90155	weapon-off isolation: bench-pinned ~442k/cast; known chain (init + 1-stack FireBlast 26 ticks + 20 full VP stacks) ≈ 190k — ~250k/cast stream UNIDENTIFIED, decomposition open	Flame Pulse, autocast
+Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	ability	+ Flame Pulse	38053	86203	90155	86203-90155	single-cast isolation 190,190 validates chain (29 FireBlastDamage events + 20 full VP stacks = 190,253, −0.03%); bench row ~2.3× the single-source ceiling ⇒ IMPURE — RE-BENCH ASKED	Flame Pulse, autocast
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	ability	+ Fahrenheit 451 (during uptime)	77834	77612	77908	77612-77908	weapon-off, during the 16s buff: 5 direct ticks/s + 2 VP apps/tick booking full 24-tick stacks	Fahrenheit 451 (during uptime)
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	self-buff	+ Vigor Boost (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	self-buff	+ Stimpack (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Tauren Space Marine	headline	total (all sources on)	422721					
 Sheet2	Terran	Terran Heroes	Starting Hero	Tauren Space Marine	weapon	weapon	120810	120800	120800	120800		
-Sheet2	Terran	Terran Heroes	Starting Hero	Tauren Space Marine	ability	+ Stench Wave	10295	18530	18530	18530	sustained dps	Putriid Gas/Stench Wave
+Sheet2	Terran	Terran Heroes	Starting Hero	Tauren Space Marine	ability	+ Stench Wave (Putrid Gas, stabilized)	18532	18530	18530	18530	stabilized Putrid Gas stream (10 ticks/s), UNAMPED — the +10% marker never lands on the structure dummy	Putriid Gas/Stench Wave
+Sheet2	Terran	Terran Heroes	Starting Hero	Tauren Space Marine	summon	+ Outhouse (Putrid Gas, stabilized)	18532	17750	18686	17750-18686	same stabilized gas stream as Stench Wave (bench = 10s-window low/high), unamped	Outhouse, stabilized at 18530
+Sheet2	Terran	Terran Heroes	Starting Hero	Tauren Space Marine	summon	+ Festering Maggots (4)	78500	78464	78464	78464	per-summon basis × the 4 living maggots benched	Festering Maggots (4)
+Sheet2	Terran	Terran Heroes	Starting Hero	Tauren Space Marine	ability	+ Explosive Finish (single hit)	49420	49414	49414	49414	one outhouse detonation, unamped (the model folds the gas amp; the dummy never carries the marker)	Explosive Finish, single hit
 Sheet2	Terran	Terran Heroes	Starting Hero	Tauren Space Marine	self-buff	+ Stimpack (self-buff)					todo	
-Sheet2	Terran	Terran Heroes	Starting Hero	Tauren Space Marine	bench-only	Outhouse, stabilized at 18530		17750	18686	17750-18686	needs model	Outhouse, stabilized at 18530
-Sheet2	Terran	Terran Heroes	Starting Hero	Tauren Space Marine	bench-only	Festering Maggots (4)		78464	78464	78464	needs model	Festering Maggots (4)
-Sheet2	Terran	Terran Heroes	Starting Hero	Tauren Space Marine	bench-only	Explosive Finish, single hit		49414	49414	49414	needs model	Explosive Finish, single hit
 Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	headline	total (all sources on)	481632					
 Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	weapon	weapon	481632	57216	57216	57216		Adds stacks of Minigun
 Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	weapon	weapon (Rocket Launcher, no energy cap)	481632	481632	481632	481632	armed rocket-launcher mode = the max headline	Swap to Rocket Launcher weapon (benched without energy limit)
