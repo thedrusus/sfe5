@@ -1,4 +1,4 @@
-# generated 2026-08-23T07:34:34.473Z
+# generated 2026-08-23T07:57:18.162Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -22,7 +22,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	bench-only	Power Lunge,
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	headline	total (all sources on)	452774					
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon	246447	246442	246442	246442		
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon (Napalm [E], 3-cell)	133558	133512	133512	133512	3 cone cells × 8 hits/s × per-event 5,563.81 (user tooltip); 4th cell angle-dependent → 178,016 = ×4/3	Sometimes 178016, angle dependent due to overlap of search areas?
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (add weapon [Q])	380940	371325	380834	371325-380834	[Q] weapon + 3-hit volley (user gauge 79,312.5) / bench-config ENERGY-paced cadence 0.58984 (user logs 0.5625/0.625 armed AND idle = 60e energy floor; cd floor is 0.425 = cd÷1.1765 when energy-free); 17-cast window endpoint (+0.03%)	Add Shreddin' Lead ability
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (add weapon [Q])	380471	371325	380834	371325-380834	[Q] weapon + 3-hit volley (user gauge 79,312.5) × the energy-exact rate regen/60e = 1.689/s (user logs 0.5625/0.625 = this pace tick-dithered; cd floor 0.425 not binding)	Add Shreddin' Lead ability
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Napalm (storm alone)	247070	246012	247988	246012-247988	Karass-storm clone alone: 20 apps/s × 5 ticks × 2,471 (user weapon-off isolation 246,506–247,247 = this row); init validator-blocked on the dummy	Napalm autocast
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Precision Strike	452774	446863	458567	446863-458567	weapon + ability (cumulative)	Add Precision Strike ability
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	bench-only	ARES [W]	441656	435735	447449	435735-447449	extra	
