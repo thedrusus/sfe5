@@ -1,4 +1,4 @@
-# generated 2026-08-23T18:15:50.788Z
+# generated 2026-08-23T19:13:47.026Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -24,7 +24,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon ([Q] 120mm cann
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon (Napalm [E], 3-cell)	133512	133512	133512	133512	3 flame-line cells × 8 shots/s × per-event 5563 (user tooltip 5,563.81, meter-truncated); 4th cell angle-dependent → 178,016 = ×4/3	Sometimes 178016, angle dependent due to overlap of search areas?
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (only, weapon disarmed)	133994	126899	134830	126899-134830	79312/cast × energy-exact regen/60e = 1.6895/s → 16.89 casts per 10s window; the bench endpoints are EXACTLY 16 and 17 casts × 79312	Shreddin' Lead only
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (add weapon [Q])	419178	412083	420014	412083-420014	[Q] weapon (twin-shell splash) + the isolated Shreddin’ stream — both terms benched apart and exact	Add Shreddin' Lead ability
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Burning Fuel (trail puddle)	4940	354	354	354	one puddle's debuff stream: 2470/tick × 2 ticks/s (Period 0.5, refreshed by the r=1.5 search every 0.5s so it never expires)	Burning Fuel (trail)
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Burning Fuel (trail puddle)	4940	2000	2000	2000	one puddle's debuff stream: 2470/tick × 2 ticks/s (Period 0.5, refreshed by the r=1.5 search every 0.5s so it never expires). ⚠KNOWN MAP BUG (user-flagged): the bench reads the RAW 1,000/tick with no attribute/buff fold, so 2,000 vs this 4,940 is exactly the ×2.4707 hero Spell fold — rate is confirmed (20 ticks/10s), scaling is not applied in-game yet	Burning Fuel (trail)
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Napalm (storm only)	247006	246753	247000	246753-247000	17 searches ÷ 1.70s cd = 10.0 apps/s × 10 ticks (dur 6.0029296875 ÷ 0.571) × 2470 = a flat 100 ticks/s; bench endpoints are EXACTLY 999 and 1000 ticks per 10s window	Napalm only
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Precision Strike	452774	436645	456766	436645-456766	weapon + ability (cumulative)	Add Precision Strike ability
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	bench-only	ARES [W]	441656	436645	446548	436645-446548	extra	
