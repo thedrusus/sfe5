@@ -1,4 +1,4 @@
-# generated 2026-08-23T07:00:53.339Z
+# generated 2026-08-23T07:10:40.369Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -22,8 +22,8 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Tychus Findlay	bench-only	Power Lunge,
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	headline	total (all sources on)	452774					
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon	246447	246442	246442	246442		
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon (Napalm [E], 3-cell)	133558	133512	133512	133512	3 cone cells × 8 hits/s × per-event 5,563.81 (user tooltip); 4th cell angle-dependent → 178,016 = ×4/3	Sometimes 178016, angle dependent due to overlap of search areas?
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (add weapon [Q])		371325	380834	371325-380834	needs armed cadence: volley 79,312.5 + solo tick-cadence VALIDATED; bench implies armed ~1.634 casts/s (energy split with cannon drain suspected)	Add Shreddin' Lead ability
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Napalm (storm alone)	247070	246012	247988	246012-247988	Karass-storm clone alone: 20 apps/s × 5 ticks × 2,471 (user weapon-off isolation 246,506–247,247 = this row); init validator-blocked on the dummy	Napalm autocast
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead		371325	380834	371325-380834	needs model	Add Shreddin' Lead ability
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Precision Strike	452774	446863	458567	446863-458567	weapon + ability (cumulative)	Add Precision Strike ability
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	bench-only	ARES [W]	441656	435735	447449	435735-447449	extra	
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	bench-only	Burning Fuel (trail)		354	354	354	needs model	Burning Fuel (trail)
@@ -94,8 +94,8 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	bench-only	Add Support D
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	headline	total (all sources on)	132484					
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	weapon	weapon	41368	54740	54740	54740		Main weapon with Stimpack and Impetous Stride
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	weapon	weapon (no self-buffs)	23319	34976	34976	34976	weapon with all self-buffs off (bare-weapon measure)	Only main weapon
-Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	ability	+ Single Out	21218	41257	46939	41257-46939	sustained dps	Single Out
-Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	ability	+ Plasma Rifle	32688	56824	56824	56824	sustained dps	Plasma Rifle
+Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	ability	+ Single Out	21530	41257	46939	41257-46939	isolated gross (skill-only; no weapon displaced)	Single Out
+Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	ability	+ Plasma Rifle	37061	56824	56824	56824	isolated gross (skill-only; no weapon displaced)	Plasma Rifle
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	self-buff	+ Stimpack (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Jim Raynor	bench-only	Rebel Yell		27016	27867	27016-27867	needs model	Rebel Yell
 Sheet2	Terran	Terran Heroes	Starting Hero	Son of Korhal	headline	total (all sources on)	201669					
@@ -116,7 +116,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Cerberus	bench-only	Damage with weapon
 Sheet2	Terran	Terran Heroes	Starting Hero	Cerberus	bench-only	Leap, single hit		19766	19766	19766	needs model	Leap, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	headline	total (all sources on)	198646					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	weapon	weapon	52777	52095	52850	52095-52850		
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	ability	+ Plasma Bolt	3910	5559	5559	5559	sustained dps	Plasma Bolt
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	ability	+ Plasma Bolt	5559	5559	5559	5559	isolated gross (skill-only; no weapon displaced)	Plasma Bolt
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	ability	+ Vengeful Guardian	19766	19765	19765	19765	perCast (total damage)	Vengeful Guardian, single damage
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	self-buff	+ Shield Burn On (self-buff)		43670	46310	43670-46310	todo	Add Shield Burn
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	headline	total (all sources on)	279202				vs air 228420	
@@ -181,7 +181,7 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	headline	total (all sources o
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	weapon	weapon	116880	115387	116870	115387-116870		Attacks cannot be separated from Concentrated Storm
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Psionic Storm	21006	36933	38069	36933-38069	sustained dps	Psionic Storm
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Lightning Strike	24707	24707	24707	24707	ability alone (isolated gross)	Lightning Strike (autocast only, can cast faster manual) 27177-29648 with stop spam
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Charged Blast	0	111501	111501	111501	sustained dps	Charged Blast, total damage. 8750 while stationary. 17294 while moving. This is probably a bug from the charged blast summon damage not referencing the caster unit
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Charged Blast	69090	111501	111501	111501	isolated gross (skill-only; no weapon displaced)	Charged Blast, total damage. 8750 while stationary. 17294 while moving. This is probably a bug from the charged blast summon damage not referencing the caster unit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	self-buff	+ Unleashed Storm (self-buff)		265798	318983	265798-318983	todo	Unleashed storm with weapon
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	headline	total (all sources on)	137832					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	weapon	weapon	137832					
@@ -240,7 +240,7 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Weapon, 0 Dex, Spine Cyc
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Starburst Impale + Spineblight		48177	48177	48177	needs model	Starburst Impale + Spineblight
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	headline	total (all sources on)	150232					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	weapon	weapon	105473	105432	106167	105432-106167		Includes DoT
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike	6627	207607	217039	207607-217039	sustained dps	Poison Spike and farther away attacks
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike	7569	207607	217039	207607-217039	isolated gross (skill-only; no weapon displaced)	Poison Spike and farther away attacks
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Spine Volley	36760	11877	81077	11877-81077	sustained dps	Spine Volley
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Evolved Strain	1373	200369	201995	200369-201995	sustained dps	Evolved Strain and farther away attacks
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Pinpoint Reach (self-buff)		267889	269878	267889-269878	todo	Pinpoint Reach and farther away attacks
@@ -260,14 +260,14 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Shock		
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	headline	total (all sources on)	270709					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	weapon	weapon	196479	196641	198790	196641-198790		Includes DoT
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Bile Glob	4941	138321	138321	138321	sustained dps	Bile Glob
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Acid Bath	48139	222012	227131	222012-227131	sustained dps	Acid Bath
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Acid Bath	54093	222012	227131	222012-227131	isolated gross (skill-only; no weapon displaced)	Acid Bath
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Vile Slime	21150	56716	56716	56716	sustained dps	Vile Slime. 872629 total damage
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	headline	total (all sources on)	261424					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	weapon	weapon	206697	206688	206688	206688		
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Leaping Strike	34590	52107	52107	52107	per-hit (perCast ÷ hits)	Leaping Strike, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip		29776	29776	29776	needs model	Crushing Grip, per hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip		59295	59295	59295	needs model	Crushing Grip, total damage
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Kinetic Blast	3045	5730	11461	5730-11461	sustained dps	Kinetic Blast, 0 dex
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Kinetic Blast	3375	5730	11461	5730-11461	isolated gross (skill-only; no weapon displaced)	Kinetic Blast, 0 dex
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	self-buff	+ Blessing Of Zerus (self-buff)		227440	227440	227440	todo	Add Blessing of Zerus
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	headline	total (all sources on)	234722					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	weapon	weapon	101735	101728	101728	101728		
@@ -700,7 +700,7 @@ Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	weapon	weapon	24023	239
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon	+ Infested Terran	107				per-summon; sustained 0 (avg 0× living)	
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Civilian	12667	12420	12585	12420-12585	per-minion; sustained 63336 (5× magazine)	Infested Terran (1)
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	minion	+ Infested Marine	12376	12192	12371	12192-12371	per-minion; sustained 61879 (5× magazine)	Infested Marine (1)
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	ability	+ Opho Fungal	22130	23465	23712	23465-23712	sustained dps	Fungal Growth
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	ability	+ Opho Fungal	23562	23465	23712	23465-23712	isolated gross (skill-only; no weapon displaced)	Fungal Growth
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	summon-buff	+ Opho Mutation (summon-buff)		12420	12585	12420-12585	todo	Infested Terran (1)  + Wild Mutation
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Ophiotaurus	bench-only	Infested Marine (1) + Wild Mutation		48144	48144	48144	needs model	Infested Marine (1) + Wild Mutation
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Zagara	headline	total (all sources on)	213244					
