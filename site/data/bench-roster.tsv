@@ -1,4 +1,4 @@
-# generated 2026-08-23T05:07:45.789Z
+# generated 2026-08-23T05:12:08.179Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -423,7 +423,7 @@ Sheet1	Terran	Terran Air	Unit	Battlecruiser	weapon	weapon	136501	136496	136496	1
 Sheet1	Terran	Terran Air	Unit	Battlecruiser	ability	+ Yamato Cannon	194134	190655	194523	190655-194523	weapon + ability (cumulative)	Add Yamato Cannon
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	headline	total (all sources on)	169288					
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	weapon	weapon	137762	137760	137760	137760		
-Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	minion	+ Laser Mines only	10198	10231	11161	10231-11161	energy/cd-paced mine stream alone (~1.1/s × 9,302 one-shot burst; weapon excluded per the re-bench)	Laser Mines only
+Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	minion	+ Laser Mines only	11162	10231	11161	10231-11161	mine stream alone: user cadence log 1,1,0.5 repeating = 1.2 deploys/s (90 e/s energy-exact on the 0.5 lattice) × 9,302 burst; bench hi = the exact 12-mine window	Laser Mines only
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	summon	+ Laser Mine	9302				per-summon; sustained 9302 (avg 1× living)	
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	ability	+ Laser Beam (per hit @ 0 attrs)	45000	45000	45000	45000	manual-cast per-hit anchor: Melee-kind upgraded amount × buff totalSum only (0-attr row config)	Laser Beam, single hit. 0 Dex, 0 Int
 Sheet1	Terran	Terran Buyable Heroes	Buyable Hero	Fenrir	self-buff	+ All-Out Attack (self-buff)	159987	159984	159984	159984	weapon with this self-buff on	Add All-Out Attack
