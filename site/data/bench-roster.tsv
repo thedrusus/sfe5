@@ -1,4 +1,4 @@
-# generated 2026-08-23T03:17:17.785Z
+# generated 2026-08-23T04:15:01.069Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -575,12 +575,12 @@ Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Vorazun	bench-only	Shadow Fur
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	headline	total (all sources on)	176517					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	weapon	weapon	171575	171528	171528	171528		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Jupiter	ability	+ Resonating Plasma Ball	176516	173030	179434	173030-179434	weapon + ability (cumulative)	Add Resonating Plasma Ball
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	headline	total (all sources on)	475430					
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	headline	total (all sources on)	476494					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	weapon	weapon	245614	244376	250336	244376-250336		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	summon	+ Zergling	145				per-summon; sustained 146 (avg 1.01× living)	
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Planet Cracker	19766	59976	59976	59976	sustained dps	Planet Cracker
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Plasma Spheres	3618				sustained dps (no bench)	
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Vortex	79063	79856	79856	79856	sustained dps	Vortex. While affected, unit is untargetable
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Planet Cracker	19966	59976	59976	59976	sustained dps	Planet Cracker
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Plasma Spheres	3681				sustained dps (no bench)	
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	ability	+ Vortex	79863	79856	79856	79856	sustained dps	Vortex. While affected, unit is untargetable
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Purifier	self-buff	+ Powered Purifier On (self-buff)					todo	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	headline	total (all sources on)	292561					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Selendis	ability	+ Psionic Orb (active DPS)	24708	24706	24706	24706	orb damage/sec while active = perHit ÷ 0.5s tick	Psionic Orb, active DPS
@@ -721,11 +721,11 @@ Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	summon	+ Swarm Host	9				pe
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	minion	+ Spotter Beacon	68025	228315	230203	228315-230203	per-minion; sustained 680248 (10× magazine)	Weapon with all Spotter Beacons attacking
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	ability	+ Overloaded System	5294	6176	6793	6176-6793	ability alone (isolated gross)	Overloaded System only
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Spotter	self-buff	+ Spotter Frenzy (self-buff)		55065	57739	55065-57739	todo	Weapon with Spotter Frenzy
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	headline	total (all sources on)	497410				vs air 120742	
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground)	497410					
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	headline	total (all sources on)	570815				vs air 120742	
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground)	570815					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (air)	120742	119208	122108	119208-122108		AA attack
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	weapon	weapon (ground, AG)	100843	99992	100654	99992-100654	pure ground weapon alone (excludes folded minions/summons)	AG attack
-Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	minion	+ Levi Minion	90036	106308	108079	106308-108079	per-minion; sustained 360143 (4× magazine)	Levi Minion (1)
+Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	minion	+ Levi Minion	108387	106308	108079	106308-108079	per-minion; sustained 433548 (4× magazine)	Levi Minion (1)
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Leviathan	ability	+ Bio-Plasmid Discharge	36425	43299	43299	43299	sustained dps	Bio Plasmid Discharge, 0 Int
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	headline	total (all sources on)	317250					
 Sheet1	Zerg	Zerg Buyable Heroes	Buyable Hero	Apocalisk	weapon	weapon	317250	317241	317241	317241		Weapon damage only
