@@ -1,4 +1,4 @@
-# generated 2026-08-23T04:24:17.518Z
+# generated 2026-08-23T05:07:45.789Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -568,7 +568,7 @@ Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	ability	+ Null Impl
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Nullifier	summon-buff	+ Null Capacitors (summon-buff)					todo	
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Sentinel	headline	total (all sources on)	244561					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Sentinel	weapon	weapon	236902	236896	236896	236896		
-Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Sentinel	ability	+ Reinar Pulse	244561	244937	246086	244937-246086	weapon + ability (cumulative)	Add Reinar Pulse
+Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Sentinel	ability	+ Reinar Pulse (add weapon)	245913	244937	246086	244937-246086	weapon + pulse @ cd 1.5 ÷ 1.1765 = 1.275 (user cadence log: period-5 tick dither 1.25/1.3125, mean exactly 1.275; rides-weapon → tick grid, no 0.5-lattice)	Add Reinar Pulse
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Vorazun	headline	total (all sources on)	332357					
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Vorazun	weapon	weapon	332357	330794	334429	330794-334429		
 Sheet1	Protoss	Protoss Buyable Heroes	Buyable Hero	Vorazun	bench-only	Shadow Fury, per hit. 10 total hits		17295	17295	17295	needs model	Shadow Fury, per hit. 10 total hits
