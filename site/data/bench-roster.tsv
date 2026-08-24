@@ -1,4 +1,4 @@
-# generated 2026-08-24T21:16:24.223Z
+# generated 2026-08-24T21:43:46.853Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -152,8 +152,8 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Zyrkhan	ability	+ Deadly Leap	24707	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zyrkhan	self-buff	+ Blood Frenzy (self-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	headline	total (all sources on)	211927					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	weapon	weapon	211927	211925	211925	211925		Divine Weapon
+Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	summon	+ Power Pylon (one pylon)	48033	47883	50059	47883-50059	3900 raw x the half-potency summon Spell fold = 7255/event / (beat 0.109375 + default random delay 0.041667 = 0.151042s); raw 0.10789 matches the displayed period	Power Pylon
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	summon-buff	+ Divine Boost (summon-buff)					todo	
-Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	bench-only	Power Pylon		47883	50059	47883-50059	needs model	Power Pylon
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	headline	total (all sources on)	1704400					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	weapon	weapon	1331900					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon	+ Phase Cannon	65603	65055	73665	65055-73665	per-summon; sustained 1157821 (avg 17.65× living)	Phase Cannon summon, 1 spawn.
