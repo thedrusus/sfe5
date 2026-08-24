@@ -1,4 +1,4 @@
-# generated 2026-08-24T19:16:08.575Z
+# generated 2026-08-24T19:44:22.268Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -120,27 +120,29 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Cerberus	minion	+ Cerberus Cub (with S
 Sheet2	Terran	Terran Heroes	Starting Hero	Cerberus	minion	+ Cerberus Cub (during Stunning Frenzy)	34059	34051	34051	34051	one cub × the StunningFrenzyBuff DamageTotalMultiplier (Melee ×1.60693); ratio at the hero's Πtotal 1.5, which is what the bench pins	1 Cub, during Stunning Frenzy
 Sheet2	Terran	Terran Heroes	Starting Hero	Cerberus	ability	+ Combat Leap (single hit)	19766	19766	19766	19766	8000 raw, no <Kind> ⇒ Spell fold. CAbilAugment on attack,Execute — never fires when already in range, so the sustained is correctly 0	Leap, single hit
 Sheet2	Terran	Terran Heroes	Starting Hero	Cerberus	summon-buff	+ Stunning Frenzy (summon-buff)					todo	
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	headline	total (all sources on)	204206					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	headline	total (all sources on)	119642					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	weapon	weapon	52777	52095	52850	52095-52850		
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	ability	+ Plasma Bolt	9469	5559	5559	5559	sustained dps	Plasma Bolt
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	aura	+ Shield Burn (aura)	46308	43670	46310	43670-46310	aura alone (periodic through caster km)	Add Shield Burn
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	ability	+ Plasma Bolt	5559	5559	5559	5559	isolated gross (skill-only; no weapon displaced)	Plasma Bolt
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	ability	+ Vengeful Guardian	19766	19765	19765	19765	perCast (total damage)	Vengeful Guardian, single damage
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	self-buff	+ Shield Burn On (self-buff)		43670	46310	43670-46310	todo	Add Shield Burn
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Annihilator	self-buff	+ Shield Burn On (self-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	headline	total (all sources on)	279202				vs air 228420	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	weapon	weapon (ground)	279202	279200	279200	279200		
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	weapon	weapon (air)	228420					
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	summon-buff	+ Rousing Speech (summon-buff)		371168	371168	371168	todo	Add Rousing Speech
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	bench-only	Lightning Dash, 0 Dex, single tick		15000	15000	15000	needs model	Lightning Dash, 0 Dex, single tick
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	bench-only	Blink Strike, 0 Dex, single tick		18000	18000	18000	needs model	Blink Strike, 0 Dex, single tick
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	ability	+ Lightning Dash (single tick, 0 dex)	15000	15000	15000	15000	10000 raw (DU_WEAP ⇒ Melee) × the 0-dex Melee fold 1.50000	Lightning Dash, 0 Dex, single tick
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	ability	+ Blink Strike (single tick, 0 dex)	18000	18000	18000	18000	12000 raw (DU_WEAP ⇒ Melee) × the 0-dex Melee fold 1.50000	Blink Strike, 0 Dex, single tick
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	summon-buff	+ Rousing Speech (weapon, damage half)	371179	371168	371168	371168	weapon × the RousingSpeech DamageTotalMultiplier (Melee ×1.329427); full-buff stats read 742358	Add Rousing Speech
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	summon-buff	+ Rousing Speech (summon-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	headline	total (all sources on)	63077					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	weapon	weapon	41782	41959	46861	41959-46861		
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	self-buff	+ Overcharge	63077	62848	79015	62848-79015	weapon + Overcharge (max headline)	Add Overcharge
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	ability	+ Whirlwind (spin, Gusts at cap)	88980	86755	88980	86755-88980	5000 raw Spell x the 50-stack WhirlwindGusts fold = 22245/tick / 0.25s, duty 100% (Duration 8.00390625 vs recast 7.65)	Whirlwind only
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	self-buff	+ Overcharge (self-buff)					todo	
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	bench-only	Whirlwind only		86755	88980	86755-88980	needs model	Whirlwind only
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Revenant	headline	total (all sources on)	143082					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Revenant	weapon	weapon	67630	67416	68191	67416-68191		
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Revenant	ability	+ Feedback					needs model	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Revenant	ability	+ Lightning Pulse	17295	19888	20752	19888-20752	sustained dps	Lightning Pulse
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Revenant	self-buff	+ Power Overwhelming (self-buff)		191792	191792	191792	todo	Add Power Overwhelming
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Revenant	self-buff	+ Power Overwhelming (self-buff)	117839	191792	191792	191792	weapon with this self-buff on	Add Power Overwhelming
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zyrkhan	headline	total (all sources on)	128867					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zyrkhan	weapon	weapon	122690	122688	122688	122688		Blood Frenzy stops working due to already hitting the attack speed cap.
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zyrkhan	ability	+ Deadly Leap	24707	24707	24707	24707	per-hit (perCast ÷ hits)	Deadly Leap, single hit
@@ -167,12 +169,12 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground, AG)	32
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (Extermination, autocast)	323159	270704	370166	270704-370166	weapon in extermination mode (autocast)	Add Extermination Mode (Autocast)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	summon	+ Thermal Assault	66757	55070	57573	55070-57573	per-summon; sustained 66757 (avg 1× living)	Thermal Assault (1)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	ability	+ Thermal Assault	1118				sustained dps (no bench)	
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Amplification Mode (self-buff)		268623	269414	268623-269414	todo	Add Amplification Mode
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Amplification Mode (self-buff)	268503	268623	269414	268623-269414	weapon with this self-buff on	Add Amplification Mode
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Extermination Mode (self-buff)		369771	370166	369771-370166	todo	Add Extermination Mode (Active)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	headline	total (all sources on)	748809					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	weapon	weapon	83966	83779	84853	83779-84853		
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast		122432	126228	122432-126228	needs model	Add Shadow Blink to above
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast		2668	5336	2668-5336	needs model	Shadow Blast only
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast	157318	122432	126228	122432-126228	per-cast (closest basis; amp-root ability, valued from full stats)	Add Shadow Blink to above
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast	78659	2668	5336	2668-5336	sustained (closest basis; amp-root ability, valued from full stats)	Shadow Blast only
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Void Surge	68691	35577	66708	35577-66708	ability alone (isolated gross)	Void Surge only
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Void Surge	68691	72027	135051	72027-135051	sustained dps	Void Meld and Void Surge (no intelligence, no dexterity, no ace)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	self-buff	+ Shadow Blink (self-buff)		144841	159716	144841-159716	todo	Add Shadow Blast to above
@@ -221,7 +223,7 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Consume DNA + 
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Scythe Swipe, single hit with no Stolen Essence		39656	39656	39656	needs model	Scythe Swipe, single hit with no Stolen Essence
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	headline	total (all sources on)	374852					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	weapon	weapon	228440	228432	228432	228432		
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	ability	+ Venomous Bite		336672	336672	336672	needs model	Add Venoumous Bite
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	ability	+ Venomous Bite	84714	336672	336672	336672	per-cast (closest basis; amp-root ability, valued from full stats)	Add Venoumous Bite
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	ability	+ Defiant Screech	233381	232879	234361	232879-234361	weapon + ability (cumulative)	Defiant Screech, add weapon
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	ability	+ Crazed Leap	19766	19766	19766	19766	per-hit (perCast ÷ hits)	Crazed Leap, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	self-buff	+ Feral Dash (self-buff)					todo	
@@ -259,9 +261,9 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	ability	+ Baleful Barrage	46645	494
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	self-buff	+ Armored Carapace (self-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	headline	total (all sources on)	131575					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	weapon	weapon	32431	32428	32428	32428		
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Push		2223	3335	2223-3335	needs model	Psionic Push only
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Push	3849	2223	3335	2223-3335	sustained (closest basis; amp-root ability, valued from full stats)	Psionic Push only
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Mind Fissure	54108	89278	97394	89278-97394	ability alone (isolated gross)	Mind Fissure only
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Shock		9265	9265	9265	needs model	Psionic Shock, single hit
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Shock	9265	9265	9265	9265	per-cast (closest basis; amp-root ability, valued from full stats)	Psionic Shock, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	headline	total (all sources on)	270709					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	weapon	weapon	196479	196641	198790	196641-198790		Includes DoT
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Bile Glob	4941	138321	138321	138321	sustained dps	Bile Glob
@@ -273,7 +275,7 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Leaping Strike	3
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip		29776	29776	29776	needs model	Crushing Grip, per hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip		59295	59295	59295	needs model	Crushing Grip, total damage
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Kinetic Blast	3375	5730	11461	5730-11461	isolated gross (skill-only; no weapon displaced)	Kinetic Blast, 0 dex
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	self-buff	+ Blessing Of Zerus (self-buff)		227440	227440	227440	todo	Add Blessing of Zerus
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	self-buff	+ Blessing Of Zerus (self-buff)	206697	227440	227440	227440	weapon with this self-buff on	Add Blessing of Zerus
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	headline	total (all sources on)	234722					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	weapon	weapon	101735	101728	101728	101728		
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	summon	+ Larva	28259	28256	28256	28256	per-summon; sustained 132988 (avg 4.71× living)	Larva (1)
@@ -294,7 +296,7 @@ Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	weapon	weapon	127934	127920	1
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	ability	+ Begone George Soros!	38541	40021	40021	40021	per-hit (perCast ÷ hits)	Begone George Soros, single hit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	ability	+ Gay Bomb	25942	14824	14824	14824	sustained dps	Gay Bomb, while active.
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	self-buff	+ Stimpack (self-buff)					todo	
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	self-buff	+ Super Male Vitality (self-buff)		622048	622048	622048	todo	While Super Male Vitality
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	self-buff	+ Super Male Vitality (during, 100% uptime)	555012	622048	622048	622048	weapon during this self-buff (blend-inverted to 100% uptime)	While Super Male Vitality
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	headline	total (all sources on)	421865					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	weapon	weapon	95091	95082	95082	95082		
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	ability	+ Shining Smile	69180	43484	47438	43484-47438	sustained dps	Shining Smile
@@ -306,8 +308,8 @@ Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Molest (per hit)	247
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Vaccinate (per hit)	2471	0	9883	0-9883	raw × kind fold at the bench dex (clean per-hit, no self-amp fold)	Vaccinate per hit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Launder Money (per hit)	18530	0	37061	0-37061	raw × kind fold at the bench dex (clean per-hit, no self-amp fold)	Launder money per hit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	weapon	weapon	2494632					
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Molest		2924	19753	2924-19753	needs model	Molest only, average with Crack Cocaine
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Vaccinate		9275	14074	9275-14074	needs model	Vaccinate only, average with Crack Cocaine
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Molest	17893	2924	19753	2924-19753	isolated gross (closest basis; amp-root ability, valued from full stats)	Molest only, average with Crack Cocaine
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Vaccinate	25050	9275	14074	9275-14074	sustained (closest basis; amp-root ability, valued from full stats)	Vaccinate only, average with Crack Cocaine
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Launder Money	7782	2909	18686	2909-18686	ability alone (isolated gross)	Launder money only, average with Crack Cocaine
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	self-buff	+ Crack Cocaine (self-buff)		0	17831	0-17831	todo	Weapon per hit. All of joe biden's kit is damage ranges,and all abilities are disabled until the crack ability is enabled. Buffs like Impact that add flat damage bump the min value from 0
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	headline	total (all sources on)	920010					
