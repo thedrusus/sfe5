@@ -1,4 +1,4 @@
-# generated 2026-08-24T21:57:09.102Z
+# generated 2026-08-24T22:42:49.213Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -165,10 +165,10 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Overload	29648	29645
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Rods From God	1089				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Solar Lance	19766	19766	19766	19766	per-hit (perCast ÷ hits)	Solar Lance, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon-buff	+ Inspiration (summon-buff)					todo	
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	headline	total (all sources on)	389916					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	headline	total (all sources on)	389916				vs air 357851	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground)	277663					
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (air)		116179	118184	116179-118184	AA weapon not modeled (no anti-air weapon resolved)	AA weapon
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground, AG)	323159	209472	213896	209472-213896	pure ground weapon alone (excludes folded minions/summons)	AG + Burn
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (air)	116891	116179	118184	116179-118184		AA weapon
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground, AG)	209788	209472	213896	209472-213896	pure ground weapon alone (excludes folded minions/summons)	AG + Burn
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (Extermination, autocast)	323159	270704	370166	270704-370166	weapon in extermination mode (autocast)	Add Extermination Mode (Autocast)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	summon	+ Thermal Assault	66757	55070	57573	55070-57573	per-summon; sustained 66757 (avg 1× living)	Thermal Assault (1)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	ability	+ Thermal Assault	1118				sustained dps (no bench)	
@@ -218,12 +218,12 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon-buff	+ Rallying Cry (
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	headline	total (all sources on)	1046953					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	+ Stolen Essence (weapon, PF off)	285968	285952	285952	285952	weapon alone with the Stolen Essence 15-stack ramp; Perfected Form (opt-in 100e/40s autocast) off — benched separately	Stolen Essence is added, causes additional damage
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	+ Perfected Form (weapon, PF on)	1036357	1036352	1036352	1036352	weapon with Perfected Form on → StolenEssence + StolenEssencePF ramp together (×4.18 dmg, ×2.42 atk speed → 0.0625 floor); 4 ShockReaverDamage instances/attack	Add Perfected Form
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Scythe Swipe (single hit, no Stolen Essence)	39656	39656	39656	39656	ScytheSwipe HybridReaverScytheSwipeDamage 3000 raw Melee × 4k fold = one hit, no ramp	Scythe Swipe, single hit with no Stolen Essence
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Consume DNA + Perfected Form (0 Dex)	6480	6478	7558	6478-7558	ConsumeDNA sustained dps (2160) × 3 — Perfected Form's RateMultiplier[Cooldown] 3 triples the recast	Consume DNA + Perfected Form, 0 Dex
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	weapon	296564					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Consume DNA	10596	10596	15894	10596-15894	sustained dps	Consume DNA
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Consume DNA + Instill Fear, 0 Dex		9040	13560	9040-13560	needs model	Consume DNA + Instill Fear, 0 Dex
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Consume DNA + Perfected Form, 0 Dex		6478	7558	6478-7558	needs model	Consume DNA + Perfected Form, 0 Dex
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Consume DNA + Perfected Form + Instill Fear, 0 Dex		19437	22676	19437-22676	needs model	Consume DNA + Perfected Form + Instill Fear, 0 Dex
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Scythe Swipe, single hit with no Stolen Essence		39656	39656	39656	needs model	Scythe Swipe, single hit with no Stolen Essence
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	headline	total (all sources on)	374852					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	weapon	weapon	228440	228432	228432	228432		
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	ability	+ Venomous Bite	84714	336672	336672	336672	per-cast (closest basis; amp-root ability, valued from full stats)	Add Venoumous Bite
@@ -284,16 +284,17 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	weapon	weapon	101735	101728	101728
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	summon	+ Larva	28259	28256	28256	28256	per-summon; sustained 132988 (avg 4.71× living)	Larva (1)
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	bench-only	Swarmling (1)		23541	23541	23541	needs model	Swarmling (1)
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	headline	total (all sources on)	301133				vs air 148050	
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	weapon	+ Essence Collector (5 stacks)	190336	285504	285504	285504	[DBG effP=0.09375 base=13879 5st=17844] ground weapon + EvolutionBuff×5 (+300 flat DamageDealtScaled) at the 0.0625 floor	At 5 stacks of Essence Collector
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Devouring Frenzy (single hit, 5 stacks)	23743	23744	23744	23744	[DBG raw=5500 kind=Spell] one Spell hit × Spell fold with EvolutionBuff×5 frac (+1.477)	Devouring Frenzy, single hit
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Leap (single hit, 5 stacks)	38853	38853	38853	38853	[DBG raw=9000 kind=Spell] one Spell hit × Spell fold with EvolutionBuff×5 frac (+1.477)	Leap, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	weapon	weapon (ground)	227880					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	weapon	weapon (air)	133245					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	summon	+ Dehaka Spawn	32978				per-summon; sustained 72724 (avg 2.21× living)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Predator Pounce	2164				sustained dps (no bench)	
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Essence Grab	2677	285504	285504	285504	sustained dps	At 5 stacks of Essence Collector
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Devouring Frenzy	13589	23744	23744	23744	per-hit (perCast ÷ hits)	Devouring Frenzy, single hit
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Essence Grab	2677	301712	301712	301712	sustained dps	Damage dealt while Essence Collector is overstacked
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Devouring Frenzy	2265				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	self-buff	+ Primal Evolution (self-buff)		370288	370288	370288	todo	Add Primal Evolution. Summons 1 Dehaka Mirror that is included
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	bench-only	Leap, single hit		38853	38853	38853	needs model	Leap, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	bench-only	Dehaka Mirror		84784	84784	84784	needs model	Dehaka Mirror
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	bench-only	Damage dealt while Essence Collector is overstacked		301712	301712	301712	needs model	Damage dealt while Essence Collector is overstacked
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	headline	total (all sources on)	526623					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	weapon	weapon	127934	127920	127920	127920		
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	ability	+ Begone George Soros!	38541	40021	40021	40021	per-hit (perCast ÷ hits)	Begone George Soros, single hit
@@ -326,7 +327,7 @@ Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon-buff	+ One Million Dolla
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	bench-only	4k Dex		56743	56807	56743-56807	needs model	4k Dex
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	headline	total (all sources on)	272143					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Lock On Burst (per hit)	53361	53361	53361	53361	per-missile Ranged hit at the bench dex (5 missiles/cast; mode-gated to Rocket Launcher)	Lock On Burst, per hit
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	BFG 9000 (vs heroic, per hit)	29648	0	0	0	vs HEROIC = BFG9000Damage Spell (non-instant-kill branch); raw × Spell fold at bench dex. Bench 0 = vs non-boss overflow-kill	BFG 9000, overflow. Vs non-boss is instant kill
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	BFG 9000 (vs heroic, per hit)	29648	29648	29648	29648	vs HEROIC = BFG9000Damage Spell (non-instant-kill branch); raw × Spell fold at bench dex. Bench 0 = vs non-boss overflow-kill	BFG 9000, overflow. Vs non-boss is instant kill
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Plasma Gun + Microwave Beam)	272143	272136	272136	272136		Plasma Gun + Microwave Beam
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Plasma Gun)	192101	192096	192096	192096		Plasma Gun
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Shotgun)	122516	122061	124062	122061-124062		Shotgun
@@ -491,8 +492,9 @@ Sheet1	Terran	Terran Structures	Structure	Perdition Turret	headline	total (all s
 Sheet1	Terran	Terran Structures	Structure	Perdition Turret	weapon	weapon	128930	128928	128928	128928		
 Sheet1	Terran	Terran Structures	Structure	Reinforced Wall	headline	total (all sources on)	0					
 Sheet1	Terran	Terran Structures	Structure	Reinforced Wall	weapon	weapon					no weapon (caster/support)	
-Sheet1	Terran	Terran Structures	Structure	Siege Turret	headline	total (all sources on)	75366					
-Sheet1	Terran	Terran Structures	Structure	Siege Turret	weapon	weapon	75366	75360	75360	75360		
+Sheet1	Terran	Terran Structures	Structure	Siege Turret	headline	total (all sources on)	75366				vs air 42283	
+Sheet1	Terran	Terran Structures	Structure	Siege Turret	weapon	weapon (ground)	75366	75360	75360	75360		
+Sheet1	Terran	Terran Structures	Structure	Siege Turret	weapon	weapon (air)	42283					
 Sheet1	Terran	Terran Structures	Structure	Psi Disrupter	headline	total (all sources on)	0					
 Sheet1	Terran	Terran Structures	Structure	Psi Disrupter	weapon	weapon					no weapon (caster/support)	
 Sheet1	Terran	Terran Structures	Structure	Armory	headline	total (all sources on)	0					
