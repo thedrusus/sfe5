@@ -1,4 +1,4 @@
-# generated 2026-08-24T21:43:46.853Z
+# generated 2026-08-24T21:57:09.102Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -154,16 +154,17 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	headline	total (all sources
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	weapon	weapon	211927	211925	211925	211925		Divine Weapon
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	summon	+ Power Pylon (one pylon)	48033	47883	50059	47883-50059	3900 raw x the half-potency summon Spell fold = 7255/event / (beat 0.109375 + default random delay 0.041667 = 0.151042s); raw 0.10789 matches the displayed period	Power Pylon
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	summon-buff	+ Divine Boost (summon-buff)					todo	
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	headline	total (all sources on)	1704400					
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	weapon	weapon	1331900					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	headline	total (all sources on)	1709036					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	weapon	weapon	1332490					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon	+ Phase Cannon	65603	65055	73665	65055-73665	per-summon; sustained 1157821 (avg 17.65× living)	Phase Cannon summon, 1 spawn.
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	minion	+ Servitor	36916				per-minion; sustained 73832 (2× magazine)	
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	minion	+ Servitor	37211				per-minion; sustained 74422 (2× magazine)	
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	minion	+ 2 Servitors (Karax weapon disarmed)	96941	95170	107981	95170-107981	2 x 9151/event (959.990234375 raw Melee x half-potency x TargetingUplink 1.29541016) / (raw 0.14713 + default random delay 0.041667 = 0.18880s); bench endpoints are EXACTLY 105 and 115 events	Weapon + Servitors
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon-buff	+ 2 Servitors, with Inspiration	120904	112519	139440	112519-139440	2 x 10253/event (Inspiration is a +0.5906 FRACTION, so it lands inside (1+frac)) / 0.16961s (raw 0.12794 incl. its x1.15 speed, + the default random delay); the bench HI is EXACTLY 136 events	Add Inspiration
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Rods From God (single rod)	9883	9883	9883	9883	one rod = 4000 raw (400 + 36/lvl x100), kindless => Spell x2.470703 = 9882.81; RandomOffset picks ONE offset per list, so a cast lands one rod on the target	Rods From God, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Overload	29648	29645	29645	29645	per-hit (perCast ÷ hits)	Overload, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Rods From God	1089				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Solar Lance	19766	19766	19766	19766	per-hit (perCast ÷ hits)	Solar Lance, single hit
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon-buff	+ Inspiration (summon-buff)		112519	139440	112519-139440	todo	Add Inspiration
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	bench-only	Weapon + Servitors		95170	107981	95170-107981	needs model	Weapon + Servitors
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon-buff	+ Inspiration (summon-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	headline	total (all sources on)	389916					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground)	277663					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (air)		116179	118184	116179-118184	AA weapon not modeled (no anti-air weapon resolved)	AA weapon
@@ -214,11 +215,11 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	minion	+ Infested Soldier	48
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	ability	+ Conscription	0				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	ability	+ Forceful Command	43048	43048	43048	43048	per-hit (perCast ÷ hits)	Forceful Command, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon-buff	+ Rallying Cry (summon-buff)					todo	
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	headline	total (all sources on)	582532					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	headline	total (all sources on)	1046953					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	+ Stolen Essence (weapon, PF off)	285968	285952	285952	285952	weapon alone with the Stolen Essence 15-stack ramp; Perfected Form (opt-in 100e/40s autocast) off — benched separately	Stolen Essence is added, causes additional damage
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	+ Perfected Form (weapon, PF on)	1036357	1036352	1036352	1036352	weapon with Perfected Form on → StolenEssence + StolenEssencePF ramp together (×4.18 dmg, ×2.42 atk speed → 0.0625 floor); 4 ShockReaverDamage instances/attack	Add Perfected Form
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	weapon	296564					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Consume DNA	10596	10596	15894	10596-15894	sustained dps	Consume DNA
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Add Perfected Form		1036352	1036352	1036352	needs model	Add Perfected Form
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Consume DNA + Instill Fear, 0 Dex		9040	13560	9040-13560	needs model	Consume DNA + Instill Fear, 0 Dex
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Consume DNA + Perfected Form, 0 Dex		6478	7558	6478-7558	needs model	Consume DNA + Perfected Form, 0 Dex
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Consume DNA + Perfected Form + Instill Fear, 0 Dex		19437	22676	19437-22676	needs model	Consume DNA + Perfected Form + Instill Fear, 0 Dex
