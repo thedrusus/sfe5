@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://sfe5.wiki/sitemap.xml
