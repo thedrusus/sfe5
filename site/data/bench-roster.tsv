@@ -1,4 +1,4 @@
-# generated 2026-08-24T20:53:22.341Z
+# generated 2026-08-24T21:16:24.223Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -146,10 +146,10 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Revenant	ability	+ Lightning Pulse	1
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Revenant	self-buff	+ Power Overwhelming (held, 100% uptime)	191802	191792	191792	191792	weapon with this self-buff HELD (behavior forced present - it changes attack speed; natural uptime 78%)	Add Power Overwhelming
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zyrkhan	headline	total (all sources on)	128867					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zyrkhan	weapon	weapon	122690	122688	122688	122688		Blood Frenzy stops working due to already hitting the attack speed cap.
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Zyrkhan	ability	+ Valiant Charge (weapon + charge)	238406	236132	239097	236132-239097	weapon 203525 with the ValiantCharge buff held + 29648/cast / (cd 1 / Hyperactivity 1.1765 = 0.8500s); the bench endpoints are EXACTLY 11 and 12 casts	Add Valiant Charge
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Zyrkhan	state	+ weapon, while Grand Duelist	159040	159040	159040	159040	plain weapon x the GrandDuelistDebuff DamageResponse ModifyFraction 1.296386719 (fp4096) - the ability itself deals no damage; floor(7668 x M) = 9940 per event	While Grand Duelist
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zyrkhan	ability	+ Deadly Leap	24707	24707	24707	24707	per-hit (perCast ÷ hits)	Deadly Leap, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zyrkhan	self-buff	+ Blood Frenzy (self-buff)					todo	
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Zyrkhan	bench-only	Add Valiant Charge		236132	239097	236132-239097	needs model	Add Valiant Charge
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Zyrkhan	bench-only	While Grand Duelist		159040	159040	159040	needs model	While Grand Duelist
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	headline	total (all sources on)	211927					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	weapon	weapon	211927	211925	211925	211925		Divine Weapon
 Sheet2	Protoss	Protoss Heroes	Starting Hero	E•Borp	summon-buff	+ Divine Boost (summon-buff)					todo	
@@ -158,8 +158,9 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	headline	total (all sources on
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	weapon	weapon	1331900					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon	+ Phase Cannon	65603	65055	73665	65055-73665	per-summon; sustained 1157821 (avg 17.65× living)	Phase Cannon summon, 1 spawn.
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	minion	+ Servitor	36916				per-minion; sustained 73832 (2× magazine)	
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Rods From God (single rod)	9883	9883	9883	9883	one rod = 4000 raw (400 + 36/lvl x100), kindless => Spell x2.470703 = 9882.81; RandomOffset picks ONE offset per list, so a cast lands one rod on the target	Rods From God, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Overload	29648	29645	29645	29645	per-hit (perCast ÷ hits)	Overload, single hit
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Rods From God	82	9883	9883	9883	per-hit (perCast ÷ hits)	Rods From God, single hit
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Rods From God	1089				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Solar Lance	19766	19766	19766	19766	per-hit (perCast ÷ hits)	Solar Lance, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon-buff	+ Inspiration (summon-buff)		112519	139440	112519-139440	todo	Add Inspiration
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	bench-only	Weapon + Servitors		95170	107981	95170-107981	needs model	Weapon + Servitors
@@ -214,9 +215,9 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	ability	+ Conscription	0				
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	ability	+ Forceful Command	43048	43048	43048	43048	per-hit (perCast ÷ hits)	Forceful Command, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon-buff	+ Rallying Cry (summon-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	headline	total (all sources on)	582532					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	+ Stolen Essence (weapon, PF off)	285968	285952	285952	285952	weapon alone with the Stolen Essence 15-stack ramp; Perfected Form (opt-in 100e/40s autocast) off — benched separately	Stolen Essence is added, causes additional damage
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	weapon	296564					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Consume DNA	10596	10596	15894	10596-15894	sustained dps	Consume DNA
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Stolen Essence is added, causes additional damage		285952	285952	285952	needs model	Stolen Essence is added, causes additional damage
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Add Perfected Form		1036352	1036352	1036352	needs model	Add Perfected Form
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Consume DNA + Instill Fear, 0 Dex		9040	13560	9040-13560	needs model	Consume DNA + Instill Fear, 0 Dex
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Consume DNA + Perfected Form, 0 Dex		6478	7558	6478-7558	needs model	Consume DNA + Perfected Form, 0 Dex
@@ -324,7 +325,7 @@ Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon-buff	+ One Million Dolla
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	bench-only	4k Dex		56743	56807	56743-56807	needs model	4k Dex
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	headline	total (all sources on)	272143					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Lock On Burst (per hit)	53361	53361	53361	53361	per-missile Ranged hit at the bench dex (5 missiles/cast; mode-gated to Rocket Launcher)	Lock On Burst, per hit
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	BFG 9000 (vs heroic, per hit)	32017	0	0	0	vs HEROIC = BFG9000Damage Ranged (non-instant-kill branch); raw × Ranged fold at bench dex. Bench 0 = vs non-boss overflow-kill	BFG 9000, overflow. Vs non-boss is instant kill
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	BFG 9000 (vs heroic, per hit)	29648	0	0	0	vs HEROIC = BFG9000Damage Spell (non-instant-kill branch); raw × Spell fold at bench dex. Bench 0 = vs non-boss overflow-kill	BFG 9000, overflow. Vs non-boss is instant kill
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Plasma Gun + Microwave Beam)	272143	272136	272136	272136		Plasma Gun + Microwave Beam
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Plasma Gun)	192101	192096	192096	192096		Plasma Gun
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Shotgun)	122516	122061	124062	122061-124062		Shotgun
