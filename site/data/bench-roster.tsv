@@ -1,4 +1,4 @@
-# generated 2026-08-24T19:44:22.268Z
+# generated 2026-08-24T20:14:06.642Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -24,7 +24,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon ([Q] 120mm cann
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	weapon	weapon (Napalm [E], 3-cell)	133512	133512	133512	133512	3 flame-line cells × 8 shots/s × per-event 5563 (user tooltip 5,563.81, meter-truncated); 4th cell angle-dependent → 178,016 = ×4/3	Sometimes 178016, angle dependent due to overlap of search areas?
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (only, weapon disarmed)	133994	126899	134830	126899-134830	79312/cast × energy-exact regen/60e = 1.6895/s → 16.89 casts per 10s window; the bench endpoints are EXACTLY 16 and 17 casts × 79312	Shreddin' Lead only
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Shreddin' Lead (add weapon [Q])	419178	412083	420014	412083-420014	[Q] weapon (twin-shell splash) + the isolated Shreddin’ stream — both terms benched apart and exact	Add Shreddin' Lead ability
-Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Burning Fuel (trail puddle)	4940	9880	9880	9880	one puddle's debuff stream: 2470/tick × 2 ticks/s (Period 0.5, refreshed by the r=1.5 search every 0.5s so it never expires). ⚠KNOWN MAP BUG (user-flagged): the bench reads the RAW 1,000/tick with no attribute/buff fold, so 2,000 vs this 4,940 is exactly the ×2.4707 hero Spell fold — rate is confirmed (20 ticks/10s), scaling is not applied in-game yet	Burning Fuel (trail)
+Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Burning Fuel (trail, per hit)	2470	2470	2470	2470	per-hit trail damage = 1,000 raw × ×2.4707 hero Spell fold = 2470 (B12 fold fix, user-confirmed 2026-08-24). DPS is unreadable in-game because overlapping puddles stack on a stationary target, so this row is benched per hit, not as a rate	Burning Fuel (trail), per hit
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Napalm (storm only)	247006	246753	247000	246753-247000	17 searches ÷ 1.70s cd = 10.0 apps/s × 10 ticks (dur 6.0029296875 ÷ 0.571) × 2470 = a flat 100 ticks/s; bench endpoints are EXACTLY 999 and 1000 ticks per 10s window	Napalm only
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	ability	+ Precision Strike	452774	436645	456766	436645-456766	weapon + ability (cumulative)	Add Precision Strike ability
 Sheet2	Terran	Terran Heroes	Starting Hero	A.R.E.S.	bench-only	ARES [W]	441656	436645	446548	436645-446548	extra	
@@ -86,7 +86,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	toggle	+ Psionic Burn (wi
 Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	weapon	weapon (no self-buffs)	97847	97845	97845	97845	weapon with all self-buffs off (bare-weapon measure)	Main weapon without Chaotic Cloak
 Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	ability	+ Mindblast	4941	4941	7412	4941-7412	ability alone (isolated gross)	Mindblast only
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	headline	total (all sources on)	395983					
-Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	weapon	weapon	234103	110083	116559	110083-116559		Attack applies a debuff that increases damage taken
+Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	weapon	weapon	234103	233118	239593	233118-239593		Attack applies a debuff that increases damage taken
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	summon	+ Support Drone (aura)	242073	113832	120528	113832-120528	same weapon cadence, +0.3 DamageDealtFraction from the drone aura; bench = 17/18 events × 66,960	Add Support Drone
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	ability	+ Neuro Inhibitor Grenade (single hit)	14824	14824	14824	14824	weapon-off isolation → the weapon-applied +104% amp is NOT on the target: 6,000 × km0 Spell 2.470703	Neuro Inhibitor Grenade, single hit
 Sheet2	Terran	Terran Heroes	Starting Hero	Egon Stetmann	ability	+ Leeching Serum (only)	53119	47688	53144	47688-53144	ability alone, amp off: apply 14,824 per 1.5s cast + the 10-stack DoT at 50 ticks/s × 864	Leaching Serum only
