@@ -1,4 +1,4 @@
-# generated 2026-08-25T07:43:00.273Z
+# generated 2026-08-25T07:57:27.466Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -215,7 +215,7 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	ability	+ Shadow Strike	1329
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	ability	+ Graviton Lock					needs model	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	self-buff	+ Cloakedin Shadow Apply (self-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	headline	total (all sources on)	684621					
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	weapon	weapon	624705					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	weapon	weapon	21572	21456	21754	21456-21754		Weapon
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon	+ Infested Tank	17551	17267	17721	17267-17721	per-summon; sustained 137670 (avg 7.84× living)	Infested Tank, single unit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	minion	+ Infested Soldier + Rallying Cry	526984	519389	527535	519389-527535	weapon + minions sustained with Rallying Cry (505412 @ 20×; 25271 per-minion)	Rallying Cry + Weapon + Infested Army summons
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	minion	+ Infested Soldier	22966	22965	22965	22965	per-minion; sustained 459314 (20× magazine)	Infested Solider, single unit
@@ -273,6 +273,7 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Evolved Strain	1373				sus
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Pinpoint Reach (self-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	headline	total (all sources on)	352289					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	weapon	weapon	109481	108710	111850	108710-111850		Includes Corrosive Attack
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	weapon	weapon (direct hits, own DoT excluded)	81683	80376	82397	80376-82397	10410 per hit / 0.12744140625s = the weapon WITHOUT its 27798 on-hit DoT (the "Includes ..." row is the summed measure)	Weapon
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	ability	+ Baleful Barrage (single hit, fresh target)	49414	49414	49414	49414	one bolt 69968 with the weapon-applied CorrosiveAttack amp x1.41595 removed (a single cast on a fresh dummy carries 0 of its 8 stacks)	Baleful Barrage, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	ability	+ Corrosive Bile	68655	67915	75483	67915-75483	ability alone + 10s meter fencepost	Corrosive Bile only
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	ability	+ Dissolute Acid	101589	97747	104567	97747-104567	sustained dps	Dissolute Acid
@@ -286,7 +287,7 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Push			
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Mind Fissure	52081				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Shock	9265	9265	9265	9265	per-cast (closest basis; amp-root ability, valued from full stats)	Psionic Shock, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	headline	total (all sources on)	270709					
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	weapon	weapon	196479	196641	198790	196641-198790		Includes DoT
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	weapon	weapon	196479	196512	198864	196512-198864		Includes DoT
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Vile Slime (one application)	56718	56716	56716	56716	one cast live: the 21150 VileSlime DoT + 12 DeadlySaliva stacks (Count 12/application) x 4/s x 741 = 35568	Vile Slime. 872629 total damage
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Bile Glob	138357	138321	138321	138321	isolated gross (skill-only; no weapon displaced)	Bile Glob
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Acid Bath	230802	222012	227131	222012-227131	isolated gross (skill-only; no weapon displaced)	Acid Bath
@@ -348,13 +349,14 @@ Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Molest	17893	2924	19
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Vaccinate					needs model	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Launder Money	7782	2909	18686	2909-18686	ability alone (isolated gross)	Launder money only, average with Crack Cocaine
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	self-buff	+ Crack Cocaine (self-buff)		0	17831	0-17831	todo	Weapon per hit. All of joe biden's kit is damage ranges,and all abilities are disabled until the crack ability is enabled. Buffs like Impact that add flat damage bump the min value from 0
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	headline	total (all sources on)	490651					
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	headline	total (all sources on)	417942					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	weapon	weapon (with Stimpack)	38005	37762	39187	37762-39187	weapon with Stimpack up → Molotov 2× recovery-plateau (0.1875); user-confirmed period	Weapon
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon	Evil Laser (1×, elite unit)	309897	313744	313744	313744	PersistUntilDestroyed channel (0.0625 tick, 16/s) × full-1k + elite unit	Evil Laser 1x. Like swann's militarized transport, therefore gets elite unit
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon	Evil Laser (1×, elite unit + So Evil)	313759	313744	313744	313744	standalone elite laser (PersistUntilDestroyed 0.0625 channel, 16/s) × So Evil +20% (friendly in the r8 aura)	Evil Laser 1x. Like swann's militarized transport, therefore gets elite unit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	minion	Mini-Me (single, So Evil on, One Million Dollars off)	13813	13721	13980	13721-13980	one Mini-Me, OMD off (user), × So Evil +20% damage buff	Mini Me + So Evil aura
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	weapon	weapon	807322					
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon	+ Evil Laser	649026				per-summon; sustained 649026 (avg 1× living)	
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	minion	+ Mini-Me	140812	146613	152518	146613-152518	weapon + minions sustained (109141 @ 5×; 21828 per-minion)	Weapon + 8x Mini Me + So Evil
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	minion	weapon (Stimpack) + 5× Mini-Me + So Evil	147146	146613	152518	146613-152518	Stimpack weapon (38,005) + Mini-Me magazine sustained stream (s.minionDps, avg-living)	Weapon + 8x Mini Me + So Evil
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	weapon	weapon	629296					
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon	+ Evil Laser	471000				per-summon; sustained 471000 (avg 1× living)	
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	minion	+ Mini-Me	21828				per-minion; sustained 109141 (5× magazine)	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	ability	+ How About No	49403	50980	50980	50980	per-hit (perCast ÷ hits)	How About No, per hit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	self-buff	+ Stimpack (self-buff)					todo	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon-buff	+ One Million Dollars (summon-buff)					todo	
