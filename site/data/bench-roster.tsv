@@ -1,4 +1,4 @@
-# generated 2026-08-25T04:02:22.035Z
+# generated 2026-08-25T07:43:00.273Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -40,7 +40,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	state	+ System Overdriv
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	self-buff	+ System Overdrive Static (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	self-buff	+ System Overdrive Mobile (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Shock Division	bench-only	Shock Siege	115337	113735	116320	113735-116320	extra	
-Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	headline	total (all sources on)	253234					
+Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	headline	total (all sources on)	252563					
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	weapon	weapon	71005	70200	71604	70200-71604		With Stimpack
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Concussive Grenade (single hit)	36425	36425	36425	36425	per-hit of the GRENADE (generic matcher mis-paired this bench onto Barrage)	Single hit of Concussive Grenade
 Sheet2	Terran	Terran Heroes	Starting Hero	Aegis Guard	ability	+ Mortar Strike (single hit)	30884	30886	30886	30886	3 missiles per cast (walk total = exactly 3× the bench hit; its hit-split books 4 — audit open)	Single hit of Mortar Strike (there are multiple missiles in the ability)
@@ -75,7 +75,7 @@ Sheet2	Terran	Terran Heroes	Starting Hero	November Terra	headline	total (all sou
 Sheet2	Terran	Terran Heroes	Starting Hero	November Terra	weapon	weapon	175960					
 Sheet2	Terran	Terran Heroes	Starting Hero	November Terra	weapon	+ weapon (0 Stabilizing Cloak stacks)	110993	110985	110985	110985	ramp pinned at 0 stacks → plain weapon; bench = 96 events × 11,561 per 10s (exact)	With of Stabilizing Cloak
 Sheet2	Terran	Terran Heroes	Starting Hero	November Terra	ability	+ Railgun (Penetrator Round)	67636	68057	68057	68057	weapon-off isolation → gross (headline is 0: energy-starved behind Snipe); bench = the 17-event endpoint of 40,034/cast @ 60e ÷ 101.367 regen	Penetrating Round only
-Sheet2	Terran	Terran Heroes	Starting Hero	November Terra	ability	+ Snipe	106482	106756	106756	106756	ability alone (isolated gross)	Snipe only
+Sheet2	Terran	Terran Heroes	Starting Hero	November Terra	ability	+ Snipe	106758	106756	106756	106756	ability alone + 10s meter fencepost	Snipe only
 Sheet2	Terran	Terran Heroes	Starting Hero	November Terra	ability	+ Railgun	0				sustained dps (no bench)	
 Sheet2	Terran	Terran Heroes	Starting Hero	November Terra	self-buff	+ Stabilizing Cloak Apply (self-buff)					todo	
 Sheet2	Terran	Terran Heroes	Starting Hero	Gabriel Tosh	headline	total (all sources on)	156223					
@@ -194,9 +194,10 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	headline	total (all sources o
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	weapon	weapon	116880	115387	116870	115387-116870		Attacks cannot be separated from Concentrated Storm
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Psionic Storm (only, solo energy)	37576	36933	38069	36933-38069	7 applications x 2841 (one tick each: Duration 0.6665 / Period 0.571, distinct init adds none) over the SOLO energy recast 0.5293s; bench = 130 and 134 ticks	Psionic Storm
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	self-buff	+ Unleashed Storm (weapon swap)	291492	265798	318983	265798-318983	the SWAPPED-IN PsionicLightning weapon + its storm, with the buff fraction folded (direct 20610, storm 93636); both bench endpoints decode to this pair of events alone	Unleashed storm with weapon
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Charged Blast (total damage, per cast)	111501	111501	111501	111501	3 in-flight ticks x 8647 (approach exposure floor(R/(v x period))+1 = floor(5/(4x0.5))+1) + impact blast 37060 (caster fold; NotHaveAlarakPsiOrb passes - the map never grants it) + the orb birth tick 3500 BARE + 6 orb ticks x 4375 + orb expiry blast 18750 = the bench to the digit; the SPAWNED orb loses the caster fracSum (the bug the note flags) and its t=0 tick has not got the player x1.25 yet either	Charged Blast, total damage. 8750 while stationary. 17294 while moving. This is probably a bug from the charged blast summon damage not referencing the caster unit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Psionic Storm	21006				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Lightning Strike	24707	24707	24707	24707	ability alone (isolated gross)	Lightning Strike (autocast only, can cast faster manual) 27177-29648 with stop spam
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Charged Blast	69090	111501	111501	111501	isolated gross (skill-only; no weapon displaced)	Charged Blast, total damage. 8750 while stationary. 17294 while moving. This is probably a bug from the charged blast summon damage not referencing the caster unit
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Charged Blast	0				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	self-buff	+ Unleashed Storm (self-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	headline	total (all sources on)	137832					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	weapon	weapon	55125	55125	55125	55125	5168/event = floor(720.0048828125 raw Ranged folded + Revelation2 armour break 4.001953125 x 100 stacks) / 0.09375s	Attacks cause a debuff
@@ -213,12 +214,12 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	ability	+ Marked for Death	0
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	ability	+ Shadow Strike	132916				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	ability	+ Graviton Lock					needs model	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	self-buff	+ Cloakedin Shadow Apply (self-buff)					todo	
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	headline	total (all sources on)	686479					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	headline	total (all sources on)	684621					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	weapon	weapon	624705					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon	+ Infested Tank	17551	17267	17721	17267-17721	per-summon; sustained 137670 (avg 7.84× living)	Infested Tank, single unit
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon	+ Infested Tank + Rallying Cry	19313	494694	506018	494694-506018	per-summon with Rallying Cry	Rallying Cry + Weapon + Infested Army summons
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	minion	+ Infested Soldier + Rallying Cry	526984	519389	527535	519389-527535	weapon + minions sustained with Rallying Cry (505412 @ 20×; 25271 per-minion)	Rallying Cry + Weapon + Infested Army summons
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	minion	+ Infested Soldier	22966	22965	22965	22965	per-minion; sustained 459314 (20× magazine)	Infested Solider, single unit
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	minion	+ Infested Soldier	480886	450622	455790	450622-455790	weapon + minions sustained (459314 @ 20×; 22966 per-minion)	Weapon + Infested Army summons
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	minion	+ Infested Soldier	480886	474016	481634	474016-481634	weapon + minions sustained (459314 @ 20×; 22966 per-minion)	Weapon + Infested Army summons
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	ability	+ Conscription	0				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	ability	+ Forceful Command	43048	43048	43048	43048	per-hit (perCast ÷ hits)	Forceful Command, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon-buff	+ Rallying Cry (summon-buff)					todo	
@@ -233,28 +234,33 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	weapon	296564
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Consume DNA	10596	10596	15894	10596-15894	sustained dps	Consume DNA
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	headline	total (all sources on)	374852					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	weapon	weapon	228440	228432	228432	228432		
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	ability	+ Venomous Bite	84714	336672	336672	336672	per-cast (closest basis; amp-root ability, valued from full stats)	Add Venoumous Bite
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	ability	+ Venomous Bite	338280	336672	336672	336672	weapon ×1.30 amp + ability sustained (cumulative) (closest basis; amp-root ability, valued from full stats)	Add Venoumous Bite
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	ability	+ Defiant Screech	233381	232879	234361	232879-234361	weapon + ability (cumulative)	Defiant Screech, add weapon
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	ability	+ Crazed Leap	19766	19766	19766	19766	per-hit (perCast ÷ hits)	Crazed Leap, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	self-buff	+ Feral Dash (self-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Torrasque	headline	total (all sources on)	552036					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Torrasque	weapon	weapon	327320	322973	327770	322973-327770		
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Torrasque	ability	+ Unleash Wrath (weapon with the buff held)	687368	687336	687336	687336	weapon 42034 per hit at the added-ASM grid floor 0.0625s (raw 0.080566 x1.59297 buff → floor to 1/32) = 672544 + the 14824 Unleash Wrath pulse	Unleash Wrath, add weapon
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Torrasque	ability	+ Burrow Charge	17295	17295	17295	17295	per-hit (perCast ÷ hits)	Battle Charge, single hit. This ability interrupts the main attack due to being a motion ability
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Torrasque	ability	+ Ground Stomp	19766	19766	19766	19766	per-hit (perCast ÷ hits)	Ground Stomp, single hit. This ability interrupts the main attack due to being a motion ability
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Torrasque	ability	+ Unleash Wrath	342144	687336	687336	687336	weapon + ability (cumulative)	Unleash Wrath, add weapon
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Torrasque	ability	+ Unleash Wrath	14824				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	headline	total (all sources on)	109437					
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	weapon	weapon	109171	229120	229120	229120		Miniature Broot, melee
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	summon	+ Miniature Broot	61289	65128	65128	65128	per-summon; sustained 108125 (avg 1.76× living)	Miniature Broot, ranged
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	summon	+ Miniature Broot (melee weapon, per summon)	229128	229120	229120	229120	the Broot’s OWN melee weapon, solo (the melee-fallback exclusion only fires when a ranged weapon shares the list): 28641 per hit / 0.125s (DamagePoint == Backswing → ceil to whole game loops, not the beat step), with the innate BrootMentality2 aura pulse (810/4096) folded into the child	Miniature Broot, melee
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	summon	+ Miniature Broot (spew weapon, per summon)	65133	65128	65128	65128	the Broot’s ranged spew, solo: 8142 per hit / 0.125s, with the innate BrootMentality2 aura pulse (810/4096) folded into the child	Miniature Broot, ranged
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	weapon	weapon					no weapon (caster/support)	
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	summon	+ Miniature Broot	61289				per-summon; sustained 108125 (avg 1.76× living)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	ability	+ Shocked Metabolism	1046				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Cockroach	self-buff	+ Mind Control (self-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	headline	total (all sources on)	137041					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	weapon	AA weapon (unburrowed needle, 4k dex)	95367	95366	95366	95366	the unburrowed hydralisk needle spine — burrowed lurkers cannot hit air; benched at 4k dex, not 0	AA weapon
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	weapon	Weapon, 0 Dex, Spine Cycle alignment	74332	74325	74325	74325	burrowed spikes aligned: base 59214 + one extra ErebusSpikes hit 15118 (4th rectangle overlaps)	Weapon, 0 Dex, Spine Cycle alignment
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	weapon	Weapon, 0 Dex (burrowed spikes, Spineblight off)	59214	59208	59208	59208	burrowed Lurker23 spike line, base loadout (Spineblight off): 3 spikes + 1 SpikeCycle on the single target	Weapon, 0 Dex
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	ability	+ Starburst Impale + Spineblight (burrowed)	48179	48177	48177	48177	burrowed cast — Spineblight seeded, amps it ×1.30	Starburst Impale + Spineblight
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	ability	+ Starburst Impale (unburrowed)	37061	37059	37059	37059	unburrowed cast (no Spineblight)	Starburst Impale
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	weapon	weapon (ground)	132428					
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	weapon	weapon (air)		95366	95366	95366	AA weapon not modeled (no anti-air weapon resolved)	AA weapon
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	weapon	weapon (air)						
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	ability	+ Deep Tunnel	0				sustained dps (no bench)	
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	ability	+ Starburst Impale	37061	37059	37059	37059	sustained dps	Starburst Impale
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Weapon, 0 Dex		59208	59208	59208	needs model	Weapon, 0 Dex
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Weapon, 0 Dex, Spine Cycle alignment		74325	74325	74325	needs model	Weapon, 0 Dex, Spine Cycle alignment
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Starburst Impale + Spineblight		48177	48177	48177	needs model	Starburst Impale + Spineblight
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	ability	+ Starburst Impale	37061				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	headline	total (all sources on)	151585					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	weapon	+ Pursuit of the Weak (far)	174515	173618	174988	173618-174988	far branch = 2× direct + DoT (the poison DoT is not doubled)	Farther attacks add bonus damage from further attacks (Pursuit of the Weak)
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Pinpoint Reach + far	269192	267889	269878	267889-269878	far weapon amped by PinpointReach +2.0 frac (all kinds; DoT×2.01, direct×1.41)	Pinpoint Reach and farther away attacks
@@ -266,22 +272,25 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Spine Volley	36731	11877	8
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Evolved Strain	1373				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Pinpoint Reach (self-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	headline	total (all sources on)	352289					
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	weapon	weapon	250849					
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	ability	+ Corrosive Bile	39780	108710	111850	108710-111850	sustained dps	Includes Corrosive Attack
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	ability	+ Corrosive Bile	39780	67915	75483	67915-75483	ability alone (isolated gross)	Corrosive Bile only
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	weapon	weapon	109481	108710	111850	108710-111850		Includes Corrosive Attack
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	ability	+ Baleful Barrage (single hit, fresh target)	49414	49414	49414	49414	one bolt 69968 with the weapon-applied CorrosiveAttack amp x1.41595 removed (a single cast on a fresh dummy carries 0 of its 8 stacks)	Baleful Barrage, single hit
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	ability	+ Corrosive Bile	68655	67915	75483	67915-75483	ability alone + 10s meter fencepost	Corrosive Bile only
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	ability	+ Dissolute Acid	101589	97747	104567	97747-104567	sustained dps	Dissolute Acid
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	ability	+ Baleful Barrage	46645	49414	49414	49414	per-hit (perCast ÷ hits)	Baleful Barrage, single hit
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	ability	+ Baleful Barrage	0				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	self-buff	+ Armored Carapace (self-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	headline	total (all sources on)	131575					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	weapon	weapon	32431	32428	32428	32428		
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Push	3849	2223	3335	2223-3335	sustained (closest basis; amp-root ability, valued from full stats)	Psionic Push only
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Mind Fissure	54108	89278	97394	89278-97394	ability alone (isolated gross)	Mind Fissure only
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Push (only, one ring pass)	2887	2223	3335	2223-3335	ONE ring pass per cast: 11118 (3,000 raw Spell x the AllSeeingEye x1.50) over the 3.8512s recast; the payload is a PeriodCount-14 / 0.0625s expanding ring, which crosses a lone target once - bench = exactly 2 and 3 such hits	Psionic Push only
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Mind Fissure (only, amp held)	95488	89278	97394	89278-97394	81163 per cast (21,900 raw Spell x the AllSeeingEye x1.5 damage-taken debuff, which never lapses: Duration 6 >= its root's cd) over cd 1 / Hyperactivity 1.1765 = 0.8500s; bench = exactly 11 and 12 casts	Mind Fissure only
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Push					needs model	
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Mind Fissure	52081				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Shock	9265	9265	9265	9265	per-cast (closest basis; amp-root ability, valued from full stats)	Psionic Shock, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	headline	total (all sources on)	270709					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	weapon	weapon	196479	196641	198790	196641-198790		Includes DoT
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Bile Glob	4941	138321	138321	138321	sustained dps	Bile Glob
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Acid Bath	54093	222012	227131	222012-227131	isolated gross (skill-only; no weapon displaced)	Acid Bath
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Vile Slime	21150	56716	56716	56716	sustained dps	Vile Slime. 872629 total damage
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Vile Slime (one application)	56718	56716	56716	56716	one cast live: the 21150 VileSlime DoT + 12 DeadlySaliva stacks (Count 12/application) x 4/s x 741 = 35568	Vile Slime. 872629 total damage
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Bile Glob	138357	138321	138321	138321	isolated gross (skill-only; no weapon displaced)	Bile Glob
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Acid Bath	230802	222012	227131	222012-227131	isolated gross (skill-only; no weapon displaced)	Acid Bath
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Vile Slime	21150				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	headline	total (all sources on)	261424					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Leaping Strike (single hit)	52106	52107	52107	52107	PrimalSlash2 14k Spell × the Spell fold with KerriganFury×20 (+1.0 frac); the model base misses fury (34,590)	Leaping Strike, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip (per hit)	19765	19765	19765	19765	PsionicLift32 8k Spell × the BASE fold (0 fury): ×Ace 1.25 + int-1k frac = 19,766. ⚠sheet per-hit 29,776 is fury-contaminated → update to 19,765	Crushing Grip, per hit
@@ -312,35 +321,43 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Essence Grab	2677				sust
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Devouring Frenzy	2265				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	self-buff	+ Primal Evolution (self-buff)					todo	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	headline	total (all sources on)	526623					
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	ability	Begone George Soros (single hit)	40021	40021	40021	40021	clean single hit — raw × 1k Ranged fold (no SMV/ramp self-amp)	Begone George Soros, single hit
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	ability	Gay Bomb (while active — Fungal DoT)	14824	14824	14824	14824	clean Fungal DoT sustained (perTick/0.5); model over-books via the double-hit	Gay Bomb, while active.
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	weapon	weapon, while Super Male Vitality	344074	344064	344064	344064	full headline weapon, SMV (1 stack) held; ⚠sheet 622,048 was wrong → 344,064	Super Male Vitality and weapon
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	weapon	weapon	127934	127920	127920	127920		
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	ability	+ Begone George Soros!	38541	40021	40021	40021	per-hit (perCast ÷ hits)	Begone George Soros, single hit
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	ability	+ Gay Bomb	25942	14824	14824	14824	sustained dps	Gay Bomb, while active.
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	ability	+ Begone George Soros!	34100				sustained dps (no bench)	
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	ability	+ Gay Bomb	25942				sustained dps (no bench)	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	self-buff	+ Stimpack (self-buff)					todo	
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	self-buff	+ Super Male Vitality (held, 100% uptime)	555012	622048	622048	622048	weapon with this self-buff HELD (behavior forced present - it changes attack speed; natural uptime 100%)	While Super Male Vitality
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	self-buff	+ Super Male Vitality (self-buff)					todo	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	headline	total (all sources on)	421865					
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	ability	Drone Strike (single hit)	49414	49414	49414	49414	clean single hit — raw × 1k Spell fold (no +75% amp / self-buff)	Drone Strike, single hit
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	ability	Shining Smile + Obamium	76506	76505	83460	76505-83460	clean hit with Obamium (+1.5 frac) × 10s meter fencepost (1.00s recast)	Shining Smile + Obamium
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	ability	Shining Smile	43484	43484	47438	43484-47438	clean hit (no Obamium/amp) × 10s meter fencepost (1.00s recast)	Shining Smile
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	weapon	weapon	95091	95082	95082	95082		
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	ability	+ Shining Smile	69180	43484	47438	43484-47438	sustained dps	Shining Smile
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	ability	+ Drone Strike	57650	49414	49414	49414	per-hit (perCast ÷ hits)	Drone Strike, single hit
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	ability	+ Shining Smile	69180				sustained dps (no bench)	
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	ability	+ Drone Strike	45614				sustained dps (no bench)	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	self-buff	+ Stimpack (self-buff)					todo	
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	self-buff	+ Obamium (self-buff)		76505	83460	76505-83460	todo	Shining Smile + Obamium
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Barack Obama	self-buff	+ Obamium (self-buff)					todo	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	headline	total (all sources on)	2060192					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Molest (per hit)	24707	0	49414	0-49414	raw × kind fold at the bench dex (clean per-hit, no self-amp fold)	Molest per hit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Vaccinate (per hit)	2471	0	9883	0-9883	raw × kind fold at the bench dex (clean per-hit, no self-amp fold)	Vaccinate per hit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Launder Money (per hit)	18530	0	37061	0-37061	raw × kind fold at the bench dex (clean per-hit, no self-amp fold)	Launder money per hit
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Vaccinate (sustained, with Crack Cocaine)	11929	9275	14074	9275-14074	single-stack DoT (maxStk 1) × Crack Cocaine (+2 Spell) × Vaccinate self +20% ÷ 0.5s	Vaccinate only, average with Crack Cocaine
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	weapon	weapon	2494632					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Molest	17893	2924	19753	2924-19753	isolated gross (closest basis; amp-root ability, valued from full stats)	Molest only, average with Crack Cocaine
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Vaccinate	25050	9275	14074	9275-14074	sustained (closest basis; amp-root ability, valued from full stats)	Vaccinate only, average with Crack Cocaine
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Vaccinate					needs model	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Launder Money	7782	2909	18686	2909-18686	ability alone (isolated gross)	Launder money only, average with Crack Cocaine
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	self-buff	+ Crack Cocaine (self-buff)		0	17831	0-17831	todo	Weapon per hit. All of joe biden's kit is damage ranges,and all abilities are disabled until the crack ability is enabled. Buffs like Impact that add flat damage bump the min value from 0
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	headline	total (all sources on)	920010					
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	weapon	weapon	660966					
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon	+ Evil Laser	471000	261456	261456	261456	per-summon; sustained 471000 (avg 1× living)	Evil Laser 1x. Like swann's militarized transport, therefore gets elite unit
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	minion	+ Mini-Me	172482	221357	222810	221357-222810	weapon + minions sustained (109141 @ 5×; 21828 per-minion)	Weapon + Mini Me + 4k Dex
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	minion	+ Mini-Me	21828	16368	16368	16368	per-minion; sustained 109141 (5× magazine)	Mini Me, without So Evil, 4k Dex
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	ability	+ How About No	87423	35577	35577	35577	per-hit (perCast ÷ hits)	How About No, per hit
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	headline	total (all sources on)	490651					
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	weapon	weapon (with Stimpack)	38005	37762	39187	37762-39187	weapon with Stimpack up → Molotov 2× recovery-plateau (0.1875); user-confirmed period	Weapon
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon	Evil Laser (1×, elite unit)	309897	313744	313744	313744	PersistUntilDestroyed channel (0.0625 tick, 16/s) × full-1k + elite unit	Evil Laser 1x. Like swann's militarized transport, therefore gets elite unit
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	minion	Mini-Me (single, So Evil on, One Million Dollars off)	13813	13721	13980	13721-13980	one Mini-Me, OMD off (user), × So Evil +20% damage buff	Mini Me + So Evil aura
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	weapon	weapon	807322					
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon	+ Evil Laser	649026				per-summon; sustained 649026 (avg 1× living)	
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	minion	+ Mini-Me	140812	146613	152518	146613-152518	weapon + minions sustained (109141 @ 5×; 21828 per-minion)	Weapon + 8x Mini Me + So Evil
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	ability	+ How About No	49403	50980	50980	50980	per-hit (perCast ÷ hits)	How About No, per hit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	self-buff	+ Stimpack (self-buff)					todo	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon-buff	+ One Million Dollars (summon-buff)					todo	
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	bench-only	4k Dex		56743	56807	56743-56807	needs model	4k Dex
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	headline	total (all sources on)	272143					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Lock On Burst (per hit)	53361	53361	53361	53361	per-missile Ranged hit at the bench dex (5 missiles/cast; mode-gated to Rocket Launcher)	Lock On Burst, per hit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	BFG 9000 (vs heroic, per hit)	29648	29648	29648	29648	vs HEROIC = BFG9000Damage Spell (non-instant-kill branch); raw × Spell fold at bench dex. Bench 0 = vs non-boss overflow-kill	BFG 9000, overflow. Vs non-boss is instant kill
