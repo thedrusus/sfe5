@@ -1,4 +1,4 @@
-# generated 2026-08-24T22:42:49.213Z
+# generated 2026-08-25T02:32:24.610Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -165,15 +165,15 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Overload	29648	29645
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Rods From God	1089				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	ability	+ Solar Lance	19766	19766	19766	19766	per-hit (perCast ÷ hits)	Solar Lance, single hit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karax	summon-buff	+ Inspiration (summon-buff)					todo	
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	headline	total (all sources on)	389916				vs air 357851	
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground)	277663					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	headline	total (all sources on)	480865				vs air 357851	
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground)	368658					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (air)	116891	116179	118184	116179-118184		AA weapon
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground, AG)	209788	209472	213896	209472-213896	pure ground weapon alone (excludes folded minions/summons)	AG + Burn
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (Extermination, autocast)	323159	270704	370166	270704-370166	weapon in extermination mode (autocast)	Add Extermination Mode (Autocast)
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	summon	+ Thermal Assault	66757	55070	57573	55070-57573	per-summon; sustained 66757 (avg 1× living)	Thermal Assault (1)
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	ability	+ Thermal Assault	1118				sustained dps (no bench)	
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Amplification Mode (self-buff)	268503	268623	269414	268623-269414	weapon with this self-buff on	Add Amplification Mode
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Extermination Mode (self-buff)		369771	370166	369771-370166	todo	Add Extermination Mode (Active)
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (ground, AG)	209996	209472	213896	209472-213896	pure ground weapon alone (excludes folded minions/summons)	AG + Burn
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	weapon	weapon (Extermination, held)	370173	369771	370166	369771-370166	weapon with the Extermination Mode buff held (the row is measured DURING the mode)	Add Extermination Mode (Active)
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	summon	+ Thermal Assault	157546	155198	157701	155198-157701	per-summon; sustained 157546 (avg 1× living)	Thermal Assault (1)
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	ability	+ Thermal Assault	1116				sustained dps (no bench)	
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Amplification Mode (self-buff)	268664	268623	269414	268623-269414	weapon with this self-buff on	Add Amplification Mode
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Extermination Mode (self-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	headline	total (all sources on)	748809					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	weapon	weapon	83966	83779	84853	83779-84853		
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast	157318	122432	126228	122432-126228	per-cast (closest basis; amp-root ability, valued from full stats)	Add Shadow Blink to above
@@ -182,12 +182,11 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Void Surge	6
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Void Surge	68691	72027	135051	72027-135051	sustained dps	Void Meld and Void Surge (no intelligence, no dexterity, no ace)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	self-buff	+ Shadow Blink (self-buff)		144841	159716	144841-159716	todo	Add Shadow Blast to above
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	self-buff	+ Void Meld (self-buff)					todo	
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	headline	total (all sources on)	671351					
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	weapon	weapon	279741					
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	ability	+ Deadly Charge	263054	202123	204347	202123-204347	weapon + ability (cumulative)	Add Deadly Charge
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	headline	total (all sources on)	533662					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	weapon	weapon	177670	177664	177664	177664		Scatter the Unworthy isn't recorded in this value, just the weapon
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	ability	+ Lightning Jump	6588	5929	7906	5929-7906	19765/cast (8000 raw Spell, meter-truncated; 1 hit per target in the radius-4 search) / cd 3s; the bench endpoints are EXACTLY 3 and 4 casts	Lightning Jump only
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	ability	+ Deadly Charge	203831	202123	204347	202123-204347	weapon + ability (cumulative)	Add Deadly Charge
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	ability	+ Destruction Wave	24089	24088	24088	24088	ability alone (isolated gross)	Destruction Wave only
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	bench-only	Scatter the Unworthy isn't recorded in this value, just the weapon		177664	177664	177664	needs model	Scatter the Unworthy isn't recorded in this value, just the weapon
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	bench-only	Lightning Jump only		5929	7906	5929-7906	needs model	Lightning Jump only
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	headline	total (all sources on)	116880					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	weapon	weapon	116880	115387	116870	115387-116870		Attacks cannot be separated from Concentrated Storm
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Psionic Storm	21006	36933	38069	36933-38069	sustained dps	Psionic Storm
@@ -195,17 +194,20 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Lightning Strike	24
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Charged Blast	69090	111501	111501	111501	isolated gross (skill-only; no weapon displaced)	Charged Blast, total damage. 8750 while stationary. 17294 while moving. This is probably a bug from the charged blast summon damage not referencing the caster unit
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	self-buff	+ Unleashed Storm (self-buff)		265798	318983	265798-318983	todo	Unleashed storm with weapon
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	headline	total (all sources on)	137832					
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	weapon	weapon	50863	55125	55125	55125		Attacks cause a debuff
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	ability	+ Psionic Power	78075	75903	76570	75903-76570	sustained dps	Psionic Power
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	ability	+ Energy Nova	8895	2223	2223	2223	sustained dps	Energy Nova, burn DPS
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	weapon	weapon	55125	55125	55125	55125	5168/event = floor(720.0048828125 raw Ranged folded + Revelation2 armour break 4.001953125 x 100 stacks) / 0.09375s	Attacks cause a debuff
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	ability	+ Energy Nova (burn only)	2223	2223	2223	2223	DoT stream on one target: 30 ticks of 741 (299.9951171875 raw Spell folded, meter-truncated) per 10s window	Energy Nova, burn DPS
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	ability	+ Psionic Power	76076	75903	76570	75903-76570	11 searches x 2 hits x 1729 (700.0048828125 raw Spell, meter-truncated) per cast / 0.5s recast	Psionic Power
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	ability	+ Psionic Power	78075				sustained dps (no bench)	
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	ability	+ Energy Nova	8895				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	summon-buff	+ Rift Shield (summon-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	summon-buff	+ Transcendence (summon-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	headline	total (all sources on)	1639771					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	weapon	weapon	1506855	1506848	1506848	1506848		
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	ability	+ Shadow Strike	132916	152853	159499	152853-159499	ability alone (isolated gross)	Shadow Strike only
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	ability	+ Shadow Strike	156376	152853	159499	152853-159499	66458/cast / (cd 0.5 / Hyperactivity 1.1765 = 0.42499s); the bench endpoints are EXACTLY 23 and 24 casts of 66458	Shadow Strike only
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	ability	+ Marked for Death	0	0	0	0	DamageResponse Cost vital drain only (1% max life/hit, 300 flat vs heroes) - no CEffectDamage, so it is meter-invisible	Marked for Death (doesn't seem to work)
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	ability	+ Shadow Strike	132916				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	ability	+ Graviton Lock					needs model	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	self-buff	+ Cloakedin Shadow Apply (self-buff)					todo	
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Zeratul	bench-only	Marked for Death (doesn't seem to work)		0	0	0	needs model	Marked for Death (doesn't seem to work)
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	headline	total (all sources on)	686479					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	weapon	weapon	624705					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Alexei Stukov	summon	+ Infested Tank	17551	17267	17721	17267-17721	per-summon; sustained 137670 (avg 7.84× living)	Infested Tank, single unit
@@ -220,10 +222,10 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	+ Stolen Essence (
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	+ Perfected Form (weapon, PF on)	1036357	1036352	1036352	1036352	weapon with Perfected Form on → StolenEssence + StolenEssencePF ramp together (×4.18 dmg, ×2.42 atk speed → 0.0625 floor); 4 ShockReaverDamage instances/attack	Add Perfected Form
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Scythe Swipe (single hit, no Stolen Essence)	39656	39656	39656	39656	ScytheSwipe HybridReaverScytheSwipeDamage 3000 raw Melee × 4k fold = one hit, no ramp	Scythe Swipe, single hit with no Stolen Essence
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Consume DNA + Perfected Form (0 Dex)	6480	6478	7558	6478-7558	ConsumeDNA sustained dps (2160) × 3 — Perfected Form's RateMultiplier[Cooldown] 3 triples the recast	Consume DNA + Perfected Form, 0 Dex
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Consume DNA + Instill Fear (0 Dex)	9040	9040	13560	9040-13560	feared target takes ConsumeDNADamage3 + ConsumeDNADamageFeared (32395 combined) × InstillFear2 amp 1.3953125 / 5s	Consume DNA + Instill Fear, 0 Dex
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Consume DNA + PF + Instill Fear (0 Dex)	19437	19437	22676	19437-22676	feared (PF branch InstillFear, amp 1) × 3 (PF cadence) — 32395 combined / 5s	Consume DNA + Perfected Form + Instill Fear, 0 Dex
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	weapon	weapon	296564					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	ability	+ Consume DNA	10596	10596	15894	10596-15894	sustained dps	Consume DNA
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Consume DNA + Instill Fear, 0 Dex		9040	13560	9040-13560	needs model	Consume DNA + Instill Fear, 0 Dex
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Decimator	bench-only	Consume DNA + Perfected Form + Instill Fear, 0 Dex		19437	22676	19437-22676	needs model	Consume DNA + Perfected Form + Instill Fear, 0 Dex
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	headline	total (all sources on)	374852					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	weapon	weapon	228440	228432	228432	228432		
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Swarmling	ability	+ Venomous Bite	84714	336672	336672	336672	per-cast (closest basis; amp-root ability, valued from full stats)	Add Venoumous Bite
@@ -249,12 +251,15 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Weapon, 0 Dex		59208	592
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Weapon, 0 Dex, Spine Cycle alignment		74325	74325	74325	needs model	Weapon, 0 Dex, Spine Cycle alignment
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Starburst Impale + Spineblight		48177	48177	48177	needs model	Starburst Impale + Spineblight
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	headline	total (all sources on)	150232					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	weapon	+ Pursuit of the Weak (far)	174515	173618	174988	173618-174988	far branch = 2× direct + DoT (the poison DoT is not doubled)	Farther attacks add bonus damage from further attacks (Pursuit of the Weak)
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Pinpoint Reach + far	269192	267889	269878	267889-269878	far weapon amped by PinpointReach +2.0 frac (all kinds; DoT×2.01, direct×1.41)	Pinpoint Reach and farther away attacks
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Evolved Strain + far	201837	200369	201995	200369-201995	far weapon amped by the EvolvedStrain buff (+0.988 frac all kinds); on-cast damage excluded	Evolved Strain and farther away attacks
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike + far	208314	207607	217039	207607-217039	(far + spike 6627) × PoisonSpikeHero 1.15 (permanent amp)	Poison Spike and farther away attacks
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	weapon	weapon	105473	105432	106167	105432-106167		Includes DoT
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike	7569	207607	217039	207607-217039	isolated gross (skill-only; no weapon displaced)	Poison Spike and farther away attacks
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike	6627				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Spine Volley	36760	11877	81077	11877-81077	sustained dps	Spine Volley
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Evolved Strain	1373	200369	201995	200369-201995	sustained dps	Evolved Strain and farther away attacks
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Pinpoint Reach (self-buff)		267889	269878	267889-269878	todo	Pinpoint Reach and farther away attacks
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	bench-only	Farther attacks add bonus damage from further attacks (Pursuit of the Weak)		173618	174988	173618-174988	needs model	Farther attacks add bonus damage from further attacks (Pursuit of the Weak)
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Evolved Strain	1373				sustained dps (no bench)	
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Pinpoint Reach (self-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	headline	total (all sources on)	352289					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	weapon	weapon	250849					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	ability	+ Corrosive Bile	39780	108710	111850	108710-111850	sustained dps	Includes Corrosive Attack
@@ -273,28 +278,34 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Bile Glob	4941	138321	1383
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Acid Bath	54093	222012	227131	222012-227131	isolated gross (skill-only; no weapon displaced)	Acid Bath
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Vile Slime	21150	56716	56716	56716	sustained dps	Vile Slime. 872629 total damage
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	headline	total (all sources on)	261424					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Leaping Strike (single hit)	52106	52107	52107	52107	PrimalSlash2 14k Spell × the Spell fold with KerriganFury×20 (+1.0 frac); the model base misses fury (34,590)	Leaping Strike, single hit
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip (per hit)	19765	19765	19765	19765	PsionicLift32 8k Spell × the BASE fold (0 fury): ×Ace 1.25 + int-1k frac = 19,766. ⚠sheet per-hit 29,776 is fury-contaminated → update to 19,765	Crushing Grip, per hit
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip (total)	59295	59295	59295	59295	3 hits × the 8k base-Spell per-hit (0 fury) = 3 × 19,766 = 59,298 (bench 59,295 = 3 × 19,765)	Crushing Grip, total damage
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Kinetic Blast (single hit, 0 dex)	57307	57307	57307	57307	direct Spell hit + splash hit on the same primary (r1.5, no ExcludeArray) at 0 dex = 37,060 + 20,247	Kinetic Blast, single hit with 0 dex
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	self-buff	+ Blessing of Zerus (held)	227447	227440	227440	227440	weapon with Blessing of Zerus held at 100% (+0.593 frac all kinds diluted by the 4k-dex Ranged fracSum → +10%; ×1.5 speed adds 0 at the floor)	Add Blessing of Zerus
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	weapon	weapon	206697	206688	206688	206688		
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Leaping Strike	34590	52107	52107	52107	per-hit (perCast ÷ hits)	Leaping Strike, single hit
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip		29776	29776	29776	needs model	Crushing Grip, per hit
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip		59295	59295	59295	needs model	Crushing Grip, total damage
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Kinetic Blast	3375	5730	11461	5730-11461	isolated gross (skill-only; no weapon displaced)	Kinetic Blast, 0 dex
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	self-buff	+ Blessing Of Zerus (self-buff)	206697	227440	227440	227440	weapon with this self-buff on	Add Blessing of Zerus
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Leaping Strike	40323				sustained dps (no bench)	
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip					needs model	
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Kinetic Blast	14404				sustained dps (no bench)	
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	self-buff	+ Blessing Of Zerus (self-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	headline	total (all sources on)	234722					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	summon	+ Swarmling (per summon)	23541	23541	23541	23541	one hero-summoned Swarmling4: SwarmlingClaws2 300 Melee at HALF attr potency + buffs, eff 0.09375	Swarmling (1)
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	weapon	weapon	101735	101728	101728	101728		
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	summon	+ Larva	28259	28256	28256	28256	per-summon; sustained 132988 (avg 4.71× living)	Larva (1)
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	bench-only	Swarmling (1)		23541	23541	23541	needs model	Swarmling (1)
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	headline	total (all sources on)	301133				vs air 148050	
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	weapon	+ Essence Collector (5 stacks)	190336	285504	285504	285504	[DBG effP=0.09375 base=13879 5st=17844] ground weapon + EvolutionBuff×5 (+300 flat DamageDealtScaled) at the 0.0625 floor	At 5 stacks of Essence Collector
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Devouring Frenzy (single hit, 5 stacks)	23743	23744	23744	23744	[DBG raw=5500 kind=Spell] one Spell hit × Spell fold with EvolutionBuff×5 frac (+1.477)	Devouring Frenzy, single hit
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Leap (single hit, 5 stacks)	38853	38853	38853	38853	[DBG raw=9000 kind=Spell] one Spell hit × Spell fold with EvolutionBuff×5 frac (+1.477)	Leap, single hit
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	weapon	+ Essence Collector (5 stacks)	285504	285504	285504	285504	ground weapon perHit 13879→17844 with EvolutionBuff×5 (+300 flat DamageDealtScaled), fired at the 0.0625 essence-speed floor	At 5 stacks of Essence Collector
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	weapon	+ Overstacked (5 stacks + Overpower)	301712	301712	301712	301712	ground weapon perHit 17844→18857 with EvolutionOverpower (+0.5 Melee frac), fired at the 0.0625 floor	Damage dealt while Essence Collector is overstacked
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Devouring Frenzy (single hit, 5 stacks)	23743	23744	23744	23744	one Spell hit (raw 5500) × Spell fold with EvolutionBuff×5 frac (+1.477)	Devouring Frenzy, single hit
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Leap (single hit, 5 stacks)	38853	38853	38853	38853	one Spell hit (raw 9000) × Spell fold with EvolutionBuff×5 frac (+1.477)	Leap, single hit
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	summon	+ Dehaka Mirror (5 stacks)	84784	84784	84784	84784	one summoned mirror at 5 essence stacks: half attr potency + FULL essence flat-S (+300), 0.0625 floor	Dehaka Mirror
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	summon	+ Primal Evolution (weapon + mirror, 5 stacks)	370288	370288	370288	370288	Dehaka weapon at 5 stacks + the one mirror Primal Evolution summons (also at 5 stacks). The generic "+ Primal Evolution (self-buff)" row reads only CollectionSpree (pure ×1.2 attack speed, 0 gain at the 0.0625 floor) = 222,075 = the base weapon; the real +40% is the +5 essence stacks and the summoned mirror, which live in PrimalEvolutionSet not the buff	Add Primal Evolution. Summons 1 Dehaka Mirror that is included
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	weapon	weapon (ground)	227880					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	weapon	weapon (air)	133245					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	summon	+ Dehaka Spawn	32978				per-summon; sustained 72724 (avg 2.21× living)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Predator Pounce	2164				sustained dps (no bench)	
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Essence Grab	2677	301712	301712	301712	sustained dps	Damage dealt while Essence Collector is overstacked
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Essence Grab	2677				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	ability	+ Devouring Frenzy	2265				sustained dps (no bench)	
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	self-buff	+ Primal Evolution (self-buff)		370288	370288	370288	todo	Add Primal Evolution. Summons 1 Dehaka Mirror that is included
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	bench-only	Dehaka Mirror		84784	84784	84784	needs model	Dehaka Mirror
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	self-buff	+ Primal Evolution (self-buff)					todo	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	headline	total (all sources on)	526623					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	weapon	weapon	127934	127920	127920	127920		
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Alex Jones	ability	+ Begone George Soros!	38541	40021	40021	40021	per-hit (perCast ÷ hits)	Begone George Soros, single hit
