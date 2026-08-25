@@ -1,4 +1,4 @@
-# generated 2026-08-25T07:57:27.466Z
+# generated 2026-08-25T10:08:38.957Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -286,11 +286,11 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Mind Fissure (o
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Push					needs model	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Mind Fissure	52081				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Shock	9265	9265	9265	9265	per-cast (closest basis; amp-root ability, valued from full stats)	Psionic Shock, single hit
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	headline	total (all sources on)	270709					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	headline	total (all sources on)	261725					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	weapon	weapon	196479	196512	198864	196512-198864		Includes DoT
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Vile Slime (one application)	56718	56716	56716	56716	one cast live: the 21150 VileSlime DoT + 12 DeadlySaliva stacks (Count 12/application) x 4/s x 741 = 35568	Vile Slime. 872629 total damage
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Bile Glob	138357	138321	138321	138321	isolated gross (skill-only; no weapon displaced)	Bile Glob
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Acid Bath	230802	222012	227131	222012-227131	isolated gross (skill-only; no weapon displaced)	Acid Bath
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Acid Bath	221818	222012	227131	222012-227131	isolated gross (skill-only; no weapon displaced)	Acid Bath
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	ability	+ Vile Slime	21150				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	headline	total (all sources on)	261424					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Leaping Strike (single hit)	52106	52107	52107	52107	PrimalSlash2 14k Spell × the Spell fold with KerriganFury×20 (+1.0 frac); the model base misses fury (34,590)	Leaping Strike, single hit
@@ -354,10 +354,11 @@ Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	weapon	weapon (with Stimpack)	3
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon	Evil Laser (1×, elite unit + So Evil)	313759	313744	313744	313744	standalone elite laser (PersistUntilDestroyed 0.0625 channel, 16/s) × So Evil +20% (friendly in the r8 aura)	Evil Laser 1x. Like swann's militarized transport, therefore gets elite unit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	minion	Mini-Me (single, So Evil on, One Million Dollars off)	13813	13721	13980	13721-13980	one Mini-Me, OMD off (user), × So Evil +20% damage buff	Mini Me + So Evil aura
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	minion	weapon (Stimpack) + 5× Mini-Me + So Evil	147146	146613	152518	146613-152518	Stimpack weapon (38,005) + Mini-Me magazine sustained stream (s.minionDps, avg-living)	Weapon + 8x Mini Me + So Evil
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	ability	How About No (one shot, total of both hits)	73997	73996	73996	73996	direct Ranged 12000 + splash re-find scored Spell 12000, both × So Evil, at the row's dex=1000 config; the Molotov amp is absent on a fresh-dummy single shot	How About No, per hit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	weapon	weapon	629296					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon	+ Evil Laser	471000				per-summon; sustained 471000 (avg 1× living)	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	minion	+ Mini-Me	21828				per-minion; sustained 109141 (5× magazine)	
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	ability	+ How About No	49403	50980	50980	50980	per-hit (perCast ÷ hits)	How About No, per hit
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	ability	+ How About No	17485				sustained dps (no bench)	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	self-buff	+ Stimpack (self-buff)					todo	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon-buff	+ One Million Dollars (summon-buff)					todo	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	headline	total (all sources on)	272143					
