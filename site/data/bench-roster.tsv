@@ -1,4 +1,4 @@
-# generated 2026-08-25T10:08:38.957Z
+# generated 2026-08-25T19:44:31.025Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -181,7 +181,7 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Void Surge (only, weapon disarmed)	44472	35577	66708	35577-66708	2 hits (source + destination search) totalling 44472 at the bare km0 Spell fold over the 1s charge recast - no ShadowedDeath (weapon disarmed); bench = 16 and 30 such hits	Void Surge only
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Void Meld + Void Surge (no INT/DEX/Ace)	90034	72027	135051	72027-135051	2 hits totalling 90034 over 1s - Spell fold 1 x (1 + VoidMeld 4.001953) with Ace and INT stripped; bench = 16 and 30 hits	Void Meld and Void Surge (no intelligence, no dexterity, no ace)
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast (only, weapon disarmed)	3139	2668	5336	2668-5336	26682 per cast (bare km0 Spell x its OWN +20% debuff - the missile lands after ShadowBlastAB) over the 8.5s self-gate; bench = exactly 1 and 2 casts	Shadow Blast only
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast					needs model	
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast	18956				sustained dps (amp-root ability, valued from full stats; no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Void Surge	68691				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	self-buff	+ Shadow Blink (self-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	self-buff	+ Void Meld (self-buff)					todo	
@@ -261,13 +261,13 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	weapon	weapon (ground)	132428
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	weapon	weapon (air)						
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	ability	+ Deep Tunnel	0				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	ability	+ Starburst Impale	37061				sustained dps (no bench)	
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	headline	total (all sources on)	151585					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	headline	total (all sources on)	391790					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	weapon	+ Pursuit of the Weak (far)	174515	173618	174988	173618-174988	far branch = 2× direct + DoT (the poison DoT is not doubled)	Farther attacks add bonus damage from further attacks (Pursuit of the Weak)
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Pinpoint Reach + far	269192	267889	269878	267889-269878	far weapon amped by PinpointReach +2.0 frac (all kinds; DoT×2.01, direct×1.41)	Pinpoint Reach and farther away attacks
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Evolved Strain + far	201837	200369	201995	200369-201995	far weapon amped by the EvolvedStrain buff (+0.988 frac all kinds); on-cast damage excluded	Evolved Strain and farther away attacks
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike + far	208300	207607	217039	207607-217039	(far + spike 6615) × PoisonSpikeHero 1.15 (permanent amp)	Poison Spike and farther away attacks
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike + far	211826	207607	217039	207607-217039	(far + spike 9681) × PoisonSpikeHero 1.15 (permanent amp)	Poison Spike and farther away attacks
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	weapon	weapon	106867	106223	106957	106223-106957		Includes DoT
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike	6615				sustained dps (no bench)	
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike	9681				sustained dps (amp-root ability, valued from full stats; no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Spine Volley	36731	11877	81077	11877-81077	sustained dps	Spine Volley
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Evolved Strain	1373				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Pinpoint Reach (self-buff)					todo	
@@ -283,7 +283,7 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	headline	total (all sourc
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	weapon	weapon	32431	32428	32428	32428		
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Push (only, one ring pass)	2887	2223	3335	2223-3335	ONE ring pass per cast: 11118 (3,000 raw Spell x the AllSeeingEye x1.50) over the 3.8512s recast; the payload is a PeriodCount-14 / 0.0625s expanding ring, which crosses a lone target once - bench = exactly 2 and 3 such hits	Psionic Push only
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Mind Fissure (only, amp held)	95488	89278	97394	89278-97394	81163 per cast (21,900 raw Spell x the AllSeeingEye x1.5 damage-taken debuff, which never lapses: Duration 6 >= its root's cd) over cd 1 / Hyperactivity 1.1765 = 0.8500s; bench = exactly 11 and 12 casts	Mind Fissure only
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Push					needs model	
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Push	3849				sustained dps (amp-root ability, valued from full stats; no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Mind Fissure	52081				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Hybrid Dominator	ability	+ Psionic Shock	9265	9265	9265	9265	per-cast (closest basis; amp-root ability, valued from full stats)	Psionic Shock, single hit
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Minos	headline	total (all sources on)	261725					
@@ -303,10 +303,11 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Leaping Strike	4
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Crushing Grip					needs model	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	ability	+ Kinetic Blast	14404				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Primal Kerrigan	self-buff	+ Blessing Of Zerus (self-buff)					todo	
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	headline	total (all sources on)	234722					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	headline	total (all sources on)	906730					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	summon	+ Swarmling (per summon)	23541	23541	23541	23541	one hero-summoned Swarmling4: SwarmlingClaws2 300 Melee at HALF attr potency + buffs, eff 0.09375	Swarmling (1)
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	weapon	weapon	101735	101728	101728	101728		
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	summon	+ Larva	28259	28256	28256	28256	per-summon; sustained 132988 (avg 4.71× living)	Larva (1)
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	summon	+ Swarmling	23550				per-summon; sustained 273043 (avg 11.59× living)	
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Demeter	summon	+ Larva	28259	28256	28256	28256	per-summon; sustained 531952 (avg 18.82× living)	Larva (1)
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	headline	total (all sources on)	301133				vs air 148050	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	weapon	+ Essence Collector (5 stacks)	285504	285504	285504	285504	ground weapon perHit 13879→17844 with EvolutionBuff×5 (+300 flat DamageDealtScaled), fired at the 0.0625 essence-speed floor	At 5 stacks of Essence Collector
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Dehaka	weapon	+ Overstacked (5 stacks + Overpower)	301712	301712	301712	301712	ground weapon perHit 17844→18857 with EvolutionOverpower (+0.5 Melee frac), fired at the 0.0625 floor	Damage dealt while Essence Collector is overstacked
@@ -343,12 +344,14 @@ Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	headline	total (all sources on
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Molest (per hit)	24707	0	49414	0-49414	raw × kind fold at the bench dex (clean per-hit, no self-amp fold)	Molest per hit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Vaccinate (per hit)	2471	0	9883	0-9883	raw × kind fold at the bench dex (clean per-hit, no self-amp fold)	Vaccinate per hit
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Launder Money (per hit)	18530	0	37061	0-37061	raw × kind fold at the bench dex (clean per-hit, no self-amp fold)	Launder money per hit
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	weapon	weapon (per hit, mean of the 0-N roll)	8916	0	17831	0-17831	Random 2400 roll -> mean 1200 x the Crack-held Melee fold; the bench hi 17831 is the max roll	Weapon per hit. All of joe biden's kit is damage ranges,and all abilities are disabled until the crack ability is enabled. Buffs like Impact that add flat damage bump the min value from 0
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	weapon	weapon (Crack Cocaine held)	1412628	1424662	1491826	1424662-1491826	weapon with Crack held (x3 attack speed, +2 Melee frac) = 2825255 / the x2 melee self-overlap a contact weapon does not get	Weapon, while Crack Cocaine is active (enables all abilities)
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Vaccinate (sustained, with Crack Cocaine)	11929	9275	14074	9275-14074	single-stack DoT (maxStk 1) × Crack Cocaine (+2 Spell) × Vaccinate self +20% ÷ 0.5s	Vaccinate only, average with Crack Cocaine
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	weapon	weapon	2494632					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Molest	17893	2924	19753	2924-19753	isolated gross (closest basis; amp-root ability, valued from full stats)	Molest only, average with Crack Cocaine
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Vaccinate					needs model	
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Vaccinate	25050				sustained dps (amp-root ability, valued from full stats; no bench)	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	ability	+ Launder Money	7782	2909	18686	2909-18686	ability alone (isolated gross)	Launder money only, average with Crack Cocaine
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	self-buff	+ Crack Cocaine (self-buff)		0	17831	0-17831	todo	Weapon per hit. All of joe biden's kit is damage ranges,and all abilities are disabled until the crack ability is enabled. Buffs like Impact that add flat damage bump the min value from 0
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Joe Biden	self-buff	+ Crack Cocaine (self-buff)					todo	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	headline	total (all sources on)	417942					
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	weapon	weapon (with Stimpack)	38005	37762	39187	37762-39187	weapon with Stimpack up → Molotov 2× recovery-plateau (0.1875); user-confirmed period	Weapon
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Dr. Evil	summon	Evil Laser (1×, elite unit + So Evil)	313759	313744	313744	313744	standalone elite laser (PersistUntilDestroyed 0.0625 channel, 16/s) × So Evil +20% (friendly in the r8 aura)	Evil Laser 1x. Like swann's militarized transport, therefore gets elite unit
@@ -367,7 +370,7 @@ Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	BFG 9000 (vs heroic, 
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Plasma Gun + Microwave Beam)	272143	272136	272136	272136		Plasma Gun + Microwave Beam
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Plasma Gun)	192101	192096	192096	192096		Plasma Gun
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Shotgun)	122516	122061	124062	122061-124062		Shotgun
-Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Rocket Launcher)	97999	94647	96848	94647-96848		Rocket Launcher
+Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	weapon	weapon (Rocket Launcher)	96051	94647	96848	94647-96848		Rocket Launcher
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Meat Hook					needs model	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Lock On Burst					needs model	
 Sheet2	Bonus	Bonus Heroes	Starting Hero	Doom Slayer	ability	+ Microwave Beam	198682				sustained dps (no bench)	
@@ -822,7 +825,7 @@ Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	weapon	weapon	
 Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Vacuum (gross)	163223	161811	171747	161811-171747	amped per-cast (2.3 avg overlapping stacks) @ cd 10 ÷ 2 = 5.0s (full ×2.353 cdr overshoots — M-O runs ×2)	Vacuum
 Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Dust Bin (per hit, gated branch)	90097	90048	90048	90048	requirement-gated switch branch (walk books the ungated one) × own +15% amp — per-hit basis	Dust bin, per hit damage. Only gains a charge when vacuum ability finishes (check ability requirement)
 Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Vacuum	141945				sustained dps (no bench)	
-Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Dust Bin					needs model	
+Sheet1	Secret	Special Units	Secret Unit	M-O (Microbe-Obliterator)	ability	+ Dust Bin	13058				sustained dps (amp-root ability, valued from full stats; no bench)	
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	headline	total (all sources on)	382607					
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	weapon	weapon	129390	118963	134231	118963-134231		Weapon + Burn
 Sheet1	Secret	Special Units	Secret Unit	Diablo, Lord of Terror	minion	+ Hellspawn	25521	25514	25514	25514	per-minion; sustained 153127 (6× magazine)	Hellspawn 1x
@@ -845,13 +848,13 @@ Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	ability	+ Celesti
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	ability	+ Phase Wave	15669				sustained dps (no bench)	
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	ability	+ Void Energy	5223				sustained dps (no bench)	
 Sheet1	Secret	Special Units	Secret Unit	Narud, Servant of Amon	ability	+ Xel'Naga Vortex	5223				sustained dps (no bench)	
-Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	headline	total (all sources on)	263928					
+Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	headline	total (all sources on)	258051					
 Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	weapon	weapon	162224	162218	162218	162218		Weapon
 Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	ability	+ Seismic Arc (gross)	55713	50116	58469	50116-58469	gross per-cast (validated 83,528 in-game) @ cd 3 ÷ 2 = 1.5s; bench range = 6-vs-7 casts in the 10s meter window	Siesmic arc
 Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	ability	+ Slag Field (3-stack field)	15669	15660	15660	15660	burn DoT at its 3-stack-per-caster cap (fields overlap but do not stack past it); storm stream units-only, blocked on the dummy	Slag field
 Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	ability	+ Scorch Pulse	21589	21578	21578	21578	sustained dps	Scorch pulse
 Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	ability	+ Seismic Arc	36715				sustained dps (no bench)	
-Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	ability	+ Slag Field	43400				sustained dps (no bench)	
+Sheet1	Secret	Special Units	Secret Unit	Assembler, the Foundry’s Warden	ability	+ Slag Field	37523				sustained dps (no bench)	
 Sheet1		Enemy Structures	Structure	Infested Colony Ship	headline	total (all sources on)	0					
 Sheet1		Enemy Structures	Structure	Infested Colony Ship	weapon	weapon					no weapon (caster/support)	
 Sheet1		Enemy Structures	Structure	Creep Tumor	headline	total (all sources on)	0					
