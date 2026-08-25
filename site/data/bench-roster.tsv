@@ -1,4 +1,4 @@
-# generated 2026-08-25T02:32:24.610Z
+# generated 2026-08-25T04:02:22.035Z
 sheet	race	group	category	unit	kind	source	model	bench_lo	bench_hi	bench_raw	note	bench_note
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	headline	total (all sources on)	256022					
 Sheet2	Terran	Terran Heroes	Starting Hero	Prometheus Company	weapon	weapon	230295	228640	231234	228640-231234	direct + ViralPlasma DoT × 197.9/200 (measured cap-refill sawtooth; weapon-damage-0 DoT isolation 194,438–196,192)	Main attack + DoT that cannot be separated
@@ -134,7 +134,7 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	ability	+ Blink Strike (sing
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	summon-buff	+ Rousing Speech (weapon, damage half)	371179	371168	371168	371168	weapon × the RousingSpeech DamageTotalMultiplier (Melee ×1.329427); full-buff stats read 742358	Add Rousing Speech
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Artanis	summon-buff	+ Rousing Speech (summon-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	headline	total (all sources on)	63077					
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	weapon	weapon	41782	41959	46861	41959-46861		
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	weapon	weapon	41782	38687	46059	38687-46059		
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	self-buff	+ Overcharge	63077	62848	79015	62848-79015	weapon + Overcharge (max headline)	Add Overcharge
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	ability	+ Whirlwind (spin, Gusts at cap)	88980	86755	88980	86755-88980	5000 raw Spell x the 50-stack WhirlwindGusts fold = 22245/tick / 0.25s, duty 100% (Duration 8.00390625 vs recast 7.65)	Whirlwind only
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Fenix	self-buff	+ Overcharge (self-buff)					todo	
@@ -174,13 +174,16 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	summon	+ Thermal Assault	1575
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	ability	+ Thermal Assault	1116				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Amplification Mode (self-buff)	268664	268623	269414	268623-269414	weapon with this self-buff on	Add Amplification Mode
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Lancer	self-buff	+ Extermination Mode (self-buff)					todo	
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	headline	total (all sources on)	748809					
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	headline	total (all sources on)	640601					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	weapon	weapon	83966	83779	84853	83779-84853		
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast	157318	122432	126228	122432-126228	per-cast (closest basis; amp-root ability, valued from full stats)	Add Shadow Blink to above
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast	78659	2668	5336	2668-5336	sustained (closest basis; amp-root ability, valued from full stats)	Shadow Blast only
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Void Surge	68691	35577	66708	35577-66708	ability alone (isolated gross)	Void Surge only
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Void Surge	68691	72027	135051	72027-135051	sustained dps	Void Meld and Void Surge (no intelligence, no dexterity, no ace)
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	self-buff	+ Shadow Blink (self-buff)		144841	159716	144841-159716	todo	Add Shadow Blast to above
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	self-buff	+ Shadow Blink	124036	122432	126228	122432-126228	weapon at 94.2% blink uptime (buff 8.004s over the autocast self-gate 8.5s, NOT cd 3); bench endpoints = 71/78 and 76/79 buffed events	Add Shadow Blink to above
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast (on top of Blink)	149806	144841	159716	144841-159716	blinked weapon x the +20% debuff at 70.6% uptime (6.003s over 8.5s) + the blast stream (self-amped through the missile flight, x ShadowedDeath) per 8.5s	Add Shadow Blast to above
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Void Surge (only, weapon disarmed)	44472	35577	66708	35577-66708	2 hits (source + destination search) totalling 44472 at the bare km0 Spell fold over the 1s charge recast - no ShadowedDeath (weapon disarmed); bench = 16 and 30 such hits	Void Surge only
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Void Meld + Void Surge (no INT/DEX/Ace)	90034	72027	135051	72027-135051	2 hits totalling 90034 over 1s - Spell fold 1 x (1 + VoidMeld 4.001953) with Ace and INT stripped; bench = 16 and 30 hits	Void Meld and Void Surge (no intelligence, no dexterity, no ace)
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast (only, weapon disarmed)	3139	2668	5336	2668-5336	26682 per cast (bare km0 Spell x its OWN +20% debuff - the missile lands after ShadowBlastAB) over the 8.5s self-gate; bench = exactly 1 and 2 casts	Shadow Blast only
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Shadow Blast					needs model	
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	ability	+ Void Surge	68691				sustained dps (no bench)	
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	self-buff	+ Shadow Blink (self-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Shadow Walker	self-buff	+ Void Meld (self-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	headline	total (all sources on)	533662					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	weapon	weapon	177670	177664	177664	177664		Scatter the Unworthy isn't recorded in this value, just the weapon
@@ -189,10 +192,12 @@ Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	ability	+ Deadly Charge	20383
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Alarak	ability	+ Destruction Wave	24089	24088	24088	24088	ability alone (isolated gross)	Destruction Wave only
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	headline	total (all sources on)	116880					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	weapon	weapon	116880	115387	116870	115387-116870		Attacks cannot be separated from Concentrated Storm
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Psionic Storm	21006	36933	38069	36933-38069	sustained dps	Psionic Storm
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Psionic Storm (only, solo energy)	37576	36933	38069	36933-38069	7 applications x 2841 (one tick each: Duration 0.6665 / Period 0.571, distinct init adds none) over the SOLO energy recast 0.5293s; bench = 130 and 134 ticks	Psionic Storm
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	self-buff	+ Unleashed Storm (weapon swap)	291492	265798	318983	265798-318983	the SWAPPED-IN PsionicLightning weapon + its storm, with the buff fraction folded (direct 20610, storm 93636); both bench endpoints decode to this pair of events alone	Unleashed storm with weapon
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Psionic Storm	21006				sustained dps (no bench)	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Lightning Strike	24707	24707	24707	24707	ability alone (isolated gross)	Lightning Strike (autocast only, can cast faster manual) 27177-29648 with stop spam
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	ability	+ Charged Blast	69090	111501	111501	111501	isolated gross (skill-only; no weapon displaced)	Charged Blast, total damage. 8750 while stationary. 17294 while moving. This is probably a bug from the charged blast summon damage not referencing the caster unit
-Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	self-buff	+ Unleashed Storm (self-buff)		265798	318983	265798-318983	todo	Unleashed storm with weapon
+Sheet2	Protoss	Protoss Heroes	Starting Hero	Karass	self-buff	+ Unleashed Storm (self-buff)					todo	
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	headline	total (all sources on)	137832					
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	weapon	weapon	55125	55125	55125	55125	5168/event = floor(720.0048828125 raw Ranged folded + Revelation2 armour break 4.001953125 x 100 stacks) / 0.09375s	Attacks cause a debuff
 Sheet2	Protoss	Protoss Heroes	Starting Hero	Tassadar	ability	+ Energy Nova (burn only)	2223	2223	2223	2223	DoT stream on one target: 30 ticks of 741 (299.9951171875 raw Spell folded, meter-truncated) per 10s window	Energy Nova, burn DPS
@@ -250,14 +255,14 @@ Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	ability	+ Starburst Impale	37061	37
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Weapon, 0 Dex		59208	59208	59208	needs model	Weapon, 0 Dex
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Weapon, 0 Dex, Spine Cycle alignment		74325	74325	74325	needs model	Weapon, 0 Dex, Spine Cycle alignment
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Erebus	bench-only	Starburst Impale + Spineblight		48177	48177	48177	needs model	Starburst Impale + Spineblight
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	headline	total (all sources on)	150232					
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	headline	total (all sources on)	151585					
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	weapon	+ Pursuit of the Weak (far)	174515	173618	174988	173618-174988	far branch = 2× direct + DoT (the poison DoT is not doubled)	Farther attacks add bonus damage from further attacks (Pursuit of the Weak)
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Pinpoint Reach + far	269192	267889	269878	267889-269878	far weapon amped by PinpointReach +2.0 frac (all kinds; DoT×2.01, direct×1.41)	Pinpoint Reach and farther away attacks
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Evolved Strain + far	201837	200369	201995	200369-201995	far weapon amped by the EvolvedStrain buff (+0.988 frac all kinds); on-cast damage excluded	Evolved Strain and farther away attacks
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike + far	208314	207607	217039	207607-217039	(far + spike 6627) × PoisonSpikeHero 1.15 (permanent amp)	Poison Spike and farther away attacks
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	weapon	weapon	105473	105432	106167	105432-106167		Includes DoT
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike	6627				sustained dps (no bench)	
-Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Spine Volley	36760	11877	81077	11877-81077	sustained dps	Spine Volley
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike + far	208300	207607	217039	207607-217039	(far + spike 6615) × PoisonSpikeHero 1.15 (permanent amp)	Poison Spike and farther away attacks
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	weapon	weapon	106867	106223	106957	106223-106957		Includes DoT
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Poison Spike	6615				sustained dps (no bench)	
+Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Spine Volley	36731	11877	81077	11877-81077	sustained dps	Spine Volley
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	ability	+ Evolved Strain	1373				sustained dps (no bench)	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Nyami	self-buff	+ Pinpoint Reach (self-buff)					todo	
 Sheet2	Zerg	Zerg Heroes	Starting Hero	Deimos	headline	total (all sources on)	352289					
