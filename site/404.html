@@ -7,6 +7,10 @@
     <link rel="icon" href="/favicon.ico" sizes="48x48" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- Both display fonts render above the fold (titles + home stat numbers); preloading avoids
+         the visible fallback→font swap on first paint. crossorigin is required for font preloads. -->
+    <link rel="preload" href="/fonts/Barlow-700.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/ChakraPetch-700.woff2" as="font" type="font/woff2" crossorigin />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Special Forces Elite 5 — Game Guide</title>
     <meta
@@ -44,8 +48,8 @@
     <script type="application/ld+json">
       {"@context":"https://schema.org","@type":"WebSite","name":"Special Forces Elite 5","alternateName":["SFE5","sfe5.wiki"],"url":"https://sfe5.wiki/","description":"The complete game guide for Special Forces Elite 5 (SFE5), the StarCraft II co-op survival map."}
     </script>
-    <script type="module" crossorigin src="/assets/index-Cdh6eO4T.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DWL5yIZF.css">
+    <script type="module" crossorigin src="/assets/index-DHADDDEG.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BpRjhPtV.css">
   </head>
   <body>
     <div id="root"></div>
