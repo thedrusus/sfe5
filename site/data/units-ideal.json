@@ -2077,6 +2077,20 @@
   ],
   "dps": 11943751
  },
+ "PlanetaryFortress2": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Defiance",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 302212
+ },
  "SBunker": {
   "buffs": [
    "Exoskeleton",
