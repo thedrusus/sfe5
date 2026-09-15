@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Catalog>
+    <CRequirementConst id="14"/>
     <CRequirementConst id="152">
         <Value value="15"/>
     </CRequirementConst>
@@ -404,7 +405,6 @@
         <OperandArray value="CountUpgradeUpgradePlanetaryFortressPlanetaryDestructionCompleteOnly1295605987"/>
     </CRequirementAnd>
     <CRequirementAnd id="AndNot4287635589CountUpgradeWavesCompleteCompleteOnlyCountUpgradeInfestedPlanetaryKilledCompleteOnly543237028">
-        <Tooltip value="RequirementNode/Tooltip/##id##"/>
         <OperandArray value="Not4287635589CountUpgradeWavesCompleteCompleteOnly"/>
         <OperandArray value="CountUpgradeInfestedPlanetaryKilledCompleteOnly543237028"/>
     </CRequirementAnd>
@@ -568,6 +568,10 @@
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="AutoTurret2" State="QueuedOrBetter"/>
     </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitBorderCannonCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="BorderCannon" State="CompleteOnly"/>
+    </CRequirementCountUnit>
     <CRequirementCountUnit id="CountUnitBroodling2CompleteOnly">
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="Broodling2" State="CompleteOnly"/>
@@ -655,6 +659,10 @@
     <CRequirementCountUnit id="CountUnitLarva22CompleteOnly">
         <Flags index="TechTreeCheat" value="0"/>
         <Count Link="Larva22" State="CompleteOnly"/>
+    </CRequirementCountUnit>
+    <CRequirementCountUnit id="CountUnitLaserMineCompleteOnly">
+        <Flags index="TechTreeCheat" value="0"/>
+        <Count Link="LaserMine" State="CompleteOnly"/>
     </CRequirementCountUnit>
     <CRequirementCountUnit id="CountUnitLeviMinionCompleteOnly">
         <Flags index="TechTreeCheat" value="0"/>
@@ -756,7 +764,6 @@
     </CRequirementCountUnit>
     <CRequirementCountUnit id="CountUnitPhaseCannonCompleteOnly">
         <Flags index="TechTreeCheat" value="0"/>
-        <Tooltip value="RequirementNode/Tooltip/##id##"/>
         <Count Link="PhaseCannon" State="CompleteOnly"/>
     </CRequirementCountUnit>
     <CRequirementCountUnit id="CountUnitPhotonCannon2QueuedOrBetter">
@@ -1361,6 +1368,10 @@
     </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeHardCompleteOnly2628105920TechTreeCheat">
         <Count Link="Hard" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="CountUpgradeHeroGridSpentQueuedOrBetterTechTreeCheat">
+        <Tooltip value="RequirementNode/Tooltip/##id##"/>
+        <Count Link="HeroGridSpent" State="QueuedOrBetter"/>
     </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeHiSecAutoTracking2CompleteOnly448346623TechTreeCheat">
         <Count Link="HiSecAutoTracking2" State="CompleteOnly"/>
@@ -2139,9 +2150,9 @@
         <OperandArray index="0" value="CountUnitNullBotCompleteOnly"/>
         <OperandArray index="1" value="9"/>
     </CRequirementGTE>
-    <CRequirementGTE id="GTECountUnitRoachling2CompleteOnly30">
+    <CRequirementGTE id="GTECountUnitRoachling2CompleteOnly14">
         <OperandArray index="0" value="CountUnitRoachling2CompleteOnly"/>
-        <OperandArray index="1" value="30"/>
+        <OperandArray index="1" value="14"/>
     </CRequirementGTE>
     <CRequirementLT id="LT1008787861CountUnitAlias_PerditionTurretQueuedOrBetter9">
         <OperandArray index="0" value="CountUnitAlias_PerditionTurretQueuedOrBetter"/>
@@ -2305,6 +2316,10 @@
         <OperandArray index="0" value="CountUnitSiegeTurretQueuedOrBetter"/>
         <OperandArray index="1" value="4"/>
     </CRequirementLT>
+    <CRequirementLT id="LT2229936685CountUpgradeHeroGridSpentQueuedOrBetterTechTreeCheat1">
+        <OperandArray index="0" value="CountUpgradeHeroGridSpentQueuedOrBetterTechTreeCheat"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
     <CRequirementLT id="LT2293387033CountUnitUWarpFieldDynamoQueuedOrBetter12">
         <OperandArray index="0" value="CountUnitUWarpFieldDynamoQueuedOrBetter"/>
         <OperandArray index="1" value="12"/>
@@ -2340,6 +2355,10 @@
     <CRequirementLT id="LT2586406384CountUnitAlias_WarpTowerQueuedOrBetter5">
         <OperandArray index="0" value="CountUnitAlias_WarpTowerQueuedOrBetter"/>
         <OperandArray index="1" value="5"/>
+    </CRequirementLT>
+    <CRequirementLT id="LT2599413236CountUnitBorderCannonCompleteOnly50">
+        <OperandArray index="0" value="CountUnitBorderCannonCompleteOnly"/>
+        <OperandArray index="1" value="50"/>
     </CRequirementLT>
     <CRequirementLT id="LT2619271238CountUnitPsiDisruptor2QueuedOrBetter2">
         <OperandArray index="0" value="CountUnitPsiDisruptor2QueuedOrBetter"/>
@@ -2571,6 +2590,10 @@
         <OperandArray index="0" value="CountUnitMissileTurret2QueuedOrBetter"/>
         <OperandArray index="1" value="4"/>
     </CRequirementLT>
+    <CRequirementLT id="LT506974196CountUnitLaserMineCompleteOnly35">
+        <OperandArray index="0" value="CountUnitLaserMineCompleteOnly"/>
+        <OperandArray index="1" value="35"/>
+    </CRequirementLT>
     <CRequirementLT id="LT574002469CountUnitStormCannonQueuedOrBetter3">
         <OperandArray index="0" value="CountUnitStormCannonQueuedOrBetter"/>
         <OperandArray index="1" value="3"/>
@@ -2697,7 +2720,6 @@
         <OperandArray index="1" value="4"/>
     </CRequirementLT>
     <CRequirementLT id="LTCountUnitPhaseCannonCompleteOnly20">
-        <Tooltip value="RequirementNode/Tooltip/##id##"/>
         <OperandArray index="0" value="CountUnitPhaseCannonCompleteOnly"/>
         <OperandArray index="1" value="20"/>
     </CRequirementLT>
@@ -4337,4 +4359,53 @@
     <CRequirementCountUnit id="CountUnitFusionCoreCompleteOnly"/>
     <CRequirementCountUpgrade id="CountUpgradeTransformationServosCompleteOnly3716496382TechTreeCheat"/>
     <CRequirementCountBehavior id="CountBehaviorWidowMineArmedCompleteOnlyAtUnit"/>
+    <CRequirementCountUpgrade id="CountUpgradeDisableUnitColorsCompleteOnly">
+        <Count Link="DisableUnitColors" State="CompleteOnly"/>
+    </CRequirementCountUpgrade>
+    <CRequirementNot id="NotCountUpgradeDisableUnitColorsCompleteOnly">
+        <OperandArray index="0" value="CountUpgradeDisableUnitColorsCompleteOnly"/>
+    </CRequirementNot>
+    <CRequirementCountUpgrade id="HeroGridCountSpent">
+        <Count Link="HeroGridSpent" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementLT id="HeroGridOpenLT">
+        <OperandArray index="0" value="HeroGridCountSpent"/>
+        <OperandArray index="1" value="1"/>
+    </CRequirementLT>
+    <CRequirementCountUpgrade id="HeroGridCountWeaponSplash">
+        <Count Link="HeroGridWeaponSplash" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HeroGridCountAbilitySplash">
+        <Count Link="HeroGridAbilitySplash" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HeroGridCountCooldown">
+        <Count Link="HeroGridCooldown" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HeroGridCountBuffDuration">
+        <Count Link="HeroGridBuffDuration" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HeroGridCountInfantry">
+        <Count Link="HeroGridInfantry" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HeroGridCountMechanical">
+        <Count Link="HeroGridMechanical" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HeroGridCountAir">
+        <Count Link="HeroGridAir" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HeroGridCountHero">
+        <Count Link="HeroGridHero" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HeroGridCountRegeneration">
+        <Count Link="HeroGridRegeneration" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HeroGridCountEnergy">
+        <Count Link="HeroGridEnergy" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HeroGridCountMovement">
+        <Count Link="HeroGridMovement" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
+    <CRequirementCountUpgrade id="HeroGridCountExperience">
+        <Count Link="HeroGridExperience" State="QueuedOrBetter"/>
+    </CRequirementCountUpgrade>
 </Catalog>

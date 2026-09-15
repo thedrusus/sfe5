@@ -29,7 +29,7 @@
         <Parameters value="0">
             <AccumulatorArray value="PotencyAmount"/>
         </Parameters>
-        <Parameters value="1"/>
+        <Parameters value="0.5"/>
         <Operation value="Multiply"/>
     </CAccumulatorArithmetic>
     <CAccumulatorBehavior id="PotencyAmount">
@@ -136,10 +136,45 @@
         <Parameters value="0">
             <AccumulatorArray value="SpellboundMultiplier"/>
         </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="WarriorMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="SpiritedMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="OverchargedMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="MomentumSpellMultiplier"/>
+        </Parameters>
+        <Parameters value="0">
+            <AccumulatorArray value="BracedSpellMultiplier"/>
+        </Parameters>
     </CAccumulatorArithmetic>
     <CAccumulatorBehavior id="SpellboundAmount">
         <Behavior value="Spellbound"/>
     </CAccumulatorBehavior>
+    <CAccumulatorBehavior id="WarriorAmount">
+        <Behavior value="Warrior"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="WarriorMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="WarriorAmount"/>
+        </Parameters>
+        <Parameters value="0.05"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorBehavior id="SpiritedAmount">
+        <Behavior value="Spirited"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="SpiritedMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="SpiritedAmount"/>
+        </Parameters>
+        <Parameters value="0.15"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
     <CAccumulatorBehavior id="WizardAmount">
         <Behavior value="Wizard"/>
     </CAccumulatorBehavior>
@@ -153,7 +188,7 @@
         <Parameters value="0">
             <AccumulatorArray value="SpellboundAmount"/>
         </Parameters>
-        <Parameters value="0.3"/>
+        <Parameters value="0.2"/>
         <Operation value="Multiply"/>
     </CAccumulatorArithmetic>
     <CAccumulatorBehavior id="AmmoAmount">
@@ -239,6 +274,64 @@
         <VitalType value="Shields"/>
         <ModificationType value="PerUnit"/>
     </CAccumulatorVitals>
+    <CAccumulatorBehavior id="EvasionCarrierCount">
+        <Behavior value="Evasion"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="MomentumCarrierScale">
+        <Parameters value="0">
+            <AccumulatorArray value="EvasionCarrierCount"/>
+        </Parameters>
+        <Parameters value="0.05"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="MomentumCarrierExtra">
+        <Parameters value="0">
+            <AccumulatorArray value="MomentumCarrierScale"/>
+        </Parameters>
+        <Parameters value="-0.05"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorBehavior id="BulwarkCarrierCount">
+        <Behavior value="Bulwark"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="BracedCarrierScale">
+        <Parameters value="0">
+            <AccumulatorArray value="BulwarkCarrierCount"/>
+        </Parameters>
+        <Parameters value="0.01"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="BracedCarrierExtra">
+        <Parameters value="0">
+            <AccumulatorArray value="BracedCarrierScale"/>
+        </Parameters>
+        <Parameters value="-0.01"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorBehavior id="StaticFieldCarrierCount">
+        <Behavior value="StaticField"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="StaticCarrierScale">
+        <Parameters value="0">
+            <AccumulatorArray value="StaticFieldCarrierCount"/>
+        </Parameters>
+        <Parameters value="0.01"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorArithmetic id="StaticCarrierExtra">
+        <Parameters value="0">
+            <AccumulatorArray value="StaticCarrierScale"/>
+        </Parameters>
+        <Parameters value="-0.01"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorVitals id="SpellboundEnergy">
+        <Ratio value="0.002"/>
+        <VitalType value="Energy"/>
+        <ModificationType value="PerUnit"/>
+    </CAccumulatorVitals>
+    <CAccumulatorVitals id="SpellboundMaxEnergy">
+        <Ratio value="0.2"/>
+        <VitalType value="Energy"/>
+        <ModificationType value="PerUnitMaxVital"/>
+    </CAccumulatorVitals>
     <CAccumulatorArithmetic id="ShieldBurnBonus">
         <Parameters value="0">
             <AccumulatorArray value="CurrrentShieldValue"/>
@@ -283,6 +376,36 @@
             <AccumulatorArray value="IntelligenceAmount"/>
         </Parameters>
         <Parameters value="0.001"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorBehavior id="OverchargedAmount">
+        <Behavior value="Overcharged"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="OverchargedMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="OverchargedAmount"/>
+        </Parameters>
+        <Parameters value="0.75"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorBehavior id="MomentumSpellAmount">
+        <Behavior value="MomentumStack"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="MomentumSpellMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="MomentumSpellAmount"/>
+        </Parameters>
+        <Parameters value="0.05"/>
+        <Operation value="Multiply"/>
+    </CAccumulatorArithmetic>
+    <CAccumulatorBehavior id="BracedSpellAmount">
+        <Behavior value="BracedStance"/>
+    </CAccumulatorBehavior>
+    <CAccumulatorArithmetic id="BracedSpellMultiplier">
+        <Parameters value="0">
+            <AccumulatorArray value="BracedSpellAmount"/>
+        </Parameters>
+        <Parameters value="0.01"/>
         <Operation value="Multiply"/>
     </CAccumulatorArithmetic>
 </Catalog>

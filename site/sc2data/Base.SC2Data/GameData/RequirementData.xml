@@ -10,6 +10,14 @@
         <EditorCategories value="Race:Protoss,TechType:Unit"/>
         <NodeArray index="Use" Link="LT325106408CountUnitSelendisInterceptor2QueuedOrBetterAtUnit8"/>
     </CRequirement>
+    <CRequirement id="FenrirLaserMine">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Use" Link="LT506974196CountUnitLaserMineCompleteOnly35"/>
+    </CRequirement>
+    <CRequirement id="BorderCannon">
+        <EditorCategories value="Race:Terran,TechType:Unit"/>
+        <NodeArray index="Use" Link="LT2599413236CountUnitBorderCannonCompleteOnly50"/>
+    </CRequirement>
     <CRequirement id="WavesCompleteInfestedPlanetaryKilled">
         <EditorCategories value="Race:Terran,TechType:Ability"/>
         <NodeArray index="Use" Link="AndNot4287635589CountUpgradeWavesCompleteCompleteOnlyCountUpgradeInfestedPlanetaryKilledCompleteOnly543237028"/>
@@ -120,7 +128,7 @@
     </CRequirement>
     <CRequirement id="CorpserRoachlingCap">
         <EditorCategories value="Race:Terran,TechType:Unit"/>
-        <NodeArray index="Use" Link="GTECountUnitRoachling2CompleteOnly30"/>
+        <NodeArray index="Use" Link="GTECountUnitRoachling2CompleteOnly14"/>
     </CRequirement>
     <CRequirement id="NoHiveDefender">
         <EditorCategories value="Race:Terran,TechType:Upgrade"/>
@@ -1819,5 +1827,11 @@
     <CRequirement id="ImpulseAssembly">
         <EditorCategories value="Race:Terran,TechType:Unit"/>
         <NodeArray index="Use" Link="OrOr3187571760LTCountUnitImpulseAssemblyQueuedOrBetter1CountUpgradeTowerDefenseQueuedOrBetterOr3399913246AndLTCountUnitImpulseAssemblyQueuedOrBetter3CountUpgradeBuildingCapacityQueuedOrBetterCountUpgradeTowerDefenseQueuedOrBetter"/>
+    </CRequirement>
+    <CRequirement id="UnitColorsEnabled">
+        <NodeArray index="Use" Link="NotCountUpgradeDisableUnitColorsCompleteOnly"/>
+    </CRequirement>
+    <CRequirement id="HeroGridOpen">
+        <NodeArray index="Use" Link="HeroGridOpenLT"/>
     </CRequirement>
 </Catalog>
