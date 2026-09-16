@@ -11041,61 +11041,85 @@
     <CButton id="HeroGridWeaponSplash">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Icons\Buttons\btn-custom-terran-flamethrower.dds"/>
+        <AlertIcon value="Icons\Buttons\btn-custom-terran-flamethrower.dds"/>
+        <AlertTooltip value="Button/Tooltip/HeroGridWeaponSplash"/>
         <Hotkey value="Button/Hotkey/HeroGridWeaponSplash"/>
     </CButton>
     <CButton id="HeroGridAbilitySplash">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Icons\Buttons\btn-custom-terran-engine.dds"/>
+        <AlertIcon value="Icons\Buttons\btn-custom-terran-engine.dds"/>
+        <AlertTooltip value="Button/Tooltip/HeroGridAbilitySplash"/>
         <Hotkey value="Button/Hotkey/HeroGridAbilitySplash"/>
     </CButton>
     <CButton id="HeroGridCooldown">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Icons\Buttons\btn-custom-terran-supernova.dds"/>
+        <AlertIcon value="Icons\Buttons\btn-custom-terran-supernova.dds"/>
+        <AlertTooltip value="Button/Tooltip/HeroGridCooldown"/>
         <Hotkey value="Button/Hotkey/HeroGridCooldown"/>
     </CButton>
     <CButton id="HeroGridBuffDuration">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Icons\Buttons\btn-custom-terran-coolanttower.dds"/>
+        <AlertIcon value="Icons\Buttons\btn-custom-terran-coolanttower.dds"/>
+        <AlertTooltip value="Button/Tooltip/HeroGridBuffDuration"/>
         <Hotkey value="Button/Hotkey/HeroGridBuffDuration"/>
     </CButton>
     <CButton id="HeroGridInfantry">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Icons\Buttons\btn-custom-terran-terrazine.dds"/>
+        <AlertIcon value="Icons\Buttons\btn-custom-terran-terrazine.dds"/>
+        <AlertTooltip value="Button/Tooltip/HeroGridInfantry"/>
         <Hotkey value="Button/Hotkey/HeroGridInfantry"/>
     </CButton>
     <CButton id="HeroGridMechanical">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Icons\Buttons\btn-custom-terran-terrazine-gray.dds"/>
+        <AlertIcon value="Icons\Buttons\btn-custom-terran-terrazine-gray.dds"/>
+        <AlertTooltip value="Button/Tooltip/HeroGridMechanical"/>
         <Hotkey value="Button/Hotkey/HeroGridMechanical"/>
     </CButton>
     <CButton id="HeroGridAir">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Icons\Buttons\btn-custom-terran-terrazine-blue.dds"/>
+        <AlertIcon value="Icons\Buttons\btn-custom-terran-terrazine-blue.dds"/>
+        <AlertTooltip value="Button/Tooltip/HeroGridAir"/>
         <Hotkey value="Button/Hotkey/HeroGridAir"/>
     </CButton>
     <CButton id="HeroGridHero">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Icons\Buttons\btn-custom-terran-terrazine-red.dds"/>
+        <AlertIcon value="Icons\Buttons\btn-custom-terran-terrazine-red.dds"/>
+        <AlertTooltip value="Button/Tooltip/HeroGridHero"/>
         <Hotkey value="Button/Hotkey/HeroGridHero"/>
     </CButton>
     <CButton id="HeroGridRegeneration">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Icons\Buttons\btn-custom-terran-heart.dds"/>
+        <AlertIcon value="Icons\Buttons\btn-custom-terran-heart.dds"/>
+        <AlertTooltip value="Button/Tooltip/HeroGridRegeneration"/>
         <Hotkey value="Button/Hotkey/HeroGridRegeneration"/>
     </CButton>
     <CButton id="HeroGridEnergy">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Icons\Buttons\btn-custom-terran-techlab.dds"/>
+        <AlertIcon value="Icons\Buttons\btn-custom-terran-techlab.dds"/>
+        <AlertTooltip value="Button/Tooltip/HeroGridEnergy"/>
         <Hotkey value="Button/Hotkey/HeroGridEnergy"/>
     </CButton>
     <CButton id="HeroGridMovement">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Icons\Buttons\btn-custom-terran-ionthrusters.dds"/>
+        <AlertIcon value="Icons\Buttons\btn-custom-terran-ionthrusters.dds"/>
+        <AlertTooltip value="Button/Tooltip/HeroGridMovement"/>
         <Hotkey value="Button/Hotkey/HeroGridMovement"/>
     </CButton>
     <CButton id="HeroGridExperience">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Icons\Buttons\btn-custom-terran-gaussguitar.dds"/>
+        <AlertIcon value="Icons\Buttons\btn-custom-terran-gaussguitar.dds"/>
+        <AlertTooltip value="Button/Tooltip/HeroGridExperience"/>
         <Hotkey value="Button/Hotkey/HeroGridExperience"/>
     </CButton>
 </Catalog>

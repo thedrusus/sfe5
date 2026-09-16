@@ -2,7 +2,7 @@
 <Catalog>
     <CAbilEffectTarget id="250mmStrikeCannons2" parent="250mmStrikeCannons">
         <Name value="Abil/Name/250mmStrikeCannons2"/>
-        <Effect index="0" value="250mmStrikeCannonsCreatePersistent2"/>
+        <Effect index="0" value="HGSplashSetAbil250mmStrikeCannons2"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="250mmStrikeCannons2" Requirements=""/>
         <Cost index="0">
             <Vital index="Energy" value="30"/>
@@ -974,7 +974,7 @@
         <Alignment value="Negative"/>
         <OrderArray index="0" Model="Assets\UI\Cursors\WayPointConfirmSwarm\WayPointConfirmSwarm.m3"/>
         <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
-        <Effect index="0" value="MolestSet"/>
+        <Effect index="0" value="HGSplashSetAbilMolest"/>
         <Flags index="AllowMovement" value="1"/>
         <Flags index="AutoCast" value="1"/>
         <Cost>
@@ -4899,7 +4899,7 @@
     </CAbilEffectTarget>
     <CAbilEffectTarget id="MicrowaveBeam">
         <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
-        <Effect index="0" value="MicrowaveBeamChanneledCreatePersistent"/>
+        <Effect index="0" value="HGSplashSetAbilMicrowaveBeam"/>
         <Flags index="BestUnit" value="0"/>
         <Flags index="ReExecutable" value="1"/>
         <Cost>
@@ -5987,7 +5987,6 @@
             <Button DefaultButtonFace="ConstructImpalerColony" State="Available" Requirements="ImpalerColony"/>
         </InfoArray>
         <InfoArray index="Build9" Unit="RemoteNydusNetwork" Time="5" Alert="BuildComplete">
-            <Vital index="Energy" value="200"/>
             <Charge>
                 <CountMax value="1"/>
                 <CountUse value="1"/>
@@ -6211,7 +6210,7 @@
     <CAbilEffectTarget id="BorderCannon" parent="DevastationTurret">
         <Name value="Abil/Name/BorderCannon"/>
         <DataCollection value="BuildAutoTurret"/>
-        <Effect index="0" value="BorderCannonRelease"/>
+        <Effect index="0" value="HGSplashSetAbilBorderCannon"/>
         <Cost index="0">
             <Vital index="Energy" value="15"/>
             <Charge>
@@ -7199,6 +7198,7 @@
         <Effect index="0" value="Obliterate22"/>
         <Cost index="0">
             <Vital index="Energy" value="40"/>
+            <Cooldown Link="Abil/Obliterate22" TimeUse="0.5"/>
         </Cost>
         <TargetFilters index="0" value="Visible;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Invulnerable"/>
         <Range index="0" value="12"/>
@@ -8697,7 +8697,7 @@
             <Charge Link="Abil/TornadoMissile2"/>
             <Cooldown Link="Abil/TornadoMissile2"/>
         </Cost>
-        <Effect value="TornadoMissileCP2"/>
+        <Effect value="HGSplashSetAbilTornadoMissile2"/>
         <AutoCastFilters value="Visible;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
     </CAbilAugment>
     <CAbilEffectInstant id="ScreamingDeathPulse">
@@ -8797,11 +8797,11 @@
     </CAbilEffectTarget>
     <CAbilEffectTarget id="NovaSnipe2" parent="NovaSnipe">
         <Name value="Abil/Name/NovaSnipe2"/>
-        <Effect index="0" value="SnipeSet"/>
+        <Effect index="0" value="HGSplashSetAbilNovaSnipe2"/>
         <Flags index="AutoCast" value="1"/>
         <Cost index="0">
             <Vital index="Energy" value="25"/>
-            <Cooldown Link="RogueGhostSnipe" TimeUse="0"/>
+            <Cooldown Link="RogueGhostSnipe" TimeUse="0.5"/>
         </Cost>
         <TargetFilters index="0" value="Visible;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <Range index="0" value="16"/>
@@ -10278,6 +10278,7 @@
     </CAbilAugment>
     <CAbilEffectInstant id="DefiantScreech">
         <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Effect index="0" value="DefiantScreech"/>
         <Flags index="AllowMovement" value="1"/>
         <Flags index="AutoCast" value="1"/>
         <Flags index="Transient" value="1"/>
@@ -12861,7 +12862,7 @@
         <Alignment value="Negative"/>
         <OrderArray index="0" Model="Assets\UI\Cursors\WayPointConfirmSwarm\WayPointConfirmSwarm.m3"/>
         <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
-        <Effect index="0" value="PrimalSlashInitialSet"/>
+        <Effect index="0" value="HGSplashSetAbilPrimalSlash2"/>
         <Flags index="AbortOnAllianceChange" value="0"/>
         <Flags index="AutoCast" value="1"/>
         <Cost>
@@ -15335,7 +15336,7 @@
     </CAbilEffectTarget>
     <CAbilEffectTarget id="Snipe2" parent="NovaSnipe">
         <Name value="Abil/Name/Snipe2"/>
-        <Effect index="0" value="SnipeDamage2"/>
+        <Effect index="0" value="HGSplashSetAbilSnipe2"/>
         <Flags index="AutoCast" value="1"/>
         <Cost index="0">
             <Vital index="Energy" value="55"/>
@@ -15757,7 +15758,6 @@
             <Button DefaultButtonFace="BuildQuantumHammer" Requirements="QuantumHammer"/>
         </InfoArray>
         <InfoArray index="Build15" Unit="EinsteinRosenBridgeUnit" Time="5" Alert="BuildComplete">
-            <Vital index="Energy" value="200"/>
             <Charge>
                 <CountMax value="1"/>
                 <CountUse value="1"/>

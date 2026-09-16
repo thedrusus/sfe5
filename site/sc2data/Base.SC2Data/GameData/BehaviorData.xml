@@ -1557,11 +1557,11 @@
         <EditorCategories value="AbilityorEffectType:Units"/>
         <SortIndex value="20"/>
         <MaxPoints value="2000"/>
-        <Modification AttackSpeedMultiplier="1.0004">
-            <DamageDealtFraction index="Melee" value="0.002"/>
-            <DamageDealtFraction index="Ranged" value="0.0007"/>
-            <DamageDealtFraction index="Splash" value="0.0007"/>
-            <DamageDealtFraction index="NoProc" value="0.0007"/>
+        <Modification AttackSpeedMultiplier="1.0001">
+            <DamageDealtFraction index="Melee" value="0.001"/>
+            <DamageDealtFraction index="Ranged" value="0.0005"/>
+            <DamageDealtFraction index="Splash" value="0.0005"/>
+            <DamageDealtFraction index="NoProc" value="0.0005"/>
         </Modification>
     </CBehaviorAttribute>
     <CBehaviorBuff id="ExecuteCount">
@@ -1706,11 +1706,11 @@
         <EditorCategories value="AbilityorEffectType:Units"/>
         <SortIndex value="30"/>
         <MaxPoints value="3000"/>
-        <Modification SightBonus="0.002">
-            <DamageDealtFraction index="Spell" value="0.0007"/>
-            <DamageDealtFraction index="NoProc" value="0.0007"/>
-            <VitalMaxFractionArray index="Energy" value="0.0004"/>
-            <VitalRegenArray index="Energy" value="0.039"/>
+        <Modification SightBonus="0.0005">
+            <DamageDealtFraction index="Spell" value="0.0005"/>
+            <DamageDealtFraction index="NoProc" value="0.0005"/>
+            <VitalMaxFractionArray index="Energy" value="0.0001"/>
+            <VitalRegenArray index="Energy" value="0.00975"/>
         </Modification>
     </CBehaviorAttribute>
     <CBehaviorBuff id="LaunderMoney">
@@ -1988,12 +1988,12 @@
         <EditorCategories value="AbilityorEffectType:Units"/>
         <SortIndex value="10"/>
         <MaxPoints value="2000"/>
-        <Modification ShieldArmorBonus="0.05">
-            <LifeArmorBonus value="0.05"/>
-            <VitalMaxFractionArray index="Life" value="0.0007"/>
-            <VitalMaxFractionArray index="Shields" value="0.0007"/>
-            <VitalRegenArray index="Life" value="0.0234"/>
-            <VitalRegenArray index="Shields" value="0.0234"/>
+        <Modification ShieldArmorBonus="0.025">
+            <LifeArmorBonus value="0.025"/>
+            <VitalMaxFractionArray index="Life" value="0.0005"/>
+            <VitalMaxFractionArray index="Shields" value="0.0005"/>
+            <VitalRegenArray index="Life" value="0.00975"/>
+            <VitalRegenArray index="Shields" value="0.00975"/>
         </Modification>
     </CBehaviorAttribute>
     <CBehaviorBuff id="Vaccinate">
@@ -2753,9 +2753,10 @@
         </Modification>
     </CBehaviorBuff>
     <CBehaviorBuff id="PinnaclePower">
+        <InfoFlags index="Hidden" value="1"/>
         <Tooltip value="Button/Tooltip/PinnaclePower"/>
         <Alignment value="Positive"/>
-        <InfoIcon value="Icons\Buttons\btn-ability-hybrid-inferno.dds"/>
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
         <EditorCategories value="AbilityorEffectType:Units"/>
         <SortIndex value="-1"/>
         <DamageResponse Minimum="1" ModifyFraction="0.2">
@@ -2763,20 +2764,26 @@
         </DamageResponse>
     </CBehaviorBuff>
     <CBehaviorBuff id="PinnacleEHP">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
         <Alignment value="Positive"/>
-        <DamageResponse Minimum="1" ModifyFraction="0.92">
+        <DamageResponse Minimum="1" ModifyFraction="0.5">
             <Chance value="1"/>
         </DamageResponse>
     </CBehaviorBuff>
     <CBehaviorBuff id="NarudExtra">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
         <Alignment value="Positive"/>
-        <DamageResponse Minimum="1" ModifyFraction="0.614">
+        <DamageResponse Minimum="1" ModifyFraction="0.333">
             <Chance value="1"/>
         </DamageResponse>
     </CBehaviorBuff>
     <CBehaviorBuff id="DiabloEHP">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
         <Alignment value="Positive"/>
-        <DamageResponse Minimum="1" ModifyFraction="0.92">
+        <DamageResponse Minimum="1" ModifyFraction="0.5">
             <Chance value="1"/>
         </DamageResponse>
     </CBehaviorBuff>
@@ -3763,7 +3770,7 @@
     <CBehaviorBuff id="DemiBoss">
         <Alignment value="Negative"/>
         <InfoFlags index="Hidden" value="1"/>
-        <InfoIcon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
         <EditorCategories value="AbilityorEffectType:Units"/>
         <Requirements value="DemiBoss"/>
         <TimeScaleSource Value="Unknown"/>
@@ -7400,12 +7407,13 @@
         <Modification MoveSpeedMultiplier="0.1"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="PinnacleResistence">
+        <InfoFlags index="Hidden" value="1"/>
         <Alignment value="Positive"/>
         <Cost>
             <Charge Link="Behavior/HardenedShieldImmortalMelee"/>
             <Cooldown Link="Immortal Shield"/>
         </Cost>
-        <InfoIcon value="Assets\Textures\btn-ability-protoss-resurgence.dds"/>
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
         <EditorCategories value="Race:Protoss,AbilityorEffectType:Units"/>
         <DamageResponse ClampMaximum="1500">
             <Chance value="1"/>
@@ -7416,6 +7424,7 @@
         </DamageResponse>
     </CBehaviorBuff>
     <CBehaviorBuff id="NarudServantofAmonBuff" parent="PinnacleResistence">
+        <Flags index="Hidden" value="1"/>
         <Name value="Behavior/Name/NarudServantofAmonBuff"/>
         <Tooltip value="Behavior/Tooltip/NarudServantofAmonBuff"/>
         <Alignment value="Neutral"/>
@@ -9397,7 +9406,7 @@
     <CBehaviorBuff id="BossBalance">
         <Alignment value="Negative"/>
         <InfoFlags index="Hidden" value="1"/>
-        <InfoIcon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
         <EditorCategories value="AbilityorEffectType:Units"/>
         <TimeScaleSource Value="Unknown"/>
         <Modification>
@@ -9406,7 +9415,7 @@
             <SightMinimum value="15"/>
             <Detect value="12"/>
         </Modification>
-        <DamageResponse ModifyFraction="0.75">
+        <DamageResponse ModifyFraction="0.65">
             <Chance value="1"/>
             <Cost>
                 <Charge Link="Behavior/HardArmor"/>
@@ -16267,6 +16276,13 @@
             <Chance value="1"/>
         </DamageResponse>
         <TimeScaleSource Value="Unknown"/>
+            <Modification XPMultiplier="1">
+            <VitalRegenArray index="Life" value="0"/>
+            <VitalRegenArray index="Shields" value="0"/>
+            <VitalRegenArray index="Energy" value="0"/>
+            <RateMultiplierArray index="Cooldown" value="1"/>
+            <RateMultiplierArray index="Charge" value="1"/>
+        </Modification>
     </CBehaviorBuff>
     <CBehaviorBuff id="DamageReductionProtoss">
         <Tooltip value=""/>
@@ -16283,6 +16299,13 @@
             </Cost>
         </DamageResponse>
         <TimeScaleSource Value="Unknown"/>
+            <Modification XPMultiplier="1">
+            <VitalRegenArray index="Life" value="0"/>
+            <VitalRegenArray index="Shields" value="0"/>
+            <VitalRegenArray index="Energy" value="0"/>
+            <RateMultiplierArray index="Cooldown" value="1"/>
+            <RateMultiplierArray index="Charge" value="1"/>
+        </Modification>
     </CBehaviorBuff>
     <CBehaviorBuff id="DarkTemplarShadowFury2">
         <InfoFlags index="Hidden" value="1"/>
@@ -16988,6 +17011,13 @@
         <DamageResponse>
             <Chance value="1"/>
         </DamageResponse>
+            <Modification XPMultiplier="1">
+            <VitalRegenArray index="Life" value="0"/>
+            <VitalRegenArray index="Shields" value="0"/>
+            <VitalRegenArray index="Energy" value="0"/>
+            <RateMultiplierArray index="Cooldown" value="1"/>
+            <RateMultiplierArray index="Charge" value="1"/>
+        </Modification>
     </CBehaviorBuff>
     <CBehaviorBuff id="TimeLord">
         <InfoIcon value="Icons\Buffs (New)\btn-buffs-5-Time-Lord.dds"/>
@@ -22092,11 +22122,11 @@
         <EditorCategories value="AbilityorEffectType:Units"/>
         <SortIndex value="20"/>
         <MaxPoints value="2000"/>
-        <Modification AttackSpeedMultiplier="1.0004">
-            <DamageDealtFraction index="Melee" value="0.004"/>
-            <DamageDealtFraction index="Ranged" value="0.002"/>
-            <DamageDealtFraction index="Splash" value="0.002"/>
-            <DamageDealtFraction index="NoProc" value="0.002"/>
+        <Modification AttackSpeedMultiplier="1.0002">
+            <DamageDealtFraction index="Melee" value="0.002"/>
+            <DamageDealtFraction index="Ranged" value="0.001"/>
+            <DamageDealtFraction index="Splash" value="0.001"/>
+            <DamageDealtFraction index="NoProc" value="0.001"/>
         </Modification>
     </CBehaviorAttribute>
     <CBehaviorBuff id="MiniMeTimedLifeHiddenBuff">
@@ -22950,11 +22980,11 @@
         <InfoIcon value="Icons\Buffs (New)\btn-buffs-m-Intelligence.dds"/>
         <EditorCategories value="AbilityorEffectType:Units"/>
         <MaxPoints value="3000"/>
-        <Modification SightBonus="0.002">
-            <DamageDealtFraction index="Spell" value="0.002"/>
-            <DamageDealtFraction index="NoProc" value="0.002"/>
-            <VitalMaxFractionArray index="Energy" value="0.0004"/>
-            <VitalRegenArray index="Energy" value="0.039"/>
+        <Modification SightBonus="0.001">
+            <DamageDealtFraction index="Spell" value="0.001"/>
+            <DamageDealtFraction index="NoProc" value="0.001"/>
+            <VitalMaxFractionArray index="Energy" value="0.0002"/>
+            <VitalRegenArray index="Energy" value="0.0195"/>
         </Modification>
         <Face value="Intelligence"/>
         <BehaviorFlags index="Permanent" value="1"/>
@@ -23165,12 +23195,12 @@
         <InfoIcon value="Icons\Buffs (New)\btn-buffs-m-Strength.dds"/>
         <EditorCategories value="AbilityorEffectType:Units"/>
         <MaxPoints value="2000"/>
-        <Modification ShieldArmorBonus="0.1">
-            <LifeArmorBonus value="0.1"/>
-            <VitalMaxFractionArray index="Life" value="0.002"/>
-            <VitalMaxFractionArray index="Shields" value="0.002"/>
-            <VitalRegenArray index="Life" value="0.039"/>
-            <VitalRegenArray index="Shields" value="0.039"/>
+        <Modification ShieldArmorBonus="0.05">
+            <LifeArmorBonus value="0.05"/>
+            <VitalMaxFractionArray index="Life" value="0.001"/>
+            <VitalMaxFractionArray index="Shields" value="0.001"/>
+            <VitalRegenArray index="Life" value="0.0195"/>
+            <VitalRegenArray index="Shields" value="0.0195"/>
         </Modification>
         <SortIndex value="10"/>
         <InfoTooltipPriority value="1"/>
@@ -24118,5 +24148,104 @@
         <EditorCategories value="AbilityorEffectType:Units"/>
         <DisableValidatorArray index="0" value="Life95"/>
         <DamageResponse ModifyFraction="1"/>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossArmorFinal">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Neutral,AbilityorEffectType:Units"/>
+        <Alignment value="Positive"/>
+        <DamageResponse Minimum="1" ModifyFraction="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossArmorT0">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Neutral,AbilityorEffectType:Units"/>
+        <Alignment value="Positive"/>
+        <DamageResponse Minimum="1" ModifyFraction="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossArmorT1">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Neutral,AbilityorEffectType:Units"/>
+        <Alignment value="Positive"/>
+        <DamageResponse Minimum="1" ModifyFraction="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossArmorT2">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Neutral,AbilityorEffectType:Units"/>
+        <Alignment value="Positive"/>
+        <DamageResponse Minimum="1" ModifyFraction="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossArmorP1">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Neutral,AbilityorEffectType:Units"/>
+        <Alignment value="Positive"/>
+        <DamageResponse Minimum="1" ModifyFraction="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossArmorT3">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Neutral,AbilityorEffectType:Units"/>
+        <Alignment value="Positive"/>
+        <DamageResponse Minimum="1" ModifyFraction="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossArmorP2">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Neutral,AbilityorEffectType:Units"/>
+        <Alignment value="Positive"/>
+        <DamageResponse Minimum="1" ModifyFraction="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossArmorSecret">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Neutral,AbilityorEffectType:Units"/>
+        <Alignment value="Positive"/>
+        <DamageResponse Minimum="1" ModifyFraction="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossArmorHybrid">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Neutral,AbilityorEffectType:Units"/>
+        <Alignment value="Positive"/>
+        <DamageResponse Minimum="1" ModifyFraction="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossArmorBrute">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Neutral,AbilityorEffectType:Units"/>
+        <Alignment value="Positive"/>
+        <DamageResponse Minimum="1" ModifyFraction="1">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossArmorVoid">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <EditorCategories value="Race:Neutral,AbilityorEffectType:Units"/>
+        <Alignment value="Positive"/>
+        <DamageResponse Minimum="1" ModifyFraction="1">
+            <Chance value="1"/>
+        </DamageResponse>
     </CBehaviorBuff>
 </Catalog>

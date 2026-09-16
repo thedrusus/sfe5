@@ -1832,6 +1832,6 @@
         <NodeArray index="Use" Link="NotCountUpgradeDisableUnitColorsCompleteOnly"/>
     </CRequirement>
     <CRequirement id="HeroGridOpen">
-        <NodeArray index="Use" Link="HeroGridOpenLT"/>
+        <NodeArray index="Use" Link="LT4202153237CountUpgradeHeroGridSpentQueuedOrBetterTechTreeCheat1"/>
     </CRequirement>
 </Catalog>

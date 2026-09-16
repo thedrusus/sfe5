@@ -1369,10 +1369,6 @@
     <CRequirementCountUpgrade id="CountUpgradeHardCompleteOnly2628105920TechTreeCheat">
         <Count Link="Hard" State="CompleteOnly"/>
     </CRequirementCountUpgrade>
-    <CRequirementCountUpgrade id="CountUpgradeHeroGridSpentQueuedOrBetterTechTreeCheat">
-        <Tooltip value="RequirementNode/Tooltip/##id##"/>
-        <Count Link="HeroGridSpent" State="QueuedOrBetter"/>
-    </CRequirementCountUpgrade>
     <CRequirementCountUpgrade id="CountUpgradeHiSecAutoTracking2CompleteOnly448346623TechTreeCheat">
         <Count Link="HiSecAutoTracking2" State="CompleteOnly"/>
     </CRequirementCountUpgrade>
@@ -2315,10 +2311,6 @@
     <CRequirementLT id="LT2211995204CountUnitSiegeTurretQueuedOrBetter4">
         <OperandArray index="0" value="CountUnitSiegeTurretQueuedOrBetter"/>
         <OperandArray index="1" value="4"/>
-    </CRequirementLT>
-    <CRequirementLT id="LT2229936685CountUpgradeHeroGridSpentQueuedOrBetterTechTreeCheat1">
-        <OperandArray index="0" value="CountUpgradeHeroGridSpentQueuedOrBetterTechTreeCheat"/>
-        <OperandArray index="1" value="1"/>
     </CRequirementLT>
     <CRequirementLT id="LT2293387033CountUnitUWarpFieldDynamoQueuedOrBetter12">
         <OperandArray index="0" value="CountUnitUWarpFieldDynamoQueuedOrBetter"/>
@@ -4365,11 +4357,11 @@
     <CRequirementNot id="NotCountUpgradeDisableUnitColorsCompleteOnly">
         <OperandArray index="0" value="CountUpgradeDisableUnitColorsCompleteOnly"/>
     </CRequirementNot>
-    <CRequirementCountUpgrade id="HeroGridCountSpent">
+    <CRequirementCountUpgrade id="CountUpgradeHeroGridSpentQueuedOrBetterTechTreeCheat">
         <Count Link="HeroGridSpent" State="QueuedOrBetter"/>
     </CRequirementCountUpgrade>
-    <CRequirementLT id="HeroGridOpenLT">
-        <OperandArray index="0" value="HeroGridCountSpent"/>
+    <CRequirementLT id="LT4202153237CountUpgradeHeroGridSpentQueuedOrBetterTechTreeCheat1">
+        <OperandArray index="0" value="CountUpgradeHeroGridSpentQueuedOrBetterTechTreeCheat"/>
         <OperandArray index="1" value="1"/>
     </CRequirementLT>
     <CRequirementCountUpgrade id="HeroGridCountWeaponSplash">
