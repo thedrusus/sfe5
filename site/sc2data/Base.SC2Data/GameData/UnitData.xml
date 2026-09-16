@@ -19524,6 +19524,7 @@
         <BehaviorArray index="0" Link="BlankStats"/>
         <BehaviorArray index="1" Link="AscendantStoneZealot"/>
         <BehaviorArray Link="DamageReductionProtoss"/>
+        <BehaviorArray Link="ResonatingStone"/>
         <WeaponArray index="0" Link="StoneZealotEyeBlast2"/>
         <WeaponArray index="1" removed="1"/>
         <CardLayouts index="0">
@@ -20532,6 +20533,15 @@
         <BehaviorArray Link="SFVeterancy"/>
         <BehaviorArray Link="PortableSensor"/>
         <BehaviorArray Link="DamageReductionTerran"/>
+        <BehaviorArray Link="EmergencyEvacuation10"/>
+        <BehaviorArray Link="EmergencyEvacuation20"/>
+        <BehaviorArray Link="EmergencyEvacuation30"/>
+        <BehaviorArray Link="EmergencyEvacuation40"/>
+        <BehaviorArray Link="EmergencyEvacuation50"/>
+        <BehaviorArray Link="EmergencyEvacuation60"/>
+        <BehaviorArray Link="EmergencyEvacuation70"/>
+        <BehaviorArray Link="EmergencyEvacuation80"/>
+        <BehaviorArray Link="EmergencyEvacuation90"/>
         <WeaponArray index="0" Link="Blackhammer"/>
         <WeaponArray index="1" Link="JavelinMissileLaunchers2"/>
         <CardLayouts index="0">
@@ -22761,6 +22771,7 @@
         <BehaviorArray Link="SFVeterancy"/>
         <BehaviorArray Link="PortableSensor"/>
         <BehaviorArray Link="DamageReductionZerg"/>
+        <BehaviorArray Link="CorrectiveShell"/>
         <WeaponArray index="0" Link="RavagerWeapon24"/>
         <CardLayouts index="0">
             <LayoutButtons index="5" Face="CorrectiveShell" Type="Passive" AbilCmd="" Row="1" Column="0"/>
@@ -24740,6 +24751,7 @@
         <BehaviorArray Link="SFVeterancy"/>
         <BehaviorArray Link="PortableSensor"/>
         <BehaviorArray Link="DamageReductionProtoss"/>
+        <BehaviorArray Link="RegainedCalm"/>
         <WeaponArray index="0" Link="PsionicDischarge"/>
         <WeaponArray Link="PsionicLightning"/>
         <CardLayouts index="0">
@@ -26649,6 +26661,7 @@
         <BehaviorArray Link="DamageReductionTerran"/>
         <BehaviorArray Link="SFVeterancy"/>
         <BehaviorArray Link="PortableSensor"/>
+        <BehaviorArray Link="BatteringRam"/>
         <CardLayouts index="0">
             <LayoutButtons>
                 <Face value="MobileSentry"/>
@@ -27728,6 +27741,7 @@
         <BehaviorArray Link="SellBuffsDummy"/>
         <BehaviorArray Link="EvolvedChangeling"/>
         <BehaviorArray Link="ChangelingLimitedVision12"/>
+        <BehaviorArray Link="PermanentlyCloaked2"/>
         <LifeRegenRate value="0.25"/>
         <KillXP value="4750"/>
         <FlagArray index="NoScore" value="0"/>
@@ -34915,6 +34929,7 @@
         <BehaviorArray index="1" Link="DamageReductionProtoss"/>
         <BehaviorArray index="2" Link="AscendantPrismaticShrine"/>
         <BehaviorArray Link="PowerUserBaseDefenseSmall2"/>
+        <BehaviorArray Link="PrismaticBarrier"/>
         <WeaponArray Link="PrismaticCannon" Turret="FreeRotate"/>
         <CardLayouts index="0">
             <LayoutButtons index="5" Face="PrismaticBarrier" Type="Passive" Requirements="UsePrismaticBarrier" Row="1" Column="1"/>
@@ -39704,6 +39719,7 @@
         <AbilArray index="10" removed="1"/>
         <BehaviorArray/>
         <BehaviorArray Link="UnmatchedAgilityImmunity"/>
+        <BehaviorArray Link="UnmatchedAgility"/>
         <WeaponArray index="0" Link="TitaniumClaws" Turret=""/>
         <CardLayouts index="0">
             <LayoutButtons index="5">
@@ -40400,6 +40416,7 @@
         <BehaviorArray Link="DamageReductionProtoss"/>
         <BehaviorArray Link="SFVeterancy"/>
         <BehaviorArray Link="PortableSensor"/>
+        <BehaviorArray Link="PhasedOut"/>
         <WeaponArray index="0" Link="ShadowDisrupters"/>
         <CardLayouts index="0">
             <LayoutButtons index="5" Face="" AbilCmd="Execute" Row="1"/>
@@ -40989,6 +41006,7 @@
         <BehaviorArray Link="ChaoticCloak"/>
         <BehaviorArray Link="PanicShock"/>
         <BehaviorArray Link="HeroDetectorRadar"/>
+        <BehaviorArray Link="PanicShockPassive"/>
         <WeaponArray index="0" Link="Tosh2"/>
         <CardLayouts index="0">
             <LayoutButtons index="5" Face="ChaoticCloak"/>
@@ -41232,6 +41250,7 @@
         <BehaviorArray index="0" Link="BlankStats"/>
         <BehaviorArray index="1" Link="DamageReductionTerran"/>
         <BehaviorArray Link="UpgradedWraith"/>
+        <BehaviorArray Link="CloakDistortionField2"/>
         <WeaponArray index="0" Link="WraithG2"/>
         <WeaponArray index="1" Link="WraithA2"/>
         <CardLayouts index="0">
@@ -41367,6 +41386,7 @@
         <BehaviorArray Link="HeroDetectorRadar"/>
         <BehaviorArray Link="DamageReductionProtoss"/>
         <BehaviorArray Link="100DamageReductionSplash"/>
+        <BehaviorArray Link="SpeedofShadows"/>
         <WeaponArray index="0" Link="MasterPsiBlade"/>
         <CardLayouts index="0">
             <LayoutButtons index="5" Face="ObscuringBlink" AbilCmd="ObscuringBlink,Execute" Column="1"/>
@@ -42019,6 +42039,7 @@
         <BehaviorArray index="7" Link="SoulAbsorption2"/>
         <BehaviorArray index="8" Link="ScatterTheUnworthy"/>
         <BehaviorArray Link="DamageReductionProtoss"/>
+        <BehaviorArray Link="SoulAbsorption22"/>
         <WeaponArray index="0" Link="AlarakBaneBlades"/>
         <CardLayouts index="0">
             <LayoutButtons index="5" Face="ScatterTheUnworthy" AbilCmd="255,255" Requirements="" Row="1"/>

@@ -222,7 +222,7 @@
     <CEffectDamage id="NovaWeaponHellfireShotgunBlastDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Terran"/>
         <Kind value="Spell"/>
-        <Amount value="205"/>
+        <Amount value="20"/>
         <Death value="Blast"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -337,7 +337,7 @@
         <Flags index="Notification" value="0"/>
         <Kind value="Spell"/>
         <KindSplash value="Splash"/>
-        <Amount value="380"/>
+        <Amount value="2280"/>
         <Death value="Silentkill"/>
         <AreaArray Radius="2" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -500,7 +500,7 @@
         <ValidatorArray value="noMarkers"/>
         <EditorCategories value="Race:Protoss"/>
         <Flags index="Notification" value="1"/>
-        <Amount value="85"/>
+        <Amount value="10"/>
         <Death value="Fire"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -568,7 +568,7 @@
     </CEffectApplyBehavior>
     <CEffectDamage id="KaraxOverloadDamage2">
         <EditorCategories value=""/>
-        <Amount value="335"/>
+        <Amount value="35"/>
         <Death value="Electrocute"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -601,7 +601,7 @@
     <CEffectDamage id="PhotonCannonU3" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
         <Kind value="Ranged"/>
-        <Amount value="70.01"/>
+        <Amount value="45.01"/>
         <AreaArray Radius="1.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -642,7 +642,7 @@
     </CEffectSwitch>
     <CEffectDamage id="ServitorStrikeDamageA2" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
-        <Amount value="130.01"/>
+        <Amount value="65.01"/>
         <Death value="Fire"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -670,7 +670,7 @@
         <EditorCategories value="Race:Zerg"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="90.01"/>
+        <Amount value="240.01"/>
         <Death value="Blast"/>
         <ExcludeArray Value="Target"/>
         <SearchFlags index="SameCliff" value="0"/>
@@ -989,7 +989,7 @@
         <EditorCategories value="Race:Zerg"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="185.01"/>
+        <Amount value="490.01"/>
         <Death value="Blast"/>
         <ExcludeArray Value="Target"/>
         <SearchFlags index="SameCliff" value="0"/>
@@ -1267,7 +1267,7 @@
     <CEffectDamage id="TorrasqueBladesDamageLeech" parent="DU_WEAP">
         <Marker Link="Effect/HotSUltraliskKaiserBladesDamage42"/>
         <KindSplash value="Melee"/>
-        <Amount value="15"/>
+        <Amount value="51.21"/>
         <LeechFraction index="Life" value="0.04"/>
         <Death value="Eviscerate"/>
         <AreaArray Arc="209.9816" Radius="2" Fraction="1"/>
@@ -1288,7 +1288,7 @@
     </CEffectEnumArea>
     <CEffectDamage id="ValiantChargeDamage">
         <EditorCategories value=""/>
-        <Amount value="340"/>
+        <Amount value="1320"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectDamage id="Vigor">
@@ -1432,7 +1432,7 @@
         <ResponseFlags index="Flee" value="1"/>
         <ImpactLocation Value="TargetUnit"/>
         <Flags index="Notification" value="1"/>
-        <Amount value="100"/>
+        <Amount value="60"/>
         <SearchFlags index="CallForHelp" value="1"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -1444,7 +1444,7 @@
     </CEffectDamage>
     <CEffectDamage id="AlarakMindBlastAreaDamage22">
         <EditorCategories value=""/>
-        <Amount value="265"/>
+        <Amount value="155"/>
         <Death value="Fire"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -1792,7 +1792,7 @@
     <CEffectDamage id="HammerBashDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Terran"/>
         <KindSplash value="Splash"/>
-        <Amount value="125.01"/>
+        <Amount value="75.01"/>
         <AreaArray Radius="1.25" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -2196,7 +2196,7 @@
         <EditorCategories value="Race:Zerg"/>
         <AttributeFactor index="Structure" value="0.5"/>
         <KindSplash value="Splash"/>
-        <Amount value="140.01"/>
+        <Amount value="190.01"/>
         <AreaArray Radius="1.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -2205,7 +2205,7 @@
     <CEffectDamage id="DehakaAirDamage23" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
         <KindSplash value="Splash"/>
-        <Amount value="140.01"/>
+        <Amount value="190.01"/>
         <AreaArray Radius="1.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -3046,7 +3046,7 @@
         <EditorCategories value="Race:Terran"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="310"/>
+        <Amount value="30"/>
         <Death value="Blast"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -3972,7 +3972,7 @@
         <EditorCategories value="Race:Zerg"/>
         <Visibility value="Visible"/>
         <Flags index="ValidateImpactDeflection" value="1"/>
-        <Amount value="140.01"/>
+        <Amount value="635.01"/>
         <AreaArray Radius="1.25" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -4099,7 +4099,7 @@
         <Flags index="Notification" value="1"/>
         <Flags index="ValidateImpactDeflection" value="1"/>
         <KindSplash value="Splash"/>
-        <Amount value="90"/>
+        <Amount value="10"/>
         <Death value="Disintegrate"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -5221,7 +5221,7 @@
     </CEffectDamage>
     <CEffectDamage id="DestructionWaveDamage22">
         <EditorCategories value="Race:Protoss"/>
-        <Amount value="95"/>
+        <Amount value="50"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectDamage id="DestructionWaveDamage222">
@@ -5304,7 +5304,7 @@
     <CEffectDamage id="FenixSOAWeaponDamage2">
         <EditorCategories value="Race:Protoss"/>
         <AttributeFactor index="Armored" value="1"/>
-        <Amount value="150.01"/>
+        <Amount value="440.01"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="Visible;Self,Player,Ally,Neutral,Missile,Dead,Hidden,Invulnerable"/>
@@ -5398,7 +5398,7 @@
     </CEffectApplyBehavior>
     <CEffectDamage id="KnockOutDamage" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
-        <Amount value="300.01"/>
+        <Amount value="150.01"/>
         <LeechFraction index="Life" value="0.1"/>
         <AreaArray Radius="2" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -6212,7 +6212,7 @@
     <CEffectDamage id="XelNagaVortexDamage">
         <Flags index="Notification" value="1"/>
         <Flags index="ValidateImpactDeflection" value="1"/>
-        <Amount value="205"/>
+        <Amount value="20"/>
         <Death value="Eviscerate"/>
         <DamageModifierSource Value="Source"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -6309,7 +6309,7 @@
     </CEffectCreatePersistent>
     <CEffectDamage id="SOAOrbitalStrikeDamage2">
         <EditorCategories value="Race:Protoss"/>
-        <Amount value="235"/>
+        <Amount value="25"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectDamage id="SOAOrbitalStrikeDamage22">
@@ -6348,7 +6348,7 @@
         <ArmorReduction value="0"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="85.01"/>
+        <Amount value="45.01"/>
         <Death value="Fire"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -6980,7 +6980,7 @@
     </CEffectDamage>
     <CEffectDamage id="VoidTendrilUnstableEnergyInitialDamage22">
         <Flags index="Notification" value="1"/>
-        <Amount value="125"/>
+        <Amount value="90"/>
         <Death value="Blast"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -7215,7 +7215,7 @@
     <CEffectDamage id="WirelessDisassemblerDamage" parent="DU_WEAP">
         <EditorCategories value="Race:Terran"/>
         <KindSplash value="Splash"/>
-        <Amount value="460.01"/>
+        <Amount value="230.01"/>
         <LeechFraction index="Life" value="0.1"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -7482,7 +7482,7 @@
     </CEffectEnumArea>
     <CEffectDamage id="HellFireDamage" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
-        <Amount value="45.01"/>
+        <Amount value="25.01"/>
         <Death value="Fire"/>
         <AreaArray Radius="0.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -7992,7 +7992,7 @@
     <CEffectDamage id="StinkyHoseDamage" parent="DU_WEAP">
         <EditorCategories value="Race:Terran"/>
         <KindSplash value="Splash"/>
-        <Amount value="80.01"/>
+        <Amount value="50.01"/>
         <LeechFraction index="Life" value="0.2"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -8091,7 +8091,7 @@
         <EditorCategories value="Race:Zerg"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="275"/>
+        <Amount value="30"/>
         <AreaArray Radius="0.5" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -8440,7 +8440,7 @@
         <Flags index="Notification" value="1"/>
         <Flags index="ValidateImpactDeflection" value="1"/>
         <Kind value="Melee"/>
-        <Amount value="70.01"/>
+        <Amount value="90.01"/>
         <LeechFraction index="Life" value="0.1"/>
         <Death value="Eviscerate"/>
         <AreaArray Radius="1.5" Fraction="1"/>
@@ -8568,7 +8568,7 @@
         <EditorCategories value="Race:Zerg"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="50.01"/>
+        <Amount value="25.01"/>
         <AreaArray Radius="0.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -9547,7 +9547,7 @@
         <AttributeFactor index="Light" value="1"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="2250"/>
+        <Amount value="1125"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -9611,7 +9611,7 @@
         <ArmorReduction value="0"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="85.01"/>
+        <Amount value="45.01"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -10120,7 +10120,7 @@
     <CEffectDamage id="LarvaClawsDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
         <Flags index="ValidateImpactDeflection" value="1"/>
-        <Amount value="28.76"/>
+        <Amount value="25"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -10169,7 +10169,7 @@
     <CEffectDamage id="SwarmlingClawsDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
         <Flags index="ValidateImpactDeflection" value="1"/>
-        <Amount value="28.76"/>
+        <Amount value="5"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -10184,7 +10184,7 @@
     </CEffectCreatePersistent>
     <CEffectDamage id="MortarStrikeDamage">
         <EditorCategories value="Race:Protoss"/>
-        <Amount value="285"/>
+        <Amount value="30"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectDamage id="MortarStrikeImpactDummy">
@@ -10313,7 +10313,7 @@
         <ResponseFlags index="Acquire" value="1"/>
         <ResponseFlags index="Flee" value="1"/>
         <Flags index="Notification" value="1"/>
-        <Amount value="180"/>
+        <Amount value="125"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -10470,7 +10470,7 @@
         <ResponseFlags index="Acquire" value="1"/>
         <ResponseFlags index="Flee" value="1"/>
         <Flags index="Notification" value="1"/>
-        <Amount value="300"/>
+        <Amount value="150"/>
         <AreaArray Radius="2" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="Ground;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -10545,7 +10545,7 @@
     </CEffectSet>
     <CEffectDamage id="RavagerWeaponDamage24" parent="DU_WEAP_MISSILE">
         <EditorCategories value="Race:Zerg"/>
-        <Amount value="150"/>
+        <Amount value="75"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="Ground;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -12656,7 +12656,7 @@
     <CEffectDamage id="InfestedGuassRifle10" parent="InfestedGuassRifle">
         <Name value="Effect/Name/InfestedGuassRifle10"/>
         <KindSplash value="Splash"/>
-        <Amount value="15.01"/>
+        <Amount value="7.51"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -14207,7 +14207,7 @@
         <ArmorReduction value="1"/>
         <Flags index="Notification" value="1"/>
         <Kind value="Melee"/>
-        <Amount value="390.01"/>
+        <Amount value="195.01"/>
         <Death value="Eviscerate"/>
         <AreaArray Radius="1" Fraction="0.5"/>
         <ExcludeArray Value="Target"/>
@@ -14407,7 +14407,7 @@
     <CEffectDamage id="CrucioShockCannonDirected3" parent="CrucioShockCannonDirected">
         <Name value="Effect/Name/CrucioShockCannonDirected3"/>
         <AttributeBonus index="Armored" value="0"/>
-        <Amount value="45.01"/>
+        <Amount value="25.01"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
     </CEffectDamage>
@@ -14597,7 +14597,7 @@
         <Flags index="Notification" value="1"/>
         <Kind value="Splash"/>
         <KindSplash value="Splash"/>
-        <Amount value="180.01"/>
+        <Amount value="20.01"/>
         <Death value="Blast"/>
         <AreaArray Radius="2" Fraction="1"/>
         <AreaArray Radius="2.25" Fraction="0.5"/>
@@ -15210,7 +15210,7 @@
         <ArmorReduction value="0"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="110.01"/>
+        <Amount value="55.01"/>
         <AreaArray Radius="0.75" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -15295,7 +15295,7 @@
     <CEffectDamage id="SJPirateCapitalShipLeftDamage2" parent="DU_WEAP_MISSILE">
         <EditorCategories value="Race:Terran"/>
         <Visibility value="Visible"/>
-        <Amount value="80"/>
+        <Amount value="125"/>
         <Death value="Fire"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -15321,7 +15321,7 @@
     <CEffectDamage id="SJPirateCapitalShipRightDamage2" parent="DU_WEAP_MISSILE">
         <EditorCategories value="Race:Terran"/>
         <Visibility value="Visible"/>
-        <Amount value="80.01"/>
+        <Amount value="125.01"/>
         <Death value="Fire"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -15899,7 +15899,7 @@
         <ResponseFlags index="Acquire" value="1"/>
         <ResponseFlags index="Flee" value="1"/>
         <KindSplash value="Splash"/>
-        <Amount value="460"/>
+        <Amount value="230"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <SearchFlags index="CallForHelp" value="1"/>
         <SearchFlags index="SameCliff" value="0"/>
@@ -16175,7 +16175,7 @@
         <ResponseFlags index="Flee" value="1"/>
         <ImpactLocation Value="TargetUnit"/>
         <KindSplash value="Splash"/>
-        <Amount value="390"/>
+        <Amount value="40"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <SearchFlags index="CallForHelp" value="1"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -16217,7 +16217,7 @@
         <Name value="Effect/Name/ApocaliskKaiserBladesDamage"/>
         <EditorCategories value="Race:Neutral"/>
         <KindSplash value="Splash"/>
-        <Amount value="155.01"/>
+        <Amount value="260.01"/>
         <LeechFraction index="Life" value="0.1"/>
         <AreaArray index="0" Fraction="1" Radius="2"/>
         <AreaArray index="1" Fraction="1" Radius="2"/>
@@ -16247,7 +16247,7 @@
     </CEffectLaunchMissile>
     <CEffectDamage id="BileGlobU">
         <EditorCategories value=""/>
-        <Amount value="80"/>
+        <Amount value="10"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -16413,7 +16413,7 @@
         <ValidatorArray value="NotHidden"/>
         <EditorCategories value="Race:Terran"/>
         <Kind value="Ranged"/>
-        <Amount value="345"/>
+        <Amount value="1120"/>
         <AttributeFactor index="Heroic" value="1"/>
         <ArmorReduction value="0"/>
         <AreaArray Radius="1.25" Fraction="1"/>
@@ -16687,7 +16687,7 @@
         <ValidatorArray value="noMarkers"/>
         <EditorCategories value="Race:Zerg"/>
         <AttributeFactor index="Light" value="1"/>
-        <Amount value="805.01"/>
+        <Amount value="785.01"/>
         <Death value="Blast"/>
         <SearchFlags index="SameCliff" value="0"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -16774,7 +16774,7 @@
     <CEffectDamage id="RoachVileAcidSalivaU2" parent="DU_WEAP_MISSILE">
         <EditorCategories value="Race:Zerg"/>
         <KindSplash value="Splash"/>
-        <Amount value="15.01"/>
+        <Amount value="7.51"/>
         <Death value="Disintegrate"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -17029,7 +17029,7 @@
         <EditorCategories value="Race:Zerg"/>
         <Marker Link="Effect/FuckOffDamage"/>
         <KindSplash value="Splash"/>
-        <Amount value="75.01"/>
+        <Amount value="115.01"/>
         <LeechFraction index="Life" value="0.1"/>
         <AreaArray Radius="1.25" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -17109,7 +17109,7 @@
     <CEffectDamage id="NeedleClaws2" parent="ZerglingClawsDamage">
         <Name value="Effect/Name/NeedleClaws2"/>
         <Marker Link="Effect/NeedleClaws2"/>
-        <Amount value="40"/>
+        <Amount value="20"/>
         <LeechFraction index="Life" value="0"/>
         <AreaArray index="0" Radius="0" Fraction="1"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -17193,7 +17193,7 @@
         <ResponseFlags index="Flee" value="1"/>
         <ImpactLocation Value="TargetUnit"/>
         <ArmorReduction value="1"/>
-        <Amount value="135.01"/>
+        <Amount value="70.01"/>
         <Death value="Blast"/>
         <AreaArray Radius="1.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -17221,7 +17221,7 @@
     </CEffectSet>
     <CEffectDamage id="NullBotDamage" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
-        <Amount value="45.01"/>
+        <Amount value="70.01"/>
         <Death value="Fire"/>
         <AreaArray Radius="0.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -17238,7 +17238,7 @@
         <EditorCategories value="Race:Protoss"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="240.01"/>
+        <Amount value="525.01"/>
         <AreaArray Radius="1.75" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -17541,7 +17541,7 @@
         <EditorCategories value="Race:Terran"/>
         <ArmorReduction value="0"/>
         <KindSplash value="Splash"/>
-        <Amount value="50.01"/>
+        <Amount value="25.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -17699,7 +17699,7 @@
     </CEffectSwitch>
     <CEffectDamage id="CycloneAttackWeaponDamage2" parent="DU_WEAP_MISSILE">
         <EditorCategories value="Race:Terran"/>
-        <Amount value="105.01"/>
+        <Amount value="300.01"/>
         <Death value="Blast"/>
         <AreaArray Radius="0.5" Fraction="1"/>
         <SearchFilters value="Visible;Self,Player,Ally,Neutral,Missile,Dead,Invulnerable"/>
@@ -17804,7 +17804,7 @@
         <ArmorReduction value="1"/>
         <Flags index="Notification" value="1"/>
         <Kind value="Ranged"/>
-        <Amount value="280.01"/>
+        <Amount value="140.01"/>
         <AreaArray Radius="1.5" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -18222,7 +18222,7 @@
         <ArmorReduction value="1"/>
         <Flags index="Notification" value="1"/>
         <Kind value="Ranged"/>
-        <Amount value="390.01"/>
+        <Amount value="195.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <SearchFlags index="CallForHelp" value="1"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -18252,7 +18252,7 @@
         <ValidatorArray value="GrappleLaunchCaster2TargetFilters"/>
         <EditorCategories value="Race:Terran"/>
         <Marker Link="Effect/GrappleLaunchCaster2"/>
-        <Amount value="1000"/>
+        <Amount value="480"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectEnumArea id="GrappleSearchArea">
@@ -18608,7 +18608,7 @@
         <Flags index="Notification" value="1"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="270.01"/>
+        <Amount value="1620.01"/>
         <AreaArray Radius="2" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="Visible;Self,Player,Ally,Neutral,Missile,Invulnerable"/>
@@ -18773,7 +18773,7 @@
     <CEffectDamage id="PsionicShockDamage">
         <EditorCategories value=""/>
         <Marker Link="Effect/ShockwaveDamage2"/>
-        <Amount value="170"/>
+        <Amount value="15"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectCreateUnit id="SpawnBrutalisk">
@@ -18838,7 +18838,7 @@
         <ResponseFlags index="Flee" value="1"/>
         <ImpactLocation Value="TargetUnit"/>
         <Flags index="Notification" value="1"/>
-        <Amount value="1000"/>
+        <Amount value="500"/>
         <Death value="Blast"/>
         <AreaArray Radius="0.75" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -19642,7 +19642,7 @@
     </CEffectSet>
     <CEffectDamage id="HybridDominatorPsionicShockwaveDamage2">
         <KindSplash value="Splash"/>
-        <Amount value="300"/>
+        <Amount value="30"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectModifyUnit id="IssueAIOrderSuicide22">
@@ -19803,7 +19803,7 @@
     </CEffectApplyBehavior>
     <CEffectDamage id="ShockwaveDamage2">
         <EditorCategories value=""/>
-        <Amount value="2100"/>
+        <Amount value="1120"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectModifyUnit id="ShockwaveDrop2">
@@ -19936,7 +19936,7 @@
         <ImpactLocation Value="TargetUnit"/>
         <Kind value="Splash"/>
         <KindSplash value="Splash"/>
-        <Amount value="180"/>
+        <Amount value="20"/>
         <Death value="Blast"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -19994,7 +19994,7 @@
         <ResponseFlags index="Flee" value="1"/>
         <Visibility value="Visible"/>
         <Flags index="Notification" value="1"/>
-        <Amount value="265.01"/>
+        <Amount value="135.01"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <AreaArray Radius="0.6" Fraction="1"/>
         <AreaArray Radius="1.2" Fraction="0.75"/>
@@ -20989,7 +20989,7 @@
         <ImpactLocation Value="TargetUnit"/>
         <Kind value="Splash"/>
         <KindSplash value="Splash"/>
-        <Amount value="100"/>
+        <Amount value="10"/>
         <Death value="Blast"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -21145,7 +21145,7 @@
         <ResponseFlags index="Acquire" value="1"/>
         <ResponseFlags index="Flee" value="1"/>
         <ArmorReduction value="1"/>
-        <Amount value="205"/>
+        <Amount value="120"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <SearchFlags index="CallForHelp" value="1"/>
         <SearchFlags index="OffsetByUnitRadius" value="1"/>
@@ -21490,7 +21490,7 @@
     </CEffectLaunchMissile>
     <CEffectDamage id="ShadowBlastDamage" parent="LokiYamatoU">
         <KindSplash value="Splash"/>
-        <Amount value="75"/>
+        <Amount value="10"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -21567,7 +21567,7 @@
         <EditorCategories value="Race:Protoss"/>
         <AttributeFactor index="Light" value="0.5"/>
         <AttributeFactor index="Structure" value="1"/>
-        <Amount value="45.01"/>
+        <Amount value="25.01"/>
         <Death value="Blast"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Dead,Hidden,Invulnerable"/>
@@ -21932,7 +21932,7 @@
     <CEffectDamage id="MaggotDamage" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
         <KindSplash value="Splash"/>
-        <Amount value="10"/>
+        <Amount value="14.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <AreaArray Radius="1" Fraction="1"/>
@@ -23919,7 +23919,7 @@
         <ArmorReduction value="1"/>
         <Flags index="Notification" value="1"/>
         <Kind value="Ranged"/>
-        <Amount value="135.01"/>
+        <Amount value="370.01"/>
         <SearchFlags index="CallForHelp" value="1"/>
         <SearchFlags index="OffsetByUnitRadius" value="1"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -24039,7 +24039,7 @@
     <CEffectDamage id="HighTemplarWeaponDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
         <Kind value="Ranged"/>
-        <Amount value="115.01"/>
+        <Amount value="60.01"/>
         <Death value="Blast"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -24388,7 +24388,7 @@
         <ResponseFlags index="Acquire" value="1"/>
         <ResponseFlags index="Flee" value="1"/>
         <Flags index="Notification" value="1"/>
-        <Amount value="210"/>
+        <Amount value="350"/>
         <AreaArray Radius="2" Fraction="1"/>
         <SearchFilters value="Ground;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <ExcludeArray Value="Target"/>
@@ -24505,7 +24505,7 @@
     <CEffectDamage id="ScarabExplodeTargetDamage2" parent="DU_WEAP">
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="130.01"/>
+        <Amount value="780.01"/>
         <Death value="Blast"/>
         <AreaArray Radius="1.25" Fraction="1"/>
         <AreaArray Radius="2" Fraction="0.75"/>
@@ -24668,7 +24668,7 @@
         <ValidatorArray value="NotHidden"/>
         <EditorCategories value="Race:Terran"/>
         <Kind value="Spell"/>
-        <Amount value="240"/>
+        <Amount value="1165"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectDamage id="TornadoMissileDamageDummy2">
@@ -24776,7 +24776,7 @@
         <ArmorReduction value="0"/>
         <Kind value="Spell"/>
         <KindSplash value="Splash"/>
-        <Amount value="440"/>
+        <Amount value="730"/>
         <Death value="Silentkill"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -24825,7 +24825,7 @@
     <CEffectDamage id="AcidSalivaU2" parent="DU_WEAP_MISSILE">
         <EditorCategories value="Race:Zerg"/>
         <KindSplash value="Splash"/>
-        <Amount value="25.01"/>
+        <Amount value="15.01"/>
         <Death value="Disintegrate"/>
         <AreaArray Radius="0.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -25039,7 +25039,7 @@
     </CEffectCreatePersistent>
     <CEffectDamage id="AlarakBaneBladesDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
-        <Amount value="80.01"/>
+        <Amount value="40.01"/>
         <Death value="Eviscerate"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="Visible;Self,Player,Ally,Neutral,Missile,Dead,Hidden,Invulnerable"/>
@@ -25061,7 +25061,7 @@
     </CEffectApplyBehavior>
     <CEffectDamage id="AlarakDeadlyChargeDamage2">
         <EditorCategories value="Race:Protoss"/>
-        <Amount value="900"/>
+        <Amount value="520"/>
         <Death value="Eviscerate"/>
         <AreaArray Radius="2" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -25805,7 +25805,7 @@
         <ResponseFlags index="Acquire" value="1"/>
         <ResponseFlags index="Flee" value="1"/>
         <Flags index="Notification" value="1"/>
-        <Amount value="200"/>
+        <Amount value="140"/>
         <DamageModifierSource Value="Caster"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -25824,7 +25824,7 @@
         <ResponseFlags index="Acquire" value="1"/>
         <ResponseFlags index="Flee" value="1"/>
         <Flags index="Notification" value="1"/>
-        <Amount value="555"/>
+        <Amount value="390"/>
         <Death value="Blast"/>
         <DamageModifierSource Value="Caster"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -26162,7 +26162,7 @@
     </CEffectApplyBehavior>
     <CEffectDamage id="SeekerMissileDamage3" parent="SeekerMissileDamage">
         <Name value="Effect/Name/SeekerMissileDamage3"/>
-        <Amount value="275"/>
+        <Amount value="30"/>
         <AreaArray index="1" Fraction="0.75" Radius="1.2"/>
         <AreaArray index="2" Fraction="0.5" Radius="2.4"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -26650,7 +26650,7 @@
         <Flags index="Notification" value="1"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="35.01"/>
+        <Amount value="80.01"/>
         <Death value="Blast"/>
         <AreaArray Radius="2.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -26766,7 +26766,7 @@
     </CEffectApplyBehavior>
     <CEffectDamage id="LightningStrikeDamage2">
         <EditorCategories value="Race:Protoss"/>
-        <Amount value="385"/>
+        <Amount value="190"/>
         <Death value="Blast"/>
         <ResponseFlags index="Acquire" value="1"/>
         <ResponseFlags index="Flee" value="1"/>
@@ -27298,7 +27298,7 @@
     </CEffectTeleport>
     <CEffectDamage id="DestructionWaveDamage2">
         <EditorCategories value="Race:Protoss"/>
-        <Amount value="120"/>
+        <Amount value="85"/>
         <ValidatorArray value="UnitKnockback"/>
         <ValidatorArray value="TargetNotDeadAndCasterNotDead"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -27306,7 +27306,7 @@
     <CEffectDamage id="DestructionWaveDamageAir2">
         <EditorCategories value="Race:Protoss"/>
         <ImpactUnitValidator value="IsFlying"/>
-        <Amount value="60"/>
+        <Amount value="40"/>
         <ValidatorArray value="UnitKnockback"/>
         <ValidatorArray value="TargetNotDeadAndCasterNotDead"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -27879,7 +27879,7 @@
         <Flags index="Notification" value="1"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="820"/>
+        <Amount value="410"/>
         <AreaArray Radius="1.25" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Invulnerable"/>
@@ -28188,7 +28188,7 @@
         <BehaviorLink value="ImplacableConstructor2"/>
     </CEffectRemoveBehavior>
     <CEffectDamage id="LightningPulseDirectDamage">
-        <Amount value="195"/>
+        <Amount value="1150"/>
         <Death value="Electrocute"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -28210,7 +28210,7 @@
         <AttributeFactor index="Armored" value="1"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="85"/>
+        <Amount value="45"/>
         <Death value="Blast"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -28409,7 +28409,7 @@
         <EditorCategories value="Race:Protoss"/>
         <Visibility value="Visible"/>
         <Kind value="Ranged"/>
-        <Amount value="95.01"/>
+        <Amount value="385.01"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <AreaArray Radius="1.25" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -28522,7 +28522,7 @@
     <CEffectDamage id="DragoonDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
         <Kind value="Ranged"/>
-        <Amount value="80.01"/>
+        <Amount value="375.01"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <AreaArray Radius="0.75" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -28615,7 +28615,7 @@
         <EditorCategories value="Race:Terran"/>
         <ImpactLocation Value="TargetUnit"/>
         <Kind value="Ranged"/>
-        <Amount value="290.01"/>
+        <Amount value="805.01"/>
         <Death value="Fire"/>
         <AreaArray Radius="1.5" Fraction="1"/>
         <SearchFilters value="-;Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -28821,7 +28821,7 @@
     </CEffectCreatePersistent>
     <CEffectDamage id="ArtanisVoidUlnarDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
-        <Amount value="125.01"/>
+        <Amount value="305.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Air,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <AreaArray Radius="1.25" Fraction="1"/>
@@ -29023,7 +29023,7 @@
         <ArmorReduction value="0"/>
         <Visibility value="Visible"/>
         <Kind value="Ranged"/>
-        <Amount value="95.01"/>
+        <Amount value="280.01"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <AreaArray Radius="0.75" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -29184,7 +29184,7 @@
     <CEffectDamage id="BattlecruiserLokiU2" parent="DU_WEAP_MISSILE">
         <EditorCategories value="Race:Terran"/>
         <Visibility value="Visible"/>
-        <Amount value="165"/>
+        <Amount value="495"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <AreaArray Radius="0.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -29550,7 +29550,7 @@
         <EditorCategories value=""/>
         <ResponseFlags index="Acquire" value="1"/>
         <ResponseFlags index="Flee" value="1"/>
-        <Amount value="165.01"/>
+        <Amount value="290.01"/>
         <Death value="Electrocute"/>
         <AreaArray Radius="2.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -29646,7 +29646,7 @@
     <CEffectDamage id="SentinelBladesDamage" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
         <KindSplash value="Splash"/>
-        <Amount value="80.01"/>
+        <Amount value="105.01"/>
         <Death value="Eviscerate"/>
         <AreaArray Radius="2" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -29675,7 +29675,7 @@
     </CEffectEnumArea>
     <CEffectDamage id="FireBlastDamage" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
-        <Amount value="45"/>
+        <Amount value="5"/>
         <Kind value="Spell"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -30293,7 +30293,7 @@
     <CEffectDamage id="ChainShockwave1Damage" parent="DU_WEAP">
         <Marker Link="ChainReaction"/>
         <AttributeFactor index="Biological" value="1"/>
-        <Amount value="140.01"/>
+        <Amount value="665.01"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -30331,7 +30331,7 @@
     <CEffectDamage id="ChainShockwave2Damage" parent="DU_WEAP">
         <Marker Link="ChainReaction"/>
         <AttributeFactor index="Biological" value="1"/>
-        <Amount value="140"/>
+        <Amount value="665"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -30369,7 +30369,7 @@
     <CEffectDamage id="ChainShockwave3Damage" parent="DU_WEAP">
         <Marker Link="ChainReaction"/>
         <AttributeFactor index="Biological" value="1"/>
-        <Amount value="140"/>
+        <Amount value="665"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -30406,7 +30406,7 @@
     <CEffectDamage id="ChainShockwave4Damage" parent="DU_WEAP">
         <Marker Link="ChainReaction"/>
         <AttributeFactor index="Biological" value="1"/>
-        <Amount value="340"/>
+        <Amount value="1615"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -30450,7 +30450,7 @@
         <Marker Link="ChainReaction"/>
         <AttributeFactor index="Biological" value="1"/>
         <KindSplash value="Splash"/>
-        <Amount value="340.1"/>
+        <Amount value="1615"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -30464,7 +30464,7 @@
     </CEffectApplyBehavior>
     <CEffectDamage id="PsionicPulseField">
         <EditorCategories value="Race:Terran"/>
-        <Amount value="70.01"/>
+        <Amount value="160.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -30704,7 +30704,7 @@
         <AttributeFactor index="Light" value="1"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="120.01"/>
+        <Amount value="60.01"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -30729,7 +30729,7 @@
         <Flags index="Notification" value="1"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="60.01"/>
+        <Amount value="120.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Air,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <SearchFlags index="CallForHelp" value="1"/>
         <SearchFlags index="OffsetByUnitRadius" value="1"/>
@@ -30815,7 +30815,7 @@
     <CEffectDamage id="GoliathAU2" parent="DU_WEAP_MISSILE">
         <EditorCategories value="Race:Terran"/>
         <AttributeFactor index="Armored" value="1"/>
-        <Amount value="65.01"/>
+        <Amount value="105.01"/>
         <KindSplash value="Splash"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -30900,7 +30900,7 @@
         <Flags index="Notification" value="1"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="50.01"/>
+        <Amount value="25.01"/>
         <AreaArray Radius="0.75" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Dead,Hidden,Invulnerable"/>
@@ -30918,7 +30918,7 @@
     </CEffectSet>
     <CEffectDamage id="ParticleBeam2" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
-        <Amount value="40.01"/>
+        <Amount value="65.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <KindSplash value="Splash"/>
@@ -31132,7 +31132,7 @@
         <AttributeFactor index="Massive" value="0.25"/>
         <ArmorReduction value="0"/>
         <KindSplash value="Splash"/>
-        <Amount value="140.01"/>
+        <Amount value="240.01"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -31353,7 +31353,7 @@
     </CEffectDamage>
     <CEffectDamage id="PsiBlades3" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
-        <Amount value="35.01"/>
+        <Amount value="30.01"/>
         <Death value="Eviscerate"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -31374,7 +31374,7 @@
     </CEffectCreatePersistent>
     <CEffectDamage id="FusionCutter2" parent="DU_WEAP">
         <EditorCategories value="Race:Terran"/>
-        <Amount value="40.01"/>
+        <Amount value="65.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <KindSplash value="Splash"/>
@@ -31386,7 +31386,7 @@
         <EditorCategories value="Race:Terran"/>
         <AttributeFactor index="Heroic" value="1"/>
         <Kind value="Ranged"/>
-        <Amount value="100.01"/>
+        <Amount value="345.01"/>
         <Death value="Blast"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <KindSplash value="Splash"/>
@@ -31452,7 +31452,7 @@
     <CEffectDamage id="P38ScytheGuassPistol2" parent="DU_WEAP">
         <EditorCategories value="Race:Terran"/>
         <Kind value="Ranged"/>
-        <Amount value="45.01"/>
+        <Amount value="125.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <KindSplash value="Splash"/>
@@ -31511,7 +31511,7 @@
     </CEffectCreatePersistent>
     <CEffectDamage id="RetributionFieldDamage4">
         <EditorCategories value="Race:Terran"/>
-        <Amount value="30"/>
+        <Amount value="55"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -31570,7 +31570,7 @@
     </CEffectApplyBehavior>
     <CEffectDamage id="RoachlingNeedleClawsDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
-        <Amount value="20.01"/>
+        <Amount value="45.01"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <KindSplash value="Splash"/>
         <AreaArray Radius="1" Fraction="1"/>
@@ -31613,7 +31613,7 @@
         <AttributeFactor index="Armored" value="1"/>
         <Visibility value="Visible"/>
         <Kind value="Ranged"/>
-        <Amount value="45.01"/>
+        <Amount value="135.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <KindSplash value="Splash"/>
@@ -31630,7 +31630,7 @@
         <ArmorReduction value="0"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="70.01"/>
+        <Amount value="190.01"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -31651,7 +31651,7 @@
         <ArmorReduction value="1"/>
         <Flags index="Notification" value="1"/>
         <Kind value="Melee"/>
-        <Amount value="30.01"/>
+        <Amount value="55.01"/>
         <Death value="Eviscerate"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -31679,7 +31679,7 @@
     <CEffectDamage id="ParticleDisruptorsU2" parent="DU_WEAP_MISSILE">
         <EditorCategories value="Race:Protoss"/>
         <AttributeFactor index="Armored" value="0.5"/>
-        <Amount value="50.01"/>
+        <Amount value="125.01"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -31796,7 +31796,7 @@
     <CEffectDamage id="DisruptionBeamDamage2" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
         <Kind value="Ranged"/>
-        <Amount value="55.01"/>
+        <Amount value="195.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <KindSplash value="Splash"/>
@@ -31809,7 +31809,7 @@
         <AttributeBonus index="Armored" value="0"/>
         <AttributeFactor index="Armored" value="1"/>
         <KindSplash value="Splash"/>
-        <Amount value="65.01"/>
+        <Amount value="120.01"/>
         <AreaArray Radius="0.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -31840,7 +31840,7 @@
         <ArmorReduction value="1"/>
         <Flags index="Notification" value="1"/>
         <Kind value="Ranged"/>
-        <Amount value="45.01"/>
+        <Amount value="235.01"/>
         <AreaArray Radius="1.25" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -32237,7 +32237,7 @@
     </CEffectCreatePersistent>
     <CEffectDamage id="Spines2" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
-        <Amount value="40.01"/>
+        <Amount value="65.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <KindSplash value="Splash"/>
@@ -32429,7 +32429,7 @@
     <CEffectDamage id="SwarmlingClawsDamage" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
         <ArmorReduction value="0"/>
-        <Amount value="55.01"/>
+        <Amount value="320.01"/>
         <LeechFraction index="Life" value="0.06"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -32588,7 +32588,7 @@
         <Visibility value="Visible"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="90.01"/>
+        <Amount value="390.01"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <AreaArray Radius="0.75" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -32677,7 +32677,7 @@
     <CEffectDamage id="PrismaticBeamMUx12" parent="PrismaticBeamMUInitial">
         <AttributeFactor index="Armored" value="1"/>
         <ArmorReduction value="0"/>
-        <Amount value="55.01"/>
+        <Amount value="155.01"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <KindSplash value="Splash"/>
         <AreaArray Radius="1" Fraction="1"/>
@@ -32799,7 +32799,7 @@
         <AttributeFactor index="Light" value="1"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="37.51"/>
+        <Amount value="20"/>
         <AreaArray Radius="1" Fraction="1" Validator="TargetIsEnemy"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -32836,7 +32836,7 @@
         <Flags index="Notification" value="1"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="70.01"/>
+        <Amount value="420.01"/>
         <AreaArray Radius="0.75" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <SearchFlags index="CallForHelp" value="1"/>
@@ -32851,7 +32851,7 @@
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <KindSplash value="Splash"/>
-        <Amount value="120.01"/>
+        <Amount value="60.01"/>
         <AreaArray Radius="1" Fraction="1"/>
     </CEffectDamage>
     <CEffectLaunchMissile id="PsionicDischargeLaunchMissile">
@@ -32953,7 +32953,7 @@
         <AttributeFactor index="Armored" value="1"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="100.01"/>
+        <Amount value="50.01"/>
         <Death value="Blast"/>
         <AreaArray Radius="1.25" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -33195,7 +33195,7 @@
         <EditorCategories value="Race:Protoss"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="330"/>
+        <Amount value="35"/>
         <AreaArray Radius="4" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -33258,7 +33258,7 @@
         <Visibility value="Visible"/>
         <Flags index="Notification" value="1"/>
         <Kind value="Ranged"/>
-        <Amount value="125.01"/>
+        <Amount value="750.01"/>
         <AreaArray Radius="2" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="Visible;Self,Player,Ally,Neutral,Missile,Invulnerable"/>
@@ -33399,7 +33399,7 @@
         <EditorCategories value="Race:Terran"/>
         <Flags index="Notification" value="1"/>
         <Kind value="Melee"/>
-        <Amount value="105.01"/>
+        <Amount value="55.01"/>
         <Death value="Eviscerate"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -34592,7 +34592,7 @@
         <ImpactLocation Value="TargetUnit"/>
         <Kind value="Spell"/>
         <KindSplash value="Splash"/>
-        <Amount value="210"/>
+        <Amount value="265"/>
         <Death value="Silentkill"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="CollapseBuffed" value="1"/>
@@ -34696,7 +34696,7 @@
         <EditorCategories value=""/>
         <ResponseFlags index="Acquire" value="1"/>
         <ResponseFlags index="Flee" value="1"/>
-        <Amount value="30"/>
+        <Amount value="15"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <SearchFlags index="CallForHelp" value="1"/>
         <SearchFlags index="SameCliff" value="0"/>
@@ -35028,7 +35028,7 @@
         <ArmorReduction value="0"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="50.01"/>
+        <Amount value="210.01"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -35047,7 +35047,7 @@
         <Flags index="Notification" value="1"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
-        <Amount value="130.01"/>
+        <Amount value="435.01"/>
         <AreaArray Radius="0.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -35091,7 +35091,7 @@
         <EditorCategories value="Race:Zerg"/>
         <AttributeFactor index="Armored" value="1"/>
         <Visibility value="Visible"/>
-        <Amount value="110.01"/>
+        <Amount value="55.01"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <AreaArray Radius="1" Fraction="1"/>
         <ExcludeArray Value="Target"/>
@@ -35208,7 +35208,7 @@
     </CEffectSet>
     <CEffectDamage id="VoidSurgeU">
         <EditorCategories value=""/>
-        <Amount value="300"/>
+        <Amount value="150"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectCreatePersistent id="VoidThrasherLightningAoECreatePersistent2" parent="VoidTendrilUnstableEnergyCP2">
@@ -35693,7 +35693,7 @@
         <EditorCategories value="Race:Terran"/>
         <Visibility value="Visible"/>
         <Kind value="Ranged"/>
-        <Amount value="115.01"/>
+        <Amount value="320.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <KindSplash value="Splash"/>
@@ -36274,7 +36274,7 @@
     </CEffectApplyBehavior>
     <CEffectDamage id="WarpBlades2" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
-        <Amount value="70.01"/>
+        <Amount value="160.01"/>
         <Death value="Eviscerate"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -36328,7 +36328,7 @@
         <EditorCategories value="Race:Terran"/>
         <Kind value="Ranged"/>
         <KindSplash value="Ranged"/>
-        <Amount value="50.01"/>
+        <Amount value="25.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -36448,7 +36448,7 @@
     <CEffectDamage id="VultureU2" parent="DU_WEAP_MISSILE">
         <EditorCategories value="Race:Terran"/>
         <AttributeFactor index="Light" value="1"/>
-        <Amount value="95.01"/>
+        <Amount value="230.01"/>
         <AreaArray Radius="1" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -36913,7 +36913,7 @@
     </CEffectLaunchMissile>
     <CEffectDamage id="ShockReaverDamage" parent="DU_WEAP">
         <AttributeFactor index="Armored" value="1"/>
-        <Amount value="20.01"/>
+        <Amount value="25.01"/>
         <AreaArray Radius="1.25" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -37010,7 +37010,7 @@
         <ResponseFlags index="Acquire" value="1"/>
         <ResponseFlags index="Flee" value="1"/>
         <KindSplash value="Splash"/>
-        <Amount value="255"/>
+        <Amount value="25"/>
         <AreaArray Radius="4" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <SearchFlags index="ExtendByUnitRadius" value="1"/>
@@ -37018,7 +37018,7 @@
     </CEffectDamage>
     <CEffectDamage id="FungalGrowthDamage42" parent="FungalGrowthDamage">
         <KindSplash value="Splash"/>
-        <Amount value="20"/>
+        <Amount value="0"/>
         <Name value="Effect/Name/FungalGrowthDamage3"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -37567,14 +37567,14 @@
     <CEffectDamage id="GlaiveWurmU43" parent="DU_WEAP_MISSILE">
         <EditorCategories value="Race:Zerg"/>
         <Visibility value="Visible"/>
-        <Amount value="205.1"/>
+        <Amount value="710"/>
         <AreaArray Radius="1.25" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectDamage id="GlaiveWurm11" parent="GlaiveWurmU1">
-        <Amount value="95.01"/>
+        <Amount value="330.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <KindSplash value="Splash"/>
@@ -37586,7 +37586,7 @@
     <CEffectDamage id="GlaiveWurmU53" parent="DU_WEAP_MISSILE">
         <EditorCategories value="Race:Zerg"/>
         <Visibility value="Visible"/>
-        <Amount value="205.1"/>
+        <Amount value="710"/>
         <AreaArray Radius="1.25" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -37595,7 +37595,7 @@
     <CEffectDamage id="GlaiveWurmU63" parent="DU_WEAP_MISSILE">
         <EditorCategories value="Race:Zerg"/>
         <Visibility value="Visible"/>
-        <Amount value="205.1"/>
+        <Amount value="710"/>
         <AreaArray Radius="1.25" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -37607,7 +37607,7 @@
         <EffectArray value="GlaiveWurm9"/>
     </CEffectSet>
     <CEffectDamage id="GlaiveWurm8" parent="GlaiveWurmU2">
-        <Amount value="95"/>
+        <Amount value="330"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <KindSplash value="Splash"/>
         <AreaArray Radius="1.25" Fraction="1"/>
@@ -37616,7 +37616,7 @@
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectDamage id="GlaiveWurm6" parent="GlaiveWurmU3">
-        <Amount value="100"/>
+        <Amount value="345"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <KindSplash value="Splash"/>
         <AreaArray Radius="1.25" Fraction="1"/>
@@ -37657,7 +37657,7 @@
         <DisplayFlags index="DisplayRounded" value="1"/>
         <AttributeFactor index="Massive" value="0.5"/>
         <KindSplash value="Splash"/>
-        <Amount value="70.01"/>
+        <Amount value="140.01"/>
         <AreaArray Radius="1" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
     </CEffectDamage>
@@ -37676,7 +37676,7 @@
     </CEffectCreateUnit>
     <CEffectDamage id="SuicideDamage2">
         <EditorCategories value="Race:Zerg"/>
-        <Amount value="250.01"/>
+        <Amount value="350.01"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <KindSplash value="Splash"/>
         <AreaArray Radius="1" Fraction="1"/>
@@ -37739,7 +37739,7 @@
         <AttributeFactor index="Structure" value="2"/>
         <AttributeFactor index="Heroic" value="2"/>
         <KindSplash value="Splash"/>
-        <Amount value="335"/>
+        <Amount value="35"/>
         <AreaArray Radius="3" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <SearchFlags index="ExtendByUnitRadius" value="1"/>
@@ -38028,7 +38028,7 @@
     <CEffectDamage id="HybridDominator" parent="DU_WEAP">
         <EditorCategories value="Race:Zerg"/>
         <Kind value="Ranged"/>
-        <Amount value="55.01"/>
+        <Amount value="30.01"/>
         <AreaArray Radius="0.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -38037,7 +38037,7 @@
     </CEffectDamage>
     <CEffectDamage id="MasterPsiBlades" parent="DU_WEAP">
         <EditorCategories value="Race:Protoss"/>
-        <Amount value="45.01"/>
+        <Amount value="85.01"/>
         <Death value="Eviscerate"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -38087,7 +38087,7 @@
     </CEffectCreatePersistent>
     <CEffectDamage id="YamatoU22" parent="YamatoU">
         <KindSplash value="Splash"/>
-        <Amount value="215"/>
+        <Amount value="1275"/>
         <AreaArray Radius="2" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -39729,7 +39729,7 @@
     <CEffectDamage id="ConsumeDNADamage2" parent="ConsumeDNADamage">
         <Name value="Effect/Name/ConsumeDNADamage2"/>
         <KindSplash value="Splash"/>
-        <Amount value="350"/>
+        <Amount value="635"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -39937,7 +39937,7 @@
         <AttributeFactor index="Armored" value="1"/>
         <ArmorReduction value="0.5"/>
         <Kind value="Ranged"/>
-        <Amount value="130.01"/>
+        <Amount value="620.01"/>
         <Death value="Blast"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -40064,7 +40064,7 @@
         <ArmorReduction value="1"/>
         <Flags index="Notification" value="1"/>
         <Kind value="Ranged"/>
-        <Amount value="145.01"/>
+        <Amount value="75.01"/>
         <AreaArray Radius="1.5" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -40265,7 +40265,7 @@
         <Name value="Effect/Name/UltraliskKaiserBladesDamage"/>
         <EditorCategories value="Race:Neutral"/>
         <KindSplash value="Splash"/>
-        <Amount value="80.01"/>
+        <Amount value="110.01"/>
         <LeechFraction index="Life" value="0.1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -40290,7 +40290,7 @@
     <CEffectDamage id="PustulantSmash" parent="InfestedAbomination">
         <AttributeBonus index="Armored" value="0"/>
         <KindSplash value="Splash"/>
-        <Amount value="45.01"/>
+        <Amount value="115.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <AreaArray Radius="1" Fraction="1"/>
@@ -40327,7 +40327,7 @@
     </CEffectDamage>
     <CEffectDamage id="CrucioShockCannonDummy2" parent="CrucioShockCannonDummy">
         <AttributeBonus index="Armored" value="0"/>
-        <Amount value="470.1"/>
+        <Amount value="1185"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <Kind value="Ranged"/>
@@ -40476,7 +40476,7 @@
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectDamage id="HybridCPlasmaBlastDamage2" parent="HybridCPlasmaBlastDamage">
-        <Amount value="100"/>
+        <Amount value="315"/>
         <AreaArray index="0" Radius="1.5" Fraction="1"/>
         <AreaArray index="1" Radius="2" Fraction="0.5"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -40558,7 +40558,7 @@
         <AttributeFactor index="Light" value="1"/>
         <ArmorReduction value="0"/>
         <KindSplash value="Splash"/>
-        <Amount value="55"/>
+        <Amount value="85"/>
         <AreaArray Radius="0.75" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -40568,7 +40568,7 @@
         <AttributeFactor index="Light" value="1"/>
         <ArmorReduction value="0"/>
         <KindSplash value="Splash"/>
-        <Amount value="55"/>
+        <Amount value="85"/>
         <AreaArray Radius="0.75" Fraction="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -40583,14 +40583,14 @@
     <CEffectDamage id="LocustMPDamage2" parent="LocustMPDamage">
         <AttributeFactor index="Armored" value="1"/>
         <KindSplash value="Splash"/>
-        <Amount value="120.01"/>
+        <Amount value="80.01"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectDamage id="OdinDamageLeft2" parent="OdinDamage">
         <AttributeBonus index="Structure" value="0"/>
         <AttributeFactor index="Structure" value="1"/>
-        <Amount value="210"/>
+        <Amount value="865"/>
         <AreaArray Radius="1.5" Fraction="1"/>
         <SearchFilters value="Ground;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <KindSplash value="Splash"/>
@@ -40599,7 +40599,7 @@
     <CEffectDamage id="OdinDamageRight2" parent="OdinDamage">
         <AttributeBonus index="Structure" value="0"/>
         <AttributeFactor index="Structure" value="1"/>
-        <Amount value="210"/>
+        <Amount value="865"/>
         <AreaArray Radius="1.5" Fraction="1"/>
         <SearchFilters value="Ground;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <KindSplash value="Splash"/>
@@ -40755,7 +40755,7 @@
         <Marker Link="Effect/NeedleSpines5"/>
         <AttributeFactor index="Heroic" value="1"/>
         <ArmorReduction value="0.5"/>
-        <Amount value="55.01"/>
+        <Amount value="70.01"/>
         <ExcludeArray Value="Target"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -40772,7 +40772,7 @@
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
     <CEffectDamage id="ColossusThermalLancesMU" parent="ThermalLancesMU">
-        <Amount value="100.01"/>
+        <Amount value="440.01"/>
         <AreaArray Radius="0.4" Fraction="1"/>
         <SearchFilters value="Ground;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -40781,7 +40781,7 @@
     <CEffectDamage id="PinpointReachDamage" parent="NyamiNeedleSpines">
         <Name value="Effect/Name/PinpointReachDamage"/>
         <Marker Link="Effect/PinpointReachDamage"/>
-        <Amount value="100"/>
+        <Amount value="130"/>
         <ArmorReduction value="0.75"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -40807,7 +40807,7 @@
         <EditorCategories value="Race:Protoss"/>
         <AttributeFactor index="Armored" value="1"/>
         <ArmorReduction value="0"/>
-        <Amount value="85.01"/>
+        <Amount value="45.01"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -40863,7 +40863,7 @@
         <Behavior value="Intelligence"/>
     </CEffectApplyBehavior>
     <CEffectDamage id="ThorsHammerDamage2" parent="ThorsHammerDamage">
-        <Amount value="105.01"/>
+        <Amount value="330.01"/>
         <AreaArray Radius="1.25" Fraction="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -40898,7 +40898,7 @@
         <Visibility value="Hidden"/>
         <Flags index="Notification" value="1"/>
         <KindSplash value="Splash"/>
-        <Amount value="55"/>
+        <Amount value="70"/>
         <Death value="Eviscerate"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
@@ -41658,7 +41658,7 @@
     </CEffectCreateUnit>
     <CEffectDamage id="TalonsMissileDamage3" parent="Talons">
         <AttributeBonus index="Armored" value="0"/>
-        <Amount value="60.01"/>
+        <Amount value="150.01"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <ExcludeArray Value="Target"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -41675,7 +41675,7 @@
         <Flags index="ValidateImpactDeflection" value="1"/>
     </CEffectDamage>
     <CEffectDamage id="TwinGatlingCannons2" parent="TwinGatlingCannons">
-        <Amount value="195.01"/>
+        <Amount value="230.01"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <KindSplash value="Splash"/>
@@ -41804,7 +41804,7 @@
     <CEffectDamage id="TorrasqueBladesDamage" parent="KaiserBladesDamage">
         <EditorCategories value="Race:Neutral"/>
         <Marker Link="Effect/HotSUltraliskKaiserBladesDamage42"/>
-        <Amount value="100"/>
+        <Amount value="340"/>
         <AreaArray index="0" Arc="209.9816" Fraction="1" Radius="2"/>
         <AreaArray index="1" removed="1"/>
         <SearchFilters value="-;Self,Player,Ally,Neutral,Air,Missile,Stasis,Dead,Hidden,Invulnerable"/>
@@ -42349,7 +42349,7 @@
         <EffectArray value="HGSplashAbilTornadoMissile2"/>
     </CEffectSet>
     <CEffectDamage id="ZagaraSmashDamage" parent="PustulantSmash">
-        <Amount value="180.01"/>
+        <Amount value="575.01"/>
     </CEffectDamage>
     <CEffectSet id="ZagaraSmashSet">
         <Name value="Effect/Name/InfestedAbominationSet"/>

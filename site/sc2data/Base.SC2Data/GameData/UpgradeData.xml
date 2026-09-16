@@ -683,9 +683,9 @@
         <EffectArray Reference="Unit,UProbe,LifeStart" Value="250"/>
         <EffectArray Reference="Unit,UProbe,ShieldsMax" Value="250"/>
         <EffectArray Reference="Unit,UProbe,ShieldsStart" Value="250"/>
-        <EffectArray Reference="Effect,FusionCutter2,Amount" Value="15"/>
-        <EffectArray Reference="Effect,Spines2,Amount" Value="15"/>
-        <EffectArray Reference="Effect,ParticleBeam2,Amount" Value="15"/>
+        <EffectArray Reference="Effect,FusionCutter2,Amount" Value="23.962664"/>
+        <EffectArray Reference="Effect,Spines2,Amount" Value="23.962664"/>
+        <EffectArray Reference="Effect,ParticleBeam2,Amount" Value="23.962664"/>
         <EditorCategories value="Race:Terran,UpgradeType:SpellResearch"/>
         <AffectedUnitArray value="USCV"/>
         <AffectedUnitArray value="UDrone"/>
@@ -1435,11 +1435,11 @@
         <EffectArray Reference="Weapon,PunisherGrenades22,Range" Value="1"/>
         <EffectArray Reference="Weapon,PunisherGrenades23,Range" Value="1"/>
         <EffectArray Reference="Weapon,PunisherGrenades2,Range" Value="1"/>
-        <EffectArray Reference="Effect,PunisherGrenadesU2,Amount" Value="35"/>
-        <EffectArray Reference="Effect,MarineWarfieldDamage2,Amount" Value="40"/>
+        <EffectArray Reference="Effect,PunisherGrenadesU2,Amount" Value="65.755171"/>
+        <EffectArray Reference="Effect,MarineWarfieldDamage2,Amount" Value="20"/>
         <EffectArray Reference="Effect,PunisherGrenadesU22,Amount" Value="20"/>
         <EffectArray Reference="Effect,PunisherGrenadesU23,Amount" Value="20"/>
-        <EffectArray Reference="Effect,AegisGrenadesDamage,Amount" Value="40"/>
+        <EffectArray Reference="Effect,AegisGrenadesDamage,Amount" Value="20"/>
         <EffectArray Reference="Weapon,AegisGrenades,Range" Value="1"/>
         <EditorCategories value="Race:Terran,UpgradeType:Talents"/>
         <AffectedUnitArray value="UMarauder"/>
@@ -2156,9 +2156,9 @@
         <Race value="Prot"/>
         <ScoreAmount value="50"/>
         <ScoreResult value="BuildOrder"/>
-        <EffectArray Reference="Effect,TempestDamage2,Amount" Value="75"/>
+        <EffectArray Reference="Effect,TempestDamage2,Amount" Value="450"/>
         <EffectArray Reference="Effect,TempestDamage22,AreaArray[0].Radius" Value="0.5"/>
-        <EffectArray Reference="Effect,TempestDamage22,Amount" Value="100"/>
+        <EffectArray Reference="Effect,TempestDamage22,Amount" Value="600"/>
         <EffectArray Reference="Effect,TempestDamage2,AreaArray[0].Radius" Value="0.5"/>
         <EditorCategories value="Race:Protoss,UpgradeType:Talents"/>
         <AffectedUnitArray value="UTempest"/>
@@ -2334,7 +2334,7 @@
         <Icon value="Assets\Textures\btn-ability-protoss-dualgravitonbeam.dds"/>
         <ScoreAmount value="50"/>
         <EffectArray Operation="Multiply" Reference="Weapon,Dragoon2,Period" Value="0.800000"/>
-        <EffectArray Reference="Effect,DragoonDamage2,Amount" Value="35"/>
+        <EffectArray Reference="Effect,DragoonDamage2,Amount" Value="163.10154"/>
         <EffectArray Operation="Multiply" Reference="Effect,DragoonDamage2,AreaArray[0].Radius" Value="1.5"/>
         <EffectArray Reference="Effect,DragoonSearch,AreaArray[0].MaxCount" Value="5"/>
         <AffectedUnitArray index="0" value="UDragoon"/>
@@ -2831,44 +2831,44 @@
         <ScoreResult value="BuildOrder"/>
         <EffectArray Reference="Effect,ChainDogClaws,Amount" Value="4"/>
         <EffectArray Reference="Effect,ChainDogClawsField,Amount" Value="4"/>
-        <EffectArray Reference="Effect,ShitPileDamage,Amount" Value="36"/>
+        <EffectArray Reference="Effect,ShitPileDamage,Amount" Value="3.6"/>
         <EffectArray Reference="Effect,ContagiousDementiaDamage,Amount" Value="13.5"/>
         <EffectArray Reference="Effect,LevelUpDamage,Amount" Value="450"/>
-        <EffectArray Reference="Effect,MurlocRifleDamage,Amount" Value="8"/>
-        <EffectArray Reference="Effect,StinkyHoseDamage,Amount" Value="5"/>
-        <EffectArray Reference="Effect,HellFireDamage,Amount" Value="5.328"/>
+        <EffectArray Reference="Effect,MurlocRifleDamage,Amount" Value="4"/>
+        <EffectArray Reference="Effect,StinkyHoseDamage,Amount" Value="2.981569"/>
+        <EffectArray Reference="Effect,HellFireDamage,Amount" Value="2.664"/>
         <EffectArray Reference="Effect,HellFireBurnDamage,Amount" Value="3.6"/>
         <EffectArray Reference="Effect,HellWaveDamage,Amount" Value="9"/>
         <EffectArray Reference="Effect,DemonClawsDamage,Amount" Value="0.6"/>
         <EffectArray Reference="Effect,HellRiftDamage,Amount" Value="6.75"/>
-        <EffectArray Reference="Effect,DeadlyBiteDamage,Amount" Value="45"/>
+        <EffectArray Reference="Effect,DeadlyBiteDamage,Amount" Value="4.5"/>
         <EffectArray Reference="Effect,EmptyDustBinDamage,Amount" Value="135"/>
         <EffectArray Reference="Effect,MurlocRifleDamage2,Amount" Value="4"/>
-        <EffectArray Reference="Effect,AmonsHandDamage,Amount" Value="10"/>
+        <EffectArray Reference="Effect,AmonsHandDamage,Amount" Value="5"/>
         <EffectArray Reference="Effect,ChaoticCloak2,Amount" Value="45"/>
-        <EffectArray Reference="Effect,VoidTendrilUnstableEnergyInitialDamage22,Amount" Value="36"/>
+        <EffectArray Reference="Effect,VoidTendrilUnstableEnergyInitialDamage22,Amount" Value="25.2"/>
         <EffectArray Reference="Effect,VoidTendrilUnstableEnergyDamageDoT22,Amount" Value="36"/>
-        <EffectArray Reference="Effect,DestructionWaveDamage22,Amount" Value="27"/>
-        <EffectArray Reference="Effect,SOAOrbitalStrikeDamage2,Amount" Value="63"/>
+        <EffectArray Reference="Effect,DestructionWaveDamage22,Amount" Value="13.5"/>
+        <EffectArray Reference="Effect,SOAOrbitalStrikeDamage2,Amount" Value="6.3"/>
         <EffectArray Reference="Effect,ThrowMolotovDamage3,Amount" Value="0.8"/>
-        <EffectArray Reference="Effect,XelNagaVortexDamage,Amount" Value="54"/>
+        <EffectArray Reference="Effect,XelNagaVortexDamage,Amount" Value="5.4"/>
         <EffectArray Reference="Effect,MeltingSnowflakesDamage2,Amount" Value="10.8"/>
         <EffectArray Reference="Effect,FlameArc2,Amount" Value="63"/>
-        <EffectArray Reference="Effect,KnockOutDamage,Amount" Value="40"/>
-        <EffectArray Reference="Effect,ClusterChuck,Amount" Value="81"/>
+        <EffectArray Reference="Effect,KnockOutDamage,Amount" Value="20"/>
+        <EffectArray Reference="Effect,ClusterChuck,Amount" Value="8.1"/>
         <EffectArray Reference="Effect,ConcussedDoTDamage,Amount" Value="4.5"/>
         <EffectArray Reference="Effect,VacuumDamage,Amount" Value="2.7"/>
-        <EffectArray Reference="Effect,FullDustBinDamage,Amount" Value="45"/>
-        <EffectArray Reference="Effect,RattleSprayDamage,Amount" Value="63"/>
+        <EffectArray Reference="Effect,FullDustBinDamage,Amount" Value="26.834118"/>
+        <EffectArray Reference="Effect,RattleSprayDamage,Amount" Value="6.3"/>
         <EffectArray Reference="Effect,FireBlastDamage32,Amount" Value="5.4"/>
-        <EffectArray Reference="Effect,HammerBashDamage2,Amount" Value="8"/>
-        <EffectArray Reference="Effect,AlarakMindBlastAreaDamage22,Amount" Value="54"/>
+        <EffectArray Reference="Effect,HammerBashDamage2,Amount" Value="4.660177"/>
+        <EffectArray Reference="Effect,AlarakMindBlastAreaDamage22,Amount" Value="31.456192"/>
         <EffectArray Reference="Effect,ShockwaveDamage222,Amount" Value="36"/>
         <EffectArray Reference="Effect,BileDuctsDamage222,Amount" Value="2.25"/>
         <EffectArray Reference="Effect,PsiStormDamage2232,Amount" Value="4.5"/>
         <EffectArray Reference="Effect,PsiStormDamageInitial2232,Amount" Value="4.5"/>
         <EffectArray Reference="Effect,Vigor,Amount" Value="45"/>
-        <EffectArray Reference="Effect,NovaWeaponHellfireShotgunBlastDamage2,Amount" Value="72"/>
+        <EffectArray Reference="Effect,NovaWeaponHellfireShotgunBlastDamage2,Amount" Value="7.2"/>
         <EditorCategories value="Race:Neutral,UpgradeType:AttackBonus"/>
         <MaxLevel value="100"/>
         <LeaderAlias value="UpgradeZergUnitsDamage"/>
@@ -3230,7 +3230,7 @@
         <Flags index="UpgradeCheat" value="0"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-demolition.dds"/>
         <ScoreResult value="BuildOrder"/>
-        <EffectArray Reference="Effect,ParasiteSporeDamage4,Amount" Value="40"/>
+        <EffectArray Reference="Effect,ParasiteSporeDamage4,Amount" Value="78.635886"/>
         <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
         <LeaderAlias value="SwarmHostRapidIncubation"/>
     </CUpgrade>
@@ -4360,29 +4360,29 @@
         <ScoreCount value="ArmorTechnologyCount"/>
         <ScoreValue value="ArmorTechnologyValue"/>
         <ScoreResult value="BuildOrder"/>
-        <EffectArray Reference="Effect,DestructionWaveDamage2,Amount" Value="10.800048828125"/>
-        <EffectArray Reference="Effect,DestructionWaveDamageAir2,Amount" Value="5.39990234375"/>
+        <EffectArray Reference="Effect,DestructionWaveDamage2,Amount" Value="7.560034"/>
+        <EffectArray Reference="Effect,DestructionWaveDamageAir2,Amount" Value="3.779932"/>
         <EffectArray Reference="Effect,ScatterTheUnworthyDamage,Amount" Value="54"/>
-        <EffectArray Reference="Effect,AlarakDeadlyChargeDamage2,Amount" Value="81"/>
+        <EffectArray Reference="Effect,AlarakDeadlyChargeDamage2,Amount" Value="46.630173"/>
         <EffectArray Reference="Effect,KarassPsiStormDamage222,Amount" Value="2.7"/>
         <EffectArray Reference="Effect,KarassPsiStormDamageInitial22,Amount" Value="10.35"/>
         <EffectArray Reference="Effect,KarassPsiStormDamage22,Amount" Value="10.35"/>
-        <EffectArray Reference="Effect,LightningStrikeDamage2,Amount" Value="34.64990234375"/>
-        <EffectArray Reference="Effect,AlarakPsiOrbDamage2,Amount" Value="18"/>
-        <EffectArray Reference="Effect,AlarakPsiOrbFinalDamage2,Amount" Value="49.949951171875"/>
+        <EffectArray Reference="Effect,LightningStrikeDamage2,Amount" Value="17.228419"/>
+        <EffectArray Reference="Effect,AlarakPsiOrbDamage2,Amount" Value="12.6"/>
+        <EffectArray Reference="Effect,AlarakPsiOrbFinalDamage2,Amount" Value="34.964966"/>
         <EffectArray Reference="Effect,KarassPsiStormDamage223,Amount" Value="8.1"/>
-        <EffectArray Reference="Effect,PurificationNovaDamage2,Amount" Value="14.85009765625"/>
+        <EffectArray Reference="Effect,PurificationNovaDamage2,Amount" Value="26.241919"/>
         <EffectArray Reference="Effect,PsiStormDamageInitial2,Amount" Value="6.3"/>
         <EffectArray Reference="Effect,PsiStormDamage2,Amount" Value="6.3"/>
-        <EffectArray Reference="Effect,ShadowBlastDamage,Amount" Value="6.75"/>
-        <EffectArray Reference="Effect,VoidSurgeU,Amount" Value="27"/>
+        <EffectArray Reference="Effect,ShadowBlastDamage,Amount" Value="0.675"/>
+        <EffectArray Reference="Effect,VoidSurgeU,Amount" Value="13.5"/>
         <EffectArray Reference="Effect,ThemalAssault,Amount" Value="23.85009765625"/>
         <EffectArray Reference="Effect,ThermalLancesFireBeamDamage2,Amount" Value="3.6"/>
         <EffectArray Reference="Effect,ShadowStrikeDamage,Amount" Value="7.199951171875"/>
         <EffectArray Reference="Effect,PlasmaBoltU,Amount" Value="21.60009765625"/>
         <EffectArray Reference="Effect,ShieldBurnDamage2,Amount" Value="31.5"/>
         <EffectArray Reference="Effect,VengefulGuardianDamage,Amount" Value="36.449951171875"/>
-        <EffectArray Reference="Effect,LightningPulseDirectDamage,Amount" Value="17.550048828125"/>
+        <EffectArray Reference="Effect,LightningPulseDirectDamage,Amount" Value="103.334659"/>
         <EffectArray Reference="Effect,DeadlyLeap,Amount" Value="25.64990234375"/>
         <EffectArray Reference="Effect,ArtanisVoidUlnarDamage22,Amount" Value="27"/>
         <EffectArray Reference="Effect,ArtanisLightningDashDamage2,Amount" Value="90"/>
@@ -4394,9 +4394,9 @@
         <EffectArray Reference="Effect,KarassPsiStormDamage2,Amount" Value="4.5"/>
         <EffectArray Reference="Effect,KarassPsiStormDamageInitial2,Amount" Value="4.5"/>
         <EffectArray Reference="Effect,PsionicDischargeStormDamageInitial,Amount" Value="2.7"/>
-        <EffectArray Reference="Effect,ShockwaveDamage2,Amount" Value="189"/>
-        <EffectArray Reference="Effect,HybridDominatorPsionicShockwaveDamage2,Amount" Value="27"/>
-        <EffectArray Reference="Effect,PsionicShockDamage,Amount" Value="15.300048828125"/>
+        <EffectArray Reference="Effect,ShockwaveDamage2,Amount" Value="100.951976"/>
+        <EffectArray Reference="Effect,HybridDominatorPsionicShockwaveDamage2,Amount" Value="2.7"/>
+        <EffectArray Reference="Effect,PsionicShockDamage,Amount" Value="1.530005"/>
         <EffectArray Reference="Effect,YamatoGunSpecialDamage2,Amount" Value="50.39990234375"/>
         <EffectArray Reference="Effect,ReinarPulseDirectDamage,Amount" Value="17.550048828125"/>
         <EffectArray Reference="Effect,EnergyNovaDamage2,Amount" Value="24.75"/>
@@ -4405,16 +4405,16 @@
         <EffectArray Reference="Effect,Feedback2,VitalFractionCurrent[Energy]" Value="0.18"/>
         <EffectArray Reference="Effect,ResurgenceDamage,Amount" Value="90"/>
         <EffectArray Reference="Effect,LaserWaserDamage,Amount" Value="30.60009765625"/>
-        <EffectArray Reference="Effect,HybridCPlasmaBlastDamage2,Amount" Value="9"/>
+        <EffectArray Reference="Effect,HybridCPlasmaBlastDamage2,Amount" Value="28.16156"/>
         <EffectArray Reference="Effect,ArtanisBlinkDamageAiur022,Amount" Value="44.10009765625"/>
         <EffectArray Reference="Effect,AlarakForkedLightningDamage2,Amount" Value="33.300048828125"/>
         <EffectArray Reference="Effect,FenixWhirlwindDamage2,Amount" Value="45"/>
         <EffectArray Reference="Effect,KarassPsiStormDamageInitial223,Amount" Value="8.1"/>
         <EffectArray Reference="Effect,PsionicPowerBurn,Amount" Value="3.6"/>
-        <EffectArray Reference="Effect,KaraxOverloadDamage2,Amount" Value="30.14990234375"/>
+        <EffectArray Reference="Effect,KaraxOverloadDamage2,Amount" Value="3.01499"/>
         <EffectArray Reference="Effect,RodsFromGodAttackDamage,Amount" Value="5.85009765625"/>
-        <EffectArray Reference="Effect,SOAThermalLanceDamage2,Amount" Value="7.64990234375"/>
-        <EffectArray Reference="Effect,ValiantChargeDamage,Amount" Value="30.60009765625"/>
+        <EffectArray Reference="Effect,SOAThermalLanceDamage2,Amount" Value="0.76499"/>
+        <EffectArray Reference="Effect,ValiantChargeDamage,Amount" Value="118.669756"/>
         <EditorCategories value="Race:Protoss,UpgradeType:AttackBonus"/>
         <AffectedUnitArray value="Alarak"/>
         <AffectedUnitArray value="Karass2"/>
@@ -4700,7 +4700,7 @@
         <ScoreValue value="ArmorTechnologyValue"/>
         <ScoreResult value="BuildOrder"/>
         <EffectArray Reference="Effect,FlameArc,Amount" Value="6.75"/>
-        <EffectArray Reference="Effect,FireBlastDamage,Amount" Value="4.050048828125"/>
+        <EffectArray Reference="Effect,FireBlastDamage,Amount" Value="0.405005"/>
         <EffectArray Reference="Effect,Fahrenheit451Damage,Amount" Value="9.449951171875"/>
         <EffectArray Reference="Effect,OuthouseSuicideU,Amount" Value="55.530029296875"/>
         <EffectArray Reference="Effect,PutridGasExplodeDamage,Amount" Value="90"/>
@@ -4720,20 +4720,20 @@
         <EffectArray Reference="Effect,SingleOutDamageInitial,Amount" Value="31.5"/>
         <EffectArray Reference="Effect,PlasmaRifleDamage,Amount" Value="13.050048828125"/>
         <EffectArray Reference="Effect,SingleOutDamage,Amount" Value="18"/>
-        <EffectArray Reference="Effect,YamatoU22,Amount" Value="19.35009765625"/>
-        <EffectArray Reference="Effect,SnipeDamage2,Amount" Value="18.89990234375"/>
+        <EffectArray Reference="Effect,YamatoU22,Amount" Value="114.9277"/>
+        <EffectArray Reference="Effect,SnipeDamage2,Amount" Value="23.962553"/>
         <EffectArray Reference="Effect,EMP,Amount" Value="13.5"/>
-        <EffectArray Reference="Effect,SeekerMissileDamage3,Amount" Value="24.75"/>
-        <EffectArray Reference="Effect,IrradiateInitialDamageApply2,Amount" Value="2.699951171875"/>
+        <EffectArray Reference="Effect,SeekerMissileDamage3,Amount" Value="2.475"/>
+        <EffectArray Reference="Effect,IrradiateInitialDamageApply2,Amount" Value="1.349976"/>
         <EffectArray Reference="Effect,IrradiateDamage,Amount" Value="6.75"/>
         <EffectArray Reference="Effect,Obliterate2,Amount" Value="25.199951171875"/>
         <EffectArray Reference="Effect,250mmStrikeCannonsDamage2,Amount" Value="9"/>
-        <EffectArray Reference="Effect,TornadoMissileDamage2,Amount" Value="21.60009765625"/>
+        <EffectArray Reference="Effect,TornadoMissileDamage2,Amount" Value="104.831931"/>
         <EffectArray Reference="Effect,SeekerMissileDamage2,Amount" Value="108"/>
         <EffectArray Reference="Effect,TychusFindlayPowerLungeDamage,Amount" Value="23.85009765625"/>
         <EffectArray Reference="Effect,LokiYamatoU23,Amount" Value="21.14990234375"/>
         <EffectArray Reference="Effect,RaynorSnipeDamage2,Amount" Value="33.75"/>
-        <EffectArray Reference="Effect,NovaSnipe22,Amount" Value="39.60009765625"/>
+        <EffectArray Reference="Effect,NovaSnipe22,Amount" Value="65.501659"/>
         <EffectArray Reference="Effect,ChaoticCloak,Amount" Value="31.5"/>
         <EffectArray Reference="Effect,MindBlast3,Amount" Value="23.85009765625"/>
         <EffectArray Reference="Effect,MindBlastHeroic4,Amount" Value="39.14990234375"/>
@@ -4747,21 +4747,21 @@
         <EffectArray Reference="Effect,KarassPsiStormDamageInitial2223,Amount" Value="27"/>
         <EffectArray Reference="Effect,KarassPsiStormDamage2252,Amount" Value="9"/>
         <EffectArray Reference="Effect,RebelYellDummyDamage22,Amount" Value="27"/>
-        <EffectArray Reference="Effect,NovaRavenSeekerMissileDamage2,Amount" Value="23.85009765625"/>
-        <EffectArray Reference="Effect,Obliterate22,Amount" Value="90"/>
-        <EffectArray Reference="Effect,GrappleDamage,Amount" Value="90"/>
+        <EffectArray Reference="Effect,NovaRavenSeekerMissileDamage2,Amount" Value="11.925049"/>
+        <EffectArray Reference="Effect,Obliterate22,Amount" Value="45"/>
+        <EffectArray Reference="Effect,GrappleDamage,Amount" Value="43.184521"/>
         <EffectArray Reference="Effect,DevastatingShotDamage32,Amount" Value="51.75"/>
         <EffectArray Reference="Effect,FungalGrowthDamage422,Amount" Value="8.10009765625"/>
         <EffectArray Reference="Effect,LokiHurricaneMissileDamage2,Amount" Value="7.199951171875"/>
         <EffectArray Reference="Effect,ViralPlasmaDoTDamage,Amount" Value="0.9"/>
-        <EffectArray Reference="Effect,TossGrenadeDamage2,Amount" Value="30.14990234375"/>
+        <EffectArray Reference="Effect,TossGrenadeDamage2,Amount" Value="3.01499"/>
         <EffectArray Reference="Effect,MeltingSnowflakesDamage,Amount" Value="40.5"/>
-        <EffectArray Reference="Effect,RetributionFieldDamage4,Amount" Value="2.699951171875"/>
+        <EffectArray Reference="Effect,RetributionFieldDamage4,Amount" Value="4.987688"/>
         <EffectArray Reference="Effect,VultureSpiderMinesDamage2,Amount" Value="42.318115234375"/>
         <EffectArray Reference="Effect,DevastatingShotDamage322,Amount" Value="44.10009765625"/>
         <EffectArray Reference="Effect,LightTheGunpowderDamage,Amount" Value="36.89990234375"/>
         <EffectArray Reference="Effect,ReactiveArmorDamage,Amount" Value="11.25"/>
-        <EffectArray Reference="Effect,TornadoMissileDamage22,Amount" Value="31.050048828125"/>
+        <EffectArray Reference="Effect,TornadoMissileDamage22,Amount" Value="100.817915"/>
         <EffectArray Reference="Effect,LockOnBurstDamage,Amount" Value="63"/>
         <EffectArray Reference="Effect,MicrowaveBeamChanneledDamage,Amount" Value="27"/>
         <EffectArray Reference="Effect,LaserBeamDamage,Amount" Value="83.699951171875"/>
@@ -4770,21 +4770,21 @@
         <EffectArray Reference="Effect,DroneStrikeDamage,Amount" Value="63"/>
         <EffectArray Reference="Effect,ShiningSmileDamage,Amount" Value="54"/>
         <EffectArray Reference="Effect,ImpalerChargeDamage,Amount" Value="54"/>
-        <EffectArray Reference="Effect,ConcussiveBarrageDamage,Amount" Value="7.64990234375"/>
-        <EffectArray Reference="Effect,AegisGuardConcussiveGrenadeDamage,Amount" Value="22.949951171875"/>
-        <EffectArray Reference="Effect,MortarStrikeDamage,Amount" Value="25.64990234375"/>
+        <EffectArray Reference="Effect,ConcussiveBarrageDamage,Amount" Value="3.824951"/>
+        <EffectArray Reference="Effect,AegisGuardConcussiveGrenadeDamage,Amount" Value="2.294995"/>
+        <EffectArray Reference="Effect,MortarStrikeDamage,Amount" Value="2.56499"/>
         <EffectArray Reference="Effect,HyperionPickupDamage,Amount" Value="9"/>
         <EffectArray Reference="Effect,G4ChargeExplodeDamageDebuffed,Amount" Value="108"/>
         <EffectArray Reference="Effect,D8ChargeExplodeDamageDebuffed,Amount" Value="216"/>
         <EffectArray Reference="Effect,RuthlessCrush,Amount" Value="31.5"/>
         <EffectArray Reference="Effect,LeechingSerumPeriodicDamage,Amount" Value="6.3"/>
-        <EffectArray Reference="Effect,NeuroInhibitorGrenadeDamage,Amount" Value="35.1"/>
+        <EffectArray Reference="Effect,NeuroInhibitorGrenadeDamage,Amount" Value="3.51"/>
         <EffectArray Reference="Effect,LaunderMoneyDamage,Random" Value="51.75"/>
         <EffectArray Reference="Effect,MolestDamage,Random" Value="63"/>
         <EffectArray Reference="Effect,VaccinateDamage,Random" Value="18"/>
         <EffectArray Reference="Effect,ViralPlasmaDoTDamage2,Amount" Value="0.765"/>
-        <EffectArray Reference="Effect,NanobotWaveDamage,Amount" Value="8.1"/>
-        <EffectArray Reference="Effect,LeechingSerumDamageApply,Amount" Value="41.4"/>
+        <EffectArray Reference="Effect,NanobotWaveDamage,Amount" Value="0.81"/>
+        <EffectArray Reference="Effect,LeechingSerumDamageApply,Amount" Value="20.7"/>
         <EffectArray Reference="Effect,StukovInfestedDiamondSlimePuddleDamage,Amount" Value="9"/>
         <EffectArray Reference="Effect,BurningFuelDamage,Amount" Value="9"/>
         <EditorCategories value="Race:Terran,UpgradeType:AttackBonus"/>
@@ -4808,17 +4808,17 @@
         <EffectArray Reference="Effect,UnleashWrath,Amount" Value="5.85009765625"/>
         <EffectArray Reference="Effect,CrazedLeap2,Amount" Value="18"/>
         <EffectArray Reference="Effect,WarbotChargeDamage2,Amount" Value="36"/>
-        <EffectArray Reference="Effect,ForcefulCommand,Amount" Value="9"/>
+        <EffectArray Reference="Effect,ForcefulCommand,Amount" Value="0.9"/>
         <EffectArray Reference="Effect,PoisonedSpines,Amount" Value="3.6"/>
         <EffectArray Reference="Effect,EvolvedStrainDamage,Amount" Value="25.199951171875"/>
         <EffectArray Reference="Effect,SpineVolleyDamage,Amount" Value="15.300048828125"/>
-        <EffectArray Reference="Effect,FungalGrowthDamage42,Amount" Value="1.800048828125"/>
-        <EffectArray Reference="Effect,RavagerCorrosiveBileDamage2,Amount" Value="18.89990234375"/>
+        <EffectArray Reference="Effect,FungalGrowthDamage42,Amount" Value="0.180005"/>
+        <EffectArray Reference="Effect,RavagerCorrosiveBileDamage2,Amount" Value="31.538099"/>
         <EffectArray Reference="Effect,FungalGrowth,Amount" Value="18"/>
-        <EffectArray Reference="Effect,RazorSwarmDamage,Amount" Value="4.949951171875"/>
+        <EffectArray Reference="Effect,RazorSwarmDamage,Amount" Value="6.501399"/>
         <EffectArray Reference="Effect,BioPlasmidDischargeDamage2,Amount" Value="33.300048828125"/>
         <EffectArray Reference="Effect,OphoFungalDamage,Amount" Value="3.60009765625"/>
-        <EffectArray Reference="Effect,MindBlast32,Amount" Value="16.199951171875"/>
+        <EffectArray Reference="Effect,MindBlast32,Amount" Value="1.619995"/>
         <EffectArray Reference="Effect,MindBlastHeroic42,Amount" Value="8.10009765625"/>
         <EffectArray Reference="Effect,HybridNemesisStreamImpactDummy2,Amount" Value="32.39990234375"/>
         <EffectArray Reference="Effect,ConsumeDNADamage3,Amount" Value="72"/>
@@ -4827,17 +4827,17 @@
         <EffectArray Reference="Effect,MindBlastHeroic422,Amount" Value="71.550048828125"/>
         <EffectArray Reference="Effect,PsiStormDamage22,Amount" Value="4.05"/>
         <EffectArray Reference="Effect,PsiStormDamageInitial22,Amount" Value="5.4"/>
-        <EffectArray Reference="Effect,BileGlobU,Amount" Value="7.199951171875"/>
+        <EffectArray Reference="Effect,BileGlobU,Amount" Value="0.719995"/>
         <EffectArray Reference="Effect,BileDuctsDamage2,Amount" Value="2.7"/>
         <EffectArray Reference="Effect,ConstrictingSlimeDamage2,Amount" Value="4.949951171875"/>
         <EffectArray Reference="Effect,DehakaLeapDamage,Amount" Value="36"/>
         <EffectArray Reference="Effect,EssenceGrabDamage,Amount" Value="30.14990234375"/>
-        <EffectArray Reference="Effect,ConsumeDNADamage2,Amount" Value="31.5"/>
+        <EffectArray Reference="Effect,ConsumeDNADamage2,Amount" Value="57.330122"/>
         <EffectArray Reference="Effect,AcidBurnRoachDoTDamage2,Amount" Value="4.5"/>
         <EffectArray Reference="Effect,ToxicBlastDirectDamage2,Amount" Value="16.199951171875"/>
-        <EffectArray Reference="Effect,BalefulBarrageDamage,Amount" Value="16.199951171875"/>
+        <EffectArray Reference="Effect,BalefulBarrageDamage,Amount" Value="11.339966"/>
         <EffectArray Reference="Effect,DissoluteAcidDamage,Amount" Value="15.75"/>
-        <EffectArray Reference="Effect,RavagerCorrosiveBileDamage23,Amount" Value="27"/>
+        <EffectArray Reference="Effect,RavagerCorrosiveBileDamage23,Amount" Value="13.5"/>
         <EffectArray Reference="Effect,PrimalSlash2,Amount" Value="35.550048828125"/>
         <EffectArray Reference="Effect,PsionicLiftDamage33,Amount" Value="56.25"/>
         <EffectArray Reference="Effect,PsionicLiftDamage322,Amount" Value="54"/>
@@ -5196,15 +5196,15 @@
         <EffectArray Reference="Effect,GlaiveWurmE33,AreaArray[0].Radius" Value="0.5"/>
         <EffectArray Reference="Effect,GlaiveWurmE43,AreaArray[0].Radius" Value="0.5"/>
         <EffectArray Reference="Effect,GlaiveWurmE53,AreaArray[0].Radius" Value="0.5"/>
-        <EffectArray Reference="Effect,GlaiveWurmU43,Amount" Value="25"/>
-        <EffectArray Reference="Effect,GlaiveWurm8,Amount" Value="25"/>
-        <EffectArray Reference="Effect,GlaiveWurm6,Amount" Value="25"/>
+        <EffectArray Reference="Effect,GlaiveWurmU43,Amount" Value="86.719865"/>
+        <EffectArray Reference="Effect,GlaiveWurm8,Amount" Value="86.719865"/>
+        <EffectArray Reference="Effect,GlaiveWurm6,Amount" Value="86.719865"/>
         <EffectArray Operation="Set" Reference="Effect,GlaiveWurm11,ArmorReduction" Value="0"/>
         <EffectArray Operation="Set" Reference="Effect,GlaiveWurm8,ArmorReduction" Value="0"/>
         <EffectArray Operation="Set" Reference="Effect,GlaiveWurm6,ArmorReduction" Value="0"/>
-        <EffectArray Reference="Effect,GlaiveWurmU53,Amount" Value="25"/>
-        <EffectArray Reference="Effect,GlaiveWurmU63,Amount" Value="25"/>
-        <EffectArray Reference="Effect,GlaiveWurm11,Amount" Value="25"/>
+        <EffectArray Reference="Effect,GlaiveWurmU53,Amount" Value="86.719865"/>
+        <EffectArray Reference="Effect,GlaiveWurmU63,Amount" Value="86.719865"/>
+        <EffectArray Reference="Effect,GlaiveWurm11,Amount" Value="86.719865"/>
         <EffectArray Operation="Set" Reference="Effect,GlaiveWurmU63,ArmorReduction" Value="0"/>
         <EffectArray Operation="Set" Reference="Effect,GlaiveWurmU53,ArmorReduction" Value="0"/>
         <EffectArray Operation="Set" Reference="Effect,GlaiveWurmU43,ArmorReduction" Value="0"/>
@@ -5219,7 +5219,7 @@
         <Icon value="Assets\Textures\btn-ability-zerg-corrosiveblast.dds"/>
         <ScoreResult value="BuildOrder"/>
         <EffectArray Reference="Weapon,FerociousSpew3,Range" Value="2"/>
-        <EffectArray Reference="Effect,FerociousSpewDamage2,Amount" Value="100"/>
+        <EffectArray Reference="Effect,FerociousSpewDamage2,Amount" Value="50"/>
         <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
         <AffectedUnitArray value="UMutalisk"/>
     </CUpgrade>
@@ -5249,7 +5249,7 @@
         <EffectArray Operation="Multiply" Reference="Abil,SpiderMineUnburrowRangeDummy,Range[0]" Value="1.5"/>
         <EffectArray Operation="Multiply" Reference="Abil,VultureSpiderMineUnburrow2,AutoCastRange" Value="1.5"/>
         <EffectArray Operation="Multiply" Reference="Abil,VultureSpiderMineBurrow2,AutoCastRange" Value="1.5"/>
-        <EffectArray Reference="Effect,VultureU2,Amount[0]" Value="20"/>
+        <EffectArray Reference="Effect,VultureU2,Amount[0]" Value="48.27015"/>
         <EffectArray Reference="Weapon,Vulture2,Range[0]" Value="1"/>
         <EffectArray Reference="Effect,VultureU2,AttributeBonus[Light]" Value="10"/>
         <EditorCategories value="Race:Terran,UpgradeType:Talents"/>
@@ -5380,10 +5380,10 @@
         <EffectArray Reference="Effect,PsiBlades2,LeechFraction[Life]" Value="0.1"/>
         <EffectArray Operation="Set" Reference="Effect,PsiBlades2,ArmorReduction" Value="0"/>
         <EffectArray Operation="Set" Reference="Effect,PsiBlades3,ArmorReduction" Value="0"/>
-        <EffectArray Reference="Effect,PsiBlades3,Amount" Value="20"/>
+        <EffectArray Reference="Effect,PsiBlades3,Amount" Value="16.766443"/>
         <EffectArray Reference="Effect,PsiBlades3,LeechFraction[Life]" Value="0.1"/>
         <EffectArray Reference="Effect,SentinelBladesDamage,LeechFraction[Life]" Value="0.1"/>
-        <EffectArray Reference="Effect,SentinelBladesDamage,Amount" Value="20"/>
+        <EffectArray Reference="Effect,SentinelBladesDamage,Amount" Value="26.737374"/>
         <EffectArray Operation="Set" Reference="Effect,SentinelBladesDamage,ArmorReduction" Value="0"/>
         <EffectArray Reference="Effect,PsiBlades32,Amount" Value="10"/>
         <EffectArray Operation="Set" Reference="Effect,PsiBlades32,ArmorReduction" Value="0"/>
@@ -5408,11 +5408,11 @@
         <Race value="Zerg"/>
         <ScoreAmount value="300"/>
         <ScoreResult value="BuildOrder"/>
-        <EffectArray Reference="Effect,RavagerCorrosiveBileDamage2,Amount" Value="750"/>
+        <EffectArray Reference="Effect,RavagerCorrosiveBileDamage2,Amount" Value="1251.518329"/>
         <EffectArray Reference="Abil,RavagerCorrosiveBile2,Range[0]" Value="3"/>
         <EffectArray Operation="Divide" Reference="Effect,RavagerCorrosiveBileCP2,ExpireDelay" Value="2"/>
         <EffectArray Reference="Abil,RavagerCorrosiveBile23,Range[0]" Value="2"/>
-        <EffectArray Reference="Effect,RavagerCorrosiveBileDamage23,Amount" Value="750"/>
+        <EffectArray Reference="Effect,RavagerCorrosiveBileDamage23,Amount" Value="375"/>
         <EffectArray Operation="Divide" Reference="Effect,RavagerCorrosiveBileCP23,ExpireDelay" Value="2.000000"/>
         <EditorCategories value="Race:Zerg,UpgradeType:Talents"/>
         <AffectedUnitArray value="Infestor"/>
@@ -5424,8 +5424,8 @@
         <Race value="Terr"/>
         <ScoreAmount value="50"/>
         <ScoreResult value="BuildOrder"/>
-        <EffectArray Reference="Effect,SonofKorhalDamage,Amount" Value="20"/>
-        <EffectArray Reference="Effect,GaussRifle,Amount" Value="20"/>
+        <EffectArray Reference="Effect,SonofKorhalDamage,Amount" Value="120"/>
+        <EffectArray Reference="Effect,GaussRifle,Amount" Value="53.721379"/>
         <EffectArray Reference="Weapon,C26GaussRifle,Range" Value="1"/>
         <EffectArray Reference="Weapon,GuassRifle3,Range" Value="1"/>
         <EffectArray Reference="Effect,GaussRifle,AreaArray[0].Radius" Value="0.5"/>
@@ -5447,10 +5447,10 @@
         <ScoreAmount value="50"/>
         <ScoreResult value="BuildOrder"/>
         <EffectArray Reference="Weapon,P38ScytheGuassPistol2,Range" Value="1.000000"/>
-        <EffectArray Reference="Effect,P38ScytheGuassPistol2,Amount[0]" Value="25"/>
-        <EffectArray Reference="Effect,DeathHeadP38ScytheGuassPistol,Amount" Value="25"/>
+        <EffectArray Reference="Effect,P38ScytheGuassPistol2,Amount[0]" Value="69.95573"/>
+        <EffectArray Reference="Effect,DeathHeadP38ScytheGuassPistol,Amount" Value="12.604128"/>
         <EffectArray Reference="Weapon,P55ScytheGaussPistol,Range" Value="1"/>
-        <EffectArray Reference="Effect,D8ChargeDamage3,Amount" Value="25"/>
+        <EffectArray Reference="Effect,D8ChargeDamage3,Amount" Value="12.604128"/>
         <EffectArray Reference="Weapon,D8Charge2,Range" Value="1"/>
         <EffectArray Reference="Effect,MercReaperD8ChargeDamage2,Amount" Value="25"/>
         <EffectArray Reference="Weapon,MercReaperD8Charge2,Range" Value="1"/>
@@ -5463,7 +5463,7 @@
         <ScoreAmount value="50"/>
         <EffectArray index="0" Reference="Weapon,ThermalAssaultLances,Range" Value="2"/>
         <EffectArray index="1" Reference="Weapon,ThermalLancesAir,Range" Value="2"/>
-        <EffectArray Reference="Effect,ColossusThermalLancesMU,Amount" Value="20"/>
+        <EffectArray Reference="Effect,ColossusThermalLancesMU,Amount" Value="87.972364"/>
         <EffectArray Reference="Weapon,ThermalLancesU,Range" Value="2"/>
         <EffectArray Reference="Effect,EyeBeamsAirDamage2,Amount" Value="20"/>
         <EffectArray Reference="Weapon,IncendiaryLance,Range" Value="2"/>
@@ -5581,7 +5581,7 @@
         <EffectArray Reference="Weapon,ScoutAir2,Range[0]" Value="2"/>
         <EffectArray Reference="Weapon,ScoutGround2,Range[0]" Value="2"/>
         <EffectArray Reference="Effect,ScoutGround2,Amount[0]" Value="20"/>
-        <EffectArray Reference="Effect,ScoutAirU2,Amount" Value="20"/>
+        <EffectArray Reference="Effect,ScoutAirU2,Amount" Value="59.32003"/>
         <EffectArray Reference="Unit,UScout,Acceleration" Value="1.937500"/>
         <EffectArray Operation="Multiply" Reference="Unit,UScout,Speed" Value="1.250000"/>
         <EffectArray Reference="Unit,UScout,ShieldArmor" Value="15"/>
@@ -5687,14 +5687,14 @@
         <ScoreResult value="BuildOrder"/>
         <EffectArray Reference="Unit,UPredator,Speed[0]" Value="1.000000"/>
         <EffectArray Reference="Unit,UPredator,LifeRegenRate[0]" Value="5.000000"/>
-        <EffectArray Reference="Effect,Predator2,Amount[0]" Value="25"/>
-        <EffectArray Reference="Effect,RetributionFieldDamage4,Amount" Value="15"/>
+        <EffectArray Reference="Effect,Predator2,Amount[0]" Value="46.183132"/>
+        <EffectArray Reference="Effect,RetributionFieldDamage4,Amount" Value="27.709879"/>
         <EffectArray Reference="Effect,RetributionFieldSearch4,AreaArray[0].Radius" Value="0.5"/>
         <EffectArray Reference="Unit,UPredator,LifeStart" Value="600"/>
         <EffectArray Reference="Unit,UPredator,LifeMax" Value="600"/>
         <EffectArray Reference="Effect,ComeuppanceField,AreaArray[0].Radius" Value="0.5"/>
         <EffectArray Reference="Effect,ComeuppanceFieldDamage,Amount" Value="55"/>
-        <EffectArray Reference="Effect,TitaniumClaws2,Amount" Value="25"/>
+        <EffectArray Reference="Effect,TitaniumClaws2,Amount" Value="12.5"/>
         <EffectArray Reference="Unit,Cerberus,LifeMax" Value="600"/>
         <EffectArray Reference="Unit,CerberusCub,LifeMax" Value="600"/>
         <EffectArray Reference="Unit,CerberusCub,LifeStart" Value="600"/>
@@ -5717,9 +5717,9 @@
         <ScoreResult value="BuildOrder"/>
         <EffectArray Reference="Effect,IonCannonsU2,Amount[0]" Value="50"/>
         <EffectArray Reference="Weapon,IonCannons2,Range[0]" Value="2"/>
-        <EffectArray Reference="Effect,IonCannonsURight2,Amount" Value="30"/>
-        <EffectArray Reference="Effect,IonCannonsULeft2,Amount" Value="30"/>
-        <EffectArray Reference="Effect,UrunEnergyBeamDamage2,Amount" Value="50"/>
+        <EffectArray Reference="Effect,IonCannonsURight2,Amount" Value="45.368698"/>
+        <EffectArray Reference="Effect,IonCannonsULeft2,Amount" Value="45.368698"/>
+        <EffectArray Reference="Effect,UrunEnergyBeamDamage2,Amount" Value="166.626139"/>
         <EffectArray Reference="Weapon,UrunEnergyBeam2,Range" Value="2"/>
         <EditorCategories value="Race:Terran,UpgradeType:SpellResearch"/>
         <AffectedUnitArray value="UPhoenix"/>
@@ -5841,7 +5841,7 @@
         <ScoreAmount value="200"/>
         <ScoreResult value="BuildOrder"/>
         <EffectArray Reference="Effect,LanzerTorpedoesDamage2,Amount" Value="50"/>
-        <EffectArray Reference="Effect,TwinGatlingCannons2,Amount" Value="50"/>
+        <EffectArray Reference="Effect,TwinGatlingCannons2,Amount" Value="59.426068"/>
         <EffectArray Operation="Set" Reference="Effect,LanzerTorpedoesDamage2,ArmorReduction" Value="0"/>
         <EffectArray Operation="Set" Reference="Effect,TwinGatlingCannons2,ArmorReduction" Value="0"/>
         <EditorCategories value="Race:Terran,UpgradeType:AttackBonus"/>
@@ -5853,7 +5853,7 @@
         <Race value="Terr"/>
         <ScoreAmount value="50"/>
         <ScoreResult value="BuildOrder"/>
-        <EffectArray Reference="Effect,PrismaticBeamMUx12,Amount" Value="30"/>
+        <EffectArray Reference="Effect,PrismaticBeamMUx12,Amount" Value="84.993169"/>
         <EffectArray Reference="Effect,PrismaticBeamMUx22,Amount" Value="15"/>
         <EffectArray Reference="Effect,PrismaticBeamMUx32,Amount" Value="20"/>
         <EffectArray Operation="Multiply" Reference="Unit,UVoidRay,Speed" Value="1.500000"/>
@@ -5864,7 +5864,7 @@
         <EffectArray Operation="Divide" Reference="Effect,PrismaticBeamChargeEffect032,PeriodicPeriodArray[0]" Value="1.000000"/>
         <EffectArray Operation="Multiply" Reference="Unit,Mohandar2,Acceleration" Value="1.500000"/>
         <EffectArray Operation="Multiply" Reference="Unit,Mohandar2,Speed" Value="1.500000"/>
-        <EffectArray Reference="Effect,MohandarMUx12,Amount" Value="75"/>
+        <EffectArray Reference="Effect,MohandarMUx12,Amount" Value="129.546523"/>
         <EffectArray Reference="Effect,MohandarMUx22,Amount" Value="15"/>
         <EffectArray Reference="Effect,MohandarMUx32,Amount" Value="20"/>
         <EffectArray Operation="Divide" Reference="Effect,MohandarChargeEffect012,PeriodicPeriodArray[0]" Value="1.000000"/>
@@ -5881,9 +5881,9 @@
         <ScoreAmount value="50"/>
         <ScoreResult value="BuildOrder"/>
         <EffectArray Reference="Weapon,ParticleDisruptors2,Range[0]" Value="1"/>
-        <EffectArray Reference="Effect,ParticleDisruptorsU2,Amount[0]" Value="30"/>
+        <EffectArray Reference="Effect,ParticleDisruptorsU2,Amount[0]" Value="73.868073"/>
         <EffectArray Reference="Weapon,ShadowDisrupters,Range" Value="1"/>
-        <EffectArray Reference="Effect,ShadowDisruptorsDamage,Amount" Value="30"/>
+        <EffectArray Reference="Effect,ShadowDisruptorsDamage,Amount" Value="15"/>
         <EffectArray Reference="Effect,ParticleDisruptorsU22,Amount" Value="15"/>
         <EffectArray Reference="Weapon,ParticleDisruptors22,Range" Value="1"/>
         <EffectArray Operation="Set" Reference="Effect,ParticleDisruptorsU22,ArmorReduction" Value="0"/>
@@ -7110,9 +7110,9 @@
         <ScoreResult value="BuildOrder"/>
         <EffectArray Reference="Effect,CrucioShockCannonBlast2,Amount" Value="19.200439453125"/>
         <EffectArray Reference="Effect,CrucioShockCannonDirected2,Amount" Value="19.200439453125"/>
-        <EffectArray Reference="Effect,CrucioShockCannonDummy2,Amount" Value="18.8"/>
+        <EffectArray Reference="Effect,CrucioShockCannonDummy2,Amount" Value="47.435429"/>
         <EffectArray Reference="Effect,90mmCannons2,Amount" Value="3.199951171875"/>
-        <EffectArray Reference="Effect,TitaniumClaws2,Amount" Value="4.199951171875"/>
+        <EffectArray Reference="Effect,TitaniumClaws2,Amount" Value="2.099976"/>
         <EffectArray Reference="Effect,ComeuppanceFieldDamage,Amount" Value="4.199951171875"/>
         <EffectArray Reference="Effect,HellionTankDamage2,Amount" Value="12.600341796875"/>
         <EffectArray Reference="Effect,WidowMineExplodeDirect2,Amount" Value="27.600341796875"/>
@@ -7121,15 +7121,15 @@
         <EffectArray Reference="Effect,WidowMineExplodeSplash22,Amount" Value="24.8"/>
         <EffectArray Reference="Effect,WidowMineExplodeSplash32,Amount" Value="24.8"/>
         <EffectArray Reference="Effect,MilitarizedColonistTransport2,Amount" Value="2.449829"/>
-        <EffectArray Reference="Effect,LiberatorAGDamage2,Amount" Value="11.600341796875"/>
+        <EffectArray Reference="Effect,LiberatorAGDamage2,Amount" Value="32.108935"/>
         <EffectArray Reference="Effect,SiegeTurretAntiAir,Amount" Value="2.647208"/>
         <EffectArray Reference="Effect,TitaniumCubClaws,Amount" Value="2"/>
         <EffectArray Reference="Effect,LiberatorMissileDamage2,Amount" Value="5"/>
         <EffectArray Reference="Effect,HERCWeaponDamage2,Amount" Value="2.39990234375"/>
-        <EffectArray Reference="Effect,PrototypeSiegeTurret,Amount" Value="32.876385"/>
+        <EffectArray Reference="Effect,PrototypeSiegeTurret,Amount" Value="16.438193"/>
         <EffectArray Reference="Effect,FlameThrowerDamage,Amount" Value="1.355512"/>
         <EffectArray Reference="Effect,SiegeTurretDamage,Amount" Value="5.294417"/>
-        <EffectArray Reference="Effect,ExperimentalRocketLauncherDamage,Amount" Value="1.39990234375"/>
+        <EffectArray Reference="Effect,ExperimentalRocketLauncherDamage,Amount" Value="3.172151"/>
         <EffectArray Reference="Effect,LanceMissileLaunchersDamage2,Amount" Value="10.200439453125"/>
         <EffectArray Reference="Effect,WarHoundDamage,Amount" Value="4.60009765625"/>
         <EffectArray Reference="Effect,WarHoundDamageMelee,Amount" Value="4.800048828125"/>
@@ -7150,16 +7150,16 @@
         <EffectArray Reference="Effect,DevastationGrenadeDamage,Amount" Value="1.807165"/>
         <EffectArray Reference="Effect,ConcussiveGrenadeDamage,Amount" Value="5.39990234375"/>
         <EffectArray Reference="Effect,TacticalSoldierDamage,Amount" Value="1.803955078125"/>
-        <EffectArray Reference="Effect,CycloneAttackWeaponDamage2,Amount" Value="4.199951171875"/>
-        <EffectArray Reference="Effect,MarineWarfieldDamage2,Amount" Value="5.39990234375"/>
+        <EffectArray Reference="Effect,CycloneAttackWeaponDamage2,Amount" Value="12.019252"/>
+        <EffectArray Reference="Effect,MarineWarfieldDamage2,Amount" Value="2.699951"/>
         <EffectArray Reference="Effect,PunisherGrenadesU23,Amount" Value="5.227821"/>
         <EffectArray Reference="Effect,ThrowMolotovDamage2,Amount" Value="3"/>
         <EffectArray Reference="Effect,BorderCannonDamage,Amount" Value="4.907958984375"/>
         <EffectArray Reference="Effect,ThrowMolotovDamage222,Amount" Value="2"/>
         <EffectArray Reference="Effect,ThrowMolotovDamage22,Amount" Value="5.199951171875"/>
         <EffectArray Reference="Effect,LaserDrillTripodDamage2,Amount" Value="11.9560546875"/>
-        <EffectArray Reference="Effect,SJPirateCapitalShipLeftDamage2,Amount" Value="3.199951171875"/>
-        <EffectArray Reference="Effect,SJPirateCapitalShipRightDamage2,Amount" Value="3.199951171875"/>
+        <EffectArray Reference="Effect,SJPirateCapitalShipLeftDamage2,Amount" Value="5.02936"/>
+        <EffectArray Reference="Effect,SJPirateCapitalShipRightDamage2,Amount" Value="5.02936"/>
         <EffectArray Reference="Effect,BFG9000Damage,Amount" Value="80"/>
         <EffectArray Reference="Effect,PlasmaGunBeam,Amount" Value="30"/>
         <EffectArray Reference="Effect,Shotgun,Amount" Value="50"/>
@@ -7171,7 +7171,7 @@
         <EffectArray Reference="Effect,QuantumHammerDamageOuter,Amount" Value="10.204114"/>
         <EffectArray Reference="Effect,MercReaperD8ChargeDamage2,Amount" Value="4.39990234375"/>
         <EffectArray Reference="Effect,MengskDiamondback2,Amount" Value="3.255473"/>
-        <EffectArray Reference="Effect,WirelessDisassemblerDamage,Amount" Value="18.4"/>
+        <EffectArray Reference="Effect,WirelessDisassemblerDamage,Amount" Value="9.2"/>
         <EffectArray Reference="Effect,CraneBashDamage,Amount" Value="10"/>
         <EffectArray Reference="Effect,HairyLegsDamage,Random" Value="108"/>
         <EditorCategories value="Race:Terran,UpgradeType:AttackBonus"/>
@@ -7701,7 +7701,7 @@
     </CUpgrade>
     <CUpgrade id="PowerfulBash" parent="hydraliskspeed">
         <Name value="Upgrade/Name/PowerfulBash"/>
-        <EffectArray index="0" Reference="Effect,PustulantSmash,Amount" Value="20"/>
+        <EffectArray index="0" Reference="Effect,PustulantSmash,Amount" Value="50.501558"/>
         <EffectArray Reference="Effect,PustulantSmash,AttributeFactor[Armored]" Value="1"/>
         <EffectArray Operation="Set" Reference="Effect,PustulantSmash,LeechFraction[Life]" Value="0.15"/>
         <EffectArray Reference="Unit,UAberration,LifeArmor" Value="15"/>
@@ -8194,22 +8194,22 @@
         <InfoTooltipPriority value="0"/>
         <Icon value="Assets\Textures\btn-upgrade-terran-weaponrefit.dds"/>
         <ScoreAmount value="50"/>
-        <EffectArray index="0" Reference="Effect,DeathHeadP38ScytheGuassPistol,Amount" Value="4.800048828125"/>
+        <EffectArray index="0" Reference="Effect,DeathHeadP38ScytheGuassPistol,Amount" Value="2.420017"/>
         <EffectArray index="1" Reference="Effect,C10CanisterRifle2,Amount" Value="2"/>
         <EffectArray index="2" Reference="Abil,Upgrades,InfoArray[Research1].Charge.CountMax" Value="1"/>
         <EffectArray index="3" Reference="Abil,Upgrades,InfoArray[Research1].Resource[Minerals]" Value="25"/>
         <EffectArray index="4" Reference="Effect,PerditionTurretFlameThrowerDamage2,Amount" Value="5.033637"/>
-        <EffectArray index="5" Reference="Effect,DiamondbackBeam2,Amount" Value="4"/>
-        <EffectArray index="6" Reference="Effect,PrometheusCompanyDamage,Amount" Value="1.5"/>
+        <EffectArray index="5" Reference="Effect,DiamondbackBeam2,Amount" Value="13.802401"/>
+        <EffectArray index="6" Reference="Effect,PrometheusCompanyDamage,Amount" Value="0.75"/>
         <EffectArray index="7" Reference="Effect,OdinAADamage2,Amount" Value="8.39990234375"/>
         <EffectArray index="8" Reference="Effect,OdinDamage2,Amount" Value="20"/>
         <EffectArray index="9" Reference="Effect,WraithAU2,Amount" Value="4.199951171875"/>
-        <EffectArray index="10" Reference="Effect,WraithGU2,Amount" Value="4.60009765625"/>
+        <EffectArray index="10" Reference="Effect,WraithGU2,Amount" Value="12.773292"/>
         <EffectArray index="11" Reference="Effect,ATALaserBatteryU2,Amount[0]" Value="5.199951171875"/>
         <EffectArray Reference="Effect,ATSLaserBatteryU2,Amount[0]" Value="9"/>
-        <EffectArray Reference="Effect,OdinDamageLeft2,Amount" Value="8.39990234375"/>
-        <EffectArray Reference="Effect,OdinDamageRight2,Amount[0]" Value="8.39990234375"/>
-        <EffectArray Reference="Effect,FusionCutter2,Amount[0]" Value="1.60009765625"/>
+        <EffectArray Reference="Effect,OdinDamageLeft2,Amount" Value="34.613108"/>
+        <EffectArray Reference="Effect,OdinDamageRight2,Amount[0]" Value="34.613108"/>
+        <EffectArray Reference="Effect,FusionCutter2,Amount[0]" Value="2.556174"/>
         <EffectArray Reference="Effect,AutoTurret2,Amount[0]" Value="2.303979"/>
         <EffectArray Reference="Effect,LongboltMissileU2,Amount[0]" Value="3"/>
         <EffectArray Reference="Effect,ShrikeTurretDamage2,Amount[0]" Value="4.199951171875"/>
@@ -8217,45 +8217,45 @@
         <EffectArray Reference="Effect,NovaWeaponDamage,Amount[0]" Value="6.800048828125"/>
         <EffectArray Reference="Effect,TychusAttackDamage,Amount" Value="3.6"/>
         <EffectArray Reference="Effect,InfernalFlameThrower2,Amount[0]" Value="2.60009765625"/>
-        <EffectArray Reference="Effect,ToshU2,Amount[0]" Value="2"/>
+        <EffectArray Reference="Effect,ToshU2,Amount[0]" Value="1"/>
         <EffectArray Reference="Effect,SpecterU2,Amount[0]" Value="2.199951171875"/>
-        <EffectArray Reference="Effect,VultureU2,Amount[0]" Value="3.800048828125"/>
-        <EffectArray Reference="Effect,Predator2,Amount[0]" Value="1.199951171875"/>
+        <EffectArray Reference="Effect,VultureU2,Amount[0]" Value="9.171446"/>
+        <EffectArray Reference="Effect,Predator2,Amount[0]" Value="2.2167"/>
         <EffectArray Reference="Effect,JavelinMissileLaunchersDamage2,Amount[0]" Value="4.60009765625"/>
-        <EffectArray Reference="Effect,ThorsHammerDamage2,Amount[0]" Value="4.199951171875"/>
-        <EffectArray Reference="Effect,GoliathAU2,Amount[0]" Value="2.60009765625"/>
-        <EffectArray Reference="Effect,AegisGrenadesDamage,Amount" Value="4"/>
+        <EffectArray Reference="Effect,ThorsHammerDamage2,Amount[0]" Value="13.261039"/>
+        <EffectArray Reference="Effect,GoliathAU2,Amount[0]" Value="4.293259"/>
+        <EffectArray Reference="Effect,AegisGrenadesDamage,Amount" Value="2"/>
         <EffectArray Reference="Effect,WarHound2,Amount" Value="6.60009765625"/>
-        <EffectArray Reference="Effect,SonofKorhalDamage,Amount" Value="2.800048828125"/>
-        <EffectArray Reference="Effect,P38ScytheGuassPistol2,Amount" Value="1.800048828125"/>
-        <EffectArray Reference="Effect,UmojanLabMicrobot2,Amount" Value="2"/>
+        <EffectArray Reference="Effect,SonofKorhalDamage,Amount" Value="16.800293"/>
+        <EffectArray Reference="Effect,P38ScytheGuassPistol2,Amount" Value="5.036949"/>
+        <EffectArray Reference="Effect,UmojanLabMicrobot2,Amount" Value="8.416531"/>
         <EffectArray Reference="Effect,ShockDivisionDamage,Amount" Value="4"/>
         <EffectArray Reference="Effect,ShockDivisionSiegedDummy,Amount" Value="16"/>
         <EffectArray Reference="Effect,ShockDivisionSiegedBlast,Amount" Value="14.800048828125"/>
         <EffectArray Reference="Effect,ShockDivisionSiegedEnemyDamage,Amount" Value="16"/>
         <EffectArray Reference="Effect,BlackhammerDamage,Amount" Value="5.39990234375"/>
         <EffectArray Reference="Effect,TaurenSpaceMarineGaussRifleDamage3,Amount" Value="3.800048828125"/>
-        <EffectArray Reference="Effect,GaussRifle,Amount" Value="2.800048828125"/>
+        <EffectArray Reference="Effect,GaussRifle,Amount" Value="7.521124"/>
         <EffectArray Reference="Effect,FirebatUFull2,Amount" Value="0.800048828125"/>
-        <EffectArray Reference="Effect,PunisherGrenadesU2,Amount" Value="2.60009765625"/>
+        <EffectArray Reference="Effect,PunisherGrenadesU2,Amount" Value="4.884853"/>
         <EffectArray Reference="Effect,BlackhammerJavelinMissileLaunchersDamage,Amount" Value="4.60009765625"/>
         <EffectArray Reference="Effect,BacklashRocketsU2,Amount" Value="2.60009765625"/>
-        <EffectArray Reference="Effect,DuskWingBansheeDamage2,Amount" Value="2.39990234375"/>
+        <EffectArray Reference="Effect,DuskWingBansheeDamage2,Amount" Value="4.768433"/>
         <EffectArray Reference="Effect,GoliathAU4,Amount" Value="2.60009765625"/>
         <EffectArray Reference="Effect,GoliathG2,Amount" Value="2.199951171875"/>
         <EffectArray Reference="Effect,GoliathG3,Amount" Value="2.199951171875"/>
         <EffectArray Reference="Effect,LanzerTorpedoesDamage2,Amount" Value="3.60009765625"/>
-        <EffectArray Reference="Effect,TwinGatlingCannons2,Amount" Value="7.800048828125"/>
-        <EffectArray Reference="Effect,EvisceratorBeam,Amount" Value="5.199951171875"/>
+        <EffectArray Reference="Effect,TwinGatlingCannons2,Amount" Value="9.270525"/>
+        <EffectArray Reference="Effect,EvisceratorBeam,Amount" Value="24.773285"/>
         <EffectArray Reference="Effect,SJHyperionDamage2,Amount" Value="8.60009765625"/>
         <EffectArray Reference="Effect,ArmageddonCannonL2,Amount" Value="5.60009765625"/>
         <EffectArray Reference="Effect,ArmageddonCannonR2,Amount" Value="5.60009765625"/>
-        <EffectArray Reference="Effect,BattlecruiserLokiU2,Amount" Value="6.60009765625"/>
+        <EffectArray Reference="Effect,BattlecruiserLokiU2,Amount" Value="19.720435"/>
         <EffectArray Reference="Effect,TychusAttackDamageFragShells,Amount" Value="3.6"/>
-        <EffectArray Reference="Effect,MaggotDamage,Amount" Value="0.400391"/>
+        <EffectArray Reference="Effect,MaggotDamage,Amount" Value="0.56103"/>
         <EffectArray Reference="Effect,AirtoAirMissileDamage,Amount" Value="2.39990234375"/>
-        <EffectArray Reference="Effect,AutoTurret22,Amount" Value="2.074502"/>
-        <EffectArray Reference="Effect,D8ChargeDamage3,Amount" Value="11.199951171875"/>
+        <EffectArray Reference="Effect,AutoTurret22,Amount" Value="1.037251"/>
+        <EffectArray Reference="Effect,D8ChargeDamage3,Amount" Value="5.646625"/>
         <EffectArray Reference="Effect,FuckOffDamage,Amount" Value="5.199951171875"/>
         <EffectArray Reference="Effect,ScreecherMissilesCarpetBombDamage2,Amount" Value="4.4"/>
         <EffectArray Reference="Abil,UpgradeTerranWeapons,Cost[0].Charge.CountMax" Value="1"/>
@@ -8529,30 +8529,30 @@
         <ScoreAmount value="50"/>
         <EffectArray index="0" Reference="Abil,Upgrades,InfoArray[Research7].Charge[0].CountMax[0]" Value="1"/>
         <EffectArray index="1" Reference="Abil,Upgrades,InfoArray[Research7].Resource[Minerals]" Value="25"/>
-        <EffectArray index="2" Reference="Effect,DisruptionBeamDamage2,Amount[0]" Value="2.199951171875"/>
-        <EffectArray index="3" Reference="Effect,ParticleDisruptorsU2,Amount[0]" Value="2"/>
-        <EffectArray index="4" Reference="Effect,ColossusThermalLancesMU,Amount" Value="4"/>
+        <EffectArray index="2" Reference="Effect,DisruptionBeamDamage2,Amount[0]" Value="7.842466"/>
+        <EffectArray index="3" Reference="Effect,ParticleDisruptorsU2,Amount[0]" Value="4.924538"/>
+        <EffectArray index="4" Reference="Effect,ColossusThermalLancesMU,Amount" Value="17.594473"/>
         <EffectArray index="5" Reference="Effect,PsionicLightningDamage,Amount" Value="12"/>
-        <EffectArray index="6" Reference="Effect,WarpBlades2,Amount[0]" Value="2.800048828125"/>
+        <EffectArray index="6" Reference="Effect,WarpBlades2,Amount[0]" Value="6.376256"/>
         <EffectArray index="7" Reference="Effect,IonCannonsU2,Amount[0]" Value="4.6"/>
-        <EffectArray index="8" Reference="Effect,UrunEnergyBeamDamage2,Amount[0]" Value="5.199951171875"/>
-        <EffectArray index="9" Reference="Effect,MasterPsiBlades,Amount" Value="1.800048828125"/>
+        <EffectArray index="8" Reference="Effect,UrunEnergyBeamDamage2,Amount[0]" Value="17.328956"/>
+        <EffectArray index="9" Reference="Effect,MasterPsiBlades,Amount" Value="3.417826"/>
         <EffectArray index="10" Reference="Effect,PurifierBeamDamage2,Amount[0]" Value="3.800048828125"/>
         <EffectArray index="11" Reference="Effect,InterceptorBeamDamage2,Amount[0]" Value="2.165056"/>
-        <EffectArray Reference="Effect,PrismaticBeamMUx12,Amount" Value="2.199951171875"/>
-        <EffectArray Reference="Effect,PsiDischargeDamage2,Amount" Value="4.800048828125"/>
-        <EffectArray Reference="Effect,PhaseDisruptors4,Amount" Value="1.800048828125"/>
+        <EffectArray Reference="Effect,PrismaticBeamMUx12,Amount" Value="6.232694"/>
+        <EffectArray Reference="Effect,PsiDischargeDamage2,Amount" Value="2.400024"/>
+        <EffectArray Reference="Effect,PhaseDisruptors4,Amount" Value="9.416002"/>
         <EffectArray Reference="Effect,PsiBlades2,Amount" Value="3"/>
-        <EffectArray Reference="Effect,ShadowDisruptorsDamage,Amount" Value="3.39990234375"/>
+        <EffectArray Reference="Effect,ShadowDisruptorsDamage,Amount" Value="1.699951"/>
         <EffectArray Reference="Effect,ThermalLancesMULancer,Amount" Value="5.6201171875"/>
-        <EffectArray Reference="Effect,IonCannonsULeft2,Amount" Value="2.199951171875"/>
-        <EffectArray Reference="Effect,IonCannonsURight2,Amount" Value="2.199951171875"/>
+        <EffectArray Reference="Effect,IonCannonsULeft2,Amount" Value="3.326964"/>
+        <EffectArray Reference="Effect,IonCannonsURight2,Amount" Value="3.326964"/>
         <EffectArray Reference="Effect,PhotonCannonU2,Amount" Value="4.249803"/>
-        <EffectArray Reference="Effect,ParticleBeam2,Amount" Value="1.60009765625"/>
-        <EffectArray Reference="Effect,HybridDominator,Amount" Value="8.199951171875"/>
-        <EffectArray Reference="Effect,TempestDamage2,Amount" Value="5"/>
+        <EffectArray Reference="Effect,ParticleBeam2,Amount" Value="2.556174"/>
+        <EffectArray Reference="Effect,HybridDominator,Amount" Value="4.099976"/>
+        <EffectArray Reference="Effect,TempestDamage2,Amount" Value="30"/>
         <EffectArray Reference="Effect,PhaseDisruptors3,Amount" Value="4.199951171875"/>
-        <EffectArray Reference="Effect,MohandarMUx12,Amount" Value="5.60009765625"/>
+        <EffectArray Reference="Effect,MohandarMUx12,Amount" Value="9.672976"/>
         <EffectArray Reference="Effect,LightningShockwaveReaction1Damage,Amount" Value="4.60009765625"/>
         <EffectArray Reference="Effect,CentaurBlades,Amount" Value="8.60009765625"/>
         <EffectArray Reference="Effect,InanisBlastDamage,Amount" Value="11.60009765625"/>
@@ -8561,37 +8561,37 @@
         <EffectArray Reference="Effect,PrismaticBeamMUx22,Amount" Value="4.2"/>
         <EffectArray Reference="Effect,PrismaticBeamMUx32,Amount" Value="5.6"/>
         <EffectArray Reference="Effect,ColossusThermalLancesFriendlyDamage,Amount" Value="8.8"/>
-        <EffectArray Reference="Effect,MothershipCoreRepulsorCannonDamage2,Amount" Value="3.60009765625"/>
+        <EffectArray Reference="Effect,MothershipCoreRepulsorCannonDamage2,Amount" Value="15.568071"/>
         <EffectArray Reference="Effect,NullingShockwaveDamage,Amount" Value="4.39990234375"/>
-        <EffectArray Reference="Effect,PsiBlades3,Amount" Value="1.39990234375"/>
-        <EffectArray Reference="Effect,PsionicPulseField,Amount" Value="2.800048828125"/>
-        <EffectArray Reference="Effect,ChainShockwave1Damage,Amount" Value="5.60009765625"/>
-        <EffectArray Reference="Effect,ChainShockwave2Damage,Amount" Value="5.60009765625"/>
-        <EffectArray Reference="Effect,ChainShockwave3Damage,Amount" Value="5.60009765625"/>
-        <EffectArray Reference="Effect,ChainShockwave4Damage,Amount" Value="13.6"/>
-        <EffectArray Reference="Effect,ChainShockwave5Damage,Amount" Value="13.6"/>
+        <EffectArray Reference="Effect,PsiBlades3,Amount" Value="1.173569"/>
+        <EffectArray Reference="Effect,PsionicPulseField,Amount" Value="6.376256"/>
+        <EffectArray Reference="Effect,ChainShockwave1Damage,Amount" Value="26.608042"/>
+        <EffectArray Reference="Effect,ChainShockwave2Damage,Amount" Value="26.608042"/>
+        <EffectArray Reference="Effect,ChainShockwave3Damage,Amount" Value="26.608042"/>
+        <EffectArray Reference="Effect,ChainShockwave4Damage,Amount" Value="64.618404"/>
+        <EffectArray Reference="Effect,ChainShockwave5Damage,Amount" Value="64.618404"/>
         <EffectArray Reference="Effect,LightningShockwaveReaction2Damage,Amount" Value="4.60009765625"/>
         <EffectArray Reference="Effect,LightningShockwaveReaction3Damage,Amount" Value="3.800048828125"/>
         <EffectArray Reference="Effect,LightningShockwaveReaction4Damage,Amount" Value="7.8"/>
         <EffectArray Reference="Effect,LightningShockwaveReaction5Damage,Amount" Value="7.8"/>
         <EffectArray Reference="Effect,TaurenSpaceMarineGaussRifleDamage2,Amount" Value="1.35879"/>
         <EffectArray Reference="Effect,SelendisInterceptorU2,Amount" Value="1.4"/>
-        <EffectArray Reference="Effect,SentinelBladesDamage,Amount" Value="3.199951171875"/>
+        <EffectArray Reference="Effect,SentinelBladesDamage,Amount" Value="4.277914"/>
         <EffectArray Reference="Effect,CannonWalkerDamage,Amount" Value="3.39990234375"/>
-        <EffectArray Reference="Effect,OracleWeaponDamage2,Amount" Value="3.800048828125"/>
-        <EffectArray Reference="Effect,DragoonDamage2,Amount" Value="3.199951171875"/>
-        <EffectArray Reference="Effect,ArbiterMPWeaponDamage2,Amount" Value="3.800048828125"/>
-        <EffectArray Reference="Effect,AlarakBaneBladesDamage2,Amount" Value="3.199951171875"/>
-        <EffectArray Reference="Effect,AdeptDamage2,Amount" Value="1.800048828125"/>
-        <EffectArray Reference="Effect,HighTemplarWeaponDamage2,Amount" Value="4.60009765625"/>
-        <EffectArray Reference="Effect,ScarabExplodeTargetDamage2,Amount" Value="5.199951171875"/>
-        <EffectArray Reference="Effect,EyeBeamsAirDamage3,Amount" Value="5.39990234375"/>
+        <EffectArray Reference="Effect,OracleWeaponDamage2,Amount" Value="11.121254"/>
+        <EffectArray Reference="Effect,DragoonDamage2,Amount" Value="14.911913"/>
+        <EffectArray Reference="Effect,ArbiterMPWeaponDamage2,Amount" Value="15.316829"/>
+        <EffectArray Reference="Effect,AlarakBaneBladesDamage2,Amount" Value="1.599976"/>
+        <EffectArray Reference="Effect,AdeptDamage2,Amount" Value="0.900024"/>
+        <EffectArray Reference="Effect,HighTemplarWeaponDamage2,Amount" Value="2.300049"/>
+        <EffectArray Reference="Effect,ScarabExplodeTargetDamage2,Amount" Value="31.199707"/>
+        <EffectArray Reference="Effect,EyeBeamsAirDamage3,Amount" Value="14.721338"/>
         <EffectArray Reference="Effect,EyeBeamsGroundLineDamage2,Amount" Value="11.2"/>
         <EffectArray Reference="Effect,KhaydarinBeamDamage2,Amount" Value="8.492267"/>
-        <EffectArray Reference="Effect,ArtanisVoidUlnarDamage2,Amount" Value="5"/>
+        <EffectArray Reference="Effect,ArtanisVoidUlnarDamage2,Amount" Value="12.125929"/>
         <EffectArray Reference="Effect,ArtanisVoidAirDamage2,Amount" Value="5.60009765625"/>
         <EffectArray Reference="Effect,ArtanisVoidUlnarDamage3,Amount" Value="12"/>
-        <EffectArray Reference="Effect,ScoutAirU2,Amount" Value="1.800048828125"/>
+        <EffectArray Reference="Effect,ScoutAirU2,Amount" Value="5.338948"/>
         <EffectArray Reference="Effect,ScoutGround2,Amount" Value="3.60009765625"/>
         <EffectArray Reference="Effect,ColossusPurifierThermalLancesDamage2,Amount" Value="3.39990234375"/>
         <EffectArray Reference="Effect,EyeBeamsAirDamage2,Amount" Value="5"/>
@@ -8602,9 +8602,9 @@
         <EffectArray Reference="Effect,ArtanisVoidAirDamage22,Amount" Value="1.6"/>
         <EffectArray Reference="Effect,QuantumStormDamage,Amount" Value="0.194321"/>
         <EffectArray Reference="Effect,ParticleBeam22,Amount" Value="37.367359"/>
-        <EffectArray Reference="Effect,TempestDamage22,Amount" Value="10.800048828125"/>
-        <EffectArray Reference="Effect,NullBotDamage,Amount" Value="1.800048828125"/>
-        <EffectArray Reference="Effect,PhotonCannonU23,Amount" Value="9.6"/>
+        <EffectArray Reference="Effect,TempestDamage22,Amount" Value="64.800293"/>
+        <EffectArray Reference="Effect,NullBotDamage,Amount" Value="2.842885"/>
+        <EffectArray Reference="Effect,PhotonCannonU23,Amount" Value="20.918979"/>
         <EffectArray Reference="Effect,ShockDestroyerDamage,Amount" Value="3"/>
         <EffectArray Reference="Abil,UpgradeProtossWeapons,Cost[0].Charge.CountMax" Value="1"/>
         <EffectArray Reference="Abil,UpgradeProtossWeapons,Cost[0].Resource[Minerals]" Value="25"/>
@@ -8614,10 +8614,10 @@
         <EffectArray Reference="Effect,EyeBeamsAirDamage22,Amount" Value="7.199951171875"/>
         <EffectArray Reference="Effect,SOAPylonWeaponDamage2,Amount" Value="26"/>
         <EffectArray Reference="Effect,VortexDamage2,Amount" Value="2.800048828125"/>
-        <EffectArray Reference="Effect,FenixSOAWeaponDamage2,Amount" Value="6"/>
-        <EffectArray Reference="Effect,ServitorStrikeDamageA2,Amount" Value="5.199951171875"/>
+        <EffectArray Reference="Effect,FenixSOAWeaponDamage2,Amount" Value="17.50224"/>
+        <EffectArray Reference="Effect,ServitorStrikeDamageA2,Amount" Value="2.599976"/>
         <EffectArray Reference="Effect,ServitorStrikeDamageA3,Amount" Value="12.940699"/>
-        <EffectArray Reference="Effect,PhotonCannonU3,Amount" Value="2.628678"/>
+        <EffectArray Reference="Effect,PhotonCannonU3,Amount" Value="1.726343"/>
         <EditorCategories value="Race:Protoss,UpgradeType:AttackBonus"/>
         <AffectedUnitArray index="0" removed="1"/>
         <AffectedUnitArray index="1" removed="1"/>
@@ -8634,40 +8634,40 @@
         <EffectArray Reference="Abil,Upgrades,InfoArray[Research25].Resource[Minerals]" Value="25"/>
         <EffectArray Reference="Abil,Upgrades,InfoArray[Research25].Charge.CountMax" Value="1"/>
         <EffectArray Reference="Effect,StukovInfestedTerran2,Amount" Value="3.6"/>
-        <EffectArray Reference="Effect,UltraliskKaiserBladesDamage,Amount" Value="3.199951171875"/>
+        <EffectArray Reference="Effect,UltraliskKaiserBladesDamage,Amount" Value="4.421226"/>
         <EffectArray Reference="Effect,NeedleSpines4,Amount" Value="1.199951171875"/>
-        <EffectArray Reference="Effect,PustulantSmash,Amount" Value="1.800048828125"/>
-        <EffectArray Reference="Effect,ZagaraSmashDamage,Amount" Value="7.200195"/>
-        <EffectArray Reference="Effect,LocustMPDamage2,Amount" Value="4.799805"/>
+        <EffectArray Reference="Effect,PustulantSmash,Amount" Value="4.545263"/>
+        <EffectArray Reference="Effect,ZagaraSmashDamage,Amount" Value="22.901114"/>
+        <EffectArray Reference="Effect,LocustMPDamage2,Amount" Value="3.102048"/>
         <EffectArray Reference="Effect,Dehaka2,Amount" Value="4"/>
         <EffectArray Reference="Effect,DehakaAirDamage2,Amount" Value="4"/>
-        <EffectArray Reference="Effect,TorrasqueBladesDamage,Amount" Value="4"/>
-        <EffectArray Reference="Effect,NyamiNeedleSpines,Amount" Value="2.199951171875"/>
+        <EffectArray Reference="Effect,TorrasqueBladesDamage,Amount" Value="13.657002"/>
+        <EffectArray Reference="Effect,NyamiNeedleSpines,Amount" Value="2.867947"/>
         <EffectArray Reference="Effect,RoachCorpserMelee2,Amount" Value="5"/>
         <EffectArray Reference="Effect,RoachCorpserAcidSalivaU2,Amount" Value="5.800048828125"/>
-        <EffectArray Reference="Effect,AcidSalivaU2,Amount" Value="1"/>
+        <EffectArray Reference="Effect,AcidSalivaU2,Amount" Value="0.59898"/>
         <EffectArray Reference="Effect,PsiBlastDamage2,Amount" Value="14"/>
         <EffectArray Reference="Effect,SpineCrawlerDamage,Amount" Value="8.561507"/>
         <EffectArray Reference="Effect,SporeCrawlerU3,Amount" Value="3.991358"/>
-        <EffectArray Reference="Effect,FerociousSpewDamage2,Amount" Value="5.800048828125"/>
-        <EffectArray Reference="Effect,Spines2,Amount" Value="1.60009765625"/>
-        <EffectArray Reference="Effect,SwarmlingClawsDamage,Amount" Value="2.199951171875"/>
+        <EffectArray Reference="Effect,FerociousSpewDamage2,Amount" Value="2.900024"/>
+        <EffectArray Reference="Effect,Spines2,Amount" Value="2.556174"/>
+        <EffectArray Reference="Effect,SwarmlingClawsDamage,Amount" Value="12.897234"/>
         <EffectArray Reference="Effect,HybridAntiAirAttackDamage2,Amount" Value="2.4"/>
-        <EffectArray Reference="Effect,ShockReaverDamage,Amount" Value="0.800048828125"/>
+        <EffectArray Reference="Effect,ShockReaverDamage,Amount" Value="1.060507"/>
         <EffectArray Reference="Effect,BanelingExplodeDamage,Amount" Value="8.60009765625"/>
         <EffectArray Reference="Effect,AcidDischargeDamage,Amount" Value="1.4"/>
-        <EffectArray Reference="Effect,ParasiteSporeDamage4,Amount" Value="2.800048828125"/>
-        <EffectArray Reference="Effect,GlaiveWurm11,Amount" Value="3.800048828125"/>
-        <EffectArray Reference="Effect,GlaiveWurm8,Amount" Value="3.800048828125"/>
-        <EffectArray Reference="Effect,GlaiveWurm6,Amount" Value="4"/>
+        <EffectArray Reference="Effect,ParasiteSporeDamage4,Amount" Value="5.504608"/>
+        <EffectArray Reference="Effect,GlaiveWurm11,Amount" Value="13.181589"/>
+        <EffectArray Reference="Effect,GlaiveWurm8,Amount" Value="13.181589"/>
+        <EffectArray Reference="Effect,GlaiveWurm6,Amount" Value="13.875178"/>
         <EffectArray Reference="Effect,BioChemicalDischargeDamage,Amount" Value="2.8"/>
         <EffectArray Reference="Effect,AcidSpines5,Amount" Value="3.60009765625"/>
-        <EffectArray Reference="Effect,SuicideDamage2,Amount" Value="10"/>
+        <EffectArray Reference="Effect,SuicideDamage2,Amount" Value="14.054625"/>
         <EffectArray Reference="Effect,InfestedClawsDamage4,Amount" Value="1.8"/>
         <EffectArray Reference="Effect,InfestedGuassRifle7,Amount" Value="3.6"/>
-        <EffectArray Reference="Effect,TalonsMissileDamage3,Amount" Value="2.39990234375"/>
-        <EffectArray Reference="Effect,InfestedStukovDamage2,Amount" Value="2"/>
-        <EffectArray Reference="Effect,RoachlingNeedleClawsDamage2,Amount" Value="0.699951171875"/>
+        <EffectArray Reference="Effect,TalonsMissileDamage3,Amount" Value="6.003739"/>
+        <EffectArray Reference="Effect,InfestedStukovDamage2,Amount" Value="1"/>
+        <EffectArray Reference="Effect,RoachlingNeedleClawsDamage2,Amount" Value="1.499006"/>
         <EffectArray Reference="Effect,AcidSpores22,Amount" Value="4.39990234375"/>
         <EffectArray Reference="Effect,HotSLeviathanAirAttackDamage2,Amount" Value="2.39990234375"/>
         <EffectArray Reference="Effect,HotSLeviathanGroundAttackDamage2,Amount" Value="3.39990234375"/>
@@ -8676,62 +8676,62 @@
         <EffectArray Reference="Effect,SporeCannonU,Amount" Value="9.055993"/>
         <EffectArray Reference="Effect,PoisonShot,Amount" Value="1.358742"/>
         <EffectArray Reference="Effect,RavagerWeaponDamage2,Amount" Value="4.60009765625"/>
-        <EffectArray Reference="Effect,ViperAirDamage2,Amount" Value="4.39990234375"/>
-        <EffectArray Reference="Effect,PinpointReachDamage,Amount" Value="4"/>
+        <EffectArray Reference="Effect,ViperAirDamage2,Amount" Value="2.199951"/>
+        <EffectArray Reference="Effect,PinpointReachDamage,Amount" Value="5.214565"/>
         <EffectArray Reference="Effect,TalonsMissileDamage32,Amount" Value="1.2"/>
         <EffectArray Reference="Effect,RavagerWeaponDamage23,Amount" Value="2.6"/>
         <EffectArray Reference="Effect,AcidSalivaU22,Amount" Value="3.2"/>
         <EffectArray Reference="Effect,Claws32,Amount" Value="2"/>
         <EffectArray Reference="Effect,AcidSpines52,Amount" Value="1.6"/>
         <EffectArray Reference="Effect,PrimalSunkenColonyDamage2,Amount" Value="16.700457"/>
-        <EffectArray Reference="Effect,BrootDamage,Amount" Value="15.444634"/>
-        <EffectArray Reference="Effect,BrootSpewDamage,Amount" Value="15.444634"/>
+        <EffectArray Reference="Effect,BrootDamage,Amount" Value="7.722317"/>
+        <EffectArray Reference="Effect,BrootSpewDamage,Amount" Value="7.722317"/>
         <EffectArray Reference="Effect,BileAntiAirDamage,Amount" Value="1.2"/>
-        <EffectArray Reference="Effect,ZerglingClawsDamage,Amount" Value="3"/>
-        <EffectArray Reference="Effect,LurkerU2,Amount" Value="32.199951171875"/>
+        <EffectArray Reference="Effect,ZerglingClawsDamage,Amount" Value="4.667244"/>
+        <EffectArray Reference="Effect,LurkerU2,Amount" Value="31.341393"/>
         <EffectArray Reference="Effect,HotSBanelingExplodeLargeSearchDamage222,Amount" Value="11.200195"/>
         <EffectArray Reference="Effect,HotSBanelingExplodeLargeDirect322,Amount" Value="11.200195"/>
         <EffectArray Reference="Effect,ZaGaraAcidSpinesDamage22,Amount" Value="5"/>
         <EffectArray Reference="Effect,ZaGaraTalonsDamage2,Amount" Value="6.800048828125"/>
-        <EffectArray Reference="Effect,ApocaliskKaiserBladesDamage,Amount" Value="6.199951171875"/>
-        <EffectArray Reference="Effect,RoachVileAcidSalivaU2,Amount" Value="0.60009765625"/>
+        <EffectArray Reference="Effect,ApocaliskKaiserBladesDamage,Amount" Value="10.446692"/>
+        <EffectArray Reference="Effect,RoachVileAcidSalivaU2,Amount" Value="0.300049"/>
         <EffectArray Reference="Effect,HybridReaverDamage2,Amount" Value="2.199951171875"/>
-        <EffectArray Reference="Effect,LurkerNeedle,Amount" Value="4.39990234375"/>
+        <EffectArray Reference="Effect,LurkerNeedle,Amount" Value="2.199951"/>
         <EffectArray Reference="Effect,CrucioShockCannonBlast3,Amount" Value="1.800048828125"/>
-        <EffectArray Reference="Effect,CrucioShockCannonDirected3,Amount" Value="1.800048828125"/>
+        <EffectArray Reference="Effect,CrucioShockCannonDirected3,Amount" Value="0.900024"/>
         <EffectArray Reference="Abil,UpgradeZergWeapons,Cost[0].Charge.CountMax" Value="1"/>
         <EffectArray Reference="Abil,UpgradeZergWeapons,Cost[0].Resource[Minerals]" Value="25"/>
-        <EffectArray Reference="Effect,InfestedGuassRifle10,Amount" Value="0.60009765625"/>
+        <EffectArray Reference="Effect,InfestedGuassRifle10,Amount" Value="0.300049"/>
         <EffectArray Reference="Effect,NeedleSpinesCritDamage,Amount" Value="0.60009765625"/>
         <EffectArray Reference="Effect,ZerglingClawsDamage2,Amount" Value="6"/>
         <EffectArray Reference="Effect,SpotterBeacon,Amount" Value="1.199951171875"/>
         <EffectArray Reference="Effect,SpotterBeaconAcid,Amount" Value="1.8"/>
         <EffectArray Reference="Effect,SuicideDamage23,Amount" Value="16"/>
-        <EffectArray Reference="Effect,GlaiveWurmU43,Amount" Value="8.2"/>
-        <EffectArray Reference="Effect,GlaiveWurmU53,Amount" Value="8.2"/>
-        <EffectArray Reference="Effect,GlaiveWurmU63,Amount" Value="8.2"/>
-        <EffectArray Reference="Effect,NeedleClaws2,Amount" Value="1.536642"/>
-        <EffectArray Reference="Effect,RavagerWeaponDamage24,Amount" Value="6"/>
+        <EffectArray Reference="Effect,GlaiveWurmU43,Amount" Value="28.444116"/>
+        <EffectArray Reference="Effect,GlaiveWurmU53,Amount" Value="28.444116"/>
+        <EffectArray Reference="Effect,GlaiveWurmU63,Amount" Value="28.444116"/>
+        <EffectArray Reference="Effect,NeedleClaws2,Amount" Value="0.841416"/>
+        <EffectArray Reference="Effect,RavagerWeaponDamage24,Amount" Value="3"/>
         <EffectArray Reference="Effect,ChainReaction1Damage2,Amount" Value="5"/>
         <EffectArray Reference="Effect,ChainReaction2Damage2,Amount" Value="5"/>
         <EffectArray Reference="Effect,ChainReaction3Damage2,Amount" Value="4.800048828125"/>
         <EffectArray Reference="Effect,ChainReaction4Damage2,Amount" Value="10.8"/>
         <EffectArray Reference="Effect,ChainReaction5Damage2,Amount" Value="10.8"/>
-        <EffectArray Reference="Effect,AcidSpines53,Amount" Value="3.39990234375"/>
+        <EffectArray Reference="Effect,AcidSpines53,Amount" Value="1.699951"/>
         <EffectArray Reference="Effect,TalonsMissileDamage33,Amount" Value="0.60009765625"/>
-        <EffectArray Reference="Effect,LarvaClawsDamage2,Amount" Value="1.148862"/>
-        <EffectArray Reference="Effect,SwarmlingClawsDamage2,Amount" Value="1.148862"/>
-        <EffectArray Reference="Effect,BrutalizeDamage22,Amount" Value="2.800048828125"/>
+        <EffectArray Reference="Effect,LarvaClawsDamage2,Amount" Value="1.086151"/>
+        <EffectArray Reference="Effect,SwarmlingClawsDamage2,Amount" Value="0.114886"/>
+        <EffectArray Reference="Effect,BrutalizeDamage22,Amount" Value="3.515976"/>
         <EffectArray Reference="Effect,FerociousSpewDamage43,Amount" Value="6"/>
-        <EffectArray Reference="Effect,NeedleSpines42,Amount" Value="2"/>
+        <EffectArray Reference="Effect,NeedleSpines42,Amount" Value="1"/>
         <EffectArray Reference="Effect,PrimalSunkenColonyDamageOuter,Amount" Value="9.439544"/>
-        <EffectArray Reference="Effect,AcidSpores462,Amount" Value="5.60009765625"/>
-        <EffectArray Reference="Effect,Dehaka23,Amount" Value="5.599609"/>
-        <EffectArray Reference="Effect,DehakaAirDamage23,Amount" Value="5.616211"/>
-        <EffectArray Reference="Effect,TorrasqueBladesDamageLeech,Amount" Value="0.60009765625"/>
-        <EffectArray Reference="Effect,ErebusSpikesDamage,Amount" Value="7.39990234375"/>
+        <EffectArray Reference="Effect,AcidSpores462,Amount" Value="25.334607"/>
+        <EffectArray Reference="Effect,Dehaka23,Amount" Value="7.598637"/>
+        <EffectArray Reference="Effect,DehakaAirDamage23,Amount" Value="7.621166"/>
+        <EffectArray Reference="Effect,TorrasqueBladesDamageLeech,Amount" Value="2.048884"/>
+        <EffectArray Reference="Effect,ErebusSpikesDamage,Amount" Value="19.572017"/>
         <EffectArray Reference="Effect,LurkerNeedle3,Amount" Value="1.60009765625"/>
-        <EffectArray Reference="Effect,SpikeCycleDamage,Amount" Value="3.60009765625"/>
+        <EffectArray Reference="Effect,SpikeCycleDamage,Amount" Value="9.521906"/>
         <EffectArray Reference="Effect,TorrasqueBladesDamageDisplay,Amount" Value="17.6"/>
         <EditorCategories value="Race:Zerg,UpgradeType:AttackBonus"/>
         <MaxLevel value="100"/>

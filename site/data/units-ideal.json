@@ -4,70 +4,70 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
-   "Bulwark",
-   "Vigor",
-   "Ace",
-   "PowerOfDemiurge"
-  ],
-  "dps": 160534
- },
- "UMarine": {
-  "buffs": [
-   "Exoskeleton",
-   "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
-   "Bulwark",
-   "Vigor",
-   "Ace",
-   "PowerOfDemiurge"
-  ],
-  "dps": 145908
- },
- "UMarauder": {
-  "buffs": [
-   "Exoskeleton",
-   "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 166477
+  "dps": 186476
+ },
+ "UMarine": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Bulwark",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 218485
+ },
+ "UMarauder": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Bulwark",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 219632
  },
  "UFirebat": {
   "buffs": [
    "Exoskeleton",
    "Impact",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 400080
+  "dps": 399393
  },
  "UReaper": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 173513
+  "dps": 279491
  },
  "UMedic": {
   "buffs": [
@@ -88,14 +88,14 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 288164
+  "dps": 238134
  },
  "UGhost": {
   "buffs": [
@@ -109,7 +109,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 264376
+  "dps": 309865
  },
  "USpectre": {
   "buffs": [
@@ -130,28 +130,28 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 244088
+  "dps": 289035
  },
  "UHellion": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 220999,
+  "dps": 214655,
   "form": "UHellbat"
  },
  "UVulture": {
@@ -159,28 +159,28 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
-   "Bulwark",
-   "Vigor",
-   "Ace",
-   "PowerOfDemiurge"
-  ],
-  "dps": 164446
- },
- "UWidowMine": {
-  "buffs": [
-   "Exoskeleton",
-   "AncientValor",
-   "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 287112,
+  "dps": 236000
+ },
+ "UWidowMine": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
+   "Bulwark",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 278155,
   "form": "UWidowMineBurrowed"
  },
  "UDiamondback": {
@@ -188,70 +188,70 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
-   "Bulwark",
-   "Vigor",
-   "Ace",
-   "PowerOfDemiurge"
-  ],
-  "dps": 153760
- },
- "UPredator": {
-  "buffs": [
-   "Exoskeleton",
-   "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
-   "Bulwark",
-   "Vigor",
-   "Ace",
-   "PowerOfDemiurge"
-  ],
-  "dps": 188032
- },
- "USentryBot": {
-  "buffs": [
-   "Exoskeleton",
-   "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
-   "Bulwark",
-   "Vigor",
-   "Ace",
-   "PowerOfDemiurge"
-  ],
-  "dps": 128626
- },
- "Cyclone2": {
-  "buffs": [
-   "Exoskeleton",
-   "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
-   "Bulwark",
-   "Vigor",
-   "Ace",
-   "PowerOfDemiurge"
-  ],
-  "dps": 167876
- },
- "USiegeTank": {
-  "buffs": [
-   "Exoskeleton",
-   "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 197449,
+  "dps": 249845
+ },
+ "UPredator": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Wizard",
+   "Bulwark",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 256030
+ },
+ "USentryBot": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Bulwark",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 216940
+ },
+ "Cyclone2": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
+   "Bulwark",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 310250
+ },
+ "USiegeTank": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
+   "Bulwark",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 375776,
   "form": "USiegeTankSieged"
  },
  "UWarHound": {
@@ -259,28 +259,28 @@
    "Hyperactivity",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "TimeLord",
    "Bulwark",
-   "Vigor",
+   "Spirited",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 194790
+  "dps": 458082
  },
  "UThor": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
-   "Vigor",
+   "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 266356
+  "dps": 612453
  },
  "UBlimp": {
   "buffs": [
@@ -300,30 +300,30 @@
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "Predator",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 220034,
+  "dps": 238418,
   "form": "UVikingAssault"
  },
  "UWraith": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "Predator",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 162990
+  "dps": 288346
  },
  "UMedivac": {
   "buffs": [
@@ -351,26 +351,26 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 887844
+  "dps": 878567
  },
  "UBanshee": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "Predator",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 298502
+  "dps": 390704
  },
  "URaven": {
   "buffs": [
    "Hyperactivity",
-   "AncientValor",
+   "Impact",
    "HardenedAmmunition",
    "MentalPower",
    "TimeLord",
@@ -379,21 +379,21 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1108975
+  "dps": 765955
  },
  "ULiberator": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "Predator",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 207772,
+  "dps": 426448,
   "form": "ULiberatorAG"
  },
  "UBattlecruiser": {
@@ -404,81 +404,81 @@
    "QuantumField",
    "Wizard",
    "Bulwark",
-   "Vigor",
+   "Spirited",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 248519
+  "dps": 1041802
  },
  "UProbe": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
-   "Bulwark",
-   "Vigor",
-   "Ace",
-   "PowerOfDemiurge"
-  ],
-  "dps": 160534
- },
- "UZealot": {
-  "buffs": [
-   "Exoskeleton",
-   "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 230453
+  "dps": 186476
+ },
+ "UZealot": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "HardenedAmmunition",
+   "QuantumField",
+   "Sharpshooter",
+   "Bulwark",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 209783
  },
  "UStalker": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
+   "QuantumField",
+   "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 151399
+  "dps": 214314
  },
  "USentry": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
+   "QuantumField",
+   "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 131017
+  "dps": 210892
  },
  "UAdept": {
   "buffs": [
    "Hyperactivity",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "TimeLord",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 377855
+  "dps": 302890
  },
  "UHighTemplar": {
   "buffs": [
@@ -499,42 +499,42 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 221300
+  "dps": 364702
  },
  "UDragoon": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 135784
+  "dps": 285614
  },
  "CannonWalker": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 193666,
+  "dps": 316095,
   "form": "LazyCannon"
  },
  "Disruptor2": {
@@ -542,70 +542,70 @@
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 220022
+  "dps": 320700
  },
  "UImmortal": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "Predator",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 141488
+  "dps": 313628
  },
  "UReaver": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
-   "Bulwark",
-   "Vigor",
-   "Ace",
-   "PowerOfDemiurge"
-  ],
-  "dps": 132063
- },
- "UArchon": {
-  "buffs": [
-   "Exoskeleton",
-   "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
-   "Bulwark",
-   "Vigor",
-   "Ace",
-   "PowerOfDemiurge"
-  ],
-  "dps": 148751
- },
- "UColossus": {
-  "buffs": [
-   "Exoskeleton",
-   "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "Predator",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 190755
+  "dps": 367256
+ },
+ "UArchon": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
+   "Bulwark",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 365050
+ },
+ "UColossus": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
+   "Bulwark",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 512041
  },
  "UHybridDestroyer": {
   "buffs": [
@@ -619,21 +619,21 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 202651
+  "dps": 374531
  },
  "UStoneZealot": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 148707
+  "dps": 239767
  },
  "UObserver": {
   "buffs": [
@@ -654,28 +654,28 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 188824
+  "dps": 224142
  },
  "UScout": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 153927
+  "dps": 150654
  },
  "UWarpPrism": {
   "buffs": [
@@ -695,71 +695,71 @@
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 166051
+  "dps": 292262
  },
  "UMothershipCore": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 154997
+  "dps": 345724
  },
  "UArbiter": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 160061
+  "dps": 364591
  },
  "UVoidRay": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 191578
+  "dps": 297641
  },
  "UTempest": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 135435
+  "dps": 387711
  },
  "Carrier2": {
   "buffs": [
@@ -780,70 +780,70 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
+   "QuantumField",
+   "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 160534
+  "dps": 186476
  },
  "UZergling": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 216437
+  "dps": 262416
  },
  "UBaneling": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 244524
+  "dps": 237765
  },
  "USwarmQueen": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
+   "QuantumField",
+   "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 150153
+  "dps": 218468
  },
  "URoach": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 477916
+  "dps": 473341
  },
  "UHydralisk": {
   "buffs": [
@@ -864,14 +864,14 @@
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 353045,
+  "dps": 334321,
   "form": "ULurkerBurrow"
  },
  "Defiler3": {
@@ -900,7 +900,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 281933
+  "dps": 413256
  },
  "UInfestor": {
   "buffs": [
@@ -914,12 +914,12 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1242130
+  "dps": 1086385
  },
  "USwarmHost": {
   "buffs": [
    "Hyperactivity",
-   "AncientValor",
+   "Impact",
    "HardenedAmmunition",
    "QuantumField",
    "TimeLord",
@@ -928,63 +928,63 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 599024
+  "dps": 457266
  },
  "UAberration": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
-   "Wizard",
-   "Bulwark",
-   "Vigor",
-   "Ace",
-   "PowerOfDemiurge"
-  ],
-  "dps": 139935
- },
- "UHybridReaver": {
-  "buffs": [
-   "Exoskeleton",
-   "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 228283
+  "dps": 192952
+ },
+ "UHybridReaver": {
+  "buffs": [
+   "Exoskeleton",
+   "AncientValor",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
+   "Bulwark",
+   "Vigor",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 287721
  },
  "Brutalisk4": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 192466
+  "dps": 209660
  },
  "UUltralisk": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 206391
+  "dps": 237912
  },
  "UOverseer": {
   "buffs": [
@@ -1005,28 +1005,28 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 219286
+  "dps": 264729
  },
  "UMutalisk": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "Predator",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 145285
+  "dps": 279502
  },
  "UOverlord": {
   "buffs": [
@@ -1046,29 +1046,29 @@
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "Predator",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 199591
+  "dps": 285105
  },
  "Guardian22": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "Predator",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 142972
+  "dps": 347188
  },
  "UViper": {
   "buffs": [
@@ -1089,84 +1089,84 @@
    "Exoskeleton",
    "Impact",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 822436
+  "dps": 662401
  },
  "Fenrir2": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
-   "Wizard",
-   "Bulwark",
-   "Vigor",
-   "Ace",
-   "PowerOfDemiurge"
-  ],
-  "dps": 165208
- },
- "MarineWarfield2": {
-  "buffs": [
-   "Exoskeleton",
-   "Impact",
-   "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 498614
+  "dps": 541453
+ },
+ "MarineWarfield2": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
+   "Bulwark",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 438380
  },
  "Odin2": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
-   "Vigor",
+   "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 213137
+  "dps": 720186
  },
  "Coeus": {
   "buffs": [
    "Hyperactivity",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "TimeLord",
    "Bulwark",
-   "Vigor",
+   "Spirited",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 294989
+  "dps": 682971
  },
  "Loki2": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
-   "Vigor",
+   "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 250750
+  "dps": 457923
  },
  "Hyperion2": {
   "buffs": [
@@ -1185,44 +1185,44 @@
  "SilentMary": {
   "buffs": [
    "Exoskeleton",
-   "AncientValor",
-   "Predator",
-   "StaticField",
-   "Sharpshooter",
-   "Bulwark",
-   "Vigor",
-   "Ace",
-   "PowerOfDemiurge"
-  ],
-  "dps": 317655
- },
- "Nullifier": {
-  "buffs": [
-   "Exoskeleton",
    "Impact",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 306920
+  "dps": 461431
+ },
+ "Nullifier": {
+  "buffs": [
+   "Exoskeleton",
+   "Impact",
+   "Predator",
+   "QuantumField",
+   "Sharpshooter",
+   "Bulwark",
+   "Marksman",
+   "Ace",
+   "PowerOfDemiurge"
+  ],
+  "dps": 413240
  },
  "SentinelHero": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 207422
+  "dps": 244449
  },
  "Vorazun": {
   "buffs": [
@@ -1242,15 +1242,15 @@
   "buffs": [
    "Exoskeleton",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "Predator",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
-   "Vigor",
+   "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 146327
+  "dps": 570173
  },
  "UPurifier": {
   "buffs": [
@@ -1285,28 +1285,28 @@
    "Exoskeleton",
    "Impact",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
-   "Vigor",
+   "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 298559
+  "dps": 460943
  },
  "Urun2": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 178144
+  "dps": 458022
  },
  "Ophiotaurus": {
   "buffs": [
@@ -1326,15 +1326,15 @@
   "buffs": [
    "Hyperactivity",
    "AncientValor",
-   "HardenedAmmunition",
-   "StaticField",
+   "Predator",
+   "QuantumField",
    "TimeLord",
    "Bulwark",
-   "Vigor",
+   "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 210339
+  "dps": 452924
  },
  "Corpser2": {
   "buffs": [
@@ -1348,7 +1348,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 313450
+  "dps": 455634
  },
  "Kerrigan2": {
   "buffs": [
@@ -1362,7 +1362,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 351420
+  "dps": 419112
  },
  "Spotter": {
   "buffs": [
@@ -1397,14 +1397,14 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 173474
+  "dps": 244832
  },
  "PrometheusCompany": {
   "buffs": [
@@ -1418,7 +1418,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1536845
+  "dps": 1500117
  },
  "UTaurenSpaceMarine": {
   "buffs": [
@@ -1432,21 +1432,21 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 461896
+  "dps": 504655
  },
  "TychusFindlay": {
   "buffs": [
    "Exoskeleton",
    "Impact",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 269778
+  "dps": 515437
  },
  "ARES": {
   "buffs": [
@@ -1474,7 +1474,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 769288
+  "dps": 384644
  },
  "ShockDivision": {
   "buffs": [
@@ -1495,14 +1495,14 @@
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "MentalPower",
    "Wizard",
    "Bulwark",
    "Spellbound",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1253109
+  "dps": 1195999
  },
  "Blackhammer": {
   "buffs": [
@@ -1523,28 +1523,28 @@
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 641752
+  "dps": 590458
  },
  "RorySwann": {
   "buffs": [
    "Exoskeleton",
    "Impact",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 472503
+  "dps": 469659
  },
  "NovemberTerra": {
   "buffs": [
@@ -1558,7 +1558,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 386994
+  "dps": 510158
  },
  "UGabrielTosh": {
   "buffs": [
@@ -1572,7 +1572,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 828752
+  "dps": 660494
  },
  "EgonStetmann": {
   "buffs": [
@@ -1586,7 +1586,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1603226
+  "dps": 1388206
  },
  "JimRaynor": {
   "buffs": [
@@ -1607,28 +1607,28 @@
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 142551
+  "dps": 326830
  },
  "Cerberus": {
   "buffs": [
    "Hyperactivity",
    "Impact",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 533418
+  "dps": 468370
  },
  "Annihilator": {
   "buffs": [
@@ -1649,14 +1649,14 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
-   "Vigor",
+   "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 213294
+  "dps": 429897
  },
  "FenixChampion2": {
   "buffs": [
@@ -1670,7 +1670,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 171351
+  "dps": 386137
  },
  "Revenant": {
   "buffs": [
@@ -1684,7 +1684,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 207663
+  "dps": 600595
  },
  "Zyrkhan": {
   "buffs": [
@@ -1694,25 +1694,25 @@
    "QuantumField",
    "TimeLord",
    "Bulwark",
-   "Vigor",
+   "Spirited",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 238513
+  "dps": 521711
  },
  "EBorpProbe": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 476504
+  "dps": 459282
  },
  "Karax": {
   "buffs": [
@@ -1726,7 +1726,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 565437
+  "dps": 436590
  },
  "ULancer": {
   "buffs": [
@@ -1754,7 +1754,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 664159
+  "dps": 360514
  },
  "Alarak": {
   "buffs": [
@@ -1768,7 +1768,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 864160
+  "dps": 498354
  },
  "HybridDominator2": {
   "buffs": [
@@ -1778,17 +1778,17 @@
    "QuantumField",
    "Wizard",
    "Bulwark",
-   "Spellbound",
+   "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 895535
+  "dps": 487923
  },
  "Karass2": {
   "buffs": [
    "Hyperactivity",
    "AncientValor",
-   "Predator",
+   "HardenedAmmunition",
    "QuantumField",
    "Wizard",
    "Bulwark",
@@ -1796,7 +1796,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 664170
+  "dps": 594192
  },
  "UTassadar": {
   "buffs": [
@@ -1824,49 +1824,49 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 362785
+  "dps": 558948
  },
  "UAlexeiStukov": {
   "buffs": [
    "Hyperactivity",
    "Impact",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 669106
+  "dps": 641001
  },
  "HybridDecimator": {
   "buffs": [
    "Exoskeleton",
    "Impact",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 398797
+  "dps": 437525
  },
  "Swarmling2": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
-   "Vigor",
+   "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 185590
+  "dps": 708199
  },
  "Torrasque": {
   "buffs": [
@@ -1876,25 +1876,25 @@
    "QuantumField",
    "Sharpshooter",
    "Bulwark",
-   "Vigor",
+   "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 256340
+  "dps": 596621
  },
  "CockroachDrone": {
   "buffs": [
    "Hyperactivity",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "TimeLord",
    "Bulwark",
    "Spirited",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 834950
+  "dps": 417059
  },
  "LurkerHero": {
   "buffs": [
@@ -1902,13 +1902,13 @@
    "AncientValor",
    "Predator",
    "QuantumField",
-   "Wizard",
+   "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 302077,
+  "dps": 526406,
   "form": "LurkerHeroBurrow"
  },
  "Nyami": {
@@ -1923,7 +1923,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 552383
+  "dps": 574012
  },
  "Deimos": {
   "buffs": [
@@ -1937,7 +1937,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 912818
+  "dps": 709936
  },
  "Minos": {
   "buffs": [
@@ -1951,7 +1951,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1322875
+  "dps": 1315633
  },
  "PrimalKerrigan2": {
   "buffs": [
@@ -1972,14 +1972,14 @@
    "Hyperactivity",
    "Impact",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 756228
+  "dps": 537605
  },
  "UDehaka": {
   "buffs": [
@@ -1993,7 +1993,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 339189
+  "dps": 414617
  },
  "AlexJones": {
   "buffs": [
@@ -2028,14 +2028,14 @@
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 15449208
+  "dps": 15004954
  },
  "DrEvil": {
   "buffs": [
@@ -2056,14 +2056,14 @@
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1374960
+  "dps": 1325276
  },
  "DonaldTrump": {
   "buffs": [
@@ -2084,56 +2084,56 @@
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 369809
+  "dps": 357516
  },
  "SBunker": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 160506
+  "dps": 156931
  },
  "MissileTurret2": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 146721
+  "dps": 143803
  },
  "AutoTurret2": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 135743
+  "dps": 133348
  },
  "LabTurret2": {
   "buffs": [
@@ -2169,14 +2169,14 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 143456
+  "dps": 140694
  },
  "ReinforcedWall": {
   "buffs": [
@@ -2197,14 +2197,14 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 140751
+  "dps": 137874
  },
  "PsiDisruptor2": {
   "buffs": [
@@ -2253,14 +2253,14 @@
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 896878
+  "dps": 864119
  },
  "EinsteinRosenBridgeUnit": {
   "buffs": [
@@ -2295,28 +2295,28 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 140118
+  "dps": 137515
  },
  "WarpTower": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 119645
+  "dps": 118017
  },
  "ShieldBattery2": {
   "buffs": [
@@ -2379,28 +2379,28 @@
    "Exoskeleton",
    "Impact",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 679418
+  "dps": 653527
  },
  "UKhydarinMonolith": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 137869
+  "dps": 135373
  },
  "TowerofProvidence": {
   "buffs": [
@@ -2421,28 +2421,28 @@
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 886276
+  "dps": 853954
  },
  "PrismaticShrine": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 174567
+  "dps": 170227
  },
  "RecallStation": {
   "buffs": [
@@ -2463,56 +2463,56 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 155513
+  "dps": 151998
  },
  "SporeCrawler2": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 161562
+  "dps": 157936
  },
  "UVirophage": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 149928
+  "dps": 146857
  },
  "SporeCannon2": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 133796
+  "dps": 131494
  },
  "RegenerativeNest": {
   "buffs": [
@@ -2533,14 +2533,14 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 119642
+  "dps": 118014
  },
  "SteroidalMass": {
   "buffs": [
@@ -2561,14 +2561,14 @@
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 910702
+  "dps": 877475
  },
  "RemoteNydusNetwork": {
   "buffs": [
@@ -2589,42 +2589,42 @@
    "Exoskeleton",
    "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 414162
+  "dps": 395909
  },
  "MurlocMarine2": {
   "buffs": [
    "Exoskeleton",
    "AncientValor",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 824766
+  "dps": 501502
  },
  "MOMicrobeObliterator": {
   "buffs": [
    "Exoskeleton",
    "Impact",
    "HardenedAmmunition",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 491278
+  "dps": 393535
  },
  "DiabloLordofTerror": {
   "buffs": [
@@ -2638,7 +2638,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 892169
+  "dps": 814334
  },
  "NarudServantofAmon": {
   "buffs": [
@@ -2652,7 +2652,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 864075
+  "dps": 497957
  },
  "AssemblertheFoundrysWarden2": {
   "buffs": [
@@ -2666,6 +2666,6 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 578033
+  "dps": 493357
  }
 }
