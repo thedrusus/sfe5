@@ -8683,7 +8683,7 @@
         <EffectArray Reference="Effect,AcidSalivaU22,Amount" Value="3.2"/>
         <EffectArray Reference="Effect,Claws32,Amount" Value="2"/>
         <EffectArray Reference="Effect,AcidSpines52,Amount" Value="1.6"/>
-        <EffectArray Reference="Effect,PrimalSunkenColonyDamage2,Amount" Value="20.770442"/>
+        <EffectArray Reference="Effect,PrimalSunkenColonyDamage2,Amount" Value="16.700457"/>
         <EffectArray Reference="Effect,BrootDamage,Amount" Value="15.444634"/>
         <EffectArray Reference="Effect,BrootSpewDamage,Amount" Value="15.444634"/>
         <EffectArray Reference="Effect,BileAntiAirDamage,Amount" Value="1.2"/>
@@ -8724,7 +8724,7 @@
         <EffectArray Reference="Effect,BrutalizeDamage22,Amount" Value="2.800048828125"/>
         <EffectArray Reference="Effect,FerociousSpewDamage43,Amount" Value="6"/>
         <EffectArray Reference="Effect,NeedleSpines42,Amount" Value="2"/>
-        <EffectArray Reference="Effect,PrimalSunkenColonyDamageOuter,Amount" Value="11.740008"/>
+        <EffectArray Reference="Effect,PrimalSunkenColonyDamageOuter,Amount" Value="9.439544"/>
         <EffectArray Reference="Effect,AcidSpores462,Amount" Value="5.60009765625"/>
         <EffectArray Reference="Effect,Dehaka23,Amount" Value="5.599609"/>
         <EffectArray Reference="Effect,DehakaAirDamage23,Amount" Value="5.616211"/>

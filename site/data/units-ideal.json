@@ -1418,7 +1418,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1547274
+  "dps": 1536845
  },
  "UTaurenSpaceMarine": {
   "buffs": [
@@ -1432,7 +1432,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 489703
+  "dps": 461896
  },
  "TychusFindlay": {
   "buffs": [
@@ -1446,7 +1446,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 370210
+  "dps": 269778
  },
  "ARES": {
   "buffs": [
@@ -1454,13 +1454,13 @@
    "AncientValor",
    "Predator",
    "QuantumField",
-   "Sharpshooter",
+   "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 687481
+  "dps": 541318
  },
  "T280SCV": {
   "buffs": [
@@ -1474,7 +1474,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 885978
+  "dps": 769288
  },
  "ShockDivision": {
   "buffs": [
@@ -1488,7 +1488,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 434318
+  "dps": 392734
  },
  "AegisGuard": {
   "buffs": [
@@ -1502,7 +1502,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1351188
+  "dps": 1253109
  },
  "Blackhammer": {
   "buffs": [
@@ -1530,7 +1530,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 668743
+  "dps": 641752
  },
  "RorySwann": {
   "buffs": [
@@ -1544,7 +1544,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 867864
+  "dps": 472503
  },
  "NovemberTerra": {
   "buffs": [
@@ -1558,7 +1558,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 404367
+  "dps": 386994
  },
  "UGabrielTosh": {
   "buffs": [
@@ -1572,7 +1572,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 846637
+  "dps": 828752
  },
  "EgonStetmann": {
   "buffs": [
@@ -1586,7 +1586,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1658801
+  "dps": 1603226
  },
  "JimRaynor": {
   "buffs": [
@@ -1600,7 +1600,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 456507
+  "dps": 448648
  },
  "SonofKorhal": {
   "buffs": [
@@ -1614,7 +1614,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 208170
+  "dps": 142551
  },
  "Cerberus": {
   "buffs": [
@@ -1628,7 +1628,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 704870
+  "dps": 533418
  },
  "Annihilator": {
   "buffs": [
@@ -1642,7 +1642,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 448569
+  "dps": 390156
  },
  "UArtanis": {
   "buffs": [
@@ -1656,7 +1656,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 268045
+  "dps": 213294
  },
  "FenixChampion2": {
   "buffs": [
@@ -1670,7 +1670,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 229761
+  "dps": 171351
  },
  "Revenant": {
   "buffs": [
@@ -1684,7 +1684,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 230653
+  "dps": 207663
  },
  "Zyrkhan": {
   "buffs": [
@@ -1698,7 +1698,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 263808
+  "dps": 238513
  },
  "EBorpProbe": {
   "buffs": [
@@ -1712,21 +1712,21 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 527270
+  "dps": 476504
  },
  "Karax": {
   "buffs": [
    "Hyperactivity",
-   "AncientValor",
+   "Impact",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 987420
+  "dps": 565437
  },
  "ULancer": {
   "buffs": [
@@ -1734,13 +1734,13 @@
    "AncientValor",
    "Predator",
    "QuantumField",
-   "Sharpshooter",
+   "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 415633
+  "dps": 314387
  },
  "UShadowWalker": {
   "buffs": [
@@ -1748,13 +1748,13 @@
    "AncientValor",
    "Predator",
    "QuantumField",
-   "Sharpshooter",
+   "Wizard",
    "Bulwark",
    "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 759098
+  "dps": 664159
  },
  "Alarak": {
   "buffs": [
@@ -1768,7 +1768,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 932771
+  "dps": 864160
  },
  "HybridDominator2": {
   "buffs": [
@@ -1796,7 +1796,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 675612
+  "dps": 664170
  },
  "UTassadar": {
   "buffs": [
@@ -1810,21 +1810,21 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 588540
+  "dps": 572258
  },
  "Zeratul2": {
   "buffs": [
    "Exoskeleton",
    "Impact",
    "Predator",
-   "StaticField",
+   "QuantumField",
    "Sharpshooter",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 755124
+  "dps": 362785
  },
  "UAlexeiStukov": {
   "buffs": [
@@ -1838,7 +1838,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 820029
+  "dps": 669106
  },
  "HybridDecimator": {
   "buffs": [
@@ -1852,7 +1852,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 661503
+  "dps": 398797
  },
  "Swarmling2": {
   "buffs": [
@@ -1866,7 +1866,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 252198
+  "dps": 185590
  },
  "Torrasque": {
   "buffs": [
@@ -1876,11 +1876,11 @@
    "QuantumField",
    "Sharpshooter",
    "Bulwark",
-   "Marksman",
+   "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 387155
+  "dps": 256340
  },
  "CockroachDrone": {
   "buffs": [
@@ -1894,7 +1894,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 964272
+  "dps": 834950
  },
  "LurkerHero": {
   "buffs": [
@@ -1902,13 +1902,13 @@
    "AncientValor",
    "Predator",
    "QuantumField",
-   "Sharpshooter",
+   "Wizard",
    "Bulwark",
-   "Marksman",
+   "Vigor",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 553962,
+  "dps": 302077,
   "form": "LurkerHeroBurrow"
  },
  "Nyami": {
@@ -1923,7 +1923,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 597392
+  "dps": 552383
  },
  "Deimos": {
   "buffs": [
@@ -1937,7 +1937,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 933529
+  "dps": 912818
  },
  "Minos": {
   "buffs": [
@@ -1951,7 +1951,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1323411
+  "dps": 1322875
  },
  "PrimalKerrigan2": {
   "buffs": [
@@ -1965,7 +1965,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 357944
+  "dps": 314147
  },
  "Demeter": {
   "buffs": [
@@ -1979,21 +1979,21 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 954498
+  "dps": 756228
  },
  "UDehaka": {
   "buffs": [
    "Hyperactivity",
-   "Impact",
+   "AncientValor",
    "HardenedAmmunition",
-   "StaticField",
-   "Sharpshooter",
+   "QuantumField",
+   "TimeLord",
    "Bulwark",
    "Marksman",
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 403175
+  "dps": 339189
  },
  "AlexJones": {
   "buffs": [
@@ -2007,7 +2007,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 2388360
+  "dps": 2236598
  },
  "BarackObama": {
   "buffs": [
@@ -2021,7 +2021,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 2145309
+  "dps": 1978264
  },
  "JoeBiden": {
   "buffs": [
@@ -2035,7 +2035,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 15761622
+  "dps": 15449208
  },
  "DrEvil": {
   "buffs": [
@@ -2049,7 +2049,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1563631
+  "dps": 1152736
  },
  "DoomSlayer": {
   "buffs": [
@@ -2063,7 +2063,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 1489182
+  "dps": 1374960
  },
  "DonaldTrump": {
   "buffs": [
@@ -2077,7 +2077,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 9318482
+  "dps": 7259870
  },
  "PlanetaryFortress2": {
   "buffs": [
@@ -2568,7 +2568,7 @@
    "Ace",
    "PowerOfDemiurge"
   ],
-  "dps": 941667
+  "dps": 910702
  },
  "RemoteNydusNetwork": {
   "buffs": [

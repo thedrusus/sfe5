@@ -10742,7 +10742,7 @@
         <Name value="Effect/Name/PrimalSunkenColonyDamageOuter"/>
         <EditorCategories value="Race:Zerg"/>
         <Marker Link="Effect/PrimalSunkenColonyDamageOuter"/>
-        <Amount value="285"/>
+        <Amount value="230"/>
         <Death value="Normal"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
@@ -20226,7 +20226,7 @@
         <Name value="Effect/Name/PrimalSunkenColonyDamage2"/>
         <EditorCategories value="Race:Zerg"/>
         <Marker Link="Effect/PrimalSunkenColonyDamage2"/>
-        <Amount value="510.01"/>
+        <Amount value="410.01"/>
         <Death value="Normal"/>
         <DisplayFlags index="DisplayRounded" value="1"/>
     </CEffectDamage>
