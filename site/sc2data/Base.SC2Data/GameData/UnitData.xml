@@ -30,14 +30,14 @@
         <Attributes index="Armored" value="1"/>
         <Attributes index="Biological" value="1"/>
         <Attributes index="Massive" value="1"/>
-        <LifeStart value="4420"/>
-        <LifeMax value="4420"/>
+        <LifeStart value="4400"/>
+        <LifeMax value="4400"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="100"/>
         <LifeArmorName value="Unit/LifeArmorName/ZergUltraliskArmor"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.8515"/>
+        <Speed value="2.5"/>
         <Acceleration value="1000"/>
         <LateralAcceleration value="46.0625"/>
         <StationaryTurningRate value="359.2968"/>
@@ -1020,7 +1020,7 @@
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="65"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="4.5"/>
+        <Speed value="4"/>
         <Acceleration value="1000"/>
         <LateralAcceleration value="46.0625"/>
         <StationaryTurningRate value="999.8437"/>
@@ -2045,16 +2045,16 @@
         <Attributes index="Armored" value="1"/>
         <Attributes index="Mechanical" value="1"/>
         <Attributes index="Massive" value="1"/>
-        <LifeStart value="4713"/>
-        <LifeMax value="4713"/>
+        <LifeStart value="4700"/>
+        <LifeMax value="4700"/>
         <LifeArmor value="40"/>
         <LifeArmorName value="Unit/LifeArmorName/ProtossArmor"/>
-        <ShieldsStart value="20880"/>
-        <ShieldsMax value="20880"/>
+        <ShieldsStart value="21000"/>
+        <ShieldsMax value="21000"/>
         <ShieldRegenRate value="180"/>
         <ShieldArmorName value="Unit/ShieldArmorName/ProtossPlasmaShields"/>
         <Mover value="Colossus"/>
-        <Speed value="2.75"/>
+        <Speed value="2.5"/>
         <Acceleration value="1000"/>
         <LateralAcceleration value="46.0625"/>
         <Sight value="9"/>
@@ -2202,14 +2202,14 @@
         <Collide index="Small" value="1"/>
         <Attributes index="Light" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="2928"/>
-        <LifeMax value="2928"/>
+        <LifeStart value="2900"/>
+        <LifeMax value="2900"/>
         <LifeArmor value="15"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="30"/>
         <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="3"/>
+        <Speed value="2.25"/>
         <Acceleration value="1000"/>
         <LateralAcceleration value="46"/>
         <StationaryTurningRate value="494.4726"/>
@@ -2278,17 +2278,17 @@
         <Collide index="Small" value="1"/>
         <Attributes index="Light" value="1"/>
         <Attributes index="Mechanical" value="1"/>
-        <LifeStart value="3661"/>
-        <LifeMax value="3661"/>
+        <LifeStart value="3700"/>
+        <LifeMax value="3700"/>
         <LifeArmor value="40"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="140"/>
         <LifeArmorName value="Unit/LifeArmorName/ProtossArmor"/>
-        <ShieldsStart value="16240"/>
-        <ShieldsMax value="16240"/>
+        <ShieldsStart value="16000"/>
+        <ShieldsMax value="16000"/>
         <ShieldRegenRate value="140"/>
         <ShieldArmorName value="Unit/ShieldArmorName/ProtossPlasmaShields"/>
-        <Speed value="2.75"/>
+        <Speed value="2.5"/>
         <Acceleration value="1000"/>
         <LateralAcceleration value="46.0625"/>
         <StationaryTurningRate value="999.8437"/>
@@ -2657,8 +2657,8 @@
         <Collide index="Small" value="1"/>
         <Attributes index="Light" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="12480"/>
-        <LifeMax value="12480"/>
+        <LifeStart value="12000"/>
+        <LifeMax value="12000"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="30"/>
@@ -2969,7 +2969,7 @@
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
         <Mover value="CliffJumper"/>
-        <Speed value="5.3984"/>
+        <Speed value="2.25"/>
         <Acceleration value="1000"/>
         <Sight value="16"/>
         <VisionHeight value="4"/>
@@ -3251,15 +3251,15 @@
         <Collide index="Small" value="1"/>
         <Attributes index="Light" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="46800"/>
-        <LifeMax value="46800"/>
+        <LifeStart value="47000"/>
+        <LifeMax value="47000"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="150"/>
         <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorName value="Unit/ShieldArmorName/ZergWildMutation"/>
-        <Speed value="4.5"/>
+        <Speed value="4"/>
         <SpeedMultiplierCreep value="1.3"/>
         <Acceleration value="1000"/>
         <LateralAcceleration value="46.0625"/>
@@ -3813,6 +3813,7 @@
         <EditorCategories value="ObjectType:Projectile,ObjectFamily:Melee"/>
     </CUnit>
     <CUnit id="Moopy3" parent="BigTurkey">
+        <Speed value="4"/>
         <KillXP value="960"/>
         <Name value="Unit/Name/Moopy3"/>
         <Description value="Button/Tooltip/Moopy3"/>
@@ -3820,8 +3821,8 @@
         <Race value="Neut"/>
         <Mob value="None"/>
         <Attributes index="Light" value="0"/>
-        <LifeStart value="62400"/>
-        <LifeMax value="62400"/>
+        <LifeStart value="62000"/>
+        <LifeMax value="62000"/>
         <LifeRegenRate value="200"/>
         <LifeArmorName value="Unit/LifeArmorName/None"/>
         <ShieldArmorName value=""/>
@@ -4228,10 +4229,10 @@
         <FogVisibility value="Dimmed"/>
         <PlaneArray index="Ground" value="1"/>
         <Response value="Nothing"/>
-        <LifeStart value="217500"/>
-        <LifeMax value="217500"/>
+        <LifeStart value="220000"/>
+        <LifeMax value="220000"/>
         <LifeRegenRate value="500"/>
-        <Speed value="0.25"/>
+        <Speed value="2.5"/>
         <Acceleration value="1000"/>
         <Deceleration value="1000"/>
         <LateralAcceleration value="1000"/>
@@ -7277,16 +7278,16 @@
         <Attributes index="Armored" value="1"/>
         <Attributes index="Mechanical" value="1"/>
         <Attributes index="Massive" value="1"/>
-        <LifeStart value="4169"/>
-        <LifeMax value="4169"/>
+        <LifeStart value="4200"/>
+        <LifeMax value="4200"/>
         <LifeArmor value="40"/>
         <LifeArmorName value="Unit/LifeArmorName/ProtossPlating"/>
-        <ShieldsStart value="18560"/>
-        <ShieldsMax value="18560"/>
+        <ShieldsStart value="19000"/>
+        <ShieldsMax value="19000"/>
         <ShieldRegenRate value="160"/>
         <ShieldArmorName value="Unit/ShieldArmorName/ProtossPlasmaShields"/>
         <Mover value="Fly"/>
-        <Speed value="2.75"/>
+        <Speed value="2.5"/>
         <Acceleration value="5"/>
         <LateralAcceleration value="46.0625"/>
         <Sight value="12"/>
@@ -7841,15 +7842,15 @@
         <SpeedMultiplierCreep value="1.3"/>
     </CUnit>
     <CUnit id="TempleDestroyer" parent="VoidRayCampaignBase">
-        <LifeStart value="3118"/>
-        <LifeMax value="3118"/>
+        <LifeStart value="3100"/>
+        <LifeMax value="3100"/>
         <LifeArmor value="40"/>
         <LifeRegenRate value="120"/>
-        <ShieldsStart value="13920"/>
-        <ShieldsMax value="13920"/>
+        <ShieldsStart value="14000"/>
+        <ShieldsMax value="14000"/>
         <ShieldRegenDelay value="0"/>
         <ShieldRegenRate value="120"/>
-        <Speed value="2.75"/>
+        <Speed value="2.5"/>
         <Acceleration value="5"/>
         <Deceleration value="5"/>
         <LateralAcceleration value="3.5"/>
@@ -7887,18 +7888,18 @@
         <Attributes index="Biological" value="1"/>
         <Attributes index="Psionic" value="1"/>
         <Attributes index="Heroic" value="1"/>
-        <LifeStart value="46400"/>
-        <LifeMax value="46400"/>
+        <LifeStart value="46000"/>
+        <LifeMax value="46000"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenDelay value="0.25"/>
         <LifeRegenRate value="800"/>
         <LifeArmorName value="Unit/LifeArmorName/ProtossArmor"/>
-        <ShieldsStart value="46400"/>
-        <ShieldsMax value="46400"/>
+        <ShieldsStart value="46000"/>
+        <ShieldsMax value="46000"/>
         <ShieldRegenDelay value="0.25"/>
         <ShieldRegenRate value="400"/>
         <ShieldArmorName value="Unit/ShieldArmorName/ProtossPlasmaShields"/>
-        <Speed value="2.2734"/>
+        <Speed value="2.25"/>
         <Acceleration value="1000"/>
         <Deceleration value="1000"/>
         <LateralAcceleration value="46"/>
@@ -8147,8 +8148,8 @@
         <Collide index="ForceField" value="1"/>
         <Collide index="Small" value="1"/>
         <Attributes index="Massive" value="0"/>
-        <LifeStart value="1068"/>
-        <LifeMax value="1068"/>
+        <LifeStart value="1100"/>
+        <LifeMax value="1100"/>
         <LifeArmor value="7"/>
         <LifeRegenRate value="20"/>
         <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
@@ -8211,8 +8212,8 @@
         <Collide index="Small" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="1525"/>
-        <LifeMax value="1525"/>
+        <LifeStart value="1500"/>
+        <LifeMax value="1500"/>
         <LifeArmor value="11"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="28"/>
@@ -9348,8 +9349,8 @@
         <Collide index="Small" value="1"/>
         <Attributes index="Biological" value="1"/>
         <Attributes index="Heroic" value="1"/>
-        <LifeStart value="15600"/>
-        <LifeMax value="15600"/>
+        <LifeStart value="16000"/>
+        <LifeMax value="16000"/>
         <LifeArmor value="80"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenDelay value="0.25"/>
@@ -9965,8 +9966,8 @@
         <Collide index="Small" value="1"/>
         <Attributes index="Light" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="1820"/>
-        <LifeMax value="1820"/>
+        <LifeStart value="1800"/>
+        <LifeMax value="1800"/>
         <LifeArmor value="5"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="35"/>
@@ -11479,14 +11480,14 @@
         <Collide index="Small" value="1"/>
         <Attributes index="Light" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="4480"/>
-        <LifeMax value="4480"/>
+        <LifeStart value="4500"/>
+        <LifeMax value="4500"/>
         <LifeArmor value="2"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="50"/>
         <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="1.6015"/>
+        <Speed value="1.5"/>
         <SpeedMultiplierCreep value="1.3"/>
         <Acceleration value="1000"/>
         <LateralAcceleration value="46.0625"/>
@@ -12137,8 +12138,8 @@
         <Attributes index="Biological" value="1"/>
         <Attributes index="Structure" value="1"/>
         <Attributes index="Heroic" value="1"/>
-        <LifeStart value="31200"/>
-        <LifeMax value="31200"/>
+        <LifeStart value="31000"/>
+        <LifeMax value="31000"/>
         <LifeArmor value="40"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="600"/>
@@ -12222,8 +12223,8 @@
         <Attributes index="Armored" value="1"/>
         <Attributes index="Biological" value="1"/>
         <Attributes index="Structure" value="1"/>
-        <LifeStart value="6240"/>
-        <LifeMax value="6240"/>
+        <LifeStart value="6200"/>
+        <LifeMax value="6200"/>
         <LifeArmor value="70"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="200"/>
@@ -12300,8 +12301,8 @@
         <Attributes index="Biological" value="1"/>
         <Attributes index="Structure" value="1"/>
         <Attributes index="Heroic" value="1"/>
-        <LifeStart value="62400"/>
-        <LifeMax value="62400"/>
+        <LifeStart value="62000"/>
+        <LifeMax value="62000"/>
         <LifeArmor value="100"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="1200"/>
@@ -12385,8 +12386,8 @@
         <Attributes index="Biological" value="1"/>
         <Attributes index="Structure" value="1"/>
         <Attributes index="Heroic" value="1"/>
-        <LifeStart value="15600"/>
-        <LifeMax value="15600"/>
+        <LifeStart value="16000"/>
+        <LifeMax value="16000"/>
         <LifeArmor value="40"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="300"/>
@@ -12469,8 +12470,8 @@
         <Attributes index="Biological" value="1"/>
         <Attributes index="Structure" value="1"/>
         <Attributes index="Heroic" value="1"/>
-        <LifeStart value="23400"/>
-        <LifeMax value="23400"/>
+        <LifeStart value="23000"/>
+        <LifeMax value="23000"/>
         <LifeArmor value="40"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="450"/>
@@ -12576,6 +12577,7 @@
         <BehaviorArray Link="Elite"/>
         <BehaviorArray Link="BossBalance"/>
         <BehaviorArray Link="PinnacleEHP"/>
+        <BehaviorArray Link="PinnacleEHPTrio"/>
         <BehaviorArray Link="LatentPower"/>
         <BehaviorArray Link="PinnacleResistence"/>
         <BehaviorArray Link="DifficultyManagerBoss"/>
@@ -12634,6 +12636,7 @@
         <BehaviorArray index="3" Link="DemiBoss"/>
         <BehaviorArray index="5" Link="Elite"/>
         <BehaviorArray index="6" Link="PinnacleEHP"/>
+        <BehaviorArray Link="PinnacleEHPTrio"/>
         <BehaviorArray index="7" Link="BurnCycle"/>
         <BehaviorArray Link="PinnacleResistence"/>
         <WeaponArray index="0" Link="HammerBash" Turret="SiegeTank"/>
@@ -12995,13 +12998,13 @@
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
         <PushPriority value="50"/>
-        <LifeStart value="8320"/>
-        <LifeMax value="8320"/>
+        <LifeStart value="8300"/>
+        <LifeMax value="8300"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="80"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="3"/>
+        <Speed value="2.25"/>
         <Sight value="32"/>
         <SightBonus index="Dawn" value="32"/>
         <SightBonus index="Dusk" value="32"/>
@@ -13209,6 +13212,7 @@
             <LayoutButtons Face="RipAndTear" Type="Passive" Row="1" Column="0"/>
             <LayoutButtons Face="PraetorArmor" Type="Passive" Row="1" Column="1"/>
             <LayoutButtons Face="PriceOfPower" Type="Passive" Row="1" Column="2"/>
+                    <LayoutButtons index="5" removed="1"/>
         </CardLayouts>
         <ScoreResult value="BuildOrder"/>
         <SubgroupPriority value="200"/>
@@ -13650,12 +13654,12 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="PlayerRevivable" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="1464"/>
-        <LifeMax value="1464"/>
+        <LifeStart value="1500"/>
+        <LifeMax value="1500"/>
         <LifeArmor value="5"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="15"/>
-        <Speed value="2.75"/>
+        <Speed value="2.25"/>
         <Acceleration value="500"/>
         <Deceleration value="500"/>
         <StationaryTurningRate value="999.8437"/>
@@ -14865,8 +14869,8 @@
         <Collide index="Locust" value="1"/>
         <Collide index="Small" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="358"/>
-        <LifeMax value="358"/>
+        <LifeStart value="360"/>
+        <LifeMax value="360"/>
         <LifeArmor value="3"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="7"/>
@@ -14948,8 +14952,8 @@
         <FlagArray index="AIHighPrioTarget" value="0"/>
         <FlagArray index="AICaster" value="0"/>
         <FlagArray index="AIPressForwardDisabled" value="0"/>
-        <LifeStart value="338"/>
-        <LifeMax value="338"/>
+        <LifeStart value="340"/>
+        <LifeMax value="340"/>
         <LifeArmor value="5"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="5"/>
@@ -14959,7 +14963,7 @@
         <ShieldsMax value="540"/>
         <ShieldArmor value="5"/>
         <ShieldRegenDelay value="0"/>
-        <Speed value="2.75"/>
+        <Speed value="2.5"/>
         <Food value="1"/>
         <KillXP value="13"/>
         <AbilArray index="2" Link="attack"/>
@@ -15187,8 +15191,8 @@
         <Attributes index="Biological" value="1"/>
         <Attributes index="Mechanical" value="0"/>
         <Attributes index="Heroic" value="0"/>
-        <LifeStart value="10400"/>
-        <LifeMax value="10400"/>
+        <LifeStart value="10000"/>
+        <LifeMax value="10000"/>
         <LifeArmor value="15"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="0"/>
         <LifeRegenRate value="200"/>
@@ -15259,14 +15263,14 @@
         <Attributes index="Light" value="1"/>
         <Attributes index="Biological" value="1"/>
         <Attributes index="Mechanical" value="1"/>
-        <LifeStart value="151"/>
-        <LifeMax value="151"/>
+        <LifeStart value="150"/>
+        <LifeMax value="150"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="5"/>
         <LifeArmorName value="Unit/LifeArmorName/ZergAirArmor"/>
         <ShieldRegenDelay value="10"/>
         <Mover value="Fly"/>
-        <Speed value="1.6015"/>
+        <Speed value="1.5"/>
         <Acceleration value="3.25"/>
         <StationaryTurningRate value="1499.9414"/>
         <TurningRate value="1499.9414"/>
@@ -15523,13 +15527,13 @@
         <Collide index="Ground" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="6663"/>
-        <LifeMax value="6663"/>
+        <LifeStart value="6700"/>
+        <LifeMax value="6700"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="150"/>
         <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
-        <Speed value="2.8515"/>
+        <Speed value="2.5"/>
         <SpeedMultiplierCreep value="1.3"/>
         <Acceleration value="1000"/>
         <LateralAcceleration value="46.0625"/>
@@ -15713,13 +15717,13 @@
         <Name value="Unit/Name/LargeSheep"/>
         <Description value="Button/Tooltip/LargeSheep"/>
         <FlagArray index="PreventDestroy" value="0"/>
-        <LifeStart value="12480"/>
-        <LifeMax value="12480"/>
+        <LifeStart value="12000"/>
+        <LifeMax value="12000"/>
         <LifeArmor value="20"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="30"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="4.5"/>
+        <Speed value="4"/>
         <KillXP value="192"/>
         <AbilArray index="3" removed="1"/>
         <AbilArray index="4" removed="1"/>
@@ -15844,13 +15848,13 @@
         <Name value="Unit/Name/MegaSheep"/>
         <Description value="Button/Tooltip/MegaSheep"/>
         <FlagArray index="PreventDestroy" value="0"/>
-        <LifeStart value="28600"/>
-        <LifeMax value="28600"/>
+        <LifeStart value="29000"/>
+        <LifeMax value="29000"/>
         <LifeArmor value="20"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="30"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="4.5"/>
+        <Speed value="4"/>
         <KillXP value="440"/>
         <AbilArray index="3" removed="1"/>
         <AbilArray index="4" removed="1"/>
@@ -15891,13 +15895,13 @@
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="8320"/>
-        <LifeMax value="8320"/>
+        <LifeStart value="8300"/>
+        <LifeMax value="8300"/>
         <LifeArmor value="40"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="160"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.1523"/>
+        <Speed value="2.25"/>
         <Acceleration value="3.5"/>
         <LateralAcceleration value="0"/>
         <KillXP value="128"/>
@@ -15945,8 +15949,8 @@
         <PlaneArray index="Ground" value="1"/>
         <Collide index="Ground" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="1820"/>
-        <LifeMax value="1820"/>
+        <LifeStart value="1800"/>
+        <LifeMax value="1800"/>
         <LifeArmor value="10"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="5"/>
@@ -15986,8 +15990,8 @@
         <PlaneArray index="Ground" value="1"/>
         <Collide index="Ground" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="3120"/>
-        <LifeMax value="3120"/>
+        <LifeStart value="3100"/>
+        <LifeMax value="3100"/>
         <LifeArmor value="15"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="5"/>
@@ -16024,8 +16028,8 @@
         <Collide index="ForceField" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="3640"/>
-        <LifeMax value="3640"/>
+        <LifeStart value="3600"/>
+        <LifeMax value="3600"/>
         <LifeArmor value="10"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="24"/>
@@ -16083,8 +16087,8 @@
         <Collide index="ForceField" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="11440"/>
-        <LifeMax value="11440"/>
+        <LifeStart value="11000"/>
+        <LifeMax value="11000"/>
         <LifeArmor value="15"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="96"/>
@@ -16543,14 +16547,7 @@
         <WeaponArray index="0" Link="DevastationGrenade" Turret="AutoTurret"/>
         <CardLayouts index="0">
             <LayoutButtons index="2" Face="DisassembleTurret" Type="AbilCmd" AbilCmd="DisassembleTurret,Execute" Row="2" Column="0"/>
-            <LayoutButtons>
-                <Face value="HiSecAutoTrackingSystem"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Requirements value="UseHisecAutoTracking"/>
-                <Row value="1"/>
-                <Column value="0"/>
-            </LayoutButtons>
+            <LayoutButtons Face="HiSecAutoTrackingSystem" Type="Passive" Requirements="UseHisecAutoTracking" Row="1" Column="0"/>
         </CardLayouts>
         <Footprint value="Footprint1x1Any"/>
         <PlacementFootprint value="Footprint1x1Any"/>
@@ -16952,7 +16949,6 @@
         <BehaviorArray Link="StimulatedMetabolism"/>
         <BehaviorArray Link="EvolvedSteroidalMass"/>
         <CardLayouts>
-            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>
             <LayoutButtons Face="Transfusion22" Type="AbilCmd" AbilCmd="Rejuvenation,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="CancelBuilding" Type="AbilCmd" AbilCmd="BuildInProgress,Cancel" Row="2" Column="4"/>
             <LayoutButtons Face="Salvage2" Type="AbilCmd" AbilCmd="SalvageShared2,On" Row="2" Column="3"/>
@@ -17303,6 +17299,7 @@
         <EditorCategories value="ObjectFamily:Campaign,ObjectType:Unit"/>
     </CUnit>
     <CUnit id="Maar22" parent="Maar">
+        <Speed value="2.5"/>
         <Name value="Unit/Name/Maar22"/>
         <Description value="Button/Tooltip/Maar22"/>
         <ReviveType value="HybridMaar"/>
@@ -17369,6 +17366,7 @@
         <ShieldRegenDelay value="2.5"/>
     </CUnit>
     <CUnit id="Maar222" parent="Maar">
+        <Speed value="2.5"/>
         <Name value="Unit/Name/Maar222"/>
         <Description value="Button/Tooltip/Maar222"/>
         <ReviveType value="HybridMaar"/>
@@ -18314,14 +18312,7 @@
                 <Column value="0"/>
             </LayoutButtons>
             <LayoutButtons index="8" Face="KineticFoam" Type="Passive" Requirements="UseKineticFoam" Row="1" Column="2"/>
-            <LayoutButtons index="9">
-                <Face value="HoodGrenades"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Requirements value="UseHoodGrenades"/>
-                <Row value="1"/>
-                <Column value="1"/>
-            </LayoutButtons>
+            <LayoutButtons index="9" Face="HoodGrenades" Type="Passive" Requirements="UseHoodGrenades" Row="1" Column="1"/>
             <LayoutButtons index="10" removed="1"/>
         </CardLayouts>
         <CargoSize value="1"/>
@@ -18614,8 +18605,10 @@
         <Attributes index="Massive" value="1"/>
         <Attributes index="Structure" value="1"/>
         <Attributes index="MapBoss" value="1"/>
-        <LifeStart value="300000"/>
-        <LifeMax value="300000"/>
+        <LifeStart value="150000"/>
+        <LifeMax value="150000"/>
+        <ShieldsStart value="150000"/>
+        <ShieldsMax value="150000"/>
         <LifeArmor value="100"/>
         <LifeArmorName value="Unit/LifeArmorName/VoidArmor"/>
         <ShieldRegenDelay value="2.5"/>
@@ -18851,8 +18844,8 @@
     <CUnit id="TruculentCorruptor" parent="Corruptor">
         <Name value="Unit/Name/TruculentCorruptor"/>
         <Description value="Button/Tooltip/TruculentCorruptor"/>
-        <LifeStart value="8158"/>
-        <LifeMax value="8158"/>
+        <LifeStart value="8200"/>
+        <LifeMax value="8200"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <EnergyStart value="200"/>
@@ -18875,7 +18868,7 @@
             <LayoutButtons index="7" removed="1"/>
         </CardLayouts>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <LifeRegenRate value="140"/>
         <TacticalAI value="GroundAI"/>
         <FlagArray index="PreventDestroy" value="0"/>
@@ -18889,8 +18882,8 @@
     <CUnit id="CracklingZergling" parent="Zergling">
         <Name value="Unit/Name/CracklingZergling"/>
         <Description value="Button/Tooltip/CracklingZergling"/>
-        <LifeStart value="316"/>
-        <LifeMax value="316"/>
+        <LifeStart value="320"/>
+        <LifeMax value="320"/>
         <LifeArmor value="3"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="9.5"/>
@@ -18915,7 +18908,7 @@
         </CardLayouts>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
         <TacticalAI value="GroundAI"/>
-        <Speed value="3.1484"/>
+        <Speed value="2.75"/>
         <FlagArray index="PreventDestroy" value="0"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
@@ -18960,8 +18953,8 @@
     </CUnit>
     <CUnit id="MuskyMutalisk" parent="Mutalisk">
         <Name value="Unit/Name/MuskyMutalisk"/>
-        <LifeStart value="1251"/>
-        <LifeMax value="1251"/>
+        <LifeStart value="1300"/>
+        <LifeMax value="1300"/>
         <LifeArmor value="9"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
@@ -18979,7 +18972,7 @@
         </CardLayouts>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
         <LifeRegenRate value="24"/>
-        <Speed value="2.75"/>
+        <Speed value="2.25"/>
         <TacticalAI value="GroundAI"/>
         <FlagArray index="PreventDestroy" value="0"/>
         <FlagArray index="UseLineOfSight" value="0"/>
@@ -19028,7 +19021,7 @@
         <LifeRegenRate value="1000"/>
         <PushPriority value="20"/>
         <TacticalAI value="GroundAI"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <MinimapRadius value="0"/>
         <Description value="Button/Tooltip/NoisomeMutalisk"/>
         <Fidget DelayMax="0" DelayMin="0"/>
@@ -19039,8 +19032,8 @@
     <CUnit id="NastyHydralisk" parent="Hydralisk">
         <Name value="Unit/Name/NastyHydralisk"/>
         <Description value="Button/Tooltip/NastyHydralisk"/>
-        <LifeStart value="1281"/>
-        <LifeMax value="1281"/>
+        <LifeStart value="1300"/>
+        <LifeMax value="1300"/>
         <LifeArmor value="8"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
@@ -19060,7 +19053,7 @@
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
         <LifeRegenRate value="24"/>
         <TacticalAI value="GroundAI"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <FlagArray index="PreventDestroy" value="0"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
@@ -19080,12 +19073,12 @@
     <CUnit id="IgnobleOverlord" parent="Overlord">
         <Name value="Unit/Name/IgnobleOverlord"/>
         <Description value="Button/Tooltip/IgnobleOverlord"/>
-        <LifeStart value="1525"/>
-        <LifeMax value="1525"/>
+        <LifeStart value="1500"/>
+        <LifeMax value="1500"/>
         <LifeArmor value="15"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.75"/>
+        <Speed value="2.25"/>
         <KillXP value="25"/>
         <AbilArray index="2" Link="attack"/>
         <AbilArray index="3" removed="1"/>
@@ -19125,6 +19118,7 @@
         <Mover value="NeedleSpinesWeapon"/>
     </CUnit>
     <CUnit id="Fanaticalisk" parent="Ultralisk">
+        <Speed value="2.25"/>
         <Name value="Unit/Name/Fanaticalisk"/>
         <FlagArray index="Untooltipable" value="0"/>
         <FlagArray index="PreventDestroy" value="0"/>
@@ -19190,13 +19184,13 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="7280"/>
-        <LifeMax value="7280"/>
+        <LifeStart value="7300"/>
+        <LifeMax value="7300"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="140"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="3"/>
+        <Speed value="2.25"/>
         <Food value="1"/>
         <KillXP value="112"/>
         <AbilArray index="3" removed="1"/>
@@ -19221,6 +19215,7 @@
         </Fidget>
     </CUnit>
     <CUnit id="GrotesqueLarva" parent="Fanaticalisk">
+        <Speed value="2.5"/>
         <Name value="Unit/Name/GrotesqueLarva"/>
         <Description value="Button/Tooltip/GrotesqueLarva"/>
         <ReviveType value="GrotesqueLarva"/>
@@ -19354,8 +19349,8 @@
     <CUnit id="VileRavagerRoach" parent="Ravager">
         <Name value="Unit/Name/VileRavagerRoach"/>
         <Description value="Button/Tooltip/VileRavagerRoach"/>
-        <LifeStart value="1495"/>
-        <LifeMax value="1495"/>
+        <LifeStart value="1500"/>
+        <LifeMax value="1500"/>
         <LifeArmor value="13"/>
         <Speed value="2.25"/>
         <CostResource index="Minerals" value="2500"/>
@@ -19483,8 +19478,8 @@
     <CUnit id="RavagerRoach" parent="Ravager">
         <Name value="Unit/Name/RavagerRoach"/>
         <Description value="Button/Tooltip/RavagerRoach"/>
-        <LifeStart value="1281"/>
-        <LifeMax value="1281"/>
+        <LifeStart value="1300"/>
+        <LifeMax value="1300"/>
         <LifeArmor value="8"/>
         <Speed value="2.25"/>
         <CostResource index="Minerals" value="2500"/>
@@ -19847,8 +19842,8 @@
         <Attributes index="Light" value="1"/>
         <Attributes index="Biological" value="1"/>
         <Attributes index="Structure" value="1"/>
-        <LifeStart value="448"/>
-        <LifeMax value="448"/>
+        <LifeStart value="450"/>
+        <LifeMax value="450"/>
         <LifeArmor value="10"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeArmorName value="Unit/LifeArmorName/TerranBuildingPlating"/>
@@ -20204,13 +20199,13 @@
         <Collide index="Structure" value="0"/>
         <Attributes index="Armored" value="0"/>
         <Attributes index="Psionic" value="1"/>
-        <LifeStart value="398750"/>
-        <LifeMax value="398750"/>
+        <LifeStart value="400000"/>
+        <LifeMax value="400000"/>
         <LifeArmor value="100"/>
         <LifeRegenRate value="5000"/>
         <LifeArmorName value="Unit/LifeArmorName/HybridArmor"/>
-        <ShieldsStart value="398750"/>
-        <ShieldsMax value="398750"/>
+        <ShieldsStart value="400000"/>
+        <ShieldsMax value="400000"/>
         <ShieldArmor value="100"/>
         <ShieldRegenRate value="5000"/>
         <ShieldArmorName value="Unit/ShieldArmorName/VoidShard2Shields"/>
@@ -20461,6 +20456,7 @@
             <LayoutButtons index="8" Face="LeechingTusks2" Requirements="" Row="1" Column="2"/>
             <LayoutButtons index="10" Face="MindBlast332" Type="AbilCmd" AbilCmd="Cleave,Execute" Column="0"/>
             <LayoutButtons index="11" removed="1"/>
+                    <LayoutButtons index="9" removed="1"/>
         </CardLayouts>
         <Radius value="1.5"/>
         <SeparationRadius value="0.8"/>
@@ -21543,14 +21539,7 @@
         <WeaponArray index="0" Link="PhasePulse" Turret=""/>
         <CardLayouts index="0">
             <LayoutButtons index="5" Face="AscendantCannonWalker" Type="Passive" AbilCmd="" Requirements="AceBehaviorRequirement" Row="1"/>
-            <LayoutButtons>
-                <Face value="PhasedCannon"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Requirements value="UsePhasedCannon"/>
-                <Row value="1"/>
-                <Column value="1"/>
-            </LayoutButtons>
+            <LayoutButtons Face="PhasedCannon" Type="Passive" Requirements="UsePhasedCannon" Row="1" Column="1"/>
             <LayoutButtons Face="LazyCannon" Type="AbilCmd" AbilCmd="CannonWalkerSiege,Execute" Row="2" Column="0"/>
         </CardLayouts>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
@@ -21909,12 +21898,12 @@
         <Name value="Unit/Name/HybridLenkus"/>
         <Description value="Button/Tooltip/HybridLenkus"/>
         <ReviveType value="HybridLenkus"/>
-        <LifeStart value="350000"/>
-        <LifeMax value="350000"/>
+        <LifeStart value="175000"/>
+        <LifeMax value="175000"/>
         <LifeArmor value="20"/>
         <LifeRegenRate value="5000"/>
-        <ShieldsStart value="0"/>
-        <ShieldsMax value="0"/>
+        <ShieldsStart value="175000"/>
+        <ShieldsMax value="175000"/>
         <ShieldArmor value="20"/>
         <ShieldRegenRate value="5000"/>
         <Sight value="12"/>
@@ -21951,7 +21940,7 @@
         <EditorCategories value="ObjectType:Hero,ObjectFamily:Storymode"/>
         <KillXP value="2500"/>
         <TacticalAI value="GroundAI"/>
-        <Speed value="3"/>
+        <Speed value="2.25"/>
         <FlagArray index="Untooltipable" value="0"/>
         <FlagArray index="UseLineOfSight" value="0"/>
         <FlagArray index="Unstoppable" value="1"/>
@@ -22021,7 +22010,7 @@
         <LifeRegenRate value="400"/>
         <KillXP value="2500"/>
         <TacticalAI value="GroundAI"/>
-        <Speed value="4"/>
+        <Speed value="2.25"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="MapBoss" value="1"/>
         <Fidget DelayMax="0" DelayMin="0"/>
@@ -22055,7 +22044,7 @@
         <LifeRegenDelay value="2.5"/>
         <LifeRegenRate value="500"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <Sight value="10"/>
         <VisionHeight value="4"/>
         <Food value="100"/>
@@ -22110,7 +22099,7 @@
         <LifeRegenDelay value="2.5"/>
         <LifeRegenRate value="500"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <Sight value="10"/>
         <VisionHeight value="4"/>
         <Food value="100"/>
@@ -22162,7 +22151,7 @@
         <LifeRegenDelay value="2.5"/>
         <LifeRegenRate value="500"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <Sight value="10"/>
         <VisionHeight value="4"/>
         <Food value="100"/>
@@ -22213,13 +22202,13 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="11600"/>
-        <LifeMax value="11600"/>
+        <LifeStart value="12000"/>
+        <LifeMax value="12000"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenDelay value="0"/>
         <LifeRegenRate value="200"/>
-        <Speed value="11.4492"/>
+        <Speed value="2.25"/>
         <Food value="1"/>
         <KillXP value="160"/>
         <BehaviorArray Link="BlankStats"/>
@@ -22455,7 +22444,7 @@
         <LifeRegenDelay value="2.5"/>
         <LifeRegenRate value="500"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <Sight value="10"/>
         <VisionHeight value="4"/>
         <Food value="100"/>
@@ -22784,14 +22773,7 @@
                 <Column value="1"/>
             </LayoutButtons>
             <LayoutButtons index="7" Face="MultiBile" Type="Passive" Requirements="" Row="1" Column="2"/>
-            <LayoutButtons index="8">
-                <Face value="ExplosiveBile"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Requirements value="UseExplosiveBile"/>
-                <Row value="1"/>
-                <Column value="3"/>
-            </LayoutButtons>
+            <LayoutButtons index="8" Face="ExplosiveBile" Type="Passive" Requirements="UseExplosiveBile" Row="1" Column="3"/>
             <LayoutButtons Face="RavagerCorrosiveBile23" Type="AbilCmd" AbilCmd="RavagerCorrosiveBile23,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="ArmoredCarapace" Type="AbilCmd" AbilCmd="ArmoredCarapace,Execute" Row="2" Column="1"/>
             <LayoutButtons Face="DissoluteAcid" Type="AbilCmd" AbilCmd="DissoluteAcid,Execute" Row="2" Column="2"/>
@@ -23018,14 +23000,7 @@
             </LayoutButtons>
             <LayoutButtons index="7" Face="TwinLinkedInfernalPreIgniter" Type="Passive" Requirements="UseTwinLinkedInfernalPreIgniter" Row="1" Column="1"/>
             <LayoutButtons index="8" Face="SiegeTankSmartServos" Type="Passive" Requirements="UseSiegeTankSmartServos" Row="1" Column="2"/>
-            <LayoutButtons index="9">
-                <Face value="20DamageReduction"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Requirements value=""/>
-                <Row value="1"/>
-                <Column value="3"/>
-            </LayoutButtons>
+            <LayoutButtons index="9" Face="20DamageReduction" Type="Passive" Requirements="" Row="1" Column="3"/>
             <LayoutButtons index="10" removed="1"/>
         </CardLayouts>
         <CargoSize value="2"/>
@@ -23059,14 +23034,6 @@
             <LayoutButtons index="5" Face="MorphToHellion2" AbilCmd="EliteMorphToHellion,Execute"/>
             <LayoutButtons index="7" Face="TwinLinkedInfernalPreIgniter" Type="Passive" Requirements="UseTwinLinkedInfernalPreIgniter" Row="1" Column="2"/>
             <LayoutButtons index="8" Face="SiegeTankSmartServos" Type="Passive" Requirements="UseSiegeTankSmartServos" Row="1" Column="1"/>
-            <LayoutButtons index="9">
-                <Face value="20DamageReduction"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Requirements value=""/>
-                <Row value="1"/>
-                <Column value="3"/>
-            </LayoutButtons>
         </CardLayouts>
         <SubgroupPriority value="50"/>
     </CUnit>
@@ -23201,7 +23168,7 @@
             <LayoutButtons Face="AdvancedBattlecruiserWeaponryResearch" Type="Passive" Requirements="UseAdvancedBattlecruiserWeaponry" Row="1" Column="0"/>
             <LayoutButtons Face="SJPirateLightningStorm3" Type="AbilCmd" AbilCmd="SJPirateLightningStorm2,Execute" Row="2" Column="2"/>
             <LayoutButtons Face="HyperionYamatoGun2" Type="AbilCmd" AbilCmd="HyperionYamatoSpecial2,Execute" Row="2" Column="0"/>
-            <LayoutButtons Face="HyperionIonBeam" Type="Passive" AbilCmd="" Row="1" Column="1"/>
+            <LayoutButtons Face="HyperionIonBeam" Type="Passive" Row="1" Column="1"/>
         </CardLayouts>
         <Radius value="2"/>
         <SeparationRadius value="2"/>
@@ -23274,7 +23241,7 @@
             </LayoutButtons>
             <LayoutButtons index="7" Face="LightTheGunpowder" Type="AbilCmd" AbilCmd="LightTheGunpowder,Execute" Row="2" Column="1"/>
             <LayoutButtons index="8" Face="SetSail" Type="AbilCmd" AbilCmd="SetSail,Execute" Row="2" Column="2"/>
-            <LayoutButtons index="9" Face="ReactiveArmor" Type="Passive" AbilCmd="" Row="1" Column="0"/>
+            <LayoutButtons index="9" Face="ReactiveArmor" Type="Passive" Row="1" Column="0"/>
             <LayoutButtons Face="SalvagedParts" Type="Passive" Row="1" Column="1"/>
             <LayoutButtons Face="LastBastion" Type="AbilCmd" AbilCmd="LastBastion,Execute" Row="2" Column="3"/>
         </CardLayouts>
@@ -23624,14 +23591,7 @@
             </LayoutButtons>
             <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>
             <LayoutButtons Face="MedicHeal22" Type="AbilCmd" AbilCmd="Heal2,Execute" Row="2" Column="0"/>
-            <LayoutButtons>
-                <Face value="StabilizerMedpacks"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Requirements value="UseStabilizerMedpacks2"/>
-                <Row value="1"/>
-                <Column value="1"/>
-            </LayoutButtons>
+            <LayoutButtons Face="StabilizerMedpacks" Type="Passive" Requirements="UseStabilizerMedpacks2" Row="1" Column="1"/>
             <LayoutButtons>
                 <Face value="UpgradedMedic"/>
                 <Type value="Passive"/>
@@ -23959,7 +23919,7 @@
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <EnergyStart value="0"/>
         <EnergyMax value="0"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <CostResource index="Minerals" value="0"/>
         <CostResource index="Vespene" value="0"/>
         <AbilArray index="0" Link="attack"/>
@@ -23995,6 +23955,7 @@
         <ShieldRegenDelay value="2.5"/>
     </CUnit>
     <CUnit id="SpotterMinion" parent="Spotter2">
+        <Speed value="2.25"/>
         <Name value="Unit/Name/SpotterMinion"/>
         <Description value="Button/Tooltip/SpotterMinion"/>
         <FlagArray index="Untooltipable" value="1"/>
@@ -24006,8 +23967,8 @@
         <PushPriority value="10"/>
         <Attributes index="Heroic" value="0"/>
         <Attributes index="MapBoss" value="0"/>
-        <LifeStart value="9295"/>
-        <LifeMax value="9295"/>
+        <LifeStart value="9300"/>
+        <LifeMax value="9300"/>
         <LifeRegenRate value="160"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <CostResource index="Minerals" value="75"/>
@@ -24557,14 +24518,7 @@
         <BehaviorArray Link="FrenziedTorrasque"/>
         <WeaponArray index="0" Link="TorrasqueKaiserBlades2"/>
         <CardLayouts index="0">
-            <LayoutButtons index="5">
-                <Face value="LeechingTusks"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Behavior value="Frenzy"/>
-                <Row value="1"/>
-                <Column value="0"/>
-            </LayoutButtons>
+            <LayoutButtons index="5" Face="LeechingTusks" Type="Passive" Behavior="Frenzy" Row="1" Column="0"/>
             <LayoutButtons index="6" Face="Frenzied2" Type="Passive" Requirements="" Row="1" Column="1"/>
             <LayoutButtons index="7" Face="ChitinousPlating2" Type="Passive" Requirements="UseChitinousPlating" Row="1" Column="2"/>
             <LayoutButtons index="8" Face="BattleCharge" Type="AbilCmd" AbilCmd="BattleCharge,Execute" Row="2" Column="0"/>
@@ -24582,7 +24536,7 @@
                 <Type value="AbilCmd"/>
                 <AbilCmd value="BattleRage,Execute"/>
                 <Behavior value="TorrasqueDontDie"/>
-                <Requirements value="HaveHotSChitinousPlating"/>
+                <Requirements value=""/>
                 <Row value="2"/>
                 <Column value="2"/>
             </LayoutButtons>
@@ -24591,7 +24545,7 @@
                 <Type value="AbilCmd"/>
                 <AbilCmd value="UnleashWrath,Execute"/>
                 <Behavior value="TorrasqueTimerBehavior"/>
-                <Requirements value="HaveTorrasqueTimerBehavior"/>
+                <Requirements value=""/>
                 <Row value="2"/>
                 <Column value="3"/>
             </LayoutButtons>
@@ -24931,6 +24885,7 @@
         <FlagArray index="PreventDestroy" value="1"/>
         <LifeStart value="2100"/>
         <LifeMax value="2100"/>
+        <ShieldsMax value="0"/>
         <LifeArmor value="1"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="0.25"/>
@@ -24959,55 +24914,35 @@
         <BehaviorArray Link="DamageReductionZerg"/>
         <WeaponArray index="0" Link="EnergyBlast2"/>
         <CardLayouts index="0">
-            <LayoutButtons index="5" Face="K5ZerglingRespawn" Type="Passive" AbilCmd="" Row="1" Column="0"/>
-            <LayoutButtons index="6" Face="KerriganVoidFury2" Type="Passive" AbilCmd="" Row="1" Column="1"/>
-            <LayoutButtons index="7" Face="ChainReaction2" Type="Passive" Requirements="" Row="1" Column="2"/>
-            <LayoutButtons index="8" Face="PrimalArmor" Type="Passive" AbilCmd="" Row="1" Column="3"/>
-            <LayoutButtons index="9">
-                <Face value="QueenofBladesLocked"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Requirements value="KerriganLevel15"/>
-                <Row value="1"/>
-                <Column value="4"/>
-            </LayoutButtons>
-            <LayoutButtons index="10" Face="CommanderKerriganKerriganEnergyRegeneration" Type="Passive" Requirements="HaveKerriganVoidCoopEnergyRegen" Row="1" Column="4"/>
-            <LayoutButtons index="11" Face="LeapingStrike" Type="AbilCmd" AbilCmd="PrimalSlash2,Execute" Row="2" Column="0"/>
-            <LayoutButtons index="12">
-                <Face value="MindBolt2"/>
+            <LayoutButtons index="5" Face="LeapingStrike" Type="AbilCmd" AbilCmd="PrimalSlash2,Execute" Row="2" Column="0"/>
+            <LayoutButtons index="6" Face="MindBolt2" Type="AbilCmd" AbilCmd="MindBolt2,Execute" Row="2" Column="1"/>
+            <LayoutButtons index="7">
+                <Face value="BlessingOfZerus"/>
                 <Type value="AbilCmd"/>
-                <AbilCmd value="MindBolt2,Execute"/>
-                <Requirements value=""/>
-                <Row value="2"/>
-                <Column value="1"/>
-            </LayoutButtons>
-            <LayoutButtons index="13">
-                <Face value="PsionicLift32"/>
-                <Type value="AbilCmd"/>
-                <AbilCmd value="PsionicLift32,Execute"/>
-                <Requirements value=""/>
-                <Row value="2"/>
-                <Column value="2"/>
-            </LayoutButtons>
-            <LayoutButtons index="14">
-                <Face value="SpawnBanelings"/>
-                <Type value="AbilCmd"/>
-                <AbilCmd value="SpawnBanelings,Execute"/>
-                <Requirements value=""/>
-                <Row value="2"/>
-                <Column value="2"/>
-            </LayoutButtons>
-            <LayoutButtons index="15" Face="SpawnBanelings" Type="AbilCmd" AbilCmd="SpawnBanelings,Execute" Row="2" Column="2"/>
-            <LayoutButtons index="16" Face="BlessingOfZerus" Type="AbilCmd" AbilCmd="BlessingOfZerus,Execute" Row="2" Column="3"/>
-            <LayoutButtons index="17" Face="Apocalypse" Type="AbilCmd" AbilCmd="Apocalypse,Execute" Row="2" Column="3"/>
-            <LayoutButtons index="18">
-                <Face value="K5DropPods"/>
-                <Type value="AbilCmd"/>
-                <AbilCmd value="K5DropPods,Execute"/>
+                <AbilCmd value="BlessingOfZerus,Execute"/>
                 <Requirements value=""/>
                 <Row value="2"/>
                 <Column value="3"/>
             </LayoutButtons>
+            <LayoutButtons index="8">
+                <Face value="PortableSensor2"/>
+                <Type value="Passive"/>
+                <AbilCmd value=""/>
+                <Behavior value="PortableSensor"/>
+                <Requirements value="UseHeroDetection"/>
+                <Row value="1"/>
+                <Column value="0"/>
+            </LayoutButtons>
+            <LayoutButtons index="9" Face="PsionicLift32" Type="AbilCmd" AbilCmd="PsionicLift32,Execute" Row="2" Column="2"/>
+            <LayoutButtons index="10" Face="ChainReaction2" Type="Passive" Requirements="" Row="1" Column="2"/>
+            <LayoutButtons index="11" Face="KerriganVoidFury2" Type="Passive" AbilCmd="" Row="1" Column="1"/>
+            <LayoutButtons index="12" Face="PrimalArmor" Type="Passive" Requirements="" Row="1" Column="3"/>
+            <LayoutButtons index="13" removed="1"/>
+            <LayoutButtons index="14" removed="1"/>
+            <LayoutButtons index="15" removed="1"/>
+            <LayoutButtons index="16" removed="1"/>
+            <LayoutButtons index="17" removed="1"/>
+            <LayoutButtons index="18" removed="1"/>
             <LayoutButtons index="19" removed="1"/>
             <LayoutButtons index="20" removed="1"/>
             <LayoutButtons index="21" removed="1"/>
@@ -25124,6 +25059,7 @@
             <LayoutButtons Face="ArtilleryTargeting" Type="Passive" Requirements="UseArtilleryTargeting" Row="1" Column="2"/>
             <LayoutButtons Face="RuthlessCrush" Type="Passive" Row="1" Column="1"/>
             <LayoutButtons Face="ResearchSiegeTankSmartServos" Type="Passive" Requirements="UseSiegeTankSmartServos" Row="1" Column="3"/>
+                    <LayoutButtons index="7" removed="1"/>
         </CardLayouts>
         <SubgroupPriority value="200"/>
         <EditorCategories value="ObjectType:Hero,ObjectFamily:Storymode"/>
@@ -25340,8 +25276,8 @@
             <LayoutButtons index="5" Face="Bankruptcy" Type="Passive" AbilCmd="" Row="1" Column="0"/>
             <LayoutButtons index="6">
                 <Face value="MeltingSnowflakes"/>
-                <Type value="AbilCmd"/>
-                <AbilCmd value="BrokenConcentration,Execute"/>
+                <Type value="Passive"/>
+                <AbilCmd value=""/>
                 <Requirements value=""/>
                 <Row value="1"/>
                 <Column value="1"/>
@@ -26674,7 +26610,6 @@
             <LayoutButtons>
                 <Face value="PsiStorm222"/>
                 <Type value="Passive"/>
-                <AbilCmd value=""/>
                 <Behavior value="AntiInfantryNapalm"/>
                 <Requirements value="AntiInfantryNapalm"/>
                 <Row value="1"/>
@@ -26698,14 +26633,7 @@
             </LayoutButtons>
             <LayoutButtons Face="MorphingArmor" Type="Passive" Row="1" Column="0"/>
             <LayoutButtons Face="WarbotPlating" Type="Passive" Row="1" Column="1"/>
-            <LayoutButtons>
-                <Face value="SiegeTankSmartServos"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Requirements value="UseSiegeTankSmartServos"/>
-                <Row value="1"/>
-                <Column value="2"/>
-            </LayoutButtons>
+            <LayoutButtons Face="SiegeTankSmartServos" Type="Passive" Requirements="UseSiegeTankSmartServos" Row="1" Column="2"/>
             <LayoutButtons Face="ArmAllPurposeCannons" Type="AbilCmd" AbilCmd="ARESArmAllPurposeCannons,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="RebelYell22" Type="AbilCmd" AbilCmd="ShreddinLead,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="ArmAntiArmorMissiles" Type="AbilCmd" AbilCmd="ARESArmAntiArmorMissiles,Execute" Row="2" Column="1"/>
@@ -27072,18 +27000,18 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="19720"/>
-        <LifeMax value="19720"/>
+        <LifeStart value="20000"/>
+        <LifeMax value="20000"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="400"/>
-        <ShieldsStart value="46400"/>
-        <ShieldsMax value="46400"/>
+        <ShieldsStart value="46000"/>
+        <ShieldsMax value="46000"/>
         <ShieldArmor value="30"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldRegenDelay value="0"/>
         <ShieldRegenRate value="400"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <Food value="15"/>
         <KillXP value="912"/>
         <AbilArray index="3" Link="HybridMaleficus"/>
@@ -27114,13 +27042,13 @@
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
         <PushPriority value="25"/>
-        <LifeStart value="44370"/>
-        <LifeMax value="44370"/>
+        <LifeStart value="44000"/>
+        <LifeMax value="44000"/>
         <LifeArmor value="40"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="900"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <Food value="15"/>
         <KillXP value="612"/>
         <AbilArray index="3" Link="ConsumeDNA4"/>
@@ -27232,8 +27160,8 @@
     <CUnit id="TempleArchon" parent="Archon">
         <Name value="Unit/Name/TempleArchon"/>
         <Description value="Button/Tooltip/TempleArchon"/>
-        <LifeStart value="6160"/>
-        <LifeMax value="6160"/>
+        <LifeStart value="6200"/>
+        <LifeMax value="6200"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldsStart value="28000"/>
         <ShieldsMax value="28000"/>
@@ -27267,7 +27195,7 @@
         <SeparationRadius value="0.5"/>
         <InnerRadius value="0.5"/>
         <MinimapRadius value="0.5"/>
-        <Speed value="2.75"/>
+        <Speed value="2.5"/>
         <LifeRegenRate value="5"/>
     </CUnit>
     <CUnit id="MasterSpores" parent="MISSILE">
@@ -27439,8 +27367,8 @@
         <Collide index="ForceField" value="0"/>
         <Collide index="Locust" value="0"/>
         <Attributes index="Light" value="1"/>
-        <LifeStart value="19500"/>
-        <LifeMax value="19500"/>
+        <LifeStart value="20000"/>
+        <LifeMax value="20000"/>
         <LifeRegenRate value="500"/>
         <LifeArmorName value=""/>
         <Speed value="2.25"/>
@@ -27486,7 +27414,7 @@
         <LifeArmor value="8"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.75"/>
+        <Speed value="2.25"/>
         <Acceleration value="3.5"/>
         <LateralAcceleration value="3.5"/>
         <KillXP value="22"/>
@@ -27510,8 +27438,8 @@
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
         <LifeRegenRate value="26"/>
         <TacticalAI value="GroundAI"/>
-        <LifeStart value="1342"/>
-        <LifeMax value="1342"/>
+        <LifeStart value="1300"/>
+        <LifeMax value="1300"/>
         <FlagArray index="PreventDestroy" value="0"/>
         <FlagArray index="UseLineOfSight" value="0"/>
         <FlagArray index="AISupport" value="0"/>
@@ -27610,11 +27538,11 @@
             <Charge Link="Guardian2/Revive"/>
             <Cooldown Link="Guardian2/Revive"/>
         </ReviveInfoBase>
-        <LifeStart value="5298"/>
-        <LifeMax value="5298"/>
+        <LifeStart value="5300"/>
+        <LifeMax value="5300"/>
         <LifeArmor value="30"/>
         <LifeRegenRate value="120"/>
-        <Speed value="2.8515"/>
+        <Speed value="2.5"/>
         <BehaviorArray index="2" removed="1"/>
     </CUnit>
     <CUnit id="Overmaster" parent="Overlord">
@@ -27634,7 +27562,7 @@
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="50"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="4"/>
+        <Speed value="2.25"/>
         <KillXP value="2500"/>
         <AbilArray index="2" Link="attack"/>
         <AbilArray index="3" Link="PoisonCloud"/>
@@ -27713,7 +27641,7 @@
         <PushPriority value="50"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <TacticalAI value="GroundAI"/>
-        <Speed value="3"/>
+        <Speed value="2.25"/>
         <VisionHeight value="4"/>
         <Fidget DelayMax="0" DelayMin="0">
             <ChanceArray index="Anim" value="0"/>
@@ -27806,8 +27734,8 @@
     </CUnit>
     <CUnit id="Baneling2" parent="Baneling">
         <Name value="Unit/Name/Baneling2"/>
-        <LifeStart value="132"/>
-        <LifeMax value="132"/>
+        <LifeStart value="130"/>
+        <LifeMax value="130"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <KillXP value="2"/>
@@ -27831,7 +27759,7 @@
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
         <LifeRegenRate value="4"/>
         <TacticalAI value="GroundAI"/>
-        <Speed value="3.1484"/>
+        <Speed value="2.75"/>
         <FlagArray index="PreventDestroy" value="0"/>
         <FlagArray index="AISplash" value="0"/>
         <FlagArray index="AIHighPrioTarget" value="0"/>
@@ -28132,12 +28060,15 @@
         <WeaponArray index="1" removed="1"/>
         <CardLayouts index="0">
             <LayoutButtons index="5" Face="" Type="Undefined" AbilCmd="" Row="0"/>
-            <LayoutButtons index="6" Face="ScytheSwipe" Type="Undefined" AbilCmd="ScytheSwipe,Execute" Row="0" Column="0"/>
-            <LayoutButtons index="7" Face="ConsumeDNA3" Type="AbilCmd" AbilCmd="ConsumeDNAAOE,Execute" Row="0" Column="0"/>
-            <LayoutButtons index="8" Face="InstillFear" Type="Undefined" AbilCmd="InstillFear,Execute" Row="0" Column="2"/>
+            <LayoutButtons index="6" removed="1"/>
+            <LayoutButtons index="7" removed="1"/>
+            <LayoutButtons index="8" removed="1"/>
             <LayoutButtons Face="ScythingLeech" Type="Passive" Row="1" Column="0"/>
             <LayoutButtons Face="StolenEssence" Type="Passive" Row="1" Column="1"/>
             <LayoutButtons Face="PerfectedForm" Type="AbilCmd" AbilCmd="PerfectedForm,Execute" Row="2" Column="3"/>
+            <LayoutButtons Face="ConsumeDNA3" Type="AbilCmd" AbilCmd="ConsumeDNAAOE,Execute" Row="2" Column="0"/>
+            <LayoutButtons Face="ScytheSwipe" Type="AbilCmd" AbilCmd="ScytheSwipe,Execute" Row="2" Column="1"/>
+            <LayoutButtons Face="InstillFear" Type="AbilCmd" AbilCmd="InstillFear,Execute" Row="2" Column="2"/>
         </CardLayouts>
         <Radius value="0.5625"/>
         <InnerRadius value="0.375"/>
@@ -28455,7 +28386,7 @@
         <BehaviorArray Link="DamageReductionTerran"/>
         <WeaponArray index="0" Link="AegisGrenades"/>
         <CardLayouts index="0">
-            <LayoutButtons index="5" Face="AmplifiedConcussiveShells" AbilCmd="255,255" Requirements="" Row="1"/>
+            <LayoutButtons index="5" Face="AmplifiedConcussiveShells" AbilCmd="255,255" Requirements="" Row="1" Column="1"/>
             <LayoutButtons index="6" Face="MercenaryPlating" AbilCmd="" Requirements="" Row="1"/>
             <LayoutButtons Face="ConcussiveGrenade2" Type="AbilCmd" AbilCmd="ConcussiveGrenade,Execute" Row="2" Column="2"/>
             <LayoutButtons Face="MortarStrike" Type="AbilCmd" AbilCmd="MortarStrike,Execute" Row="2" Column="3"/>
@@ -28646,11 +28577,11 @@
         <Attributes index="Structure" value="1"/>
         <Attributes index="Heroic" value="1"/>
         <Attributes index="MapBoss" value="1"/>
-        <LifeStart value="243"/>
-        <LifeMax value="243"/>
+        <LifeStart value="240"/>
+        <LifeMax value="240"/>
         <LifeArmorName value="Unit/LifeArmorName/XelNagaPlating"/>
-        <ShieldsStart value="6480"/>
-        <ShieldsMax value="6480"/>
+        <ShieldsStart value="6500"/>
+        <ShieldsMax value="6500"/>
         <ShieldRegenRate value="10"/>
         <ShieldArmorName value="Unit/ShieldArmorName/XelNagaShields"/>
         <Sight value="22"/>
@@ -29350,8 +29281,8 @@
         <Attributes index="Structure" value="1"/>
         <Attributes index="Heroic" value="1"/>
         <Attributes index="MapBoss" value="1"/>
-        <LifeStart value="40500"/>
-        <LifeMax value="40500"/>
+        <LifeStart value="41000"/>
+        <LifeMax value="41000"/>
         <LifeArmor value="30"/>
         <KillXP value="600"/>
         <AbilArray Link="SoulChannel2"/>
@@ -29432,8 +29363,8 @@
         <ReviveType value="DemonicSpire"/>
         <Facing value="0"/>
         <Attributes index="Heroic" value="1"/>
-        <LifeStart value="10400"/>
-        <LifeMax value="10400"/>
+        <LifeStart value="10000"/>
+        <LifeMax value="10000"/>
         <LifeArmor value="50"/>
         <LifeRegenRate value="200"/>
         <TurningRate value="720"/>
@@ -29489,8 +29420,8 @@
     <CUnit id="SuperSporeCrawler" parent="SporeCrawler">
         <Name value="Unit/Name/SuperSporeCrawler"/>
         <Description value="Button/Tooltip/SuperSporeCrawler"/>
-        <LifeStart value="8320"/>
-        <LifeMax value="8320"/>
+        <LifeStart value="8300"/>
+        <LifeMax value="8300"/>
         <LifeArmor value="80"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
@@ -29532,8 +29463,8 @@
     <CUnit id="SuperSpineCrawler" parent="SpineCrawler">
         <Name value="Unit/Name/SuperSpineCrawler"/>
         <Description value="Button/Tooltip/SuperSpineCrawler"/>
-        <LifeStart value="8320"/>
-        <LifeMax value="8320"/>
+        <LifeStart value="8300"/>
+        <LifeMax value="8300"/>
         <LifeArmor value="80"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
@@ -29571,8 +29502,8 @@
     </CUnit>
     <CUnit id="Tubby" parent="Baneling">
         <Name value="Unit/Name/Tubby"/>
-        <LifeStart value="259"/>
-        <LifeMax value="259"/>
+        <LifeStart value="260"/>
+        <LifeMax value="260"/>
         <LifeArmor value="3"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="7.5"/>
@@ -29600,7 +29531,7 @@
         </CardLayouts>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
         <TacticalAI value="GroundAI"/>
-        <Speed value="3.1484"/>
+        <Speed value="2.75"/>
         <FlagArray index="PreventDestroy" value="0"/>
         <FlagArray index="AISplash" value="0"/>
         <FlagArray index="AIHighPrioTarget" value="0"/>
@@ -29630,7 +29561,7 @@
         <Attributes index="Heroic" value="1"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="0"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="0"/>
-        <Speed value="8"/>
+        <Speed value="3"/>
         <SpeedMultiplierCreep value="1"/>
         <StationaryTurningRate value="719.2968"/>
         <TurningRate value="719.2968"/>
@@ -29676,8 +29607,8 @@
         </ReviveInfoBase>
         <WeaponArray index="0" Link="CreeperExplode"/>
         <KillXP value="24"/>
-        <LifeStart value="1740"/>
-        <LifeMax value="1740"/>
+        <LifeStart value="1700"/>
+        <LifeMax value="1700"/>
         <LifeRegenRate value="15"/>
         <BehaviorArray index="2" removed="1"/>
         <LifeArmor value="10"/>
@@ -29832,7 +29763,7 @@
         <LifeRegenRate value="150"/>
         <PushPriority value="50"/>
         <TacticalAI value="GroundAI"/>
-        <Speed value="3"/>
+        <Speed value="2.25"/>
         <VisionHeight value="4"/>
         <Fidget DelayMax="0" DelayMin="0"/>
         <Food value="100"/>
@@ -29856,14 +29787,14 @@
         <FlagArray index="CameraFollow" value="0"/>
         <Collide index="Ground" value="1"/>
         <Collide index="Colossus" value="0"/>
-        <LifeStart value="7963"/>
-        <LifeMax value="7963"/>
+        <LifeStart value="8000"/>
+        <LifeMax value="8000"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="180"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorName value=""/>
-        <Speed value="2.8515"/>
+        <Speed value="2.5"/>
         <SpeedMultiplierCreep value="1"/>
         <Food value="1"/>
         <CostResource index="Minerals" value="0"/>
@@ -29900,13 +29831,13 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="1398"/>
-        <LifeMax value="1398"/>
+        <LifeStart value="1400"/>
+        <LifeMax value="1400"/>
         <LifeArmor value="12"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="27"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <Food value="1"/>
         <KillXP value="22"/>
         <AbilArray index="3" removed="1"/>
@@ -30483,8 +30414,8 @@
         <Attributes index="Light" value="1"/>
         <Attributes index="Biological" value="1"/>
         <Attributes index="Structure" value="1"/>
-        <LifeStart value="756"/>
-        <LifeMax value="756"/>
+        <LifeStart value="760"/>
+        <LifeMax value="760"/>
         <LifeArmor value="10"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeArmorName value="Unit/LifeArmorName/TerranBuildingPlating"/>
@@ -30643,7 +30574,7 @@
         <Sight value="32"/>
         <SightBonus index="Dawn" value="32"/>
         <SightBonus index="Dusk" value="32"/>
-        <Speed value="3"/>
+        <Speed value="2.25"/>
         <FlagArray index="Untooltipable" value="0"/>
         <FlagArray index="PreventDestroy" value="0"/>
         <FlagArray index="UseLineOfSight" value="0"/>
@@ -30658,8 +30589,8 @@
     <CUnit id="Corruptor2" parent="Corruptor">
         <Name value="Unit/Name/Corruptor2"/>
         <Description value="Button/Tooltip/Corruptor2"/>
-        <LifeStart value="4648"/>
-        <LifeMax value="4648"/>
+        <LifeStart value="4600"/>
+        <LifeMax value="4600"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <EnergyMax value="200"/>
@@ -30682,7 +30613,7 @@
         </CardLayouts>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
         <EnergyStart value="200"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <LifeRegenRate value="80"/>
         <TacticalAI value="GroundAI"/>
         <FlagArray index="PreventDestroy" value="0"/>
@@ -30734,13 +30665,13 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="4095"/>
-        <LifeMax value="4095"/>
+        <LifeStart value="4100"/>
+        <LifeMax value="4100"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="70"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <Food value="1"/>
         <CostResource index="Minerals" value="0"/>
         <CostResource index="Vespene" value="0"/>
@@ -30766,7 +30697,7 @@
         <EnergyStart value="0"/>
         <EnergyMax value="0"/>
         <EnergyRegenRate value="0"/>
-        <Speed value="2.8515"/>
+        <Speed value="2.5"/>
         <Acceleration value="3.5"/>
         <StationaryTurningRate value="539.4726"/>
         <TurningRate value="539.4726"/>
@@ -30805,10 +30736,11 @@
             <LayoutButtons index="5" removed="1"/>
             <LayoutButtons index="6" removed="1"/>
         </CardLayouts>
-        <LifeMax value="3543"/>
-        <LifeStart value="3543"/>
+        <LifeMax value="3500"/>
+        <LifeStart value="3500"/>
     </CUnit>
     <CUnit id="HybridMaar" parent="Maar">
+        <Speed value="2.5"/>
         <Name value="Unit/Name/HybridMaar"/>
         <Description value="Button/Tooltip/HybridMaar"/>
         <ReviveType value="HybridMaar"/>
@@ -30881,13 +30813,13 @@
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
         <Attributes index="Heroic" value="1"/>
-        <LifeStart value="5818"/>
-        <LifeMax value="5818"/>
+        <LifeStart value="5800"/>
+        <LifeMax value="5800"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="100"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <CostResource index="Minerals" value="0"/>
         <CostResource index="Vespene" value="0"/>
         <KillXP value="90"/>
@@ -30907,8 +30839,8 @@
     <CUnit id="Brutalisk2" parent="Brutalisk">
         <Name value="Unit/Name/Brutalisk2"/>
         <Description value="Button/Tooltip/Brutalisk2"/>
-        <LifeStart value="97760"/>
-        <LifeMax value="97760"/>
+        <LifeStart value="98000"/>
+        <LifeMax value="98000"/>
         <LifeArmor value="25"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeArmorName value="Unit/LifeArmorName/ZergBrutalisk2Armor"/>
@@ -30971,8 +30903,8 @@
         <Attributes index="Armored" value="0"/>
         <Attributes index="Psionic" value="1"/>
         <Attributes index="Massive" value="0"/>
-        <LifeStart value="29380"/>
-        <LifeMax value="29380"/>
+        <LifeStart value="29000"/>
+        <LifeMax value="29000"/>
         <LifeArmor value="5"/>
         <LifeRegenRate value="325"/>
         <LifeArmorName value="Unit/LifeArmorName/ZergGroundArmor"/>
@@ -31100,7 +31032,7 @@
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <Mover value="Colossus"/>
-        <Speed value="2.8085"/>
+        <Speed value="1.5"/>
         <SpeedMultiplierCreep value="1.3"/>
         <KillXP value="2500"/>
         <AbilArray index="3" Link="DoubleStrike"/>
@@ -31279,10 +31211,6 @@
         <Name value="Unit/Name/CelestialKerrigan"/>
         <Description value="Button/Tooltip/CelestialKerrigan"/>
         <ReviveType value="CelestialKerrigan"/>
-        <LifeStart value="500000"/>
-        <LifeMax value="500000"/>
-        <ShieldsStart value="500000"/>
-        <ShieldsMax value="500000"/>
         <FlagArray index="UseLineOfSight" value="1"/>
         <FlagArray index="Unstoppable" value="0"/>
         <FlagArray index="ArmySelect" value="1"/>
@@ -31447,7 +31375,7 @@
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="300"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="1.8515"/>
+        <Speed value="1.5"/>
         <KillXP value="2500"/>
         <AbilArray index="1" Link="attack"/>
         <AbilArray index="2" Link="move"/>
@@ -31491,7 +31419,7 @@
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="3"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="1.6015"/>
+        <Speed value="1.5"/>
         <KillXP value="2"/>
         <AbilArray index="1" Link="attack"/>
         <AbilArray index="2" Link="move"/>
@@ -31528,7 +31456,7 @@
         <LifeArmor value="5"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="1.6015"/>
+        <Speed value="1.5"/>
         <StationaryTurningRate value="720"/>
         <CostResource index="Minerals" value="13"/>
         <CostResource index="Vespene" value="0"/>
@@ -31569,8 +31497,8 @@
         <Name value="Unit/Name/InfestedStealthMarine"/>
         <Description value="Button/Tooltip/InfestedStealthMarine"/>
         <Collide index="Structure" value="1"/>
-        <LifeStart value="156"/>
-        <LifeMax value="156"/>
+        <LifeStart value="160"/>
+        <LifeMax value="160"/>
         <LifeArmor value="1"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="3"/>
@@ -31600,8 +31528,8 @@
         <Name value="Unit/Name/InfestedCaptain"/>
         <Description value="Button/Tooltip/InfestedCaptain"/>
         <Collide index="Structure" value="1"/>
-        <LifeStart value="151"/>
-        <LifeMax value="151"/>
+        <LifeStart value="150"/>
+        <LifeMax value="150"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <AbilArray index="1" Link="attack"/>
@@ -31615,7 +31543,7 @@
         </CardLayouts>
         <LifeArmor value="2"/>
         <LifeRegenRate value="5"/>
-        <Speed value="1.6015"/>
+        <Speed value="1.5"/>
         <KillXP value="3"/>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
         <TacticalAI value="GroundAI"/>
@@ -31719,8 +31647,8 @@
     </CUnit>
     <CUnit id="Mutalisk2" parent="Mutalisk">
         <Name value="Unit/Name/Mutalisk2"/>
-        <LifeStart value="1037"/>
-        <LifeMax value="1037"/>
+        <LifeStart value="1000"/>
+        <LifeMax value="1000"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <KillXP value="17"/>
@@ -31737,7 +31665,7 @@
         <CostResource index="Minerals" value="0"/>
         <CostResource index="Vespene" value="0"/>
         <LifeRegenRate value="20"/>
-        <Speed value="2.75"/>
+        <Speed value="2.25"/>
         <LifeArmor value="4"/>
         <TacticalAI value="GroundAI"/>
         <FlagArray index="PreventDestroy" value="0"/>
@@ -31858,12 +31786,12 @@
     <CUnit id="Rabidling" parent="Zergling">
         <Name value="Unit/Name/Rabidling"/>
         <Description value="Button/Tooltip/Rabidling"/>
-        <LifeStart value="4160"/>
-        <LifeMax value="4160"/>
+        <LifeStart value="4200"/>
+        <LifeMax value="4200"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="80"/>
-        <Speed value="3"/>
+        <Speed value="2.25"/>
         <CostResource index="Minerals" value="0"/>
         <KillXP value="64"/>
         <AbilArray index="3" removed="1"/>
@@ -31910,8 +31838,8 @@
         <Collide index="ForceField" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Biological" value="1"/>
-        <LifeStart value="1820"/>
-        <LifeMax value="1820"/>
+        <LifeStart value="1800"/>
+        <LifeMax value="1800"/>
         <LifeArmor value="5"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="6"/>
@@ -32045,8 +31973,8 @@
     <CUnit id="Hydralisk3" parent="Hydralisk">
         <Name value="Unit/Name/Hydralisk3"/>
         <Description value="Button/Tooltip/Hydralisk3"/>
-        <LifeStart value="976"/>
-        <LifeMax value="976"/>
+        <LifeStart value="980"/>
+        <LifeMax value="980"/>
         <LifeArmor value="3"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
@@ -32066,7 +31994,7 @@
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
         <LifeRegenRate value="18"/>
         <TacticalAI value="GroundAI"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <FlagArray index="PreventDestroy" value="0"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
@@ -32083,8 +32011,8 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="423"/>
-        <LifeMax value="423"/>
+        <LifeStart value="420"/>
+        <LifeMax value="420"/>
         <LifeArmor value="3"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="8"/>
@@ -32134,13 +32062,13 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="4680"/>
-        <LifeMax value="4680"/>
+        <LifeStart value="4700"/>
+        <LifeMax value="4700"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="90"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.1523"/>
+        <Speed value="2.25"/>
         <Food value="1"/>
         <KillXP value="72"/>
         <AbilArray index="3" removed="1"/>
@@ -32171,8 +32099,8 @@
         <Name value="Unit/Name/HybridReaver2"/>
         <Description value="Button/Tooltip/HybridReaver2"/>
         <Race value="Zerg"/>
-        <LifeStart value="12398"/>
-        <LifeMax value="12398"/>
+        <LifeStart value="12000"/>
+        <LifeMax value="12000"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="250"/>
@@ -32193,7 +32121,7 @@
         <Radius value="0.5"/>
         <InnerRadius value="0.5"/>
         <PushPriority value="25"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <TacticalAI value="GroundAI"/>
         <AbilArray index="3" Link="ConsumeDNA4"/>
         <FlagArray index="ShowResources" value="0"/>
@@ -32205,13 +32133,13 @@
     </CUnit>
     <CUnit id="HunterKillerHydralisk" parent="HunterKiller">
         <Name value="Unit/Name/HunterKillerHydralisk"/>
-        <LifeStart value="1235"/>
-        <LifeMax value="1235"/>
+        <LifeStart value="1200"/>
+        <LifeMax value="1200"/>
         <LifeArmor value="10"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="24"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.1523"/>
+        <Speed value="2.25"/>
         <KillXP value="19"/>
         <AbilArray index="3" removed="1"/>
         <BehaviorArray Link="BlankStats"/>
@@ -32233,12 +32161,12 @@
     <CUnit id="HybridDestroyer2" parent="HybridDestroyer">
         <Name value="Unit/Name/HybridDestroyer2"/>
         <Race value="Zerg"/>
-        <LifeStart value="5909"/>
-        <LifeMax value="5909"/>
+        <LifeStart value="5900"/>
+        <LifeMax value="5900"/>
         <LifeArmor value="20"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <ShieldsStart value="13920"/>
-        <ShieldsMax value="13920"/>
+        <ShieldsStart value="14000"/>
+        <ShieldsMax value="14000"/>
         <ShieldArmor value="20"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <KillXP value="274"/>
@@ -32253,7 +32181,7 @@
         <InnerRadius value="0.5"/>
         <LifeRegenRate value="120"/>
         <ShieldRegenRate value="120"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <TacticalAI value="GroundAI"/>
         <AbilArray index="3" Link="PlasmaSeeker"/>
         <CardLayouts index="0">
@@ -32279,18 +32207,18 @@
         <Collide index="ForceField" value="0"/>
         <Collide index="Small" value="0"/>
         <Collide index="Flying" value="1"/>
-        <LifeStart value="17255"/>
-        <LifeMax value="17255"/>
+        <LifeStart value="17000"/>
+        <LifeMax value="17000"/>
         <LifeArmor value="30"/>
         <LifeRegenRate value="350"/>
-        <ShieldsStart value="40600"/>
-        <ShieldsMax value="40600"/>
+        <ShieldsStart value="41000"/>
+        <ShieldsMax value="41000"/>
         <ShieldArmor value="30"/>
         <ShieldRegenDelay value="10"/>
         <ShieldRegenRate value="350"/>
         <ShieldArmorName value="Unit/ShieldArmorName/HybridChallengerShields"/>
         <Mover value="Fly"/>
-        <Speed value="2.7968"/>
+        <Speed value="2.25"/>
         <SpeedMultiplierCreep value="1.2221"/>
         <Acceleration value="4.0625"/>
         <StationaryTurningRate value="360"/>
@@ -32344,17 +32272,17 @@
         <Collide index="ForceField" value="0"/>
         <Collide index="Small" value="0"/>
         <Collide index="Flying" value="1"/>
-        <LifeStart value="4930"/>
-        <LifeMax value="4930"/>
+        <LifeStart value="4900"/>
+        <LifeMax value="4900"/>
         <LifeArmor value="30"/>
         <LifeRegenRate value="100"/>
-        <ShieldsStart value="11600"/>
-        <ShieldsMax value="11600"/>
+        <ShieldsStart value="12000"/>
+        <ShieldsMax value="12000"/>
         <ShieldArmor value="30"/>
         <ShieldRegenRate value="100"/>
         <ShieldArmorName value="Unit/ShieldArmorName/HybridNemesis2Shields"/>
         <Mover value="Fly"/>
-        <Speed value="2.7968"/>
+        <Speed value="2.25"/>
         <SpeedMultiplierCreep value="1.2221"/>
         <Acceleration value="4.0625"/>
         <StationaryTurningRate value="360"/>
@@ -32398,11 +32326,11 @@
         <Name value="Unit/Name/InfestedCivilian2"/>
         <Description value="Button/Tooltip/InfestedCivilian2"/>
         <Collide index="Structure" value="1"/>
-        <LifeStart value="34"/>
-        <LifeMax value="34"/>
+        <LifeStart value="35"/>
+        <LifeMax value="35"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="1.6015"/>
+        <Speed value="1.5"/>
         <SpeedMultiplierCreep value="1.3"/>
         <BehaviorArray Link="BlankStats"/>
         <BehaviorArray Link="DifficultyManager"/>
@@ -32429,8 +32357,8 @@
         <Name value="Unit/Name/InfestedExploder2"/>
         <Description value="Button/Tooltip/InfestedExploder2"/>
         <ReviveType value="InfestedExploder2"/>
-        <LifeStart value="104"/>
-        <LifeMax value="104"/>
+        <LifeStart value="100"/>
+        <LifeMax value="100"/>
         <LifeRegenRate value="2"/>
         <KillXP value="2"/>
         <WeaponArray index="0" Link="VolatileExplode"/>
@@ -32515,7 +32443,7 @@
         <EnergyRegenRate value="0"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorName value="Queen Shield"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <Sight value="32"/>
         <VisionHeight value="4"/>
         <Food value="100"/>
@@ -32576,7 +32504,7 @@
         <CardLayouts index="0">
             <LayoutButtons index="5" removed="1"/>
         </CardLayouts>
-        <Speed value="1.6015"/>
+        <Speed value="1.5"/>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
         <KillXP value="1"/>
         <LifeRegenRate value="1.5"/>
@@ -32592,8 +32520,8 @@
     <CUnit id="InfestedSergeant" parent="InfestedMarine">
         <Name value="Unit/Name/InfestedSergeant"/>
         <Description value="Button/Tooltip/InfestedSergeant"/>
-        <LifeStart value="156"/>
-        <LifeMax value="156"/>
+        <LifeStart value="160"/>
+        <LifeMax value="160"/>
         <LifeRegenRate value="3"/>
         <KillXP value="2"/>
         <WeaponArray index="0" Link="InfestedRifle3"/>
@@ -32629,7 +32557,7 @@
         <LifeArmor value="45"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="4"/>
+        <Speed value="2.25"/>
         <SpeedMultiplierCreep value="1.3"/>
         <AbilArray index="3" Link="Cleave2"/>
         <AbilArray index="4" removed="1"/>
@@ -32676,6 +32604,7 @@
         <MinimapRadius value="0"/>
     </CUnit>
     <CUnit id="Defiler2" parent="Stank2">
+        <Speed value="2.5"/>
         <Name value="Unit/Name/Defiler2"/>
         <Description value="Button/Tooltip/Defiler2"/>
         <ReviveType value="Defiler2"/>
@@ -32770,6 +32699,7 @@
             <LayoutButtons index="6" Face="EvolvedDefiler" Requirements="AceBehaviorRequirement" Row="1"/>
             <LayoutButtons index="8" Face="DefilerMPPlague2" Type="AbilCmd" AbilCmd="DefilerMPPlague2,Execute" Row="2" Column="0"/>
             <LayoutButtons index="9" Face="Defiled" Type="AbilCmd" AbilCmd="Enchantment2,Execute" Row="2" Column="1"/>
+                    <LayoutButtons index="10" removed="1"/>
         </CardLayouts>
         <ScoreResult value=""/>
         <SubgroupPriority value="0"/>
@@ -32961,7 +32891,7 @@
         <GlossaryCategory value="Unit/Category/HybridViperUnits"/>
         <PushPriority value="50"/>
         <TacticalAI value="GroundAI"/>
-        <Speed value="3"/>
+        <Speed value="2.25"/>
         <Attributes index="MapBoss" value="1"/>
         <VisionHeight value="4"/>
         <Fidget DelayMax="0" DelayMin="0"/>
@@ -33066,13 +32996,13 @@
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="PlayerRevivable" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="7280"/>
-        <LifeMax value="7280"/>
+        <LifeStart value="7300"/>
+        <LifeMax value="7300"/>
         <LifeArmor value="40"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="160"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.1523"/>
+        <Speed value="2.25"/>
         <KillXP value="112"/>
         <AbilArray index="3" Link="PsiStorm322"/>
         <AbilArray index="4" removed="1"/>
@@ -33138,7 +33068,7 @@
         <EditorCategories value="ObjectType:Hero,ObjectFamily:Storymode"/>
         <PushPriority value="50"/>
         <TacticalAI value="GroundAI"/>
-        <Speed value="3"/>
+        <Speed value="2.25"/>
         <VisionHeight value="4"/>
         <Fidget DelayMax="0" DelayMin="0">
             <ChanceArray index="Anim" value="0"/>
@@ -33395,7 +33325,7 @@
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="1000"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <KillXP value="2500"/>
         <AbilArray index="3" Link="NinjaBlink"/>
         <AbilArray index="4" removed="1"/>
@@ -33436,8 +33366,8 @@
         <Name value="Unit/Name/Omegalisk2"/>
         <Description value="Button/Tooltip/Omegalisk2"/>
         <Attributes index="Heroic" value="1"/>
-        <LifeStart value="10400"/>
-        <LifeMax value="10400"/>
+        <LifeStart value="10000"/>
+        <LifeMax value="10000"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
@@ -33461,7 +33391,7 @@
         <LifeRegenRate value="200"/>
         <Radius value="1"/>
         <TacticalAI value="GroundAI"/>
-        <Speed value="3"/>
+        <Speed value="2.25"/>
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
@@ -33495,8 +33425,8 @@
             <LayoutButtons index="8" removed="1"/>
             <LayoutButtons index="9" removed="1"/>
         </CardLayouts>
-        <LifeStart value="1220"/>
-        <LifeMax value="1220"/>
+        <LifeStart value="1200"/>
+        <LifeMax value="1200"/>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
         <TacticalAI value="GroundAI"/>
         <FlagArray index="PreventDestroy" value="0"/>
@@ -33527,7 +33457,7 @@
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="1000"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <KillXP value="2500"/>
         <AbilArray index="3" Link="MiserableShot"/>
         <BehaviorArray index="0" Link="BlankStats"/>
@@ -33582,8 +33512,8 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
         <PushPriority value="10"/>
-        <LifeStart value="5883"/>
-        <LifeMax value="5883"/>
+        <LifeStart value="5900"/>
+        <LifeMax value="5900"/>
         <LifeRegenRate value="20"/>
         <Speed value="3.5"/>
         <SpeedMultiplierCreep value="1"/>
@@ -33671,15 +33601,15 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="4160"/>
-        <LifeMax value="4160"/>
+        <LifeStart value="4200"/>
+        <LifeMax value="4200"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="80"/>
         <EnergyStart value="0"/>
         <EnergyRegenRate value="0"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.1523"/>
+        <Speed value="2.25"/>
         <Food value="1"/>
         <KillXP value="64"/>
         <AbilArray index="3" Link="TransfusionEnemy"/>
@@ -33720,8 +33650,8 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="1560"/>
-        <LifeMax value="1560"/>
+        <LifeStart value="1600"/>
+        <LifeMax value="1600"/>
         <LifeArmor value="8"/>
         <LifeRegenRate value="30"/>
         <KillXP value="24"/>
@@ -33753,8 +33683,8 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="1658"/>
-        <LifeMax value="1658"/>
+        <LifeStart value="1700"/>
+        <LifeMax value="1700"/>
         <LifeArmor value="8"/>
         <LifeRegenRate value="32"/>
         <KillXP value="26"/>
@@ -33786,8 +33716,8 @@
         <FlagArray index="ShowResources" value="0"/>
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="5265"/>
-        <LifeMax value="5265"/>
+        <LifeStart value="5300"/>
+        <LifeMax value="5300"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
@@ -33806,7 +33736,7 @@
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
         <EnergyStart value="0"/>
         <EnergyMax value="0"/>
-        <Speed value="2.5"/>
+        <Speed value="2.25"/>
         <LifeRegenRate value="90"/>
         <TacticalAI value="GroundAI"/>
         <Description value="Button/Tooltip/Overseer3"/>
@@ -33997,14 +33927,7 @@
             <LayoutButtons index="5" Face="EvolvedGuardian" Requirements="AceBehaviorRequirement" Row="1"/>
             <LayoutButtons index="6" Face="GuardianGift" Type="Passive" Row="1" Column="1"/>
             <LayoutButtons index="7" Face="GuardingFever" Type="Passive" Requirements="" Row="1" Column="2"/>
-            <LayoutButtons>
-                <Face value="GuardianCarapace"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Requirements value="UseGuardianCarapace"/>
-                <Row value="1"/>
-                <Column value="3"/>
-            </LayoutButtons>
+            <LayoutButtons Face="GuardianCarapace" Type="Passive" Requirements="UseGuardianCarapace" Row="1" Column="3"/>
             <LayoutButtons Face="AceInvulnerabilityOn" Type="AbilCmd" AbilCmd="AceInvulnerability,On" Row="1" Column="4"/>
             <LayoutButtons Face="AceInvulnerabilityOff" Type="AbilCmd" AbilCmd="AceInvulnerability,Off" Row="1" Column="4"/>
         </CardLayouts>
@@ -34169,7 +34092,6 @@
             <LayoutButtons index="7">
                 <Face value="CustomRifle"/>
                 <Type value="Passive"/>
-                <AbilCmd value=""/>
                 <Behavior value="UpgradedMarine"/>
                 <Requirements value="UseCustomRifle"/>
                 <Row value="1"/>
@@ -34241,7 +34163,6 @@
                 <Face value="SuperMurlocMarine"/>
                 <Type value="Passive"/>
                 <AbilCmd value=""/>
-                <Behavior value="UpgradedMarine"/>
                 <Requirements value="AceBehaviorRequirement"/>
                 <Row value="1"/>
             </LayoutButtons>
@@ -34250,7 +34171,6 @@
                 <Face value="RattleSpray"/>
                 <Type value="AbilCmd"/>
                 <AbilCmd value="RattleSpray,Execute"/>
-                <Behavior value="UpgradedMarine"/>
                 <Requirements value=""/>
                 <Row value="2"/>
                 <Column value="0"/>
@@ -34452,8 +34372,8 @@
         <LifeArmor value="20"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="20"/>
-        <ShieldsStart value="2240"/>
-        <ShieldsMax value="2240"/>
+        <ShieldsStart value="2200"/>
+        <ShieldsMax value="2200"/>
         <ShieldArmor value="20"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldRegenDelay value="5"/>
@@ -34475,18 +34395,18 @@
         </CardLayouts>
         <EditorCategories value="ObjectFamily:Campaign,ObjectType:Unit"/>
         <TacticalAI value="GroundAI"/>
-        <LifeStart value="2450"/>
-        <LifeMax value="2450"/>
+        <LifeStart value="2500"/>
+        <LifeMax value="2500"/>
         <FlagArray index="PreventDestroy" value="0"/>
         <Radius value="0.5"/>
         <PushPriority value="15"/>
-        <Speed value="2.75"/>
+        <Speed value="2.5"/>
         <SeparationRadius value="0.5"/>
     </CUnit>
     <CUnit id="Ultralisk4" parent="Ultralisk">
         <Name value="Unit/Name/Ultralisk4"/>
-        <LifeStart value="6240"/>
-        <LifeMax value="6240"/>
+        <LifeStart value="6200"/>
+        <LifeMax value="6200"/>
         <LifeArmor value="30"/>
         <LifeRegenRate value="120"/>
         <CostResource index="Minerals" value="0"/>
@@ -34510,7 +34430,7 @@
         <KillXP value="96"/>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
         <TacticalAI value="GroundAI"/>
-        <Speed value="3"/>
+        <Speed value="2.25"/>
         <FlagArray index="PreventDestroy" value="0"/>
         <FlagArray index="TurnBeforeMove" value="0"/>
         <FlagArray index="AISplash" value="0"/>
@@ -35203,12 +35123,12 @@
         <Name value="Unit/Name/InfestedGiant"/>
         <Description value="Button/Tooltip/InfestedGiant"/>
         <Collide index="Structure" value="1"/>
-        <LifeStart value="224"/>
-        <LifeMax value="224"/>
+        <LifeStart value="220"/>
+        <LifeMax value="220"/>
         <LifeArmor value="3"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="1.6015"/>
+        <Speed value="1.5"/>
         <SpeedMultiplierCreep value="1.3"/>
         <KillXP value="4"/>
         <AbilArray index="3" removed="1"/>
@@ -35613,8 +35533,8 @@
     <CUnit id="HorridRoach" parent="Roach">
         <Name value="Unit/Name/HorridRoach"/>
         <Description value="Button/Tooltip/HorridRoach"/>
-        <LifeStart value="1586"/>
-        <LifeMax value="1586"/>
+        <LifeStart value="1600"/>
+        <LifeMax value="1600"/>
         <LifeArmor value="10"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
@@ -35698,12 +35618,12 @@
         <Description value="Button/Tooltip/TempleScytheWielder"/>
         <FlagArray index="PreventDestroy" value="0"/>
         <FlagArray index="Cloaked" value="0"/>
-        <LifeStart value="1855"/>
-        <LifeMax value="1855"/>
+        <LifeStart value="1900"/>
+        <LifeMax value="1900"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="15"/>
-        <ShieldsStart value="1680"/>
-        <ShieldsMax value="1680"/>
+        <ShieldsStart value="1700"/>
+        <ShieldsMax value="1700"/>
         <ShieldArmor value="20"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldRegenDelay value="5"/>
@@ -35727,7 +35647,7 @@
         <TacticalAI value="GroundAI"/>
         <LifeArmor value="20"/>
         <Food value="1"/>
-        <Speed value="2.75"/>
+        <Speed value="2.5"/>
     </CUnit>
     <CUnit id="USwarmHost" parent="SwarmHostMP">
         <Name value="Unit/Name/USwarmHost"/>
@@ -35746,14 +35666,7 @@
         <CardLayouts index="0">
             <LayoutButtons index="6" Face="BurrowNest" AbilCmd="BurrowSwarmHost,Execute"/>
             <LayoutButtons index="7" Face="SwarmHost2" AbilCmd="SwarmHostSpawnLocusts2,Execute"/>
-            <LayoutButtons>
-                <Face value="RapidIncubation2"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Requirements value="UseRapidIncubation"/>
-                <Row value="1"/>
-                <Column value="1"/>
-            </LayoutButtons>
+            <LayoutButtons Face="RapidIncubation2" Type="Passive" Requirements="UseRapidIncubation" Row="1" Column="1"/>
             <LayoutButtons Face="EvolvedSwarmHost" Type="Passive" Requirements="AceBehaviorRequirement" Row="1" Column="0"/>
         </CardLayouts>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
@@ -35765,11 +35678,11 @@
     <CUnit id="TempleGate" parent="WarpGate">
         <Name value="Unit/Name/TempleGate"/>
         <Description value="Button/Tooltip/TempleGate"/>
-        <LifeStart value="2025"/>
-        <LifeMax value="2025"/>
+        <LifeStart value="2000"/>
+        <LifeMax value="2000"/>
         <LifeArmor value="40"/>
-        <ShieldsStart value="3240"/>
-        <ShieldsMax value="3240"/>
+        <ShieldsStart value="3200"/>
+        <ShieldsMax value="3200"/>
         <ShieldArmor value="40"/>
         <ShieldRegenRate value="30"/>
         <CostResource index="Minerals" value="0"/>
@@ -35802,14 +35715,14 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="1040"/>
-        <LifeMax value="1040"/>
+        <LifeStart value="1000"/>
+        <LifeMax value="1000"/>
         <LifeArmor value="10"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="20"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorName value=""/>
-        <Speed value="2.1523"/>
+        <Speed value="2.25"/>
         <KillXP value="16"/>
         <BehaviorArray index="0" Link="BlankStats"/>
         <BehaviorArray Link="DifficultyManager"/>
@@ -35978,13 +35891,13 @@
     <CUnit id="Abomination" parent="InfestedAbomination">
         <Name value="Unit/Name/Abomination"/>
         <Description value="Button/Tooltip/Abomination"/>
-        <LifeStart value="10400"/>
-        <LifeMax value="10400"/>
+        <LifeStart value="10000"/>
+        <LifeMax value="10000"/>
         <LifeArmor value="40"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="200"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.1523"/>
+        <Speed value="2.25"/>
         <KillXP value="160"/>
         <AbilArray index="3" removed="1"/>
         <BehaviorArray Link="BlankStats"/>
@@ -36394,13 +36307,13 @@
     <CUnit id="TempleTurret" parent="PhotonCannon">
         <Name value="Unit/Name/TempleTurret"/>
         <Description value="Button/Tooltip/TempleTurret"/>
-        <LifeStart value="3038"/>
-        <LifeMax value="3038"/>
+        <LifeStart value="3000"/>
+        <LifeMax value="3000"/>
         <LifeArmor value="15"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="15"/>
-        <ShieldsStart value="4860"/>
-        <ShieldsMax value="4860"/>
+        <ShieldsStart value="4900"/>
+        <ShieldsMax value="4900"/>
         <ShieldArmor value="15"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldRegenRate value="15"/>
@@ -36794,7 +36707,7 @@
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="2.1523"/>
+        <Speed value="2.25"/>
         <KillXP value="80"/>
         <BehaviorArray index="0" Link="BlankStats"/>
         <BehaviorArray Link="DifficultyManager"/>
@@ -37011,14 +36924,7 @@
                 <Column value="0"/>
             </LayoutButtons>
             <LayoutButtons Face="Teleport" Type="AbilCmd" AbilCmd="Teleport,Execute" Row="2" Column="1"/>
-            <LayoutButtons>
-                <Face value="AttackWorkerProbe"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Requirements value="UseAttackWorker"/>
-                <Row value="1"/>
-                <Column value="1"/>
-            </LayoutButtons>
+            <LayoutButtons Face="AttackWorkerProbe" Type="Passive" Requirements="UseAttackWorker" Row="1" Column="1"/>
             <LayoutButtons Face="SpectreWeaponsFree" Type="AbilCmd" AbilCmd="GhostWeaponsFree,Execute" Row="1" Column="2"/>
             <LayoutButtons Face="HoldFire" Type="AbilCmd" AbilCmd="GhostHoldFire,Execute" Row="1" Column="3"/>
             <LayoutButtons Face="AceInvulnerabilityOn" Type="AbilCmd" AbilCmd="AceInvulnerability,On" Row="1" Column="4"/>
@@ -37566,7 +37472,7 @@
                 <Row value="2"/>
                 <Column value="4"/>
             </LayoutButtons>
-            <LayoutButtons index="8" Face="RepairCapabilities" Type="Passive" AbilCmd="" SubmenuCardId="" Row="1"/>
+            <LayoutButtons index="8" Face="RepairCapabilities" Type="Passive" SubmenuCardId="" Row="1"/>
             <LayoutButtons index="9" Face="Cancel" Type="AbilCmd" AbilCmd="BuildSCV,Halt" SubmenuCardId="" Column="4"/>
             <LayoutButtons index="10" Face="AcquireMove" AbilCmd="attack,Towards" Row="0"/>
             <LayoutButtons index="12">
@@ -37740,8 +37646,8 @@
         <Description value="Button/Tooltip/Drone22"/>
         <FlagArray index="Worker" value="1"/>
         <FlagArray index="ArmySelect" value="0"/>
-        <LifeStart value="1040"/>
-        <LifeMax value="1040"/>
+        <LifeStart value="1000"/>
+        <LifeMax value="1000"/>
         <LifeRegenRate value="20"/>
         <Food value="2"/>
         <CostResource index="Minerals" value="0"/>
@@ -38100,7 +38006,7 @@
             <LayoutButtons index="1">
                 <Face value="HeroUpgrades"/>
                 <Type value="Submenu"/>
-                <AbilCmd value="HeroGrid,Research1"/>
+                <AbilCmd value="Upgrades,Research1"/>
                 <Requirements value="HARDCORE"/>
                 <SubmenuCardId value="0002"/>
                 <SubmenuIsSticky value="1"/>
@@ -38632,7 +38538,7 @@
             <LayoutButtons index="1">
                 <Face value="HeroUpgrades"/>
                 <Type value="Submenu"/>
-                <AbilCmd value="HeroGrid,Research1"/>
+                <AbilCmd value="Upgrades,Research1"/>
                 <Requirements value="HARDCORE"/>
                 <SubmenuCardId value="0002"/>
                 <SubmenuIsSticky value="1"/>
@@ -39013,7 +38919,7 @@
             <LayoutButtons index="1">
                 <Face value="HeroUpgrades"/>
                 <Type value="Submenu"/>
-                <AbilCmd value="HeroGrid,Research1"/>
+                <AbilCmd value="Upgrades,Research1"/>
                 <Requirements value="HARDCORE"/>
                 <SubmenuCardId value="0002"/>
                 <SubmenuIsSticky value="1"/>
@@ -39586,8 +39492,8 @@
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <EnergyStart value="400"/>
         <EnergyMax value="400"/>
-        <ShieldsStart value="1890"/>
-        <ShieldsMax value="1890"/>
+        <ShieldsStart value="1900"/>
+        <ShieldsMax value="1900"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldRegenRate value="17"/>
         <CostResource index="Minerals" value="1500"/>
@@ -39633,7 +39539,7 @@
         <FlagArray index="PreventDestroy" value="0"/>
         <Food value="1"/>
         <EnergyRegenRate value="20"/>
-        <Speed value="2.75"/>
+        <Speed value="2.5"/>
         <SeparationRadius value="0.375"/>
     </CUnit>
     <CUnit id="TemplePylon">
@@ -39653,15 +39559,15 @@
         <Collide index="Structure" value="1"/>
         <Attributes index="Armored" value="1"/>
         <Attributes index="Structure" value="1"/>
-        <LifeStart value="1350"/>
-        <LifeMax value="1350"/>
+        <LifeStart value="1400"/>
+        <LifeMax value="1400"/>
         <LifeArmor value="5"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenDelay value="5"/>
         <LifeRegenRate value="20"/>
         <LifeArmorName value="Unit/LifeArmorName/ProtossBuildingPlating"/>
-        <ShieldsStart value="2160"/>
-        <ShieldsMax value="2160"/>
+        <ShieldsStart value="2200"/>
+        <ShieldsMax value="2200"/>
         <ShieldArmor value="5"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldRegenDelay value="5"/>
@@ -39726,7 +39632,6 @@
                 <Face value="AcquireMove"/>
                 <Type value="AbilCmd"/>
                 <AbilCmd value="move,AcquireMove"/>
-                <Behavior value="AllPurposeCannons"/>
                 <Requirements value=""/>
                 <Row value="0"/>
                 <Column value="4"/>
@@ -39734,8 +39639,6 @@
             <LayoutButtons index="6">
                 <Face value="UnmatchedAgility"/>
                 <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Behavior value="AntiInfantryNapalm"/>
                 <Requirements value=""/>
                 <Row value="1"/>
                 <Column value="0"/>
@@ -39751,14 +39654,13 @@
             <LayoutButtons index="8">
                 <Face value="AdvancedAI"/>
                 <Type value="Passive"/>
-                <Behavior value="AntiArmorMissiles"/>
                 <Requirements value="UseAdvancedAI"/>
                 <Row value="1"/>
                 <Column value="2"/>
             </LayoutButtons>
             <LayoutButtons index="9" Face="CerberusCub" Type="AbilCmd" AbilCmd="CerberusCub,Ammo1" Row="2" Column="0"/>
             <LayoutButtons index="10" Face="CerberusComeuppanceField" Type="AbilCmd" AbilCmd="ComeuppanceField,Execute" Row="2" Column="1"/>
-            <LayoutButtons index="11" removed="1"/>
+            <LayoutButtons index="11" Face="" Type="Undefined" Requirements="" Row="0" Column="0"/>
             <LayoutButtons index="12" Face="CombatLeap" Type="AbilCmd" AbilCmd="CombatLeap,Execute" Row="2" Column="2"/>
             <LayoutButtons index="13" Face="StunningFrenzy" Type="AbilCmd" AbilCmd="StunningFrenzy,Execute" Row="2" Column="3"/>
             <LayoutButtons index="14" Face="" Type="Undefined" AbilCmd="" Row="0" Column="0"/>
@@ -39768,7 +39670,6 @@
             <LayoutButtons index="18" Face="" Type="Undefined" AbilCmd="" Row="0" Column="0"/>
             <LayoutButtons index="19" Face="" Type="Undefined" AbilCmd="" Row="0" Column="0"/>
             <LayoutButtons Row="0" Column="0"/>
-            <LayoutButtons Face="CerberusComeuppanceField" Type="AbilCmd" AbilCmd="ComeuppanceField,Execute" Row="2" Column="4"/>
         </CardLayouts>
         <Radius value="0.625"/>
         <SeparationRadius value="0.625"/>
@@ -40221,8 +40122,8 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="325"/>
-        <LifeMax value="325"/>
+        <LifeStart value="330"/>
+        <LifeMax value="330"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="6"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
@@ -40698,14 +40599,7 @@
                 <Row value="2"/>
                 <Column value="0"/>
             </LayoutButtons>
-            <LayoutButtons index="9">
-                <Face value="P45Pistol"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Requirements value="D8ChargeShow"/>
-                <Row value="2"/>
-                <Column value="0"/>
-            </LayoutButtons>
+            <LayoutButtons index="9" Face="P45Pistol" Type="Passive" Requirements="D8ChargeShow" Row="2" Column="0"/>
         </CardLayouts>
         <EditorCategories value="ObjectType:Unit,ObjectFamily:Storymode"/>
         <Food value="-2"/>
@@ -40889,13 +40783,13 @@
     <CUnit id="TempleStalker" parent="Stalker">
         <Name value="Unit/Name/TempleStalker"/>
         <Description value="Button/Tooltip/TempleStalker"/>
-        <LifeStart value="405"/>
-        <LifeMax value="405"/>
+        <LifeStart value="410"/>
+        <LifeMax value="410"/>
         <LifeArmor value="5"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="6"/>
-        <ShieldsStart value="641"/>
-        <ShieldsMax value="641"/>
+        <ShieldsStart value="640"/>
+        <ShieldsMax value="640"/>
         <ShieldArmor value="5"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldRegenRate value="6"/>
@@ -40916,7 +40810,7 @@
         <TacticalAI value="GroundAI"/>
         <FlagArray index="PreventDestroy" value="0"/>
         <Food value="1"/>
-        <Speed value="2.75"/>
+        <Speed value="2.5"/>
         <Radius value="0.5"/>
         <SeparationRadius value="0.5"/>
         <MinimapRadius value="0.5"/>
@@ -40954,14 +40848,7 @@
             <LayoutButtons index="5" Face="ArmorpiercingMode2" AbilCmd="ThorAPMode2,Execute" Column="1"/>
             <LayoutButtons index="6" AbilCmd="ThorAPMode2,Cancel"/>
             <LayoutButtons Face="Cancel" Type="AbilCmd" AbilCmd="250mmStrikeCannons2,Cancel" Row="2" Column="4"/>
-            <LayoutButtons>
-                <Face value="MjolnirsForce"/>
-                <Type value="Passive"/>
-                <AbilCmd value=""/>
-                <Requirements value="UseImmortalityProtocol"/>
-                <Row value="1"/>
-                <Column value="1"/>
-            </LayoutButtons>
+            <LayoutButtons Face="MjolnirsForce" Type="Passive" Requirements="UseImmortalityProtocol" Row="1" Column="1"/>
             <LayoutButtons Face="UpgradedThor" Type="Passive" Requirements="AceBehaviorRequirement" Row="1" Column="0"/>
             <LayoutButtons Face="AllOutAttack" Type="AbilCmd" AbilCmd="AlloutAttack,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="250mmStrikeCannons2" Type="AbilCmd" AbilCmd="250mmStrikeCannons2,Execute" Row="2" Column="2"/>
@@ -41056,6 +40943,7 @@
         <WeaponArray index="0" Link="TychusFindlayPenetratingChaingun"/>
         <WeaponArray Link="ExperimentalRocketLauncher"/>
         <CardLayouts index="0">
+            <LayoutButtons index="5" removed="1"/>
             <LayoutButtons index="6" Face="" AbilCmd="Execute,255" Row="1" Column="4"/>
             <LayoutButtons Face="StoppingPower" Type="AbilCmd" AbilCmd="StoppingPower,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="MinigunAndRocketLauncher" Type="Passive" Row="1" Column="0"/>
@@ -41147,16 +41035,17 @@
         <EnergyMax value="100"/>
     </CUnit>
     <CUnit id="TempleZealot" parent="Zealot">
+        <Speed value="2.5"/>
         <Name value="Unit/Name/TempleZealot"/>
         <Description value="Button/Tooltip/TempleZealot"/>
         <FlagArray index="PreventDestroy" value="0"/>
-        <LifeStart value="675"/>
-        <LifeMax value="675"/>
+        <LifeStart value="680"/>
+        <LifeMax value="680"/>
         <LifeArmor value="5"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="10"/>
-        <ShieldsStart value="1080"/>
-        <ShieldsMax value="1080"/>
+        <ShieldsStart value="1100"/>
+        <ShieldsMax value="1100"/>
         <ShieldArmor value="5"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldRegenDelay value="5"/>
@@ -41423,8 +41312,8 @@
     <CUnit id="Zergling3" parent="Zergling">
         <Name value="Unit/Name/Zergling3"/>
         <Description value="Button/Tooltip/Zergling3"/>
-        <LifeStart value="167"/>
-        <LifeMax value="167"/>
+        <LifeStart value="170"/>
+        <LifeMax value="170"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
         <KillXP value="3"/>
@@ -41448,7 +41337,7 @@
         <AbilArray index="5" removed="1"/>
         <AbilArray index="6" removed="1"/>
         <AbilArray index="7" removed="1"/>
-        <Speed value="3.1484"/>
+        <Speed value="2.75"/>
         <TacticalAI value="GroundAI"/>
         <FlagArray index="PreventDestroy" value="0"/>
         <FlagArray index="ShowResources" value="0"/>
@@ -41472,11 +41361,11 @@
         <FlagArray index="ShowResources" value="1"/>
         <FlagArray index="ClearRallyOnTargetLost" value="1"/>
         <FlagArray index="CameraFollow" value="1"/>
-        <LifeStart value="3088"/>
-        <LifeMax value="3088"/>
+        <LifeStart value="3100"/>
+        <LifeMax value="3100"/>
         <LifeArmor value="30"/>
         <LifeRegenRate value="70"/>
-        <Speed value="2.8515"/>
+        <Speed value="2.5"/>
         <CostCategory value="None"/>
         <CostResource index="Minerals" value="0"/>
         <KillXP value="48"/>
@@ -41532,13 +41421,13 @@
         <FlagArray index="ClearRallyOnTargetLost" value="0"/>
         <FlagArray index="ArmySelect" value="0"/>
         <FlagArray index="CameraFollow" value="0"/>
-        <LifeStart value="4160"/>
-        <LifeMax value="4160"/>
+        <LifeStart value="4200"/>
+        <LifeMax value="4200"/>
         <LifeArmor value="30"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="80"/>
         <Mover value="CliffJumper"/>
-        <Speed value="2.1523"/>
+        <Speed value="2.25"/>
         <CostResource index="Minerals" value="0"/>
         <KillXP value="64"/>
         <AbilArray index="3" removed="1"/>
@@ -41642,7 +41531,7 @@
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="1500"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="3.1484"/>
+        <Speed value="2.75"/>
         <KillXP value="2500"/>
         <AbilArray index="3" Link="Shockwave"/>
         <AbilArray index="4" removed="1"/>
@@ -41704,13 +41593,13 @@
         <Name value="Unit/Name/MiniSheep"/>
         <Description value="Button/Tooltip/MiniSheep"/>
         <FlagArray index="PreventDestroy" value="0"/>
-        <LifeStart value="4160"/>
-        <LifeMax value="4160"/>
+        <LifeStart value="4200"/>
+        <LifeMax value="4200"/>
         <LifeArmor value="20"/>
         <LifeArmorDisplayFlags index="DisplayRounded" value="1"/>
         <LifeRegenRate value="30"/>
         <ShieldArmorDisplayFlags index="DisplayRounded" value="1"/>
-        <Speed value="4.5"/>
+        <Speed value="4"/>
         <KillXP value="64"/>
         <AbilArray index="3" removed="1"/>
         <AbilArray index="4" removed="1"/>
@@ -42042,8 +41931,8 @@
         <BehaviorArray Link="SoulAbsorption22"/>
         <WeaponArray index="0" Link="AlarakBaneBlades"/>
         <CardLayouts index="0">
-            <LayoutButtons index="5" Face="ScatterTheUnworthy" AbilCmd="255,255" Requirements="" Row="1"/>
-            <LayoutButtons index="6" Face="SoulAbsorption2" AbilCmd="" Requirements="" Row="1"/>
+            <LayoutButtons index="5" Face="ScatterTheUnworthy" AbilCmd="" Requirements="" Row="1"/>
+            <LayoutButtons index="6" Face="SoulAbsorption2" AbilCmd="" Requirements="" Row="1" Column="1"/>
             <LayoutButtons index="7" Face="AlarakDeadlyCharge2" Type="AbilCmd" AbilCmd="AlarakDeadlyCharge2,Execute" Row="2" Column="0"/>
             <LayoutButtons index="8" Face="AlarakKnockback2" Type="AbilCmd" AbilCmd="AlarakKnockback2,Execute" Row="2" Column="1"/>
             <LayoutButtons index="9" Face="LeechingJump" Type="AbilCmd" AbilCmd="LeechingJump,Execute" Row="2" Column="2"/>

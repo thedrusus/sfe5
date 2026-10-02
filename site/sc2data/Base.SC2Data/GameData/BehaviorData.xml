@@ -2767,7 +2767,7 @@
         <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
         <InfoFlags index="Hidden" value="1"/>
         <Alignment value="Positive"/>
-        <DamageResponse Minimum="1" ModifyFraction="0.5">
+        <DamageResponse Minimum="1" ModifyFraction="0.3846">
             <Chance value="1"/>
         </DamageResponse>
     </CBehaviorBuff>
@@ -2780,6 +2780,14 @@
         </DamageResponse>
     </CBehaviorBuff>
     <CBehaviorBuff id="DiabloEHP">
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <Alignment value="Positive"/>
+        <DamageResponse Minimum="1" ModifyFraction="0.3846">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PinnacleEHPTrio">
         <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
         <InfoFlags index="Hidden" value="1"/>
         <Alignment value="Positive"/>
@@ -2803,7 +2811,7 @@
         <InfoIcon value="Icons\Buttons\btn-l2d-techupgrade-terran-bearclawnozzles.dds"/>
         <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
         <MaxStackCount value="800"/>
-        <MaxStackCountPerCaster value="200"/>
+        <MaxStackCountPerCaster value="42"/>
         <Duration value="6"/>
         <Period value="0.25"/>
         <PeriodicEffect value="ViralPlasmaDoTDamage2"/>
@@ -4438,7 +4446,7 @@
         <Alignment value="Negative"/>
         <InfoIcon value="Assets\Textures\btn-ability-zerg-plague.dds"/>
         <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
-        <MaxStackCount value="100"/>
+        <MaxStackCount value="5"/>
         <Duration value="8"/>
         <Period value="0.25"/>
         <PeriodicEffect value="DefilerMPPlagueDamage2"/>
@@ -6231,6 +6239,9 @@
         <DamageResponse Fatal="1" Handled="ImpalerChargeDamage">
             <ValidatorArray value="TargetHasImpalerCharge"/>
             <Chance value="1"/>
+            <Cost>
+                <Cooldown TimeUse="0.5"/>
+            </Cost>
         </DamageResponse>
         <ExpireEffect value="ImpalerChargeDamage"/>
     </CBehaviorBuff>
