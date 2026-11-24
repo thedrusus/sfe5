@@ -3024,7 +3024,23 @@
         <Range value="0.5"/>
         <Arc value="14.9963"/>
         <CmdButtonArray index="Execute" DefaultButtonFace="DeadlyBite"/>
+    </CAbilEffectTarget>    <CAbilEffectTarget id="DeadlyBiteBoss">
+        <Alignment value="Negative"/>
+        <OrderArray index="0" Model="Assets\UI\Cursors\WayPointConfirmSwarm\WayPointConfirmSwarm.m3"/>
+        <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
+        <Effect index="0" value="DeadlyBiteSetBoss"/>
+        <Flags index="AllowMovement" value="1"/>
+        <Flags index="AutoCast" value="1"/>
+        <Cost>
+            <Charge Link="Abil/DevastatingShot"/>
+            <Cooldown Link="Abil/DevastatingShot" TimeUse="7"/>
+        </Cost>
+        <TargetFilters value="Visible;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Range value="0.5"/>
+        <Arc value="14.9963"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="DeadlyBiteBoss"/>
     </CAbilEffectTarget>
+
     <CAbilEffectInstant id="Vacuum2">
         <EditorCategories value="Race:Zerg,AbilityorEffectType:Units"/>
         <Effect index="0" value="VacuumAB2"/>

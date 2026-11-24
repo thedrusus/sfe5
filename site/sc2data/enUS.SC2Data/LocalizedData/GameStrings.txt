@@ -905,6 +905,17 @@ Behavior/Name/BlindingCloud2=Blinding Cloud
 Behavior/Name/BlindingCloudStructure2=Blinding Cloud
 Behavior/Name/BloodFrenzy=Blood Frenzy
 Behavior/Name/Blue=Blue
+Behavior/Name/BossArmorBrute=Boss Armor - Brute
+Behavior/Name/BossArmorFinal=Boss Armor - Final
+Behavior/Name/BossArmorHybrid=Boss Armor - Hybrid
+Behavior/Name/BossArmorP1=Boss Armor - Protoss Tier 1
+Behavior/Name/BossArmorP2=Boss Armor - Protoss Tier 2
+Behavior/Name/BossArmorSecret=Boss Armor - Secret
+Behavior/Name/BossArmorT0=Boss Armor - Tier 0
+Behavior/Name/BossArmorT1=Boss Armor - Tier 1
+Behavior/Name/BossArmorT2=Boss Armor - Tier 2
+Behavior/Name/BossArmorT3=Boss Armor - Tier 3
+Behavior/Name/BossArmorVoid=Boss Armor - Void
 Behavior/Name/BrainDamage=Brain Damage
 Behavior/Name/BrokenConcentrationSlow=Broken Concentration Slow
 Behavior/Name/BrokenConcentrationStun=Broken Concentration Stun
@@ -985,6 +996,7 @@ Behavior/Name/DevouringFrenzyHero=Devouring Frenzy
 Behavior/Name/DevouringFrenzyUnit=Devouring Frenzy
 Behavior/Name/Dexterity=<c val="C0C0C0">Dexterity</c>
 Behavior/Name/Dexterity3=<c val="C0C0C0">Dexterity</c>
+Behavior/Name/DiabloEHP=Diablo EHP
 Behavior/Name/DirtyBusiness=Dirty Business
 Behavior/Name/DirtyBusinessApply=Dirty Business Apply
 Behavior/Name/DisableWeapons=Morphing
@@ -1202,6 +1214,7 @@ Behavior/Name/MorphicRegeneration2=Morphic Regeneration
 Behavior/Name/MothershipCorePurifyNexus=Mothership Core - Purify Nexus
 Behavior/Name/MultiPurposeWeaponEnhancements=Multi-Purpose Improvements
 Behavior/Name/NPSwarm2=Control the Enemy
+Behavior/Name/NarudExtra=Narud EHP
 Behavior/Name/NeoconDebuff=Neocon Debuff
 Behavior/Name/NeuroInhibitorGrenade=Neuro Inhibitor Grenade
 Behavior/Name/NeuroInhibitorGrenadeSlow=Neuro Inhibitor Grenade Slow
@@ -1247,6 +1260,7 @@ Behavior/Name/PhalanxShieldImmobile=Phalanx Shield Immobile
 Behavior/Name/PhasedOutEvade=Phased Out
 Behavior/Name/PickupDebuff=Pickup Debuff
 Behavior/Name/Pink=Pink
+Behavior/Name/PinnacleEHP=Pinnacle EHP
 Behavior/Name/PinnaclePower=Pinnacle Power
 Behavior/Name/PinnacleResistence=Pinnacle Resistence
 Behavior/Name/PinpointReach=Pinpoint Reach
@@ -2347,6 +2361,7 @@ Button/Name/DarkArchonConfusion2=Confusion
 Button/Name/DarkArchonMindControl2=Mind Control
 Button/Name/DarkTemplar2=Warp In Dark Templar
 Button/Name/DeadlyBite=Deadly Bite
+Button/Name/DeadlyBiteBoss=Deadly Bite
 Button/Name/DeadlyChallenge=Deadly Challenge
 Button/Name/DeadlyLeap=Deadly Leap
 Button/Name/DeadlySaliva=Deadly Saliva
@@ -4165,6 +4180,7 @@ Button/Tooltip/DarkArchonMindControl2=Permanently takes control of a target enem
 Button/Tooltip/DarkTemplar=Deadly warrior-assassin. Permanently cloaked. Detects cloaked units.</n></n><c val="#ColorAttackInfo">Can attack ground and air units.</c>
 Button/Tooltip/DarkTemplar2=Deadly warrior-assassin. Cloak renders the unit invisible to enemies without detection.<n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/DeadlyBite=Deadly and poisonous bite that deals <c val="FFFF00"><d ref="Effect,DeadlyBiteDamage,Amount*$RunAccumulators:SpellDamageFinal$"/></c> damage makes the target take <c val="FFFFAE"><d ref="Behavior,DeadlyBite,DamageResponse.ModifyFraction-1*100" precision="0"/>%</c> more damage and reduces movement speed by <c val="FFFFAE">40%</c> for the next <c val="FFFFAE"><d ref="Behavior,DeadlyBite,Duration"/></c> seconds.
+Button/Tooltip/DeadlyBiteBoss=Deadly and poisonous bite that deals <c val="FFFF00"><d ref="Effect,DeadlyBiteDamageBoss,Amount*$RunAccumulators:SpellDamageFinal$"/></c> damage makes the target take <c val="FFFFAE"><d ref="Behavior,DeadlyBite,DamageResponse.ModifyFraction-1*100" precision="0"/>%</c> more damage and reduces movement speed by <c val="FFFFAE">40%</c> for the next <c val="FFFFAE"><d ref="Behavior,DeadlyBite,Duration"/></c> seconds.
 Button/Tooltip/DeadlyChallenge=Reduces the damage of the target unit by <c val="FFA037 "><d ref="-Behavior,DeadlyChallenge,Modification.DamageDealtFraction[Melee]*100" precision="0"/>%</c><s val="SF_TextStackIndicator">[+]</s>. Additionally, Zyrkhan gains <c val="FFFFAE">5%</c> attack speed and <c val="FFFFAE">5%</c> damage reduction each attack. Lasts for <c val="FFFFAE"><d ref="Behavior,DeadlyChallenge,Duration"/></c> seconds.<n/><n/>Stack <c val="FFFF00"><d ref="$BehaviorStackCount:DeadlyChallengeCaster$"/>/10</c>
 Button/Tooltip/DeadlyLeap=Zyrkhan leaps to the target point, dealing <c val="FFFF00"><d ref="Effect,DeadlyLeap,Amount*$RunAccumulators:SpellDamageFinal$"/></c> damage to all units nearby. Each unit in a radius of <c val="FFFFAE">2 </c>within the target point is affected by Deadly Challenge.
 Button/Tooltip/DeadlySaliva=Each attack covers the enemy with deadly saliva that deals <c val="FFFF00"><d ref="Effect,BileDuctsDamage2,Amount*$RunAccumulators:SpellDamageFinal$*4"/></c> damage per second for <c val="FFFFAE">15</c> seconds. Stacks <c val="FFFFAE">60</c> times.
@@ -4435,7 +4451,7 @@ Button/Tooltip/Gravestone=<s val="SF_TextBold">Valiant Thor<n/><c val="FFFFAE">1
 Button/Tooltip/GravitationalDistortion=Device which slows time of everything inside by <c val="FFFFAE">16%</c> for every second its inside, up to <c val="FFFFAE">63.3%</c>. Affected enemies also suffer the effects of <c val="FFFFFF">Command Presence</c>. Lasts for <c val="FFFFAE"><d ref="Effect,GravitationalDistortionCreatePersistent,PeriodCount*0.0625"/></c> seconds.
 Button/Tooltip/GravitonBeam=Makes the target unit float in the air, disabling its abilities. Effect lasts up to few seconds.<n/><n/><c val="#ColorAttackInfo">Massive units are immune.</c><n/><c val="ffff8a">Channeled ability</c>
 Button/Tooltip/GravitonBeam3=Makes the target unit float in the air, disabling its abilities. Effect lasts for <c val="FFFFAE">6</c> seconds.<n/><n/><c val="#ColorAttackInfo">Bosses and heroic units are immune.</c>
-Button/Tooltip/GravitonCatapult2=Enables Carries to train a maximum of <c val="FFFFAE">8</c> Interceptors every <c val="FFFFAE">3</c> seconds. Interceptors gain <c val="FFFFAE">50</c> damage, <c val="FFFFAE">50%</c> attack speed, <c val="FFFFAE">1000</c> vitals and <c val="FFFFAE">20</c> regeneration. Increases the launch rate of Interceptors.
+Button/Tooltip/GravitonCatapult2=Enables Carries to train a maximum of <c val="FFFFAE">8</c> Interceptors every <c val="FFFFAE">3</c> seconds. Interceptors gain <c val="FFFFAE">50</c> damage, <c val="FFFFAE">50%</c> attack speed and <c val="FFFFAE">20</c> regeneration, and the Carrier gains <c val="FFFFAE">150</c> Life. Increases the launch rate of Interceptors.
 Button/Tooltip/GravitonPrison2=Locks the target unit to the ground for <c val="FFFFAE">7 </c>seconds, disabling its abilities and making it targetable by ground.
 Button/Tooltip/GravitonPrison3=Makes the target unit float in the air, disabling its abilities.
 Button/Tooltip/GravityShift=The Hybrid temporarily phases out of existence and reappears at the target point, sending a gravitational tremor that hurls nearby enemies into the air dealing <c val="FFFF00"><d ref="Effect,GravityShiftSpellDamage,Amount*$RunAccumulators:SpellDamageFinal$"/></c> damage.
@@ -4672,7 +4688,7 @@ Button/Tooltip/Karass2=The greatest calm occurs at the eye of the storm. So it i
 Button/Tooltip/KarassPlasmaSurge2=Recharges <c val="FFFFAE"><d ref="Effect,KarassPlasmaSurgeModifyUnit3,VitalArray[Life].ChangeFraction*100" precision="0"/>%</c> life and shields for all friendly units in the target area. Autocast triggers when a unit has less than <c val="FFFFAE">80%</c> life or shields.
 Button/Tooltip/KarassPlasmaSurge22=Apply a heal to the target unit that recovers <c val="FFFFAE">9.6%</c> life over a duration of <c val="FFFFAE">3</c> seconds. Stacks <c val="FFFFAE">5</c> times.
 Button/Tooltip/Karax=Templar phase-smith. Uses a pair of Servitors to perform ranged attacks.</n></n><c val="#ColorAttackInfo">Can attack ground and air units.</c>
-Button/Tooltip/KaraxOverload2=Trigger an electrical overload to shock an enemy, dealing <c val="FFFF00"><d ref="Effect,KaraxOverloadDamage2,Amount"/></c> damage and stunning it for <c val="00FFFF"><d ref="Behavior,KaraxOverloadStun2,Duration"/></c> seconds. Once the stun expires, the unit becomes slowed by <c val="FFFFAE">40%</c> for an additional <c val="00FFFF"><d ref="Behavior,KaraxOverloadStun22,Duration"/></c> seconds.
+Button/Tooltip/KaraxOverload2=Trigger an electrical overload to shock an enemy, dealing <c val="FFFF00"><d ref="Effect,KaraxOverloadDamage2,Amount*$RunAccumulators:SpellDamageFinal$"/></c> damage and stunning it for <c val="00FFFF"><d ref="Behavior,KaraxOverloadStun2,Duration"/></c> seconds. Once the stun expires, the unit becomes slowed by <c val="FFFFAE">40%</c> for an additional <c val="00FFFF"><d ref="Behavior,KaraxOverloadStun22,Duration"/></c> seconds.
 Button/Tooltip/Kerrigan=Kerrigan is a class 12 psionic. She is impervious to conventional weapons and commands god-like powers. <n/><n/><c val="#ColorAttackInfo">Can attack ground and air units.</c>
 Button/Tooltip/KerriganEpilogue03Extinction2=After channeling celestial energy for <c val="FFFFAE"><d ref="Effect,ExtinctionCP,PeriodicPeriodArray[1]"/></c> seconds, Celestial Kerrigan releases a massive shockwave that deals <c val="FFFF00"><d ref="Effect,ExtinctionPulseDamageNormal,Amount*$RunAccumulators:SpellDamageFinal$"/></c> damage to all enemies on the map.
 Button/Tooltip/KerriganVoidFury2=Each attack increases Kerrigan's attack speed by <c val="FFFFAE"><d ref="(Behavior,KerriganFury,Modification.AttackSpeedMultiplier - 1) * 100"/>%</c> for <c val="FFFFAE"><d ref="Behavior,KerriganFury,Duration"/></c> seconds. This duration refreshes each time a new stack is applied.
@@ -4808,7 +4824,7 @@ Button/Tooltip/MindBlast33=Shocks all enemies in the target area, dealing <c val
 Button/Tooltip/MindBlast332=Shocks all enemies in the target area, dealing <c val="FFFF00"><d ref="Effect,MindBlast322,Amount*$RunAccumulators:SpellDamageFinal$"/></c> damage (<c val="FFFF00"><d ref="Effect,MindBlastHeroic422,Amount*$RunAccumulators:SpellDamageFinal$"/></c> damage vs heroic) to all enemies in target area of radius <c val="FFFFAE"><d ref="Effect,MindBlastSearch332,AreaArray[0].Radius" precision="1"/></c>. Slows the attack speed and movement speed of affected enemies by <c val="FFFFAE">60%</c> for <c val="FFFFAE">4</c> seconds.
 Button/Tooltip/MindBlast3322=Shocks all enemies in the target area, dealing <c val="FFFF00"><d ref="Effect,MindBlast322,Amount*$RunAccumulators:SpellDamageFinal$"/></c> damage (<c val="FFFF00"><d ref="Effect,MindBlastHeroic422,Amount*$RunAccumulators:SpellDamageFinal$"/></c> damage vs heroic) to all enemies in target area of radius <c val="FFFFAE"><d ref="Effect,MindBlastSearch332,AreaArray[0].Radius" precision="1"/></c>. Slows the attack speed and movement speed of affected enemies by <c val="FFFFAE">60%</c> for <c val="FFFFAE">4</c> seconds.
 Button/Tooltip/MindBlast4=Creates a focused blast of psionic energy that stuns and deals <c val="FFFF00"><d ref="Effect,MindBlast,Amount*$RunAccumulators:SpellDamageFinal$"/></c> damage to all enemies in the target area.
-Button/Tooltip/MindBolt2=Kerrigan deals <c val="FFFF00"><d ref="Effect,MindBoltDamage2,Amount*$RunAccumulators:SpellDamageFinal$"/> </c>damage to target unit or structure from long range.
+Button/Tooltip/MindBolt2=Kerrigan deals <c val="FFFF00"><d ref="Effect,MindBoltDamage2,Amount*$RunAccumulators:SpellDamageFinal$"/> </c>damage from long range to the target and enemies within <c val="FFFFAE">1.5</c> range. The target is struck by both the blast and the splash.
 Button/Tooltip/MindControl=Mind control allows contol of the targeted unit.<n/><n/><c val="#ColorAttackInfo">Heroic units are immune.</c>
 Button/Tooltip/MindControl3=Permanently mind control the target enemy unit. The mind controlled unit gains <c val="FFFFAE">25%</c> additional stats.<n/><n/><c val="#ColorAttackInfo">Bosses are immune.
 Button/Tooltip/MindFissure=Unleash a powerful wave that deals <c val="FFFF00"><d ref="Effect,ShockwaveDamage2,Amount*$RunAccumulators:SpellDamageFinal$"/></c> damage. Applies <c val="FFFFAE">1</c> stack of <c val="FFFFFF">Slow</c>.
@@ -5178,7 +5194,7 @@ Button/Tooltip/ResearchExplosiveBile=Increases Ravager Corrosive Bile damage by 
 Button/Tooltip/ResearchExplosiveSpikes=Increases the splash radius of Lurkers by <c val="FFFFAE">0.5</c> and allows Lurkers to penetrate armor.
 Button/Tooltip/ResearchFieldActuators=Increase the Quantum Hammer weapon operation speed to <c val="FFFFAE">0.0625</c> seconds between operation and attack speed by <c val="FFFFAE">10%</c>.
 Button/Tooltip/ResearchGraviticBoosters=Increases the speed and acceleration of the Observers by <c val="FFFFAE">50%</c>.
-Button/Tooltip/ResearchGravitonCatapult=Enables Carries to train and deploy Interceptors  faster and increases max capacity by <c val="FFFFAE">2</c>. Interceptors gain <c val="FFFFAE">6</c> damage, <c val="FFFFAE">50%</c> attack speed, <c val="FFFFAE">1000</c> vitals and <c val="FFFFAE">20</c> regeneration.
+Button/Tooltip/ResearchGravitonCatapult=Enables Carries to train and deploy Interceptors  faster and increases max capacity by <c val="FFFFAE">2</c>. Interceptors gain <c val="FFFFAE">6</c> damage, <c val="FFFFAE">50%</c> attack speed and <c val="FFFFAE">20</c> regeneration, and the Carrier gains <c val="FFFFAE">150</c> Life.
 Button/Tooltip/ResearchHiSecAutoTrackingSystem=Increases the weapon range of all Terran structures by <c val="FFFFAE">1</c>.<n/><n/>Max Level: <c val="FFFFFF">5</c>
 Button/Tooltip/ResearchHigherCaliber=Increase the damage of Auto-Turrets by <c val="FFFFAE">20</c>.
 Button/Tooltip/ResearchIncineratorGauntlets=Increases Firebat weapon range by <c val="FFFFAE">1</c> and increases area damage by <c val="FFFFAE">40%</c>.
@@ -16939,6 +16955,7 @@ Effect/Name/MedKitHealSearch=Med Kit Heal Search
 Effect/Name/MedKitHealSmall=Med Kit Heal Small
 Effect/Name/MedKitHealSmallAB=Med Kit Heal Small AB
 Effect/Name/MedKitHealSmallSet=Med Kit Heal Small Set
+Effect/Name/MedicAutoAttackDamage=$$ Medic - Medic Damage
 Effect/Name/MedivacHealApplyBehaviorSet2=Heal Apply Behavior Set
 Effect/Name/MedivacHealApplyCasterBehavior2=Heal Apply Caster Behavior
 Effect/Name/MedivacHealApplyTargetBehavior2=Heal Apply Target Behavior
@@ -24969,6 +24986,7 @@ Upgrade/Name/Boss12=Boss 2
 Upgrade/Name/Boss122=Boss 3
 Upgrade/Name/Boss1222=Boss 4
 Upgrade/Name/Boss12222=Boss 5
+Upgrade/Name/Boss122222=Boss 6
 Upgrade/Name/BroodLord=Brood Lord
 Upgrade/Name/BroodLordHybrid=Brood Lord > Hybrid
 Upgrade/Name/BuildingCapacity=Building Capacity
@@ -26485,6 +26503,7 @@ Weapon/Name/MarauderGrenades=Marauder Grenades
 Weapon/Name/MarineWarfield2=T-200 Modular Assault Cannon
 Weapon/Name/MasterPsiBlade=Master Psi Blade
 Weapon/Name/MasterSpores=Master Spores
+Weapon/Name/MedicAutoAttack=Medic Attack
 Weapon/Name/MeepyStick=Meepy Stick
 Weapon/Name/MengskDiamondback2=Thunderbolt Rail Gun
 Weapon/Name/MercReaperD8Charge2=D-9 Charge
@@ -26764,19 +26783,21 @@ Weapon/Tip/Talons2=
 Weapon/Tip/Talons22=
 Weapon/Tip/Talons23=
 Weapon/Tip/WarHound2=
-Behavior/Name/BossArmorBrute=Boss Armor - Brute
-Behavior/Name/BossArmorFinal=Boss Armor - Final
-Behavior/Name/BossArmorHybrid=Boss Armor - Hybrid
-Behavior/Name/BossArmorP1=Boss Armor - Protoss Tier 1
-Behavior/Name/BossArmorP2=Boss Armor - Protoss Tier 2
-Behavior/Name/BossArmorSecret=Boss Armor - Secret
-Behavior/Name/BossArmorT0=Boss Armor - Tier 0
-Behavior/Name/BossArmorT1=Boss Armor - Tier 1
-Behavior/Name/BossArmorT2=Boss Armor - Tier 2
-Behavior/Name/BossArmorT3=Boss Armor - Tier 3
-Behavior/Name/BossArmorVoid=Boss Armor - Void
-Behavior/Name/BossBalance=Boss Balance (EHP)
-Behavior/Name/DemiBoss=Demi-Boss (Fatal Save)
-Behavior/Name/DiabloEHP=Diablo EHP
-Behavior/Name/NarudExtra=Narud EHP
-Behavior/Name/PinnacleEHP=Pinnacle EHP
+Behavior/Name/BossFortitude0=Boss Fortitude T0 (35% DR)
+Behavior/Name/BossFortitude1=Boss Fortitude T1 (44% DR)
+Behavior/Name/BossFortitude2=Boss Fortitude T2 (52% DR)
+Behavior/Name/BossFortitude3=Boss Fortitude T3 (61% DR)
+Behavior/Name/BossFortitude4=Boss Fortitude T4 (70% DR)
+Behavior/Name/BossFortitude5=Boss Fortitude T5 (78% DR)
+Behavior/Name/BossFortitude6=Boss Fortitude T6 (87% DR)
+Behavior/Name/BossFortitudeLenkus=Boss Fortitude (Lenkus, 74% DR)
+Behavior/Name/BossFortitudeMaar=Boss Fortitude (Maar, 61% DR)
+Behavior/Name/PinnacleHalf=Pinnacle Half (subset DR)
+Behavior/Name/PinnacleApex=Pinnacle Apex (premium DR)
+Behavior/Name/PinnacleScale=Pinnacle Scale (tier EHP knob)
+Behavior/Name/BossFortitudeQuest=Boss Fortitude (Quest, 55% DR)
+Effect/Name/DeadlyBiteDamageBoss=Deadly Bite Damage
+Effect/Name/DeadlyBiteSetBoss=Deadly Bite Set
+Abil/Name/DeadlyBiteBoss=Deadly Bite
+Behavior/Name/DeadlyBiteBoss=Deadly Bite
+Behavior/Name/BossFortitudeElite=Boss Fortitude (Elite, 61% DR)

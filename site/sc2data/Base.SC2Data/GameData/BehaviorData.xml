@@ -2837,7 +2837,7 @@
             <DamageTotalMultiplier index="Splash" value="1"/>
             <DamageTotalMultiplier index="NoProc" value="1"/>
         </Modification>
-        <DamageResponse ModifyFraction="0.75">
+        <DamageResponse ModifyFraction="1">
             <Chance value="1"/>
         </DamageResponse>
     </CBehaviorBuff>
@@ -24257,6 +24257,201 @@
         <Alignment value="Positive"/>
         <DamageResponse Minimum="1" ModifyFraction="1">
             <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossFortitude">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Unknown"/>
+        <DamageResponse ModifyFraction="1">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/HardArmor"/>
+                <Cooldown Link="Behavior/HardArmor"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossFortitude0">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Unknown"/>
+        <DamageResponse ModifyFraction="1">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/HardArmor"/>
+                <Cooldown Link="Behavior/HardArmor"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossFortitude1">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Unknown"/>
+        <DamageResponse ModifyFraction="0.867">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/HardArmor"/>
+                <Cooldown Link="Behavior/HardArmor"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossFortitude2">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Unknown"/>
+        <DamageResponse ModifyFraction="0.733">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/HardArmor"/>
+                <Cooldown Link="Behavior/HardArmor"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossFortitude3">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Unknown"/>
+        <DamageResponse ModifyFraction="0.6">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/HardArmor"/>
+                <Cooldown Link="Behavior/HardArmor"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossFortitude4">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Unknown"/>
+        <DamageResponse ModifyFraction="0.467">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/HardArmor"/>
+                <Cooldown Link="Behavior/HardArmor"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossFortitude5">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Unknown"/>
+        <DamageResponse ModifyFraction="0.333">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/HardArmor"/>
+                <Cooldown Link="Behavior/HardArmor"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossFortitude6">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Unknown"/>
+        <DamageResponse ModifyFraction="0.2">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/HardArmor"/>
+                <Cooldown Link="Behavior/HardArmor"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossFortitudeLenkus">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Unknown"/>
+        <DamageResponse ModifyFraction="0.4">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/HardArmor"/>
+                <Cooldown Link="Behavior/HardArmor"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossFortitudeMaar">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Unknown"/>
+        <DamageResponse ModifyFraction="0.6">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/HardArmor"/>
+                <Cooldown Link="Behavior/HardArmor"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PinnacleHalf">
+        <InfoFlags index="Hidden" value="1"/>
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DamageResponse Minimum="1" ModifyFraction="0.5">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PinnacleApex">
+        <InfoFlags index="Hidden" value="1"/>
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DamageResponse Minimum="1" ModifyFraction="0.8">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="PinnacleScale">
+        <InfoFlags index="Hidden" value="1"/>
+        <Alignment value="Positive"/>
+        <InfoIcon value="Assets\Textures\btn-tips-missioncase.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <DamageResponse Minimum="1" ModifyFraction="0.94">
+            <Chance value="1"/>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossFortitudeQuest">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Unknown"/>
+        <DamageResponse ModifyFraction="0.6923">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/HardArmor"/>
+                <Cooldown Link="Behavior/HardArmor"/>
+            </Cost>
+        </DamageResponse>
+    </CBehaviorBuff>
+    <CBehaviorBuff id="BossFortitudeElite">
+        <Alignment value="Negative"/>
+        <InfoFlags index="Hidden" value="1"/>
+        <InfoIcon value="Assets\Textures\btn-progression-mengsk-08-basicroyalguardupgradecache.dds"/>
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <TimeScaleSource Value="Unknown"/>
+        <DamageResponse ModifyFraction="0.6">
+            <Chance value="1"/>
+            <Cost>
+                <Charge Link="Behavior/HardArmor"/>
+                <Cooldown Link="Behavior/HardArmor"/>
+            </Cost>
         </DamageResponse>
     </CBehaviorBuff>
 </Catalog>

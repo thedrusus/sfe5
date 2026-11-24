@@ -67,12 +67,12 @@
     <CWeaponLegacy id="Adept23">
         <EditorCategories value="Race:Protoss"/>
         <Icon value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel3.dds"/>
-        <DisplayEffect value="AdeptDamage2"/>
+        <DisplayEffect value="AdeptShadeDamage2"/>
         <DisplayName value="Weapon/Name/Adept"/>
         <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <Range value="1"/>
         <Period value="1.33"/>
-        <Effect value="AdeptDamage2"/>
+        <Effect value="AdeptShadeDamage2"/>
         <RandomDelayMin value="0"/>
         <RandomDelayMax value="0"/>
     </CWeaponLegacy>
@@ -1290,6 +1290,16 @@
         <Range value="10"/>
         <Period value="2.8"/>
         <Effect value="WirelessDisassemblerSet"/>
+        <RandomDelayMin value="0"/>
+        <RandomDelayMax value="0"/>
+    </CWeaponLegacy>
+    <CWeaponLegacy id="MedicAutoAttack">
+        <EditorCategories value="Race:Terran"/>
+        <Icon value="Assets\Textures\btn-upgrade-terran-infantryweaponslevel3.dds"/>
+        <DisplayEffect value="MedicAutoAttackDamage"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <Period value="1.18"/>
+        <Effect value="MedicAutoAttackDamage"/>
         <RandomDelayMin value="0"/>
         <RandomDelayMax value="0"/>
     </CWeaponLegacy>
@@ -3126,6 +3136,7 @@
         <RandomDelayMax value="0"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="ChainClaws" parent="Predator">
+        <MinScanRange value="8"/>
         <Name value="Weapon/Name/ChainClaws"/>
         <Tip value="Weapon/Tip/ChainClaws"/>
         <Icon value="Icons\Buttons\btn-upgrade-terran-vehicleweaponslevel2-dark.dds"/>
@@ -3954,9 +3965,6 @@
         <RandomDelayMin value="0"/>
         <RandomDelayMax value="0"/>
     </CWeaponLegacy>
-    <CWeaponLegacy id="ArenaTurret">
-        <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel0.dds"/>
-    </CWeaponLegacy>
     <CWeaponLegacy id="ArtanisVoidUlnar2" parent="ArtanisVoidUlnar">
         <Name value="Weapon/Name/ArtanisVoidUlnar2"/>
         <Tip value="Weapon/Tip/ArtanisVoidUlnar2"/>
@@ -4220,7 +4228,7 @@
         <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
         <DisplayEffect value="GoliathAU42"/>
         <DisplayAttackCount value="2"/>
-        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="Air,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <Range value="6"/>
         <Arc value="29.9926"/>
         <Period value="0.8"/>
@@ -4238,7 +4246,7 @@
         <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
         <DisplayEffect value="GoliathAU22"/>
         <DisplayAttackCount value="2"/>
-        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="Air,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <Range value="6"/>
         <Arc value="29.9926"/>
         <Period value="0.8"/>
@@ -4249,7 +4257,7 @@
     <CWeaponLegacy id="GoliathG22">
         <EditorCategories value="Race:Terran"/>
         <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
-        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <Range value="6"/>
         <Arc value="29.9926"/>
         <Period value="0.8"/>
@@ -4265,7 +4273,7 @@
         <Options index="LinkedCooldown" value="0"/>
         <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
         <DisplayEffect value="GoliathG32"/>
-        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <Range value="6"/>
         <Arc value="29.9926"/>
         <Period value="0.8"/>
@@ -4585,6 +4593,7 @@
         <RandomDelayMax value="0"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="PsiBlades32" parent="PsiBlades">
+        <MinScanRange value="8"/>
         <Name value="Weapon/Name/PsiBlades32"/>
         <Tip value="Weapon/Tip/PsiBlades32"/>
         <Icon value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel3.dds"/>
@@ -4880,6 +4889,7 @@
         <RandomDelayMax value="0"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="AlarakBaneBlades" parent="DarkArchonChampionWeapon">
+        <MinScanRange value="8"/>
         <Name value="Weapon/Name/AlarakBaneBlades"/>
         <Tip value="Weapon/Tip/AlarakBaneBlades"/>
         <Icon value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel3.dds"/>
@@ -5640,7 +5650,7 @@
         <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
         <DisplayEffect value="GoliathG2"/>
         <DisplayName value="Weapon/Name/GoliathG2"/>
-        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="Ground,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <Marker Link="Weapon/GoliathG2"/>
         <Cost>
             <Cooldown Link="Weapon/GoliathG2"/>
@@ -5681,6 +5691,7 @@
         <Cost>
             <Cooldown Link="Weapon/GoliathAUpgraded2"/>
         </Cost>
+        <TargetFilters value="Air,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <Period value="0.8"/>
         <Effect value="GoliathA2"/>
         <LegacyOptions index="NoDeceleration" value="0"/>
@@ -5803,6 +5814,7 @@
         <RandomDelayMax value="0"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="PsiBlades3" parent="PsiBlades">
+        <MinScanRange value="8"/>
         <Name value="Weapon/Name/PsiBlades3"/>
         <Tip value="Weapon/Tip/PsiBlades3"/>
         <Icon value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel3.dds"/>
@@ -5862,6 +5874,7 @@
         <Options index="Disabled" value="1"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="Predator3" parent="Predator">
+        <MinScanRange value="8"/>
         <Name value="Weapon/Name/Predator3"/>
         <Tip value="Weapon/Tip/Predator3"/>
         <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
@@ -6211,6 +6224,7 @@
         <RandomDelayMax value="0"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="SwarmlingClaws" parent="HotSSwarmlingClaws">
+        <MinScanRange value="8"/>
         <Name value="Weapon/Name/SwarmlingClaws"/>
         <Tip value="Weapon/Tip/SwarmlingClaws"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
@@ -6223,7 +6237,7 @@
         <RandomDelayMin value="0"/>
         <RandomDelayMax value="0"/>
         <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
-</CWeaponLegacy>
+    </CWeaponLegacy>
     <CWeaponLegacy id="DevourerClaws">
         <Options index="Melee" value="1"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level2.dds"/>
@@ -6417,6 +6431,7 @@
         <RandomDelayMax value="0"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="PsiBlades2" parent="PsiBlades">
+        <MinScanRange value="8"/>
         <Name value="Weapon/Name/PsiBlades2"/>
         <Tip value="Weapon/Tip/PsiBlades2"/>
         <Icon value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel3.dds"/>
@@ -6430,7 +6445,7 @@
         <RandomDelayMin value="0"/>
         <RandomDelayMax value="0"/>
         <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
-</CWeaponLegacy>
+    </CWeaponLegacy>
     <CWeaponLegacy id="AcidDischarge">
         <EditorCategories value="Race:Zerg"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-missileattacks-level3.dds"/>
@@ -6446,6 +6461,7 @@
         <Tip value="Weapon/Tip/JavelinMissileLaunchers2"/>
         <Icon value="Assets\Textures\btn-upgrade-terran-vehicleweaponslevel3.dds"/>
         <DisplayEffect value="BlackhammerJavelinMissileLaunchersDamage"/>
+        <TargetFilters value="Air,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <Marker Link="Weapon/JavelinMissileLaunchers2"/>
         <Cost>
             <Cooldown Link="Weapon/JavelinMissileLaunchers2"/>
@@ -6648,6 +6664,7 @@
         <RandomDelayMax value="0"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="ReaverClaws" parent="HybridE">
+        <MinScanRange value="8"/>
         <Name value="Weapon/Name/ReaverClaws"/>
         <Tip value="Weapon/Tip/ReaverClaws"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
@@ -6660,7 +6677,7 @@
         <RandomDelayMin value="0"/>
         <RandomDelayMax value="0"/>
         <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
-</CWeaponLegacy>
+    </CWeaponLegacy>
     <CWeaponLegacy id="GlaveWurm" parent="MutaliskGlaiveWurm">
         <Name value="Weapon/Name/GlaveWurm"/>
         <Options index="Disabled" value="0"/>
@@ -6893,8 +6910,8 @@
         <Options index="Melee" value="1"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-airattacks-level3.dds"/>
         <DisplayEffect value="SuicideDamage2"/>
-        <TargetFilters value="Air,Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
-        <AcquireFilters value="Air,Visible;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
+        <AcquireFilters value="Visible;Self,Player,Ally,Neutral,Missile,Stasis,Dead,Hidden,Invulnerable"/>
         <Range value="0.25"/>
         <Period value="2.8"/>
         <DamagePoint value="0"/>
@@ -7070,6 +7087,7 @@
         <RandomDelayMax value="0"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="TorrasqueKaiserBlades2" parent="KaiserBlades">
+        <MinScanRange value="8"/>
         <Name value="Weapon/Name/TorrasqueKaiserBlades2"/>
         <Tip value="Weapon/Tip/TorrasqueKaiserBlades2"/>
         <Icon value="Assets\Textures\btn-upgrade-zerg-meleeattacks-level3.dds"/>
@@ -7083,7 +7101,7 @@
         <RandomDelayMin value="0"/>
         <RandomDelayMax value="0"/>
         <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
-</CWeaponLegacy>
+    </CWeaponLegacy>
     <CWeaponLegacy id="Tosh2" parent="Tosh">
         <Effect value="HGSplashSetTosh2"/>
         <Name value="Weapon/Name/Tosh2"/>
@@ -7958,6 +7976,7 @@
         <RandomDelayMax value="0"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="TitaniumClaws" parent="Predator">
+        <MinScanRange value="8"/>
         <Name value="Weapon/Name/TitaniumClaws"/>
         <DisplayEffect value="TitaniumClaws2"/>
         <Marker Link="Weapon/Predator2"/>
@@ -8291,6 +8310,7 @@
         <AllowedMovement value="Moving"/>
     </CWeaponLegacy>
     <CWeaponLegacy id="MasterPsiBlade" parent="Zeratul">
+        <MinScanRange value="8"/>
         <Name value="Weapon/Name/MasterPsiBlade"/>
         <Tip value="Weapon/Tip/MasterPsiBlade"/>
         <Icon value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel3.dds"/>
@@ -8303,7 +8323,7 @@
         <RandomDelayMin value="0"/>
         <RandomDelayMax value="0"/>
         <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
-</CWeaponLegacy>
+    </CWeaponLegacy>
     <CWeaponLegacy id="LenkusBlast">
         <Icon value="Assets\Textures\btn-upgrade-protoss-groundweaponslevel2.dds"/>
         <DisplayEffect value="HybridLenkusDamage"/>

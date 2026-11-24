@@ -1483,7 +1483,15 @@
         <Icon value="Icons\Buttons\btn-ability-zerg-ramstructures.dds"/>
         <AlertIcon value="Icons\Buttons\btn-ability-zerg-ramstructures.dds"/>
         <EditorCategories value="Race:Zerg"/>
+    </CButton>    <CButton id="DeadlyBiteBoss">
+        <TooltipFlags index="ShowRange" value="1"/>
+        <TooltipFlags index="ShowRadius" value="1"/>
+        <TooltipFlags index="ShowDuration" value="1"/>
+        <Icon value="Icons\Buttons\btn-ability-zerg-ramstructures.dds"/>
+        <AlertIcon value="Icons\Buttons\btn-ability-zerg-ramstructures.dds"/>
+        <EditorCategories value="Race:Zerg"/>
     </CButton>
+
     <CButton id="Transfusion232">
         <TooltipFlags index="ShowRange" value="1"/>
         <TooltipFlags index="ShowRadius" value="1"/>
